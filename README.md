@@ -1,6 +1,6 @@
 # PQuIP Group Website
 
-Welcome to the official repository for the PQuIP Group website. This repository contains the source code for our research group's GitHub Pages site, hosted at `https://[username].github.io/[repo-name]/`.
+Welcome to the official repository for the PQuIP Group website. This repository contains the source code for our research group's GitHub Pages site, hosted at `https://utkarshh-singh.github.io/pquip-group-site/`.
 
 ## Repository Structure
 
