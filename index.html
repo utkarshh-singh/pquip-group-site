@@ -9,8 +9,10 @@
   <div id="site-header"></div>
 
   <main class="container main-content">
-    <!-- Full image hero: set the image path here -->
-    <section class="hero-full" style="--hero-img: url('assets/img/favicon.png')" aria-label="PQuIP Group">
+    <section class="hero-full" aria-label="PQUIP Group">
+      <!-- The image is now an element, not a CSS background -->
+      <img class="hero-bg" src="assets/img/group.jpg" alt="" loading="eager" decoding="async" />
+    
       <!-- Bottom overlay with CTAs on top of the image -->
       <div class="hero-overlay">
         <div class="overlay-inner">
@@ -23,6 +25,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- Text section below the image -->
     <section class="home-intro">
