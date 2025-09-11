@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Publications - PQUIP Group</title>
-  <div id="site-head"></div>
-  <link rel="stylesheet" href="assets/css/people.css" />
+  <title>Publications — PQuIP Group</title>
+  <!-- Global head injected via partials/head.html -->
+  <link rel="stylesheet" href="assets/css/publications.css" />
 </head>
-
 <body>
-<div id="site-header"></div>
-<main class="container main-content">
-  <section>
-    <h1>Publications</h1>
-    <p>Add your publications below in reverse chronological order. Use <code>&lt;a&gt;</code> links for DOIs/arXiv.</p>
-    <ul class="pub-list">
-      <li><strong>Paper Title</strong> — Author1, Author2, <em>Journal (Year)</em>. <a href="#" target="_blank" rel="noopener">DOI/arXiv</a></li>
-      <li><strong>Another Paper</strong> — Author…, <em>Conference (Year)</em>. <a href="#" target="_blank" rel="noopener">DOI/arXiv</a></li>
-    </ul>
-  </section>
-</main>
-<div id="site-footer"></div>
-<script src="assets/js/main.js"></script>
+  <div id="site-header"></div>
+
+  <main class="container main-content">
+    <section class="pub-hero">
+      <h1>Publications</h1>
+      <p class="lead">Latest work from across the group. Search, filter, and dive in.</p>
+      <div class="toolbar">
+        <input id="q" type="search" placeholder="Search title, venue, keyword…" />
+        <select id="member"></select>
+        <select id="year"></select>
+        <button id="clear" class="btn">Clear</button>
+      </div>
+    </section>
+
+    <section id="pub-results" class="pub-grid" aria-live="polite"></section>
+    <div id="load-more-wrap" class="load-more-wrap">
+      <button id="load-more" class="btn btn-ghost">Load more</button>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/publications.js"></script>
 </body>
 </html>
