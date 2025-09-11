@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Member — PQuIP Group</title>
+  <title>Member — PQUIP Group</title>
   <!-- Global head injected via partials/head.html -->
   <link rel="stylesheet" href="assets/css/member.css" />
   <link rel="stylesheet" href="assets/css/slider.css" />
@@ -14,9 +14,12 @@
   </main>
 
   <div id="site-footer"></div>
+
+  <!-- load header/footer -->
   <script src="assets/js/main.js"></script>
+
   <script>
-    /* Logos for top icon bar */
+    /* Icons for top bar */
     const ICONS = {
       linkedin: () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001 2.5 2.5 0 01.02-5zM3 8.98h3.96V21H3zM9.5 8.98H13v1.64h.05c.49-.93 1.69-1.9 3.48-1.9 3.72 0 4.41 2.45 4.41 5.64V21H17V14.8c0-1.47-.03-3.36-2.05-3.36-2.05 0-2.37 1.6-2.37 3.25V21H9.5z"/></svg>`,
       scholar:  () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 7l9 5 9-5-9-5zm0 7.5L6 6.17v3.66L12 13l6-3.17V6.17L12 9.5zM6 12.5V18l6 3 6-3v-5.5l-6 3-6-3z"/></svg>`,
@@ -25,28 +28,10 @@
       globe:    () => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"></path></svg>`
     };
 
-    function qs(n){ try { return new URL(location.href).searchParams.get(n); } catch { return null; } }
+    const bust = () => `?_=${Date.now()}`;
+    const qs = n => new URL(location.href).searchParams.get(n);
 
-    async function fetchSemanticScholarWorks(authorId, limit=8){
-      const fields=['name','url','papers.title','papers.year','papers.externalIds','papers.venue','papers.url'].join(',');
-      const url=`https://api.semanticscholar.org/graph/v1/author/${encodeURIComponent(authorId)}?fields=${fields}`;
-      const r=await fetch(url); if(!r.ok) throw new Error('Semantic Scholar fetch failed');
-      const j=await r.json();
-      return (j.papers||[]).sort((a,b)=>(b.year||0)-(a.year||0)).slice(0,limit);
-    }
-    function renderPubs(papers){
-      if(!papers?.length) return '<p class="pub-meta">No publications found.</p>';
-      return `<ul class="pubs">${
-        papers.map(p=>{
-          const year=p.year?` (${p.year})`:''; const venue=p.venue?` — <em>${p.venue}</em>`:''; 
-          const doi=p.externalIds?.DOI?`https://doi.org/${p.externalIds.DOI}`:null; const href=doi||p.url||'#';
-          return `<li><div class="pub-title"><a href="${href}" target="_blank" rel="noopener">${p.title}</a>${year}${venue}</div></li>`;
-        }).join('')
-      }</ul>`;
-    }
-    function iconBtn(href, svg, label){ return href?`<a class="icon-btn" href="${href}" target="_blank" rel="noopener" aria-label="${label}" title="${label}">${svg}</a>`:'' }
-
-    /* Parse member template content (about, interests, patents) */
+    /* small utils */
     function parseMemberSections(html){
       const d=new DOMParser().parseFromString(html,'text/html');
       return {
@@ -55,54 +40,101 @@
         patents: [...d.querySelectorAll('#patents-list li')].map(li=>li.innerHTML)
       };
     }
+    function iconBtn(href, svg, label){
+      return href ? `<a class="icon-btn" href="${href}" target="_blank" rel="noopener" aria-label="${label}" title="${label}">${svg}</a>` : '';
+    }
+
+    /* NEW: read local publications.json (object or array) */
+    async function loadLocalPubs(memberId){
+      try{
+        const r = await fetch(`members/${encodeURIComponent(memberId)}/publications.json${bust()}`, {cache:'no-store'});
+        if(!r.ok) return [];
+        const j = await r.json();
+        if (Array.isArray(j)) return j;
+        if (j && Array.isArray(j.publications)) return j.publications;
+        return [];
+      }catch{ return []; }
+    }
 
     async function loadMember(){
-      const id=qs('id'); const root=document.getElementById('member-article');
-      if(!id){ root.innerHTML='<div class="profile__body"><p>No member specified.</p></div>'; return; }
+      const id = qs('id');
+      const root = document.getElementById('member-article');
+      if(!id){ root.innerHTML = '<div class="profile__body"><p>No member specified.</p></div>'; return; }
 
-      /* ===== CHANGED: load per-folder profile.json instead of members/index.json ===== */
-      let m=null;
+      // ----- profile.json (supports name as string OR array) -----
+      let p = {};
       try{
-        const res = await fetch(`members/${encodeURIComponent(id)}/profile.json`);
-        if(res.ok) m = await res.json();
+        const r = await fetch(`members/${encodeURIComponent(id)}/profile.json${bust()}`, {cache:'no-store'});
+        if(r.ok) p = await r.json();
       }catch{}
 
-      const name=m?.name||'Member', role=m?.role||'', email=m?.email||'', phone=m?.phone||'',
-            photo=m?.photo||'assets/img/person-placeholder.svg',
-            orcid=m?.orcid?`https://orcid.org/${m.orcid}`:'', scholar=m?.scholar||'',
-            linkedin=m?.linkedin||'', github=m?.github||'', website=m?.website||'',
-            ssId=m?.semanticScholarId||'';
-
-      /* ===== CHANGED: load per-folder page.html instead of members/<id>.html at root ===== */
-      let parsed={about:'',interests:[],patents:[]};
-      try{
-        const r=await fetch(`members/${encodeURIComponent(id)}/page.html`);
-        if(r.ok){ parsed=parseMemberSections(await r.text()); }
-      }catch{}
-
-      // pubs
-      let pubsAuto='';
-      if(ssId){
-        try{
-          const papers=await fetchSemanticScholarWorks(ssId,8);
-          pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3>${renderPubs(papers)}</div></div>`;
-        }catch{
-          pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3><p class="pub-meta">Publications temporarily unavailable.</p></div></div>`;
-        }
+      let displayName = '';
+      let aliases = [];
+      if (Array.isArray(p.name) && p.name.length){
+        displayName = String(p.name[0]);
+        aliases = p.name.slice(1).map(String);
+      } else {
+        displayName = String(p.name || id);
+        aliases = Array.isArray(p.aliases) ? p.aliases.map(String) : [];
       }
 
-      // research interests cards
+      const name   = displayName;
+      const role   = p.role || '';
+      const email  = p.email || '';
+      const phone  = p.phone || '';
+      const photo  = p.photo || 'assets/img/person-placeholder.svg';
+      const orcid  = p.orcid ? `https://orcid.org/${p.orcid}` : '';
+      const scholar= p.scholar || '';
+      const linkedin = p.linkedin || '';
+      const github = p.github || '';
+      const website = p.website || '';
+
+      // ----- sections from per-member page.html (about, interests, patents) -----
+      let parsed={about:'', interests:[], patents:[]};
+      try{
+        const r = await fetch(`members/${encodeURIComponent(id)}/page.html${bust()}`, {cache:'no-store'});
+        if(r.ok) parsed = parseMemberSections(await r.text());
+      }catch{}
+
+      // ----- publications: use local publications.json -----
+      const pubs = (await loadLocalPubs(id))
+        .filter(x => x && x.title)
+        .sort((a,b)=> (b.year||0)-(a.year||0))
+        .slice(0, 6);
+
+      const pubsHTML = `
+        <div class="card card--highlight">
+          <div class="card__inner">
+            <h3 class="section__title">Recent Publications</h3>
+            ${
+              pubs.length
+              ? `<ul class="pubs">` + pubs.map(p=>{
+                  const year  = p.year ? ` (${p.year})` : '';
+                  const venue = p.venue ? ` — <em>${p.venue}</em>` : '';
+                  const href  = p.doi ? `https://doi.org/${p.doi}` : (p.url || '#');
+                  return `<li><div class="pub-title"><a href="${href}" target="_blank" rel="noopener">${p.title}</a>${year}${venue}</div></li>`;
+                }).join('') + `</ul>`
+              : `<p class="pub-meta">No publications found.</p>`
+            }
+          </div>
+        </div>`;
+
+      // ----- research interests cards -----
       const interestGrid = parsed.interests.length ? `
         <div class="card card--highlight">
           <div class="card__inner">
             <h3 class="section__title">Research Interests</h3>
             <div class="ri-grid">
-              ${parsed.interests.map(item=>`<div class="ri-card"><h4>${item.split('—')[0] || item}</h4>${item.includes('—')?`<p>${item.split('—').slice(1).join('—').trim()}</p>`:''}</div>`).join('')}
+              ${parsed.interests.map(item=>{
+                const [title,...rest]=item.split('—');
+                const desc = rest.join('—').trim();
+                return `<div class="ri-card"><h4>${title.trim()}</h4>${desc?`<p>${desc}</p>`:''}</div>`;
+              }).join('')}
             </div>
           </div>
         </div>` : '';
 
-      // patents
+      // ----- patents -----
       const patentsHTML = parsed.patents.length ? `
         <div class="card card--highlight">
           <div class="card__inner">
@@ -111,7 +143,7 @@
           </div>
         </div>` : '';
 
-      // links (top icon bar only)
+      // ----- icon links (top bar only) -----
       const iconsHTML = [
         iconBtn(linkedin, ICONS.linkedin(), 'LinkedIn'),
         iconBtn(scholar,  ICONS.scholar(),  'Google Scholar'),
@@ -120,6 +152,7 @@
         iconBtn(website,  ICONS.globe(),    'Website')
       ].join('');
 
+      // ----- render -----
       root.innerHTML = `
         <div class="profile__header">
           <img class="profile__avatar" src="${photo}" alt="${name}">
@@ -137,7 +170,7 @@
         <div class="profile__body">
           ${parsed.about ? `<div class="card card--highlight"><div class="card__inner about">${parsed.about}</div></div>` : ''}
           ${interestGrid}
-          ${pubsAuto}
+          ${pubsHTML}
           ${patentsHTML}
         </div>
       `;
@@ -145,6 +178,8 @@
 
     document.addEventListener('DOMContentLoaded', loadMember);
   </script>
-<script src="assets/js/member-slideshow.js"></script>
+
+  <!-- slideshow (unchanged): reads members/<id>/slides.json if you set it up there -->
+  <script src="assets/js/member-slideshow.js"></script>
 </body>
 </html>
