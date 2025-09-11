@@ -10,25 +10,26 @@
   <main class="container main-content">
     <section class="pub-hero">
       <h1>Publications</h1>
-      <p class="lead">Latest work from across the group. Search, filter, and dive in.</p>
+      <p class="lead">Latest peer-reviewed papers and preprints from the PQuIP Group.</p>
 
-      <div class="toolbar">
-        <input id="q" type="search" placeholder="Search title, venue, keyword…" />
-        <select id="member"></select>
-        <select id="author"></select>
+      <div class="toolbar" role="region" aria-label="Filters">
+        <input id="q" type="search" placeholder="Search title, venue…" />
         <select id="year"></select>
+        <select id="author"></select>
+        <select id="category"></select>
         <button id="clear" class="btn">Clear</button>
       </div>
     </section>
 
     <section id="pub-results" class="pub-grid" aria-live="polite"></section>
+
     <div id="load-more-wrap" class="load-more-wrap">
       <button id="load-more" class="btn btn-ghost">Load more</button>
     </div>
   </main>
 
   <div id="site-footer"></div>
-  <script src="assets/js/main.js"></script>
   <script src="assets/js/publications.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
