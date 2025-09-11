@@ -88,6 +88,94 @@ async function loadMember(){
   }
 }
 loadMember();
+
+async function fetchSemanticScholarWorks(authorId, limit=10){
+  // fields doc: https://api.semanticscholar.org/api-docs/graph#tag/Author
+  const fields = [
+    'name',
+    'url',
+    'papers.title',
+    'papers.year',
+    'papers.externalIds',
+    'papers.authors',
+    'papers.venue',
+    'papers.url'
+  ].join(',');
+  const endpoint = `https://api.semanticscholar.org/graph/v1/author/${encodeURIComponent(authorId)}?fields=${fields}`;
+  const res = await fetch(endpoint);
+  if(!res.ok) throw new Error('Semantic Scholar fetch failed');
+  const json = await res.json();
+  const papers = (json.papers || [])
+    .sort((a,b) => (b.year||0) - (a.year||0))
+    .slice(0, limit);
+  return { author: json, papers };
+}
+
+function renderPubs(papers){
+  if(!papers || !papers.length) return '<p>No publications found.</p>';
+  return `
+    <h2>Recent Publications</h2>
+    <ul class="pub-list">
+      ${papers.map(p => {
+        const year = p.year ? ` (${p.year})` : '';
+        const venue = p.venue ? ` — <em>${p.venue}</em>` : '';
+        // Prefer DOI if available
+        const doi = p.externalIds && p.externalIds.DOI ? p.externalIds.DOI : null;
+        const url = doi ? `https://doi.org/${doi}` : (p.url || '#');
+        return `<li><strong>${p.title}</strong>${year}${venue}. <a href="${url}" target="_blank" rel="noopener">Link</a></li>`;
+      }).join('')}
+    </ul>
+  `;
+}
+
+async function loadMember(){
+  const id = new URL(location.href).searchParams.get('id');
+  const container = document.getElementById('member-article');
+  if(!id){ container.innerHTML = '<p>No member specified.</p>'; return; }
+
+  let headerHTML = '';
+  let semanticScholarId = null;
+
+  try{
+    const idx = await (await fetch('members/index.json')).json();
+    const m = (idx.members || []).find(x => x.id === id);
+    if(m){
+      semanticScholarId = m.semanticScholarId || null;
+      headerHTML = `
+        <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+          <img src="${m.photo || 'assets/img/person-placeholder.svg'}" alt="${m.name}" style="width:100px;height:auto;border-radius:12px;border:1px solid var(--line);background:#f1f3f5;">
+          <div>
+            <h1 style="margin:0 0 6px">${m.name}</h1>
+            <p style="margin:0;color:var(--muted)">${m.role || ''}</p>
+            ${m.email ? `<p style="margin:4px 0 0;"><a href="mailto:${m.email}">${m.email}</a></p>` : ''}
+          </div>
+        </div>
+        <hr style="border:none;border-top:1px solid var(--line);margin:12px 0 18px;">
+      `;
+    }
+  }catch{ /* ignore */ }
+
+  // Load custom profile content
+  let bodyHTML = '';
+  try{
+    const res = await fetch(`members/${encodeURIComponent(id)}.html`);
+    if(res.ok) bodyHTML = await res.text();
+  }catch{ /* ignore */ }
+
+  // Try Semantic Scholar publications
+  let pubsHTML = '';
+  if(semanticScholarId){
+    try{
+      const { papers } = await fetchSemanticScholarWorks(semanticScholarId, 10);
+      pubsHTML = renderPubs(papers);
+    }catch(e){
+      console.warn('Semantic Scholar failed:', e);
+    }
+  }
+
+  container.innerHTML = headerHTML + bodyHTML + (pubsHTML ? `<div style="margin-top:20px;">${pubsHTML}</div>` : '');
+}
+loadMember();
 </script>
 </body>
 </html>
