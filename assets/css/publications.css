@@ -1,6 +1,8 @@
 :root{
-  --card-r:12px; --shadow-sm:0 2px 6px rgba(0,0,0,.06);
+  --card-r:12px;
+  --shadow-sm:0 2px 6px rgba(0,0,0,.06);
 }
+
 .pub-hero{ margin:18px 0 12px }
 .pub-hero h1{ margin:0 0 6px }
 .lead{ color:var(--muted) }
@@ -23,16 +25,22 @@
   box-shadow:var(--shadow-sm); padding:14px; display:flex; flex-direction:column; gap:6px;
   transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
-.pub-card:hover{ transform:translateY(-2px); box-shadow:0 8px 18px rgba(0,0,0,.08); border-color:color-mix(in srgb, var(--brand) 20%, var(--line)) }
+.pub-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 18px rgba(0,0,0,.08);
+  border-color:color-mix(in srgb, var(--brand) 20%, var(--line));
+}
 
 .pub-title{ margin:0; font-size:1.05rem }
 .pub-meta{ color:var(--muted) }
+
 .badges{ display:flex; gap:6px; flex-wrap:wrap; margin-top:4px }
 .badge{
-  display:inline-flex; align-items:center; gap:6px; height:26px; border:1px solid var(--line);
-  padding:0 8px; border-radius:999px; background:#fff; font-size:.9rem;
+  display:inline-flex; align-items:center; gap:6px; height:26px;
+  border:1px solid var(--line); padding:0 8px; border-radius:999px; background:#fff; font-size:.9rem;
 }
 .badge a{ text-decoration:none }
+
 .pub-footer{ margin-top:6px; display:flex; gap:10px; flex-wrap:wrap }
 
 .load-more-wrap{ display:flex; justify-content:center; margin:16px 0 24px }
