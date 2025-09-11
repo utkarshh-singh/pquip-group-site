@@ -6,7 +6,7 @@
       "phone": "+1 (555) 123-4567",
       "photo": "assets/img/milica.png",
       "orcid": "0000-##",
-      "semanticScholarId": "2355424096",
+      "semanticScholarId": ["2355424096", "119617483"],
       "linkedin": "https://www.linkedin.com/",
       "scholar": "https://scholar.google.com/citations?hl=en&user=h2d14IYAAAAJ&view_op=list_works&sortby=pubdate",
       "github": "https://github.com/",
