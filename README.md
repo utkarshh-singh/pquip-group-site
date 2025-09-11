@@ -19,11 +19,11 @@ Welcome to the official repository for the PQuIP Group website. This repository 
 
 ### Option 1: Edit Directly on GitHub (Recommended for beginners)
 
-1. **Navigate to the file you want to edit** (usually `people.html` for member profiles)
+1. **Navigate to the file you want to edit** (usually `page.html` for member profiles)
 2. **Click the pencil icon** (✏️) to edit the file
 3. **Make your changes** using the web editor
 4. **Scroll down to "Commit changes"**
-5. **Add a brief description** of what you changed (e.g., "Updated John's bio")
+5. **Add a brief description** of what you changed (e.g., "Updated Zahra's bio")
 6. **Click "Commit changes"** to save
 
 ### Option 2: Clone and Edit Locally
@@ -46,24 +46,21 @@ Welcome to the official repository for the PQuIP Group website. This repository 
 ## Common Editing Tasks
 
 ### Adding/Updating Your Profile
-- Edit `people.html` to update the main team page
-- Edit your personal page in `members/[your-name]/index.html`
-- Update your photos in `members/[your-name]/assets/` or `assets/img/people/`
-- Include: name, title, bio, contact info, research interests
+- Edit `members/[your first name]/page.html` to update your personal page
+- Update your photos in `assets/img/` or `assets/img/`
+- Include: name, title, bio, contact info, research interests, etc. at 'members/[your first name]/profile.json'
 
 ### Creating Your Member Page (New Members)
-1. **Create your folder:** Make a new folder under `members/` with your name (e.g., `members/john-doe/`)
-2. **Add your page:** Create an `index.html` file in your folder
-3. **Add assets:** Create an `assets/` subfolder for your images and files
-4. **Link from main page:** Update `people.html` to link to your new page
+1. **Create your folder:** Make a new folder under `members/` with your name (e.g., `members/tamal/`)
+2. **Add your page:** Create an `page.html` file in your folder
+3. **Add assets:** Upload your image to `assets/img/` subfolder
+4. **Link from main page:** Update `manifest.json` to link to your new page (e.g., `["khabat","aaron","anaelle","milica","utkarsh","valerio","arezoo","tamal","zahra"]`)
 
 ### Adding Publications
-- Edit `research.html` or the relevant research page
-- Follow the existing format for consistency
+- Add your "semanticScholarId" to 'members/[your first name]/profile.json'
 
 ### Updating Photos
-- Upload new images to `assets/img/` (for general site images)
-- Upload member-specific images to `members/[your-name]/assets/`
+- Upload new images to `assets/img/`
 - Use web-optimized formats (JPG, PNG, WebP)
 - Keep file sizes reasonable (<1MB for photos)
 
