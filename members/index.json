@@ -1,0 +1,18 @@
+{
+  "members": [
+    {
+      "id": "khabat",
+      "name": "Prof. Khabat Heshami",
+      "role": "Principal Investigator",
+      "email": "khabat@example.com",
+      "photo": "assets/img/person-placeholder.svg"
+    },
+    {
+      "id": "utkarsh",
+      "name": "Utkarsh Singh",
+      "role": "PhD Student — Quantum ML",
+      "email": "utkarsh@example.com",
+      "photo": "assets/img/person-placeholder.svg"
+    }
+  ]
+}
