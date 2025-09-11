@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PQuIP Group</title>
+  <meta name="description" content="PQuIP Group — Research Group Website" />
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/logo.svg" alt="Logo" class="logo"/>
+      <div class="brand-text">
+        <strong>PQuIP Group</strong>
+        <span>PI: Prof. Khabat Heshami</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">☰</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="/" data-page="home">Home</a>
+      <a href="/people.html" data-page="people">People</a>
+      <a href="/research.html" data-page="research">Research</a>
+      <a href="/publications.html" data-page="publications">Publications</a>
+      <a href="/news.html" data-page="news">News</a>
+      <a href="/join.html" data-page="join">Join</a>
+      <a href="/contact.html" data-page="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="container main-content">
+
+<section class="hero">
+  <div>
+    <h1>PQuIP Group</h1>
+    <p class="tagline">Photonics • Quantum Information • Machine Learning</p>
+    <p class="lead">We explore quantum information science, photonics, and machine learning — from fundamental theory to practical applications.</p>
+    <div class="hero-cta">
+      <a class="btn" href="/people.html">Meet the Team</a>
+      <a class="btn btn-ghost" href="/research.html">Our Research</a>
+    </div>
+  </div>
+  <img class="hero-illustration" src="/assets/img/hero-illustration.svg" alt="Quantum illustration"/>
+</section>
+
+<section class="cards">
+  <article class="card">
+    <h3>News</h3>
+    <p>Lab updates, recent talks, and announcements.</p>
+    <a class="link" href="/news.html">Read the latest →</a>
+  </article>
+  <article class="card">
+    <h3>Publications</h3>
+    <p>Peer‑reviewed papers, preprints, and theses from the group.</p>
+    <a class="link" href="/publications.html">Browse publications →</a>
+  </article>
+  <article class="card">
+    <h3>Open Positions</h3>
+    <p>Interested in joining? We welcome motivated students and postdocs.</p>
+    <a class="link" href="/join.html">How to apply →</a>
+  </article>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 PQuIP Group. Built with ❤️ and GitHub Pages.</p>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
