@@ -1,7 +1,9 @@
 {
   "source": "semantic_scholar",
-  "author_id": "2282138806",
-  "updated_at": 1757624220,
+  "author_ids": [
+    "2282138806"
+  ],
+  "updated_at": 1757624469,
   "publications": [
     {
       "title": "A Resource Efficient Quantum Kernel",

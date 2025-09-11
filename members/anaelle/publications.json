@@ -1,7 +1,9 @@
 {
   "source": "semantic_scholar",
-  "author_id": "33965579",
-  "updated_at": 1757624219,
+  "author_ids": [
+    "33965579"
+  ],
+  "updated_at": 1757624468,
   "publications": [
     {
       "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
@@ -133,18 +135,6 @@
       "authors": [
         "A. Hertz",
         "S. De Bièvre"
-      ]
-    },
-    {
-      "title": "Multicopy uncertainty observable inducing a symplectic-invariant uncertainty relation in position and momentum phase space",
-      "year": 2019,
-      "venue": "Physical Review A",
-      "doi": "10.1103/physreva.100.052112",
-      "url": "https://doi.org/10.1103/physreva.100.052112",
-      "authors": [
-        "A. Hertz",
-        "O. Oreshkov",
-        "N. Cerf"
       ]
     }
   ]

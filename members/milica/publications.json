@@ -1,0 +1,176 @@
+{
+  "source": "semantic_scholar",
+  "author_ids": [
+    "2355424096",
+    "119617483"
+  ],
+  "updated_at": 1757624469,
+  "publications": [
+    {
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "authors": [
+        "Milica Banic",
+        "Valerio Crescimanna",
+        "J. E. Bourassa",
+        "C. González-Arciniegas",
+        "Rafael N. Alexander",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "authors": [
+        "Gisell Lorena Osorio",
+        "Milena Banic",
+        "Nicolas N. Quesada"
+      ]
+    },
+    {
+      "title": "Photonic multipartite entanglement in discrete variables without arbitrary unitaries",
+      "year": 2024,
+      "venue": "Physical Review Research",
+      "doi": "10.1103/physrevresearch.7.013060",
+      "url": "https://doi.org/10.1103/physrevresearch.7.013060",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ]
+    },
+    {
+      "title": "Frequency Bin Encoding and Graphs",
+      "year": 2024,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2024.ftu4f.7",
+      "url": "https://doi.org/10.1364/cleo_fs.2024.ftu4f.7",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "Marco Liscidini"
+      ]
+    },
+    {
+      "title": "Tripartite Frequency-bin-encoded W States on a Chip",
+      "year": 2023,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2023.jth2a.44",
+      "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.44",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ]
+    },
+    {
+      "title": "An Integrated Approach to Third-order Parametric Down-conversion",
+      "year": 2023,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2023.jth2a.15",
+      "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.15",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    },
+    {
+      "title": "Integrated photonic sources of frequency-bin-encoded multipartite entangled states",
+      "year": 2023,
+      "venue": "Physical Review A",
+      "doi": "10.1103/physreva.109.013505",
+      "url": "https://doi.org/10.1103/physreva.109.013505",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ]
+    },
+    {
+      "title": "Resonant and nonresonant integrated third-order parametric down-conversion",
+      "year": 2022,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.106.013710",
+      "url": "https://doi.org/10.1103/PhysRevA.106.013710",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    },
+    {
+      "title": "Quantum-referenced spontaneous emission tomography",
+      "year": 2022,
+      "venue": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/acf47b",
+      "url": "https://doi.org/10.1088/2058-9565/acf47b",
+      "authors": [
+        "I. Faruque",
+        "Ben M. Burridge",
+        "Milena Banic",
+        "M. Borghi",
+        "J. Sipe",
+        "J. Rarity",
+        "J. Barreto"
+      ]
+    },
+    {
+      "title": "Modeling nonlinear optics in lossy integrated photonic structures: two strategies",
+      "year": 2022,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/992e1040705ac8000420a63294de816bfd0196f7",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    },
+    {
+      "title": "Out, Lost, or Broken: Photon Pairs from a Lossy Resonator",
+      "year": 2022,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2022.jtu3a.20",
+      "url": "https://doi.org/10.1364/cleo_at.2022.jtu3a.20",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    },
+    {
+      "title": "Generation of photon pairs by stimulated emission in ring resonators.",
+      "year": 2021,
+      "venue": "Optics Letters",
+      "doi": "10.1364/OL.448161",
+      "url": "https://doi.org/10.1364/OL.448161",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    },
+    {
+      "title": "Modeling nonlinear optics in lossy microring systems: two strategies",
+      "year": 2021,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/c2d4cbdb9738bd316c13dbbed9939540ef1f382b",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ]
+    }
+  ]
+}

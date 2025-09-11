@@ -1,7 +1,9 @@
 {
   "source": "semantic_scholar",
-  "author_id": "143710026",
-  "updated_at": 1757624219,
+  "author_ids": [
+    "143710026"
+  ],
+  "updated_at": 1757624467,
   "publications": [
     {
       "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
