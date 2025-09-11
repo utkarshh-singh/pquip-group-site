@@ -1,6 +1,6 @@
 # PQuIP Group
 
-A simple, fast GitHub Pages website for a research group.
+A simple, fast GitHub Pages website for our research group.
 
 ## Quick Start (GitHub Web UI)
 1. Create a **new public repository** on GitHub (e.g., `pquip-group-site`).
