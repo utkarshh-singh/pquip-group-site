@@ -25,10 +25,19 @@
 async function loadPeople(){
   const grid = document.getElementById('people-grid');
   try{
-    const res = await fetch('members/index.json');
-    const data = await res.json();
-
-    grid.innerHTML = (data.members || []).map(m => `
+    // 1) get the list of member IDs (folder names)
+    const ids = await (await fetch('members/manifest.json')).json(); // ["utkarsh","khabat",...]
+    // 2) fetch each profile.json in parallel
+    const profiles = await Promise.all(ids.map(async id => {
+      try{
+        const res = await fetch(`members/${encodeURIComponent(id)}/profile.json`);
+        if(!res.ok) throw 0;
+        const j = await res.json();
+        return j;
+      }catch{ return null; }
+    }));
+    // 3) render cards
+    grid.innerHTML = profiles.filter(Boolean).map(m => `
       <a class="person" href="member.html?id=${encodeURIComponent(m.id)}" title="View ${m.name}">
         <img src="${m.photo || 'assets/img/person-placeholder.svg'}" alt="${m.name}">
         <h3>${m.name}</h3>
@@ -42,5 +51,6 @@ async function loadPeople(){
 }
 loadPeople();
 </script>
+
 </body>
 </html>
