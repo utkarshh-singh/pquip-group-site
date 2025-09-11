@@ -1,4 +1,3 @@
-
 :root{
   --bg:#0b0f1a; --card:#121831; --text:#e6ebff; --muted:#9db0ff;
   --brand:#6ea8fe; --brand-2:#8ec5ff; --line:#1e2a4a;
@@ -17,7 +16,7 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 
 .site-nav{display:flex;gap:18px}
 .site-nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px;border:1px solid transparent}
-.site-nav a:hover{color:var(--text);border-color:var(--line);background:#0f1630}
+.site-nav a:hover,.site-nav a.active{color:var(--text);border-color:var(--line);background:#0f1630}
 .nav-toggle{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:6px 10px;border-radius:10px}
 
 .main-content{padding:32px 0 60px}
@@ -30,7 +29,6 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 .btn{display:inline-block;padding:10px 14px;border-radius:12px;background:var(--brand);color:#071225;text-decoration:none;font-weight:700;border:1px solid #5a92e6}
 .btn:hover{filter:brightness(1.1)}
 .btn-ghost{background:transparent;border-color:var(--line);color:var(--text)}
-
 .hero-illustration{width:100%;height:auto;}
 
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
@@ -45,7 +43,6 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 .person img{width:100%;max-width:160px;border-radius:14px;border:1px solid var(--line);background:#0f1630;margin:0 auto 10px;display:block}
 
 .pub-list{padding-left:20px}
-
 .news-item{border-left:3px solid var(--brand);padding-left:12px;margin:12px 0}
 
 .site-footer{border-top:1px solid var(--line);padding:18px 0;background:#090d18}
