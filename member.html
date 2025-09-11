@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Member — PQuIP Group</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="Logo" class="logo"/>
+      <div class="brand-text">
+        <strong>PQuIP Group</strong>
+        <span>PI: Prof. Khabat Heshami</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">☰</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="people.html" class="active">People</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
+      <a href="join.html">Join</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container main-content">
+  <article id="member-article" class="card"></article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 PQuIP Group.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+function getParam(name){
+  const url = new URL(window.location.href);
+  return url.searchParams.get(name);
+}
+
+async function loadMember(){
+  const id = getParam('id');
+  const container = document.getElementById('member-article');
+
+  if(!id){
+    container.innerHTML = '<p>No member specified.</p>';
+    return;
+  }
+  try{
+    // Optional: look up display name/role from index.json
+    let headerHTML = '';
+    try{
+      const idx = await (await fetch('members/index.json')).json();
+      const m = (idx.members || []).find(x => x.id === id);
+      if(m){
+        headerHTML = `
+          <div style="display:flex; gap:16px; align-items:center; margin-bottom:12px;">
+            <img src="${m.photo || 'assets/img/person-placeholder.svg'}" alt="${m.name}" style="width:100px;height:auto;border-radius:12px;border:1px solid var(--line);background:#0f1630;">
+            <div>
+              <h1 style="margin:0 0 6px">${m.name}</h1>
+              <p style="margin:0;color:var(--muted)">${m.role || ''}</p>
+              ${m.email ? `<p style="margin:4px 0 0;"><a href="mailto:${m.email}">${m.email}</a></p>` : ''}
+            </div>
+          </div>
+          <hr style="border:none;border-top:1px solid var(--line);margin:12px 0 18px;">
+        `;
+      }
+    }catch(e){ /* fine if it fails */ }
+
+    // Load the member's own HTML content
+    const res = await fetch(`members/${encodeURIComponent(id)}.html`);
+    if(!res.ok) throw new Error('Not found');
+    const html = await res.text();
+    container.innerHTML = headerHTML + html;
+  }catch(e){
+    container.innerHTML = '<p>Member page not found.</p>';
+    console.error(e);
+  }
+}
+loadMember();
+</script>
+</body>
+</html>
