@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Member — PQuIP Group</title>
-  <!-- Global head is injected via partials/head.html -->
+  <!-- Global head injected via partials/head.html -->
   <link rel="stylesheet" href="assets/css/member.css" />
 </head>
 <body>
@@ -15,7 +15,7 @@
   <div id="site-footer"></div>
   <script src="assets/js/main.js"></script>
   <script>
-    /* Icons */
+    /* Logos for top icon bar */
     const ICONS = {
       linkedin: () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001 2.5 2.5 0 01.02-5zM3 8.98h3.96V21H3zM9.5 8.98H13v1.64h.05c.49-.93 1.69-1.9 3.48-1.9 3.72 0 4.41 2.45 4.41 5.64V21H17V14.8c0-1.47-.03-3.36-2.05-3.36-2.05 0-2.37 1.6-2.37 3.25V21H9.5z"/></svg>`,
       scholar:  () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 7l9 5 9-5-9-5zm0 7.5L6 6.17v3.66L12 13l6-3.17V6.17L12 9.5zM6 12.5V18l6 3 6-3v-5.5l-6 3-6-3z"/></svg>`,
@@ -27,77 +27,83 @@
     function qs(n){ try { return new URL(location.href).searchParams.get(n); } catch { return null; } }
 
     async function fetchSemanticScholarWorks(authorId, limit=8){
-      const fields = ['name','url','papers.title','papers.year','papers.externalIds','papers.venue','papers.url'].join(',');
-      const url = `https://api.semanticscholar.org/graph/v1/author/${encodeURIComponent(authorId)}?fields=${fields}`;
-      const r = await fetch(url);
-      if(!r.ok) throw new Error('Semantic Scholar fetch failed');
-      const j = await r.json();
+      const fields=['name','url','papers.title','papers.year','papers.externalIds','papers.venue','papers.url'].join(',');
+      const url=`https://api.semanticscholar.org/graph/v1/author/${encodeURIComponent(authorId)}?fields=${fields}`;
+      const r=await fetch(url); if(!r.ok) throw new Error('Semantic Scholar fetch failed');
+      const j=await r.json();
       return (j.papers||[]).sort((a,b)=>(b.year||0)-(a.year||0)).slice(0,limit);
     }
-
     function renderPubs(papers){
       if(!papers?.length) return '<p class="pub-meta">No publications found.</p>';
       return `<ul class="pubs">${
         papers.map(p=>{
-          const year = p.year ? ` (${p.year})` : '';
-          const venue = p.venue ? ` — <em>${p.venue}</em>` : '';
-          const doi = p.externalIds?.DOI ? `https://doi.org/${p.externalIds.DOI}` : null;
-          const href = doi || p.url || '#';
+          const year=p.year?` (${p.year})`:''; const venue=p.venue?` — <em>${p.venue}</em>`:''; 
+          const doi=p.externalIds?.DOI?`https://doi.org/${p.externalIds.DOI}`:null; const href=doi||p.url||'#';
           return `<li><div class="pub-title"><a href="${href}" target="_blank" rel="noopener">${p.title}</a>${year}${venue}</div></li>`;
         }).join('')
       }</ul>`;
     }
+    function iconBtn(href, svg, label){ return href?`<a class="icon-btn" href="${href}" target="_blank" rel="noopener" aria-label="${label}" title="${label}">${svg}</a>`:'' }
 
-    function linkTile(href, svg, label){ return href ? `<a class="link-tile" href="${href}" target="_blank" rel="noopener">${svg}<span>${label}</span></a>` : '' }
+    /* Parse member template content (about, interests, patents) */
+    function parseMemberSections(html){
+      const d=new DOMParser().parseFromString(html,'text/html');
+      return {
+        about: d.querySelector('#about')?.innerHTML || '',
+        interests: [...d.querySelectorAll('#ri-list li')].map(li=>li.innerHTML),
+        patents: [...d.querySelectorAll('#patents-list li')].map(li=>li.innerHTML)
+      };
+    }
 
     async function loadMember(){
-      const id = qs('id');
-      const root = document.getElementById('member-article');
-      if(!id){ root.innerHTML = '<div class="profile__body"><p>No member specified.</p></div>'; return; }
+      const id=qs('id'); const root=document.getElementById('member-article');
+      if(!id){ root.innerHTML='<div class="profile__body"><p>No member specified.</p></div>'; return; }
 
-      // Metadata
-      let m=null;
-      try { m = (await (await fetch('members/index.json')).json()).members.find(x=>x.id===id) || null; } catch {}
+      // metadata
+      let m=null; try{ m=(await (await fetch('members/index.json')).json()).members.find(x=>x.id===id)||null; }catch{}
+      const name=m?.name||'Member', role=m?.role||'', email=m?.email||'', phone=m?.phone||'',
+            photo=m?.photo||'assets/img/person-placeholder.svg',
+            orcid=m?.orcid?`https://orcid.org/${m.orcid}`:'', scholar=m?.scholar||'',
+            linkedin=m?.linkedin||'', github=m?.github||'', website=m?.website||'',
+            ssId=m?.semanticScholarId||'';
 
-      const name   = m?.name || 'Member';
-      const role   = m?.role || '';
-      const email  = m?.email || '';
-      const phone  = m?.phone || '';
-      const photo  = m?.photo || 'assets/img/person-placeholder.svg';
-      const orcid  = m?.orcid ? `https://orcid.org/${m.orcid}` : '';
-      const scholar= m?.scholar || '';
-      const linkedin=m?.linkedin || '';
-      const github = m?.github || '';
-      const website= m?.website || '';
-      const ssId   = m?.semanticScholarId || '';
+      // member-authored template
+      let parsed={about:'',interests:[],patents:[]};
+      try{ const r=await fetch(`members/${encodeURIComponent(id)}.html`); if(r.ok){ parsed=parseMemberSections(await r.text()); } }catch{}
 
-      // Member-authored content (template-driven)
-      let memberHTML = '';
-      try { const r = await fetch(`members/${encodeURIComponent(id)}.html`); if(r.ok) memberHTML = await r.text(); } catch {}
+      // pubs
+      let pubsAuto=''; if(ssId){ try{ const papers=await fetchSemanticScholarWorks(ssId,8);
+        pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3>${renderPubs(papers)}</div></div>`;
+      }catch{ pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3><p class="pub-meta">Publications temporarily unavailable.</p></div></div>`; } }
 
-      // Semantic Scholar pubs
-      let pubsAuto = '';
-      if(ssId){
-        try { const papers = await fetchSemanticScholarWorks(ssId, 8);
-          pubsAuto = `<div class="card"><div class="card__inner"><h3 class="card__title">Recent Publications</h3>${renderPubs(papers)}</div></div>`;
-        } catch { pubsAuto = '<div class="card"><div class="card__inner"><p class="pub-meta">Publications temporarily unavailable.</p></div></div>'; }
-      }
-
-      // Sidebar links
-      const linksHTML = `
-        <div class="card">
+      // build interest cards
+      const interestGrid = parsed.interests.length ? `
+        <div class="card card--highlight">
           <div class="card__inner">
-            <h3 class="card__title">Links</h3>
-            <div class="links-grid">
-              ${linkTile(linkedin, ICONS.linkedin(), 'LinkedIn')}
-              ${linkTile(scholar,  ICONS.scholar(),  'Google Scholar')}
-              ${linkTile(github,   ICONS.github(),   'GitHub')}
-              ${linkTile(orcid,    ICONS.orcid(),    'ORCID')}
-              ${linkTile(website,  ICONS.globe(),    'Website')}
+            <h3 class="section__title">Research Interests</h3>
+            <div class="ri-grid">
+              ${parsed.interests.map(item=>`<div class="ri-card"><h4>${item.split('—')[0] || item}</h4>${item.includes('—')?`<p>${item.split('—').slice(1).join('—').trim()}</p>`:''}</div>`).join('')}
             </div>
           </div>
-        </div>
-      `;
+        </div>` : '';
+
+      // patents
+      const patentsHTML = parsed.patents.length ? `
+        <div class="card card--highlight">
+          <div class="card__inner">
+            <h3 class="section__title">Patents</h3>
+            <ul class="patents">${parsed.patents.map(x=>`<li>${x}</li>`).join('')}</ul>
+          </div>
+        </div>` : '';
+
+      // links (top icon bar only)
+      const iconsHTML = [
+        iconBtn(linkedin, ICONS.linkedin(), 'LinkedIn'),
+        iconBtn(scholar,  ICONS.scholar(),  'Google Scholar'),
+        iconBtn(github,   ICONS.github(),   'GitHub'),
+        iconBtn(orcid,    ICONS.orcid(),    'ORCID'),
+        iconBtn(website,  ICONS.globe(),    'Website')
+      ].join('');
 
       root.innerHTML = `
         <div class="profile__header">
@@ -106,29 +112,18 @@
             <h1 class="profile__title">${name}</h1>
             <p class="profile__subtitle">${role}</p>
             <div class="contact">
-              ${email ? `<div><a href="mailto:${email}">${email}</a></div>` : ''}
-              ${phone ? `<div><a href="tel:${phone.replace(/[^+0-9]/g,'')}">${phone}</a></div>` : ''}
+              ${email?`<div><a href="mailto:${email}">${email}</a></div>`:''}
+              ${phone?`<div><a href="tel:${phone.replace(/[^+0-9]/g,'')}">${phone}</a></div>`:''}
             </div>
-            <div class="icon-bar">
-              ${[linkedin&&ICONS.linkedin(), scholar&&ICONS.scholar(), github&&ICONS.github(), orcid&&ICONS.orcid(), website&&ICONS.globe()].filter(Boolean).map((svg,i)=>{
-                const href=[linkedin,scholar,github,orcid,website][i]; const label=['LinkedIn','Google Scholar','GitHub','ORCID','Website'][i];
-                return `<a class="icon-btn" href="${href}" target="_blank" rel="noopener" aria-label="${label}" title="${label}">${svg}</a>`;
-              }).join('')}
-            </div>
+            <div class="icon-bar">${iconsHTML}</div>
           </div>
         </div>
 
         <div class="profile__body">
-          <div class="sections">
-            <div class="col-main">
-              <!-- Member-authored sections come in as styled cards via the template -->
-              ${memberHTML}
-              ${pubsAuto}
-            </div>
-            <aside class="col-side">
-              ${linksHTML}
-            </aside>
-          </div>
+          ${parsed.about ? `<div class="card card--highlight"><div class="card__inner about">${parsed.about}</div></div>` : ''}
+          ${interestGrid}
+          ${pubsAuto}
+          ${patentsHTML}
         </div>
       `;
     }
