@@ -30,55 +30,44 @@
     </nav>
   </div>
 </header>
+
 <main class="container main-content">
   <section>
     <h1>People</h1>
     <p>We are a diverse team of researchers across postdoctoral fellows, PhD and MSc students, and collaborators.</p>
 
-    <h2>Principal Investigator</h2>
-    <div class="grid people-grid">
-      <div class="person">
-        <img src="assets/img/person-placeholder.svg" alt="PI photo">
-        <h3>Prof. Khabat Heshami</h3>
-        <p>Principal Investigator</p>
-        <p><a href="mailto:placeholder@example.com">Email</a> · <a href="#" target="_blank" rel="noopener">Website</a></p>
-      </div>
-    </div>
-
-    <h2>Postdoctoral Fellows</h2>
-    <div class="grid people-grid">
-      <div class="person">
-        <img src="assets/img/person-placeholder.svg" alt="Postdoc photo">
-        <h3>Postdoc Name</h3>
-        <p>Quantum Photonics</p>
-      </div>
-    </div>
-
-    <h2>PhD Students</h2>
-    <div class="grid people-grid">
-      <div class="person">
-        <img src="assets/img/person-placeholder.svg" alt="PhD photo">
-        <h3>Utkarsh Singh</h3>
-        <p>Quantum Machine Learning</p>
-        <p><a href="mailto:placeholder@example.com">Email</a> · <a href="#" target="_blank" rel="noopener">Scholar</a></p>
-      </div>
-    </div>
-
-    <h2>MSc Students</h2>
-    <div class="grid people-grid">
-      <div class="person">
-        <img src="assets/img/person-placeholder.svg" alt="MSc photo">
-        <h3>MSc Student</h3>
-        <p>Topic / Project</p>
-      </div>
-    </div>
+    <h2>Members</h2>
+    <div id="people-grid" class="grid people-grid"></div>
   </section>
 </main>
+
 <footer class="site-footer">
   <div class="container footer-inner">
     <p>© 2025 PQuIP Group.</p>
   </div>
 </footer>
+
 <script src="assets/js/main.js"></script>
+<script>
+async function loadPeople(){
+  const grid = document.getElementById('people-grid');
+  try{
+    const res = await fetch('members/index.json');
+    const data = await res.json();
+
+    grid.innerHTML = (data.members || []).map(m => `
+      <a class="person" href="member.html?id=${encodeURIComponent(m.id)}" title="View ${m.name}">
+        <img src="${m.photo || 'assets/img/person-placeholder.svg'}" alt="${m.name}">
+        <h3>${m.name}</h3>
+        <p>${m.role || ''}</p>
+      </a>
+    `).join('');
+  }catch(e){
+    grid.innerHTML = '<p>Failed to load members.</p>';
+    console.error(e);
+  }
+}
+loadPeople();
+</script>
 </body>
 </html>
