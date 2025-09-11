@@ -7,16 +7,25 @@
       "email": "khabat@example.com",
       "photo": "assets/img/Khabat.jpg",
       "orcid": "0000-0003-3864-1930",
-      "semanticScholarId": "143710026"
+      "semanticScholarId": "143710026",
+      "linkedin": "https://ca.linkedin.com/in/khabat-heshami-48613217",
+      "scholar": "https://scholar.google.ca/citations?user=fBBMAKwAAAAJ&hl=en",
+      "github": "/",
+      "website": "https://chemphys.ca/khabat-heshami/"
     },
     {
       "id": "utkarsh",
       "name": "Utkarsh Singh",
       "role": "PhD Student — Quantum ML",
       "email": "utkarsh@example.com",
-      "photo": "assets/img/utkarsh.png",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/utkarsh.jpg",
       "orcid": "0000-0003-0665-4163",
-      "semanticScholarId": "2282138806"
+      "semanticScholarId": "2282138806",
+      "linkedin": "https://www.linkedin.com/in/utkarsh-singhh/",
+      "scholar": "https://scholar.google.com/citations?user=zWTAuq0AAAAJ&hl=en",
+      "github": "https://github.com/utkarshh-singh",
+      "website": "https://uniweb.uottawa.ca/embed/profile/members/5424/topic?lang=en"
     }
   ]
 }
