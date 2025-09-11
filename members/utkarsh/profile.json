@@ -9,6 +9,8 @@
       "semanticScholarId": "2282138806",
       "linkedin": "https://www.linkedin.com/in/utkarsh-singhh/",
       "scholar": "https://scholar.google.com/citations?user=zWTAuq0AAAAJ&hl=en",
+      "scholarUser": "zWTAuq0AAAAJ",        // 👈 new: extracted from the URL
+      "preferGoogleScholar": true,
       "github": "https://github.com/utkarshh-singh",
       "website": "https://uniweb.uottawa.ca/embed/profile/members/5424/topic?lang=en"
     }
