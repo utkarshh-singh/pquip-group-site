@@ -33,7 +33,6 @@
         </div>
       </div>`).join('');
 
-    // dots
     const dots = root.querySelector('.slider__dots');
     slides.forEach((_,i)=>{
       const b=document.createElement('button');
@@ -51,6 +50,7 @@
     function goTo(i){ index=(i+len)%len; update(); }
     root.querySelector('[data-prev]').addEventListener('click',()=>goTo(index-1));
     root.querySelector('[data-next]').addEventListener('click',()=>goTo(index+1));
+
     // swipe
     let sx=0;
     track.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
@@ -58,16 +58,17 @@
       const dx=e.changedTouches[0].clientX - sx;
       if(Math.abs(dx)>40) goTo(dx<0?index+1:index-1);
     },{passive:true});
-    // auto
+
+    // auto-advance
     let timer=setInterval(()=>goTo(index+1),7000);
     root.addEventListener('mouseenter',()=>clearInterval(timer));
     root.addEventListener('mouseleave',()=>{timer=setInterval(()=>goTo(index+1),7000);});
+
     update();
     return root;
   }
 
   async function loadSlidesFor(id){
-    // primary: per-member slides.json
     try{
       const res = await fetch(`members/${encodeURIComponent(id)}/slides.json`, {cache:'no-store'});
       if(res.ok){
@@ -83,7 +84,7 @@
   function insertAfterAbout(slides){
     const body = document.querySelector('.profile__body');
     if(!body) return;
-    const firstCard = body.querySelector('.card');
+    const firstCard = body.querySelector('.card'); // About is the first card
     const sliderCard = createSlider(slides);
     if(firstCard) body.insertBefore(sliderCard, firstCard.nextSibling);
     else body.prepend(sliderCard);
@@ -92,17 +93,16 @@
   async function init(){
     const id = getId(); if(!id) return;
     const slides = await loadSlidesFor(id);
-    if(!slides.length) return; // silent if none
+    if(!slides.length) return; // nothing to show
     const body = document.querySelector('.profile__body');
     if(!body) return;
-    // wait until the About card is rendered
+
     if(body.querySelector('.card')) insertAfterAbout(slides);
     else{
       const mo = new MutationObserver(()=>{
         if(body.querySelector('.card')){ mo.disconnect(); insertAfterAbout(slides); }
       });
       mo.observe(body, {childList:true});
-      // safety timeout (in case observer misses)
       setTimeout(()=>{ if(body.querySelector('.card')) insertAfterAbout(slides); }, 3000);
     }
   }
