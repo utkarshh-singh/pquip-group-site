@@ -6,7 +6,8 @@
       "role": "Principal Investigator",
       "email": "khabat@example.com",
       "photo": "assets/img/person-placeholder.svg",
-      "semanticScholarId": "144078555"   // <-- example, replace with real ID
+      "orcid": "0000-0003-3864-1930",
+      "semanticScholarId": "143710026"
     },
     {
       "id": "utkarsh",
@@ -14,7 +15,8 @@
       "role": "PhD Student — Quantum ML",
       "email": "utkarsh@example.com",
       "photo": "assets/img/person-placeholder.svg",
-      "semanticScholarId": "2268480"      // <-- example, replace with real ID
+      "orcid": "0000-0003-0665-4163",
+      "semanticScholarId": "2282138806"
     }
   ]
 }
