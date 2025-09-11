@@ -1,0 +1,180 @@
+{
+  "source": "semantic_scholar",
+  "author_id": "143710026",
+  "updated_at": 1757621276,
+  "publications": [
+    {
+      "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
+      "authors": [
+        "Lukas Scarfe",
+        "Rojan Abolhassani",
+        "F. Bouchard",
+        "Aaron Z. Goldberg",
+        "Khabat Heshami",
+        "Francesco Di Colandrea",
+        "Ebrahim Karimi"
+      ]
+    },
+    {
+      "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
+      "authors": [
+        "Rojan Abolhassani",
+        "Lukas Scarfe",
+        "Francesco Di Colandrea",
+        "A. D’Errico",
+        "Khabat Heshami",
+        "Ebrahim Karimi"
+      ]
+    },
+    {
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "authors": [
+        "Milica Banic",
+        "Valerio Crescimanna",
+        "J. E. Bourassa",
+        "C. González-Arciniegas",
+        "Rafael N. Alexander",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "authors": [
+        "A. Hertz",
+        "Noah Lupu-Gladstein",
+        "Khabat Heshami",
+        "Aaron Z. Goldberg"
+      ]
+    },
+    {
+      "title": "Imaging at the quantum limit with convolutional neural networks",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2506.13488",
+      "url": "https://doi.org/10.48550/arXiv.2506.13488",
+      "authors": [
+        "Andrew H. Proppe",
+        "Aaron Z. Goldberg",
+        "Guillaume Thekkadath",
+        "Noah Lupu-Gladstein",
+        "Kyle M. Jordan",
+        "P. Bustard",
+        "Frédéric Bouchard",
+        "Duncan England",
+        "Khabat Heshami",
+        "Jeff S. Lundeen",
+        "Benjamin J. Sussman"
+      ]
+    },
+    {
+      "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+      "year": 2025,
+      "venue": "Optical Materials Express",
+      "doi": "10.1364/ome.549582",
+      "url": "https://doi.org/10.1364/ome.549582",
+      "authors": [
+        "A. Keni",
+        "Kinjol Barua",
+        "Khabat Heshami",
+        "Alisa Javadi",
+        "H. Alaeian"
+      ]
+    },
+    {
+      "title": "A Resource Efficient Quantum Kernel",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2507.03689",
+      "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "authors": [
+        "Utkarsh Singh",
+        "J. Laprade",
+        "Aaron Z. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "authors": [
+        "Valerio Crescimanna",
+        "Shang Yu",
+        "Khabat Heshami",
+        "Raj B. Patel"
+      ]
+    },
+    {
+      "title": "Frequency- and dissipation-dependent entanglement advantage in spin-network quantum reservoir computing",
+      "year": 2024,
+      "venue": "Physical Review A",
+      "doi": "10.1103/physreva.110.042416",
+      "url": "https://doi.org/10.1103/physreva.110.042416",
+      "authors": [
+        "Youssef Kora",
+        "Hadi Zadeh-Haghighi",
+        "Terrence C. Stewart",
+        "Khabat Heshami",
+        "C. Simon"
+      ]
+    },
+    {
+      "title": "Predicting atmospheric turbulence for secure quantum communications in free space.",
+      "year": 2024,
+      "venue": "Optics Express",
+      "doi": "10.1364/OE.546606",
+      "url": "https://doi.org/10.1364/OE.546606",
+      "authors": [
+        "Tareq Jaouni",
+        "Lukas Scarfe",
+        "F. Bouchard",
+        "Mario Krenn",
+        "Khabat Heshami",
+        "Francesco Di Colandrea",
+        "Ebrahim Karimi"
+      ]
+    },
+    {
+      "title": "Coherent Feed Forward Quantum Neural Network",
+      "year": 2024,
+      "venue": "Quantum Machine Intelligence",
+      "doi": "10.48550/arXiv.2402.00653",
+      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "authors": [
+        "Utkarsh Singh",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Quadrature coherence scale of linear combinations of Gaussian functions in phase space",
+      "year": 2024,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.110.012408",
+      "url": "https://doi.org/10.1103/PhysRevA.110.012408",
+      "authors": [
+        "A. Hertz",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "source": "semantic_scholar",
+  "author_id": "33965579",
+  "updated_at": 1757621276,
+  "publications": [
+    {
+      "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "authors": [
+        "A. Hertz",
+        "Noah Lupu-Gladstein",
+        "Khabat Heshami",
+        "Aaron Z. Goldberg"
+      ]
+    },
+    {
+      "title": "Quadrature coherence scale of linear combinations of Gaussian functions in phase space",
+      "year": 2024,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.110.012408",
+      "url": "https://doi.org/10.1103/PhysRevA.110.012408",
+      "authors": [
+        "A. Hertz",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Entanglement, loss, and quantumness: When balanced beam splitters are best",
+      "year": 2024,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b",
+      "authors": [
+        "Noah Lupu-Gladstein",
+        "A. Hertz",
+        "Khabat Heshami",
+        "Aaron Z. Goldberg"
+      ]
+    },
+    {
+      "title": "Complex-valued Wigner entropy of a quantum state",
+      "year": 2023,
+      "venue": "Quantum Studies: Mathematics and Foundations",
+      "doi": "10.1007/s40509-024-00325-8",
+      "url": "https://doi.org/10.1007/s40509-024-00325-8",
+      "authors": [
+        "N. Cerf",
+        "A. Hertz",
+        "Z. Van Herstraeten"
+      ]
+    },
+    {
+      "title": "Nonclassicality gain/loss through photon-addition/subtraction on Multi-Mode Gaussian States",
+      "year": 2022,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/1e0c12a460b1389e4836e8d1932aee9af82d7010",
+      "authors": [
+        "A. Hertz",
+        "S. Bievre"
+      ]
+    },
+    {
+      "title": "Decoherence and nonclassicality of photon-added and photon-subtracted multimode Gaussian states",
+      "year": 2022,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.107.043713",
+      "url": "https://doi.org/10.1103/PhysRevA.107.043713",
+      "authors": [
+        "A. Hertz",
+        "S. De Bièvre"
+      ]
+    },
+    {
+      "title": "Realignment separability criterion assisted with filtration for detecting continuous-variable entanglement",
+      "year": 2021,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.104.022427",
+      "url": "https://doi.org/10.1103/PhysRevA.104.022427",
+      "authors": [
+        "A. Hertz",
+        "M. Arnhem",
+        "A. Asadian",
+        "N. Cerf"
+      ]
+    },
+    {
+      "title": "Relating the entanglement and optical nonclassicality of multimode states of a bosonic quantum field",
+      "year": 2020,
+      "venue": "",
+      "doi": "10.1103/PHYSREVA.102.032413",
+      "url": "https://doi.org/10.1103/PHYSREVA.102.032413",
+      "authors": [
+        "A. Hertz",
+        "N. Cerf",
+        "S. De Bièvre"
+      ]
+    },
+    {
+      "title": "Comparing Entanglement and Optical Nonclassicality of Bosonic States",
+      "year": 2020,
+      "venue": "",
+      "doi": "10.1364/quantum.2020.qth7a.7",
+      "url": "https://doi.org/10.1364/quantum.2020.qth7a.7",
+      "authors": [
+        "A. Hertz",
+        "N. Cerf",
+        "S. Bievre"
+      ]
+    },
+    {
+      "title": "Multi-copy uncertainty observable inducing a symplectic-invariant uncertainty relation",
+      "year": 2019,
+      "venue": "",
+      "doi": "10.1103/PhysRevA.100.052112",
+      "url": "https://doi.org/10.1103/PhysRevA.100.052112",
+      "authors": [
+        "A. Hertz",
+        "O. Oreshkov",
+        "N. Cerf"
+      ]
+    },
+    {
+      "title": "Quadrature Coherence Scale Driven Fast Decoherence of Bosonic Quantum Field States.",
+      "year": 2019,
+      "venue": "Physical Review Letters",
+      "doi": "10.1103/PhysRevLett.124.090402",
+      "url": "https://doi.org/10.1103/PhysRevLett.124.090402",
+      "authors": [
+        "A. Hertz",
+        "S. De Bièvre"
+      ]
+    },
+    {
+      "title": "Multicopy uncertainty observable inducing a symplectic-invariant uncertainty relation in position and momentum phase space",
+      "year": 2019,
+      "venue": "Physical Review A",
+      "doi": "10.1103/physreva.100.052112",
+      "url": "https://doi.org/10.1103/physreva.100.052112",
+      "authors": [
+        "A. Hertz",
+        "O. Oreshkov",
+        "N. Cerf"
+      ]
+    }
+  ]
+}

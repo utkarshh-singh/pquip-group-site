@@ -1,0 +1,32 @@
+{
+  "source": "semantic_scholar",
+  "author_id": "2282138806",
+  "updated_at": 1757621276,
+  "publications": [
+    {
+      "title": "A Resource Efficient Quantum Kernel",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2507.03689",
+      "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "authors": [
+        "Utkarsh Singh",
+        "J. Laprade",
+        "Aaron Z. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Coherent Feed Forward Quantum Neural Network",
+      "year": 2024,
+      "venue": "Quantum Machine Intelligence",
+      "doi": "10.48550/arXiv.2402.00653",
+      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "authors": [
+        "Utkarsh Singh",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    }
+  ]
+}

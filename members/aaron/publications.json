@@ -1,0 +1,166 @@
+{
+  "source": "semantic_scholar",
+  "author_id": "51178031",
+  "updated_at": 1757621276,
+  "publications": [
+    {
+      "title": "Coherent Feed Forward Quantum Neural Network",
+      "year": 2024,
+      "venue": "Quantum Machine Intelligence",
+      "doi": "10.48550/arXiv.2402.00653",
+      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "authors": [
+        "Utkarsh Singh",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Quadrature coherence scale of linear combinations of Gaussian functions in phase space",
+      "year": 2024,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.110.012408",
+      "url": "https://doi.org/10.1103/PhysRevA.110.012408",
+      "authors": [
+        "A. Hertz",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Measuring Impossible Parameters with Indefinite Causal Order",
+      "year": 2024,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2024.fm4k.2",
+      "url": "https://doi.org/10.1364/cleo_fs.2024.fm4k.2",
+      "authors": [
+        "Jaden McKinlay",
+        "M. Rambach",
+        "A. Goldberg",
+        "Khabat Heshami",
+        "Luis Sánchcz-Soto",
+        "A. G. White"
+      ]
+    },
+    {
+      "title": "Multiphoton interference in a single-spatial-mode quantum walk.",
+      "year": 2024,
+      "venue": "Optics Express",
+      "doi": "10.1364/oe.550931",
+      "url": "https://doi.org/10.1364/oe.550931",
+      "authors": [
+        "Kate L. Fenwick",
+        "Jonathan Baker",
+        "Guillaume Thekkadath",
+        "A. Goldberg",
+        "Khabat Heshami",
+        "P. Bustard",
+        "Duncan England",
+        "Frédéric Bouchard",
+        "Benjamin J. Sussman"
+      ]
+    },
+    {
+      "title": "High-dimensional Encoding in the Round-Robin Differential-Phase-Shift Protocol",
+      "year": 2023,
+      "venue": "Quantum",
+      "doi": "10.22331/q-2023-12-14-1207",
+      "url": "https://doi.org/10.22331/q-2023-12-14-1207",
+      "authors": [
+        "Mikka Stasiuk",
+        "F. Hufnagel",
+        "Xiaoqin Gao",
+        "A. Goldberg",
+        "F. Bouchard",
+        "E. Karimi",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Metrological Advantages in Seeded and Lossy Nonlinear Interferometers",
+      "year": 2023,
+      "venue": "Quantum",
+      "doi": "10.22331/q-2025-02-04-1619",
+      "url": "https://doi.org/10.22331/q-2025-02-04-1619",
+      "authors": [
+        "Jasper Kranias",
+        "Guillaume Thekkadath",
+        "Khabat Heshami",
+        "A. Goldberg"
+      ]
+    },
+    {
+      "title": "Quantum Control of Rydberg Atoms for Mesoscopic Quantum State and Circuit Preparation",
+      "year": 2023,
+      "venue": "Physical Review Applied",
+      "doi": "10.1103/PhysRevApplied.20.034019",
+      "url": "https://doi.org/10.1103/PhysRevApplied.20.034019",
+      "authors": [
+        "Valerio Crescimanna",
+        "Jacob M. Taylor",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Measuring the quadrature coherence scale on a cloud quantum computer",
+      "year": 2023,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.107.042610",
+      "url": "https://doi.org/10.1103/PhysRevA.107.042610",
+      "authors": [
+        "A. Goldberg",
+        "G. Thekkadath",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Teleamplification on the Borealis boson-sampling device",
+      "year": 2023,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.108.062606",
+      "url": "https://doi.org/10.1103/PhysRevA.108.062606",
+      "authors": [
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Seeding Gaussian Boson Samplers with Single Photons for Enhanced State Generation",
+      "year": 2023,
+      "venue": "Photonics North",
+      "doi": "10.1103/PhysRevA.109.023717",
+      "url": "https://doi.org/10.1103/PhysRevA.109.023717",
+      "authors": [
+        "Valerio Crescimanna",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ]
+    },
+    {
+      "title": "Evading noise in multiparameter quantum metrology with indefinite causal order",
+      "year": 2023,
+      "venue": "Physical Review Research",
+      "doi": "10.1103/PhysRevResearch.5.033198",
+      "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
+      "authors": [
+        "A. Goldberg",
+        "Khabat Heshami",
+        "L. Sánchez-Soto"
+      ]
+    },
+    {
+      "title": "Efficient line shape estimation by ghost spectroscopy.",
+      "year": 2023,
+      "venue": "Optics Letters",
+      "doi": "10.1364/OL.485451",
+      "url": "https://doi.org/10.1364/OL.485451",
+      "authors": [
+        "I. Gianani",
+        "L. Sánchez‐Soto",
+        "A. Goldberg",
+        "M. Barbieri"
+      ]
+    }
+  ]
+}
