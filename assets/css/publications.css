@@ -1,25 +1,34 @@
-:root{ --card-r:12px; --shadow-sm:0 2px 6px rgba(0,0,0,.06) }
+:root{
+  --card-r:12px;
+  --shadow-sm:0 2px 6px rgba(0,0,0,.06);
+}
 
+/* Header area */
 .pub-hero{ margin:18px 0 12px }
 .pub-hero h1{ margin:0 0 6px }
 .lead{ color:var(--muted) }
 
+/* Toolbar */
 .toolbar{
-  display:grid; grid-template-columns:1fr 140px 220px 220px 100px; gap:10px; margin-top:12px;
+  display:grid; grid-template-columns:1fr 140px 220px 220px 100px;
+  gap:10px; margin-top:12px;
 }
-.toolbar input, .toolbar select, .toolbar .btn{
+.toolbar input,.toolbar select,.toolbar .btn{
   height:40px; border:1px solid var(--line); border-radius:10px; padding:0 10px; background:#fff;
 }
 .btn{ cursor:pointer; box-shadow:var(--shadow-sm) }
 .btn-ghost{ background:#fff }
 
+/* Grid */
 .pub-grid{
-  display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr));
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(360px,1fr));
   gap:12px; margin-top:14px;
 }
+
+/* Card – now compact */
 .pub-card{
   background:#fff; border:1px solid var(--line); border-radius:var(--card-r);
-  box-shadow:var(--shadow-sm); padding:14px; display:flex; flex-direction:column; gap:6px;
+  box-shadow:var(--shadow-sm); padding:14px; display:flex; flex-direction:column; gap:10px;
   transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 .pub-card:hover{
@@ -28,23 +37,28 @@
   border-color:color-mix(in srgb, var(--brand) 20%, var(--line));
 }
 
-.pub-title{ margin:0; font-size:1.04rem }
-.pub-meta{ color:var(--muted) }
+.pub-title{ margin:0; font-size:1.05rem; line-height:1.3 }
+.pub-meta{ color:var(--muted); font-size:.95rem }
 
-.badges{ display:flex; gap:6px; flex-wrap:wrap; margin-top:4px }
-.badge{
-  display:inline-flex; align-items:center; gap:6px; height:26px;
-  border:1px solid var(--line); padding:0 8px; border-radius:999px; background:#fff; font-size:.9rem;
+/* Authors row (avatars) */
+.authors{
+  display:flex; align-items:center; gap:8px; flex-wrap:wrap;
 }
-.badge--category{
-  border-color: color-mix(in srgb, var(--brand) 25%, var(--line));
-  background:#f6f9ff;
+.author-avatars{ display:flex; align-items:center }
+.avatar{
+  width:28px; height:28px; border-radius:999px; border:1px solid #fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.15); object-fit:cover; background:#eef1f5;
+  margin-right:-8px; /* stacked look */
 }
-.badge a{ text-decoration:none }
+.avatar[alt]{ /* no change; just keep alt for a11y */ }
+
+.author-names{ color:var(--text); font-size:.92rem }
+.author-names .sep{ color:var(--muted) }
 
 .load-more-wrap{ display:flex; justify-content:center; margin:16px 0 24px }
 .hidden{ display:none !important }
 
 @media (max-width:880px){
   .toolbar{ grid-template-columns:1fr 1fr; grid-auto-rows:40px }
+  .pub-grid{ grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); }
 }
