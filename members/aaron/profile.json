@@ -1,0 +1,14 @@
+{
+      "id": "aaron",
+      "name": "Aaron Z. Goldberg",
+      "role": "Research officer, National Research Council",
+      "email": "aaron@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/aaron.avif",
+      "orcid": "0000-0002-3301-7672",
+      "semanticScholarId": "51178031",
+      "linkedin": "https://www.linkedin.com/in/aaron-goldberg-b46b35144/",
+      "scholar": "https://scholar.google.com/citations?user=4ZJ9EtkAAAAJ&hl=en",
+      "github": "https://github.com/",
+      "website": "https://uniweb.uottawa.ca/embed/profile/members/5424/topic?lang=en"
+    }
