@@ -9,23 +9,62 @@
   const loadMoreWrap = $('#load-more-wrap');
 
   // CONFIG
-  const PER_MEMBER = 5;                 // how many per member to fetch
-  const PAGE_SIZE = 24;                 // render N at a time
-  const CACHE_TTL = 24 * 60 * 60 * 1000;// 1 day
+  const PER_MEMBER = 5;                  // how many per member to fetch
+  const PAGE_SIZE = 24;                  // render N at a time
+  const CACHE_TTL = 24 * 60 * 60 * 1000; // 1 day
 
   let allPubs = [];   // merged array
   let filtered = [];
   let page = 0;
 
   // ---------- helpers ----------
-  function normalizeTitle(t){ return (t||'').toLowerCase().replace(/\s+/g,' ').trim(); }
+  const deburr = s => (s||'')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')     // remove accents
+    .toLowerCase()
+    .replace(/[\.\,']/g,' ')                             // drop dots/commas/apostrophes
+    .replace(/\s+/g,' ')
+    .trim();
+
+  function splitName(s){
+    const t = deburr(s);
+    if(!t) return {first:'', last:'', finit:''};
+    const parts = t.split(' ');
+    const last = parts.pop() || '';
+    const first = parts.join(' ') || '';
+    const finit = first ? first[0] : '';
+    return {first, last, finit};
+  }
+
+  function namesMatch(authorStr, profile){
+    // Accept if:
+    //  - exact alias match (after deburr)
+    //  - OR last names equal AND (first initial equal OR first name startswith)
+    const a = splitName(authorStr);
+    // alias/explicit names
+    for(const alias of profile.aliases){
+      const da = deburr(alias);
+      if (da === deburr(authorStr)) return true;
+      const pa = splitName(da);
+      if (pa.last && pa.last === a.last && (pa.finit && pa.finit === a.finit || (pa.first && a.first.startsWith(pa.first)))) {
+        return true;
+      }
+    }
+    // primary name
+    const pn = splitName(profile.name);
+    if (pn.last && pn.last === a.last && (pn.finit && pn.finit === a.finit || (pn.first && a.first.startsWith(pn.first)))) {
+      return true;
+    }
+    return false;
+  }
+
+  function normalizeTitle(t){ return deburr(t); }
   function safeKeyFromRaw(p){
     const doi = p?.externalIds?.DOI;
     if (doi) return `doi:${String(doi).toLowerCase()}`;
     const t = normalizeTitle(p?.title || '');
-    // guard: if title is empty, synthesize a unique key using year+random
     return t ? `t:${t}` : `u:${(p?.year||'0')}:${Math.random().toString(36).slice(2,8)}`;
   }
+
   function cacheKey(id){ return `pubs:${id}`; }
   function getCache(id){
     try{
@@ -42,7 +81,7 @@
   async function loadManifest(){
     const r = await fetch('members/manifest.json', {cache:'no-store'});
     if(!r.ok) throw new Error('members/manifest.json missing');
-    return r.json(); // ["khabat","aaron",...]
+    return r.json();
   }
   async function loadProfile(id){
     const r = await fetch(`members/${encodeURIComponent(id)}/profile.json`, {cache:'no-store'});
@@ -76,7 +115,6 @@
         venue: p.venue || '',
         url: (p.externalIds?.DOI ? `https://doi.org/${p.externalIds.DOI}` : p.url || '#'),
         authors: (p.authors || []).map(a => a.name || '').filter(Boolean),
-        _raw: p
       }));
       setCache(profile.id, pubs);
       return pubs;
@@ -100,14 +138,12 @@
       }
       let venue = '', url = item.url;
 
-      // Crossref first
       const cr = await fetch(`https://api.crossref.org/works/${encodeURIComponent(doi)}`);
       if(cr.ok){
         const j = await cr.json();
         venue = (j.message['container-title'] && j.message['container-title'][0]) || venue;
         url = j.message.URL || url;
       } else {
-        // OpenAlex fallback
         const oa = await fetch(`https://api.openalex.org/works/doi:${encodeURIComponent(doi)}`);
         if(oa.ok){
           const k = await oa.json();
@@ -119,85 +155,61 @@
       localStorage.setItem(jCacheKey(doi), JSON.stringify(enriched));
       item.venue = venue || item.venue;
       item.url   = url   || item.url;
-    }catch{/* ignore */}
+    }catch{}
     return item;
   }
 
   // ---------- aggregate & merge ----------
   async function loadAll(){
-    // load ids + profiles in parallel
     const ids = await loadManifest();
-    const profilePromises = ids.map(id => loadProfile(id).catch(e => (console.warn('[pubs] profile load failed', id, e), null)));
-    const profiles = (await Promise.all(profilePromises)).filter(Boolean);
+    const profiles = (await Promise.all(ids.map(id => loadProfile(id).catch(()=>null)))).filter(Boolean);
 
-    if (!profiles.length){
-      resultsEl.innerHTML = `<p>No member profiles found.</p>`;
-      console.warn('[pubs] No profiles loaded. Check members/manifest.json and profile.json files.');
-      return;
-    }
-
-    // member filter
+    // member filter options
     memberSel.innerHTML = `<option value="">All members</option>` +
       profiles.map(p=>`<option value="${p.id}">${p.name}</option>`).join('');
 
-    // alias table for author matching
+    // alias table for author matching (include provided aliases, if any)
     const PROFILES = profiles.map(p => ({
       id: p.id,
       name: p.name,
-      aliases: [p.name.toLowerCase(), ...(p.aliases||[]).map(a=>a.toLowerCase())]
+      aliases: [p.name, ...(p.aliases||[])],
     }));
 
-    // fetch pubs for all members in parallel
+    // fetch pubs in parallel
     const pubsByMember = await Promise.all(
-      profiles.map(p => getMemberPubs(p).then(arr => ({profile: p, pubs: arr})))
+      PROFILES.map(pr => getMemberPubs(pr).then(arr => ({profile: pr, pubs: arr})))
     );
 
-    // merge by key; if collision on same key but different title, make a unique fallback key
-    const merged = new Map(); // key -> item
-    for (const {profile, pubs} of pubsByMember){
+    // merge by key
+    const merged = new Map();
+    for (const {pubs} of pubsByMember){
       for (const pub of pubs){
         let key = pub.key || `u:${Math.random().toString(36).slice(2,8)}`;
         if (merged.has(key)) {
-          const existing = merged.get(key);
-          const titlesDifferent = normalizeTitle(existing.title) !== normalizeTitle(pub.title);
-          if (titlesDifferent) {
-            // synthesize new key to avoid accidental merge
-            key = `t:${normalizeTitle(pub.title)}:${Math.random().toString(36).slice(2,6)}`;
-          }
-        }
-        if (!merged.has(key)) {
-          merged.set(key, {
-            title: pub.title,
-            year: pub.year || null,
-            venue: pub.venue || '',
-            url: pub.url || '#',
-            rawAuthors: pub.authors || [],
-            groupAuthors: []
-          });
+          const ex = merged.get(key);
+          // prefer non-arXiv venue; merge author lists
+          if ((!ex.venue || /arxiv/i.test(ex.venue)) && pub.venue) ex.venue = pub.venue;
+          if (ex.url?.startsWith('#') && pub.url) ex.url = pub.url;
+          ex.authors = Array.from(new Set([...(ex.authors||[]), ...(pub.authors||[])]));
         } else {
-          // Optionally upgrade venue/url if better
-          const it = merged.get(key);
-          if ((!it.venue || /arxiv/i.test(it.venue)) && pub.venue) it.venue = pub.venue;
-          if (it.url?.startsWith('#') && pub.url) it.url = pub.url;
-          // merge author list
-          it.rawAuthors = Array.from(new Set([...(it.rawAuthors||[]), ...(pub.authors||[])]));
+          merged.set(key, { ...pub });
         }
       }
     }
 
     // compute group co-authors
-    for(const [k, item] of merged.entries()){
-      const lowers = (item.rawAuthors||[]).map(a=>a.toLowerCase());
-      const matches = PROFILES.filter(pr => pr.aliases.some(alias => lowers.includes(alias)))
-                              .map(pr => ({id: pr.id, name: pr.name}));
-      item.groupAuthors = matches;
+    for (const item of merged.values()){
+      const lowers = (item.authors||[]).map(a => deburr(a));
+      item.groupAuthors = PROFILES.filter(pr =>
+        lowers.some(a => namesMatch(a, pr))
+      ).map(pr => ({ id: pr.id, name: pr.name }));
     }
 
     // to array + sort newest first
     allPubs = Array.from(merged.values())
       .sort((a,b)=> (b.year||0)-(a.year||0) || (a.title||'').localeCompare(b.title||''));
 
-    // years filter options
+    // year dropdown
     const years = [...new Set(allPubs.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
     yearSel.innerHTML = `<option value="">All years</option>` + years.map(y=>`<option value="${y}">${y}</option>`).join('');
 
@@ -209,9 +221,11 @@
     if(!append){ resultsEl.innerHTML=''; page = 0; }
     const start = page * PAGE_SIZE;
     const slice = items.slice(start, start + PAGE_SIZE);
+
     const html = slice.map(p => `
       <article class="pub-card">
         <h3 class="pub-title"><a href="${p.url||'#'}" target="_blank" rel="noopener">${p.title}</a></h3>
+        ${ (p.authors && p.authors.length) ? `<div class="authors-line">${p.authors.join(', ')}</div>` : '' }
         <div class="pub-meta">
           ${p.venue ? `<em>${p.venue}</em>` : ''}${p.venue && p.year ? ' • ' : ''}${p.year || ''}
         </div>
@@ -221,6 +235,7 @@
         </div>
       </article>
     `).join('');
+
     resultsEl.insertAdjacentHTML('beforeend', html);
     page++;
 
@@ -231,7 +246,7 @@
     }
   }
 
-  // ---------- filtering + journal enrichment ----------
+  // ---------- filtering + enrichment ----------
   async function applyFilters(reset=false){
     const q = (qInput.value||'').toLowerCase();
     const m = memberSel.value;
@@ -240,13 +255,16 @@
     filtered = allPubs.filter(p=>{
       const okM = !m || (p.groupAuthors||[]).some(g=>g.id===m);
       const okY = !y || String(p.year||'') === y;
-      const okQ = !q || (p.title||'').toLowerCase().includes(q) ||
-                         (p.venue||'').toLowerCase().includes(q) ||
-                         (p.groupAuthors||[]).some(g=>g.name.toLowerCase().includes(q));
+      const okQ =
+        !q ||
+        (p.title||'').toLowerCase().includes(q) ||
+        (p.venue||'').toLowerCase().includes(q) ||
+        (p.authors||[]).some(a => a.toLowerCase().includes(q)) ||
+        (p.groupAuthors||[]).some(g => g.name.toLowerCase().includes(q));
       return okM && okY && okQ;
     });
 
-    // Enrich first batch so arXiv becomes journal when possible
+    // Enrich visible first dozen with Crossref/OpenAlex
     const toEnrich = filtered.slice(0, 12);
     await Promise.all(toEnrich.map(enrichJournalFor));
 
