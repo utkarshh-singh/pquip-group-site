@@ -102,7 +102,7 @@
 .hero-full{
   position: relative;
   width: 100%;
-  height: clamp(300px, 55vh, 520px); /* cap min/max */
+  height: clamp(320px, 55vh, 520px); /* min 320px, usually ~55% viewport, max 520px */
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 12px 32px rgba(0,0,0,.12);
@@ -114,8 +114,8 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* fill section */
-  object-position: center center; /* focus middle */
+  object-fit: cover;          /* scale to fill, crop excess */
+  object-position: center;    /* focus center of image */
   border-radius: inherit;
   z-index: 0;
 }
