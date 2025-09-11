@@ -57,6 +57,11 @@ def normalize_pubs(j):
         })
     return out
 
+def get_ids(val):
+    if not val: return []
+    if isinstance(val, (list, tuple)): return [str(x) for x in val]
+    return [str(val)]
+
 def main():
     ids = read_json(MANIFEST) or []
     if not isinstance(ids, list):
@@ -65,24 +70,34 @@ def main():
 
     for mid in ids:
         prof = get_profile(mid)
-        aid = prof.get("semanticScholarId")
-        if not aid:
+        aids = get_ids(prof.get("semanticScholarId"))
+        if not aids:
             print(f"skip {mid}: no semanticScholarId", file=sys.stderr)
             continue
-        try:
-            data = fetch_author(aid)
-            pubs = normalize_pubs(data)
-            payload = {
-                "source": "semantic_scholar",
-                "author_id": str(aid),
-                "updated_at": int(time.time()),
-                "publications": pubs
-            }
-            out = os.path.join(ROOT, "members", mid, "publications.json")
-            write_json(out, payload)
-            print(f"- wrote {out} with {len(pubs)} items")
-        except Exception as e:
-            print(f"ERROR for {mid}: {e}", file=sys.stderr)
+        pubs_all = []
+        for aid in aids:
+            try:
+                data = fetch_author(aid)
+                pubs = normalize_pubs(data)
+                pubs_all.extend(pubs)
+            except Exception as e:
+                print(f"ERROR for {mid}/{aid}: {e}", file=sys.stderr)
+        # dedupe by DOI or title
+        dedup = {}
+        for p in pubs_all:
+            key = (p.get("doi") or p.get("title","")).lower()
+            if key not in dedup: dedup[key] = p
+        pubs_final = list(dedup.values())
+
+        payload = {
+            "source": "semantic_scholar",
+            "author_ids": aids,
+            "updated_at": int(time.time()),
+            "publications": pubs_final
+        }
+        out = os.path.join(ROOT, "members", mid, "publications.json")
+        write_json(out, payload)
+        print(f"- wrote {out} with {len(pubs_final)} items")
 
 if __name__ == "__main__":
     main()
