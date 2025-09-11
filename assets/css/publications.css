@@ -1,27 +1,20 @@
-:root{
-  --card-r:12px;
-  --shadow-sm:0 2px 6px rgba(0,0,0,.06);
-}
+:root{ --card-r:12px; --shadow-sm:0 2px 6px rgba(0,0,0,.06) }
 
 .pub-hero{ margin:18px 0 12px }
 .pub-hero h1{ margin:0 0 6px }
 .lead{ color:var(--muted) }
 
-/* 5 controls now: search, member, author, year, clear */
 .toolbar{
-  display:grid;
-  grid-template-columns:1fr 200px 200px 140px 100px;
-  gap:10px; margin-top:12px;
+  display:grid; grid-template-columns:1fr 140px 220px 220px 100px; gap:10px; margin-top:12px;
 }
 .toolbar input, .toolbar select, .toolbar .btn{
-  height:40px; border:1px solid var(--line);
-  border-radius:10px; padding:0 10px; background:#fff;
+  height:40px; border:1px solid var(--line); border-radius:10px; padding:0 10px; background:#fff;
 }
 .btn{ cursor:pointer; box-shadow:var(--shadow-sm) }
 .btn-ghost{ background:#fff }
 
 .pub-grid{
-  display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr));
   gap:12px; margin-top:14px;
 }
 .pub-card{
@@ -35,28 +28,23 @@
   border-color:color-mix(in srgb, var(--brand) 20%, var(--line));
 }
 
-.pub-title{ margin:0; font-size:1.05rem }
+.pub-title{ margin:0; font-size:1.04rem }
 .pub-meta{ color:var(--muted) }
-
-.authors-line{
-  color: var(--muted);
-  font-size: .95rem;
-  margin-top: -2px;
-}
 
 .badges{ display:flex; gap:6px; flex-wrap:wrap; margin-top:4px }
 .badge{
   display:inline-flex; align-items:center; gap:6px; height:26px;
   border:1px solid var(--line); padding:0 8px; border-radius:999px; background:#fff; font-size:.9rem;
 }
+.badge--category{
+  border-color: color-mix(in srgb, var(--brand) 25%, var(--line));
+  background:#f6f9ff;
+}
 .badge a{ text-decoration:none }
 
 .load-more-wrap{ display:flex; justify-content:center; margin:16px 0 24px }
 .hidden{ display:none !important }
 
-@media (max-width:980px){
-  .toolbar{ grid-template-columns:1fr 1fr 1fr 1fr 100px; }
-}
-@media (max-width:680px){
+@media (max-width:880px){
   .toolbar{ grid-template-columns:1fr 1fr; grid-auto-rows:40px }
 }
