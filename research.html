@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Research — PQuIP Group</title>
+  <title>Research — PQUIP Group</title>
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
@@ -14,7 +14,7 @@
     <a class="brand" href="index.html">
       <img src="assets/img/logo.svg" alt="Logo" class="logo"/>
       <div class="brand-text">
-        <strong>PQuIP Group</strong>
+        <strong>PQUIP Group</strong>
         <span>PI: Prof. Khabat Heshami</span>
       </div>
     </a>
@@ -30,29 +30,110 @@
     </nav>
   </div>
 </header>
+
 <main class="container main-content">
-  <section>
-    <h1>Research</h1>
-    <p>Our group investigates problems at the intersection of quantum information, photonics, and machine learning.</p>
-    <div class="grid cards-grid">
-      <article class="card">
-        <h3>Quantum Machine Learning</h3>
-        <p>Resource-efficient kernels, hybrid models, and reservoir computing.</p>
+  <!-- Hero intro -->
+  <section class="hero hero--soft">
+    <div>
+      <h1>Research</h1>
+      <p class="lead">We study quantum information science across photonics, light–matter physics, and quantum-enhanced machine learning—from fundamentals to practical systems.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#themes">Explore Themes</a>
+      </div>
+    </div>
+    <img class="hero-illustration" src="assets/img/hero-illustration.svg" alt="Research illustration"/>
+  </section>
+
+  <!-- Themes -->
+  <section id="themes" class="space-lg">
+    <div class="topics-grid">
+      <!-- Existing: Quantum Machine Learning -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/qml.svg" alt="Quantum Machine Learning">
+        <div class="topic-body">
+          <h3>Quantum Machine Learning</h3>
+          <p>We develop resource-efficient feature maps, kernels, and hybrid models that integrate quantum circuits with classical pipelines. Current efforts include quantum kernels with reduced qubit counts, quantum reservoir computing for temporal tasks, and benchmarking under realistic noise models.</p>
+        </div>
       </article>
-      <article class="card">
-        <h3>Quantum Photonics</h3>
-        <p>Single-photon sources, quantum memories, and integrated photonics.</p>
+
+      <!-- Existing: Quantum Photonics -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/photonics.svg" alt="Quantum Photonics">
+        <div class="topic-body">
+          <h3>Quantum Photonics</h3>
+          <p>We design and characterize photonic platforms for quantum information: single-photon sources, quantum memories, and integrated photonics that scale optical quantum technologies toward practical on-chip devices.</p>
+        </div>
       </article>
-      <article class="card">
-        <h3>Quantum Networking</h3>
-        <p>Entanglement distribution and quantum repeater architectures.</p>
+
+      <!-- Existing: Quantum Networking / Communications -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/networking.svg" alt="Quantum Networking">
+        <div class="topic-body">
+          <h3>Quantum Networking</h3>
+          <p>Our work on entanglement distribution and repeater architectures targets long-distance quantum links. We study protocols, interfaces, and memory-assisted schemes that enable future quantum internet services.</p>
+        </div>
+      </article>
+
+      <!-- New: Quantum light–matter interaction -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/light-matter.svg" alt="Quantum light–matter interaction">
+        <div class="topic-body">
+          <h3>Quantum Light–Matter Interaction</h3>
+          <p>We explore coherent interfaces between photons and atomic/solid-state systems to store, convert, and process quantum states. Tailored coupling, spectral engineering, and noise-aware models underpin robust quantum memories and transducers.</p>
+        </div>
+      </article>
+
+      <!-- New: Quantum non-linear optics -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/nonlinear.svg" alt="Quantum non-linear optics">
+        <div class="topic-body">
+          <h3>Quantum Non-linear Optics</h3>
+          <p>Using χ(2)/χ(3) media and engineered waveguides, we generate non-classical light and enable interactions at the few-photon level. We study photon-pair sources, squeezing, and non-linear gates relevant to photonic quantum computing.</p>
+        </div>
+      </article>
+
+      <!-- New: Quantum Simulation -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/simulation.svg" alt="Quantum Simulation">
+        <div class="topic-body">
+          <h3>Quantum Simulation</h3>
+          <p>We design analog and digital photonic simulators for quantum dynamics and optimization. Emphasis is on noise-aware resource counts, expressivity, and mappings that make near-term simulations scientifically meaningful.</p>
+        </div>
+      </article>
+
+      <!-- New: Quantum communications -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/comms.svg" alt="Quantum communications">
+        <div class="topic-body">
+          <h3>Quantum Communications</h3>
+          <p>From QKD to entanglement-assisted networks, we investigate protocols, error models, and hardware links (fiber/free-space) to deliver secure and high-rate quantum channels compatible with existing infrastructure.</p>
+        </div>
+      </article>
+
+      <!-- New: Photonic quantum information processing -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/photonic-qip.svg" alt="Photonic quantum information processing">
+        <div class="topic-body">
+          <h3>Photonic Quantum Information Processing</h3>
+          <p>We build photonic circuits for state preparation, linear optics transformations, and measurement—targeting fault-tolerant building blocks, active feedforward, and scalable chip-level architectures.</p>
+        </div>
+      </article>
+
+      <!-- New: Ultrafast quantum photonics -->
+      <article class="topic-card">
+        <img class="topic-img" src="assets/img/research/ultrafast.svg" alt="Ultrafast quantum photonics">
+        <div class="topic-body">
+          <h3>Ultrafast Quantum Photonics</h3>
+          <p>We use femtosecond control to sculpt quantum states in time–frequency modes, enabling high-dimensional encodings, rapid state manipulation, and precise characterization of ultrafast quantum processes.</p>
+        </div>
       </article>
     </div>
   </section>
 </main>
+
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>© 2025 PQuIP Group.</p>
+    <p>© 2025 PQUIP Group.</p>
   </div>
 </footer>
 <script src="assets/js/main.js"></script>
