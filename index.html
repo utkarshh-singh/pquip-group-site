@@ -2,43 +2,61 @@
 <html lang="en">
 <head>
   <title>PQUIP Group</title>
+  <!-- Global head (fonts, base styles) remains as you have it -->
   <link rel="stylesheet" href="assets/css/home.css" />
 </head>
 <body>
-<div id="site-header"></div>
-<main class="container main-content">
-  <section class="hero">
-    <div>
+  <div id="site-header"></div>
+
+  <main class="container main-content">
+    <!-- Full image hero: set the image path here -->
+    <section class="hero-full" style="--hero-img: url('assets/img/group.JPG')" aria-label="PQuIP Group">
+      <!-- Bottom overlay with CTAs on top of the image -->
+      <div class="hero-overlay">
+        <div class="overlay-inner">
+          <nav class="hero-cta" aria-label="Primary quick links">
+            <a class="btn" href="people.html">Meet the Team</a>
+            <a class="btn-ghost" href="research.html">Our Research</a>
+            <a class="btn-ghost" href="publications.html">Publications</a>
+            <a class="btn-ghost" href="join.html">Open Positions</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- Text section below the image -->
+    <section class="home-intro">
       <h1>PQUIP Group</h1>
       <p class="tagline">Photonics • Quantum Information • Machine Learning</p>
-      <p class="lead">We explore quantum information science, photonics, and machine learning — from fundamental theory to practical applications.</p>
-      <div class="hero-cta">
-        <a class="btn" href="people.html">Meet the Team</a>
-        <a class="btn btn-ghost" href="research.html">Our Research</a>
-      </div>
-    </div>
-    <img class="hero-illustration" src="assets/img/group.JPG" alt="Quantum illustration"/>
-  </section>
+      <p class="lead">
+        We explore quantum information science, photonics, and machine learning — from
+        fundamental theory to practical applications. Our team spans experiment and theory,
+        with interests across quantum communications, light–matter interfaces, quantum
+        simulation, and photonic quantum information processing.
+      </p>
 
-  <section class="cards">
-    <article class="card">
-      <h3>News</h3>
-      <p>Lab updates, recent talks, and announcements.</p>
-      <a class="link" href="news.html">Read the latest →</a>
-    </article>
-    <article class="card">
-      <h3>Publications</h3>
-      <p>Peer-reviewed papers, preprints, and theses from the group.</p>
-      <a class="link" href="publications.html">Browse publications →</a>
-    </article>
-    <article class="card">
-      <h3>Open Positions</h3>
-      <p>Interested in joining? We welcome motivated students and postdocs.</p>
-      <a class="link" href="join.html">How to apply →</a>
-    </article>
-  </section>
-</main>
-<div id="site-footer"></div>
-<script src="assets/js/main.js"></script>
+      <!-- (Optional) Three quick cards below -->
+      <div class="cards">
+        <article class="card">
+          <h3>News</h3>
+          <p>Lab updates, recent talks, and announcements.</p>
+          <a class="link" href="news.html">Read the latest →</a>
+        </article>
+        <article class="card">
+          <h3>Publications</h3>
+          <p>Peer-reviewed papers, preprints, and theses from the group.</p>
+          <a class="link" href="publications.html">Browse publications →</a>
+        </article>
+        <article class="card">
+          <h3>Open Positions</h3>
+          <p>Motivated students and postdocs are welcome.</p>
+          <a class="link" href="join.html">How to apply →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
