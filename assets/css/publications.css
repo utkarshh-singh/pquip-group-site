@@ -49,3 +49,9 @@
 @media (max-width:820px){
   .toolbar{ grid-template-columns:1fr 1fr; grid-auto-rows:40px }
 }
+
+.authors-line{
+  color: var(--muted);
+  font-size: .95rem;
+  margin-top: -2px;
+}
