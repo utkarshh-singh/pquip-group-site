@@ -102,26 +102,23 @@
 .hero-full{
   position: relative;
   width: 100%;
-  min-height: clamp(360px, 60vh, 720px);
+  height: clamp(300px, 55vh, 520px); /* cap min/max */
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 12px 32px rgba(0,0,0,.12);
-  /* remove any background that may override an image */
   background: none !important;
 }
 
-/* absolutely fill the section */
 .hero-full .hero-bg{
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  /* keep rounded corners consistent */
+  object-fit: cover;  /* fill section */
+  object-position: center center; /* focus middle */
   border-radius: inherit;
   z-index: 0;
 }
-
 /* optional gradient at the bottom for legibility */
 .hero-full::after{
   content: "";
