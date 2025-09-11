@@ -1,0 +1,20 @@
+[
+  {
+    "image": "assets/img/projects/qkernel.png",
+    "title": "Resource-Efficient Quantum Feature Map",
+    "caption": "A data encoding scheme with reduced qubit and CNOT count and better noise robustness.",
+    "link": "https://arxiv.org/pdf/2507.03689"
+  },
+  {
+    "image": "assets/img/projects/cffqnn.png",
+    "title": "Coherent Feed-Forward Quantum Neural Network",
+    "caption": "A QNN with less resource requirement",
+    "link": "https://link.springer.com/article/10.1007/s42484-024-00222-8"
+  },
+  {
+    "image": "assets/img/utkarsh.png",
+    "title": "Quantum Computing Researcher & Physicist Interview",
+    "caption": "My Interview by TheInterviewPortal",
+    "link": "https://theinterviewportal.com/2025/01/24/quantum-computing-researcher-physicist-interview/"
+  }
+]
