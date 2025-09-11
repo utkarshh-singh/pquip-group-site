@@ -1,0 +1,99 @@
+/* Full-bleed hero image with bottom overlay CTAs */
+.hero-full {
+  /* Set the background image via inline style on the section:
+     style="--hero-img: url('assets/img/group.jpg')" */
+  --overlay-bg: rgba(22, 27, 34, 0.55);  /* dark translucent */
+  --overlay-border: rgba(255, 255, 255, 0.16);
+
+  position: relative;
+  width: 100%;
+  min-height: clamp(360px, 60vh, 720px);
+  background-image: var(--hero-img);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 16px;               /* soften edges within container */
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0,0,0,.12);
+}
+
+/* optional gradient at the bottom for legibility */
+.hero-full::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.35), transparent 35%);
+  pointer-events: none;
+}
+
+/* Bottom overlay bar */
+.hero-overlay {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-overlay .overlay-inner {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--overlay-bg);
+  border: 1px solid var(--overlay-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+
+  /* subtle glass effect when supported */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+/* Buttons (inherits your existing .btn styles if present) */
+.hero-cta {
+  display: inline-flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hero-cta .btn,
+.hero-cta .btn-ghost {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid var(--overlay-border);
+  box-shadow: 0 2px 6px rgba(0,0,0,.18);
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-cta .btn {
+  background: color-mix(in srgb, var(--brand) 75%, #111 25%);
+}
+
+.hero-cta .btn-ghost {
+  background: transparent;
+}
+
+.hero-cta .btn:hover,
+.hero-cta .btn-ghost:hover {
+  transform: translateY(-1px);
+}
+
+/* Space for the content below the image */
+.home-intro {
+  margin-top: 18px;
+}
+
+.home-intro .lead {
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+/* Make the hero edges flush on very small screens */
+@media (max-width: 680px){
+  .hero-full { border-radius: 12px; min-height: 50vh; }
+}
