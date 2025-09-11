@@ -19,7 +19,7 @@
     const ICONS = {
       linkedin: () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001 2.5 2.5 0 01.02-5zM3 8.98h3.96V21H3zM9.5 8.98H13v1.64h.05c.49-.93 1.69-1.9 3.48-1.9 3.72 0 4.41 2.45 4.41 5.64V21H17V14.8c0-1.47-.03-3.36-2.05-3.36-2.05 0-2.37 1.6-2.37 3.25V21H9.5z"/></svg>`,
       scholar:  () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L3 7l9 5 9-5-9-5zm0 7.5L6 6.17v3.66L12 13l6-3.17V6.17L12 9.5zM6 12.5V18l6 3 6-3v-5.5l-6 3-6-3z"/></svg>`,
-      github:   () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 000 12a11.5 11.5 0 008 11c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1 .1.8-.8 1.9-1.3-2.7-.3-5.5-1.4-5.5-6A4.7 4.7 0 014 7.1c-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.3 1.3A11.2 11.2 0 0112 4.7c1.1 0 2.2.2 3.2.5 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 3 .1 3.3.8.9 1.2 2 1.2 3.2 0 4.6-2.8 5.7-5.5 6 .9.7 1.9 2.2 1.9 4.4V22c0 .3.2.7.8.6A11.5 11.5 0 0024 12 11.5 11.5 0 0012 .5z"/></svg>`,
+      github:   () => `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 000 12a11.5 11.5 0 008 11c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.3-1.7-1.7-1.7-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1 .1.8-.8 1.9-1.3-2.7-.3-5.5-1.4-5.5-6A4.7 4.7 0 014 7.1c-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.3 1.3A11.2 11.2 0 0112 4.7c1.1 0 2.2.2 3.2.5 2.3-1.6 3.3-1.3 3.3-1.3.6 1.7.2 3 .1 3.3.8.9 1.2 2 1.2 3.2 0 4.6-2.8 5.7-5.5 6 .9.7 1.9 2.2 1.9 4.4V22c0 .3.2.7.8.6A11.5 11.5 0 0024 12 11.5 11.5 0 0012 .5z"/></svg>`,
       orcid:    () => `<svg viewBox="0 0 256 256"><circle cx="128" cy="128" r="120" fill="#A6CE39"/><path fill="#fff" d="M86 88h20v80H86zM96 64a12 12 0 110 24 12 12 0 010-24zm42 24c35 0 54 24 54 60 0 38-21 60-56 60h-26V88h28zm-8 104h6c24 0 36-16 36-44s-12-44-36-44h-6v88z"/></svg>`,
       globe:    () => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"></path></svg>`
     };
@@ -59,24 +59,38 @@
       const id=qs('id'); const root=document.getElementById('member-article');
       if(!id){ root.innerHTML='<div class="profile__body"><p>No member specified.</p></div>'; return; }
 
-      // metadata
-      let m=null; try{ m=(await (await fetch('members/index.json')).json()).members.find(x=>x.id===id)||null; }catch{}
+      /* ===== CHANGED: load per-folder profile.json instead of members/index.json ===== */
+      let m=null;
+      try{
+        const res = await fetch(`members/${encodeURIComponent(id)}/profile.json`);
+        if(res.ok) m = await res.json();
+      }catch{}
+
       const name=m?.name||'Member', role=m?.role||'', email=m?.email||'', phone=m?.phone||'',
             photo=m?.photo||'assets/img/person-placeholder.svg',
             orcid=m?.orcid?`https://orcid.org/${m.orcid}`:'', scholar=m?.scholar||'',
             linkedin=m?.linkedin||'', github=m?.github||'', website=m?.website||'',
             ssId=m?.semanticScholarId||'';
 
-      // member-authored template
+      /* ===== CHANGED: load per-folder page.html instead of members/<id>.html at root ===== */
       let parsed={about:'',interests:[],patents:[]};
-      try{ const r=await fetch(`members/${encodeURIComponent(id)}.html`); if(r.ok){ parsed=parseMemberSections(await r.text()); } }catch{}
+      try{
+        const r=await fetch(`members/${encodeURIComponent(id)}/page.html`);
+        if(r.ok){ parsed=parseMemberSections(await r.text()); }
+      }catch{}
 
       // pubs
-      let pubsAuto=''; if(ssId){ try{ const papers=await fetchSemanticScholarWorks(ssId,8);
-        pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3>${renderPubs(papers)}</div></div>`;
-      }catch{ pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3><p class="pub-meta">Publications temporarily unavailable.</p></div></div>`; } }
+      let pubsAuto='';
+      if(ssId){
+        try{
+          const papers=await fetchSemanticScholarWorks(ssId,8);
+          pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3>${renderPubs(papers)}</div></div>`;
+        }catch{
+          pubsAuto=`<div class="card card--highlight"><div class="card__inner"><h3 class="section__title">Recent Publications</h3><p class="pub-meta">Publications temporarily unavailable.</p></div></div>`;
+        }
+      }
 
-      // build interest cards
+      // research interests cards
       const interestGrid = parsed.interests.length ? `
         <div class="card card--highlight">
           <div class="card__inner">
