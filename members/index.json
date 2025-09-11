@@ -16,7 +16,7 @@
     {
       "id": "aaron",
       "name": "Aaron Z. Goldberg",
-      "role": "Research officer, NRC",
+      "role": "Research officer, National Research Council",
       "email": "aaron@example.com",
       "phone": "+1 (555) 123-4567",
       "photo": "assets/img/aaron.avif",
@@ -24,9 +24,37 @@
       "semanticScholarId": "51178031",
       "linkedin": "https://www.linkedin.com/in/aaron-goldberg-b46b35144/",
       "scholar": "https://scholar.google.com/citations?user=4ZJ9EtkAAAAJ&hl=en",
-      "github": "https://github.com/utkarshh-singh",
+      "github": "https://github.com/",
       "website": "https://uniweb.uottawa.ca/embed/profile/members/5424/topic?lang=en"
     },
+    {
+      "id": "anaelle",
+      "name": "Anaelle Hertz",
+      "role": "Research Associate — Quantum Information, National Research Council",
+      "email": "milica@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/anaelle.png",
+      "orcid": "0000-0002-9608-512X",
+      "semanticScholarId": "33965579",
+      "linkedin": "https://ca.linkedin.com/in/anaelle-hertz-25963973",
+      "scholar": "https://scholar.google.com/citations?user=a6mYMnwAAAAJ&hl=fr",
+      "github": "https://github.com/",
+      "website": "#"
+    },
+    {
+      "id": "milica",
+      "name": "Milica Banic",
+      "role": "Post Doc. — Photonics, National Research Council",
+      "email": "milica@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/milica.png",
+      "orcid": "0000-##",
+      "semanticScholarId": "2355424096",
+      "linkedin": "https://www.linkedin.com/",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=h2d14IYAAAAJ&view_op=list_works&sortby=pubdate",
+      "github": "https://github.com/",
+      "website": "#"
+    }
     {
       "id": "utkarsh",
       "name": "Utkarsh Singh",
@@ -40,6 +68,20 @@
       "scholar": "https://scholar.google.com/citations?user=zWTAuq0AAAAJ&hl=en",
       "github": "https://github.com/utkarshh-singh",
       "website": "https://uniweb.uottawa.ca/embed/profile/members/5424/topic?lang=en"
+    },
+    {
+      "id": "valerio",
+      "name": "Valerio Crescimanna",
+      "role": "PhD Candidate — Photonics Quantum Info., University of Ottawa",
+      "email": "milica@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/valerio.png",
+      "orcid": "0000-##",
+      "semanticScholarId": "2206148195",
+      "linkedin": "https://ca.linkedin.com/in/valerio-crescimanna",
+      "scholar": "#",
+      "github": "https://github.com/",
+      "website": "#"
     }
   ]
 }
