@@ -9,19 +9,22 @@
   const loadMoreWrap = $('#load-more-wrap');
 
   // CONFIG
-  const PER_MEMBER = 5;             // fetch this many latest papers per member
-  const PAGE_SIZE = 24;             // show N per page
-  const CACHE_TTL = 24 * 60 * 60 * 1000; // 1 day
+  const PER_MEMBER = 5;                 // how many per member to fetch
+  const PAGE_SIZE = 24;                 // render N at a time
+  const CACHE_TTL = 24 * 60 * 60 * 1000;// 1 day
 
-  let allPubs = [];   // merged list
+  let allPubs = [];   // merged array
   let filtered = [];
   let page = 0;
 
   // ---------- helpers ----------
   function normalizeTitle(t){ return (t||'').toLowerCase().replace(/\s+/g,' ').trim(); }
-  function paperKeyFromRaw(p){
-    const doi = p.externalIds?.DOI && String(p.externalIds.DOI).toLowerCase();
-    return doi ? `doi:${doi}` : `t:${normalizeTitle(p.title)}`;
+  function safeKeyFromRaw(p){
+    const doi = p?.externalIds?.DOI;
+    if (doi) return `doi:${String(doi).toLowerCase()}`;
+    const t = normalizeTitle(p?.title || '');
+    // guard: if title is empty, synthesize a unique key using year+random
+    return t ? `t:${t}` : `u:${(p?.year||'0')}:${Math.random().toString(36).slice(2,8)}`;
   }
   function cacheKey(id){ return `pubs:${id}`; }
   function getCache(id){
@@ -38,12 +41,12 @@
 
   async function loadManifest(){
     const r = await fetch('members/manifest.json', {cache:'no-store'});
-    if(!r.ok) throw new Error('manifest missing');
+    if(!r.ok) throw new Error('members/manifest.json missing');
     return r.json(); // ["khabat","aaron",...]
   }
   async function loadProfile(id){
     const r = await fetch(`members/${encodeURIComponent(id)}/profile.json`, {cache:'no-store'});
-    if(!r.ok) throw 0;
+    if(!r.ok) throw new Error(`profile missing for ${id}`);
     return r.json();
   }
 
@@ -52,7 +55,7 @@
     const fields = 'papers.title,papers.year,papers.venue,papers.url,papers.externalIds,papers.authors';
     const url = `https://api.semanticscholar.org/graph/v1/author/${encodeURIComponent(authorId)}?fields=${fields}`;
     const r = await fetch(url);
-    if(!r.ok) throw new Error(`S2 fail ${r.status}`);
+    if(!r.ok) throw new Error(`Semantic Scholar ${r.status}`);
     const j = await r.json();
     return (j.papers||[])
       .filter(Boolean)
@@ -62,15 +65,14 @@
 
   async function getMemberPubs(profile){
     const cached = getCache(profile.id);
-    if(cached) return cached; // cached as normalized array already
+    if(cached) return cached;
     if(!profile.semanticScholarId) return [];
     try{
       const raw = await fetchSemScholar(profile.semanticScholarId, PER_MEMBER);
-      // normalize
       const pubs = raw.map(p => ({
-        key: paperKeyFromRaw(p),
+        key: safeKeyFromRaw(p),
         title: p.title || '',
-        year: p.year || null,
+        year: p.year ?? null,
         venue: p.venue || '',
         url: (p.externalIds?.DOI ? `https://doi.org/${p.externalIds.DOI}` : p.url || '#'),
         authors: (p.authors || []).map(a => a.name || '').filter(Boolean),
@@ -78,7 +80,10 @@
       }));
       setCache(profile.id, pubs);
       return pubs;
-    }catch{ return []; }
+    }catch(e){
+      console.warn('[pubs] fetch failed for', profile.name, e);
+      return [];
+    }
   }
 
   // ---- Journal enrichment (Crossref / OpenAlex) with cache ----
@@ -114,18 +119,21 @@
       localStorage.setItem(jCacheKey(doi), JSON.stringify(enriched));
       item.venue = venue || item.venue;
       item.url   = url   || item.url;
-    }catch{}
+    }catch{/* ignore */}
     return item;
   }
 
   // ---------- aggregate & merge ----------
   async function loadAll(){
+    // load ids + profiles in parallel
     const ids = await loadManifest();
+    const profilePromises = ids.map(id => loadProfile(id).catch(e => (console.warn('[pubs] profile load failed', id, e), null)));
+    const profiles = (await Promise.all(profilePromises)).filter(Boolean);
 
-    // load profiles
-    const profiles = [];
-    for(const id of ids){
-      try{ profiles.push(await loadProfile(id)); }catch{}
+    if (!profiles.length){
+      resultsEl.innerHTML = `<p>No member profiles found.</p>`;
+      console.warn('[pubs] No profiles loaded. Check members/manifest.json and profile.json files.');
+      return;
     }
 
     // member filter
@@ -139,27 +147,45 @@
       aliases: [p.name.toLowerCase(), ...(p.aliases||[]).map(a=>a.toLowerCase())]
     }));
 
-    // merged map
-    const merged = new Map(); // key -> item
+    // fetch pubs for all members in parallel
+    const pubsByMember = await Promise.all(
+      profiles.map(p => getMemberPubs(p).then(arr => ({profile: p, pubs: arr})))
+    );
 
-    for(const p of profiles){
-      const pubs = await getMemberPubs(p);
-      for(const pub of pubs){
-        const key = pub.key;
-        if(!merged.has(key)){
+    // merge by key; if collision on same key but different title, make a unique fallback key
+    const merged = new Map(); // key -> item
+    for (const {profile, pubs} of pubsByMember){
+      for (const pub of pubs){
+        let key = pub.key || `u:${Math.random().toString(36).slice(2,8)}`;
+        if (merged.has(key)) {
+          const existing = merged.get(key);
+          const titlesDifferent = normalizeTitle(existing.title) !== normalizeTitle(pub.title);
+          if (titlesDifferent) {
+            // synthesize new key to avoid accidental merge
+            key = `t:${normalizeTitle(pub.title)}:${Math.random().toString(36).slice(2,6)}`;
+          }
+        }
+        if (!merged.has(key)) {
           merged.set(key, {
             title: pub.title,
             year: pub.year || null,
             venue: pub.venue || '',
             url: pub.url || '#',
             rawAuthors: pub.authors || [],
-            groupAuthors: [] // to be filled
+            groupAuthors: []
           });
+        } else {
+          // Optionally upgrade venue/url if better
+          const it = merged.get(key);
+          if ((!it.venue || /arxiv/i.test(it.venue)) && pub.venue) it.venue = pub.venue;
+          if (it.url?.startsWith('#') && pub.url) it.url = pub.url;
+          // merge author list
+          it.rawAuthors = Array.from(new Set([...(it.rawAuthors||[]), ...(pub.authors||[])]));
         }
       }
     }
 
-    // compute group co-authors (match profile aliases to raw authors)
+    // compute group co-authors
     for(const [k, item] of merged.entries()){
       const lowers = (item.rawAuthors||[]).map(a=>a.toLowerCase());
       const matches = PROFILES.filter(pr => pr.aliases.some(alias => lowers.includes(alias)))
@@ -175,7 +201,6 @@
     const years = [...new Set(allPubs.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
     yearSel.innerHTML = `<option value="">All years</option>` + years.map(y=>`<option value="${y}">${y}</option>`).join('');
 
-    // first render
     await applyFilters(true);
   }
 
@@ -215,12 +240,13 @@
     filtered = allPubs.filter(p=>{
       const okM = !m || (p.groupAuthors||[]).some(g=>g.id===m);
       const okY = !y || String(p.year||'') === y;
-      const okQ = !q || (p.title||'').toLowerCase().includes(q) || (p.venue||'').toLowerCase().includes(q) ||
-                  (p.groupAuthors||[]).some(g=>g.name.toLowerCase().includes(q));
+      const okQ = !q || (p.title||'').toLowerCase().includes(q) ||
+                         (p.venue||'').toLowerCase().includes(q) ||
+                         (p.groupAuthors||[]).some(g=>g.name.toLowerCase().includes(q));
       return okM && okY && okQ;
     });
 
-    // Enrich first few with Crossref/OpenAlex to replace arXiv with journal where possible
+    // Enrich first batch so arXiv becomes journal when possible
     const toEnrich = filtered.slice(0, 12);
     await Promise.all(toEnrich.map(enrichJournalFor));
 
