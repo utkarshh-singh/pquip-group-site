@@ -1,0 +1,84 @@
+/* Research page specific styles */
+
+:root{
+  /* tweak as you like */
+  --topic-radius: 14px;
+  --topic-shadow: 0 2px 6px rgba(0,0,0,.06);
+  --topic-shadow-hover: 0 10px 22px rgba(0,0,0,.12);
+  --topic-gap: 18px;
+  --topic-img-h: 160px;
+}
+
+/* section spacing */
+.space-lg{ margin-top:28px }
+
+/* softer hero on research page (optional) */
+.hero--soft{ background:#fff }
+
+/* grid of topics */
+.topics-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:var(--topic-gap);
+}
+
+/* topic card */
+.topic-card{
+  display:flex; flex-direction:column;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--topic-radius);
+  overflow:hidden;
+  box-shadow:var(--topic-shadow);
+  transform:translateZ(0); /* create own layer for smoother hover */
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+/* image */
+.topic-img{
+  width:100%;
+  height:var(--topic-img-h);
+  object-fit:cover;
+  background:#f1f3f5;
+  display:block;
+  border-bottom:1px solid var(--line);
+}
+
+/* body */
+.topic-body{ padding:14px }
+.topic-body h3{ margin:0 0 6px; color:var(--brand) }
+.topic-body p{ margin:0; color:var(--text) }
+
+/* hover & focus highlight */
+.topic-card:hover,
+.topic-card:focus-within{
+  transform:scale(1.03);
+  box-shadow:var(--topic-shadow-hover);
+  border-color:color-mix(in srgb, var(--brand) 25%, var(--line));
+}
+
+/* make entire card “clickable” affordance if wrapped in a link */
+.topic-card a.stretched{
+  position:relative;
+  z-index:0;
+}
+.topic-card a.stretched::after{
+  content:"";
+  position:absolute; inset:0; z-index:1;
+}
+
+/* accessibility: reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce){
+  .topic-card{ transition:none }
+  .topic-card:hover,
+  .topic-card:focus-within{ transform:none }
+}
+
+/* small screens */
+@media (max-width: 800px){
+  .topics-grid{ grid-template-columns:1fr }
+  :root{ --topic-img-h: 140px }
+}
