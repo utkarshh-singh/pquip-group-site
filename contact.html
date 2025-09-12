@@ -1,24 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact — PQuIP Group</title>
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Contact — PQUIP Group</title>
+  <link rel="stylesheet" href="assets/css/contact.css" />
 </head>
 <body>
-<div id="site-header"></div>
-<main class="container main-content">
-  <section>
-    <h1>Contact</h1>
-    <p>Email: <a href="mailto:placeholder@example.com">placeholder@example.com</a></p>
-    <p>Address: Department / Institute · City · Country</p>
-    <p>Social: <a href="#" target="_blank" rel="noopener">Twitter/X</a> · <a href="#" target="_blank" rel="noopener">LinkedIn</a></p>
-  </section>
-</main>
-<div id="site-header"></div>
-<script src="assets/js/main.js"></script>
+  <div id="site-header"></div>
+
+  <main class="container main-content contact">
+
+    <!-- HERO / INTRO -->
+    <section class="contact-hero">
+      <h1>Contact the PQUIP Group</h1>
+      <p class="lede">
+        We’re based at the National Research Council of Canada and the University of Ottawa.
+        For questions about research, collaborations, media, or joining the group, use the contacts below.
+      </p>
+      <div class="hero-tags" aria-hidden="true">
+        <span>Quantum Photonics</span><span>Quantum Information</span><span>ML for Quantum</span>
+      </div>
+    </section>
+
+    <!-- CONTACT CARDS -->
+    <section class="contact-grid" aria-labelledby="reachout">
+      <h2 id="reachout" class="sr-only">Reach out</h2>
+
+      <article class="card">
+        <h3>General Inquiries</h3>
+        <p>For collaborations, talks, or general questions.</p>
+        <div class="list">
+          <a class="chip" href="mailto:placeholder@example.com">placeholder@example.com</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Prospective Students & Postdocs</h3>
+        <p>Interested in joining? See requirements and funding on our Join page.</p>
+        <div class="list">
+          <a class="chip" href="join.html">How to apply →</a>
+          <a class="chip" href="mailto:placeholder@example.com?subject=Prospective%20Applicant%20-%20Your%20Name">Email admissions</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Media & Outreach</h3>
+        <p>Press, interviews, and public outreach requests.</p>
+        <div class="list">
+          <a class="chip" href="mailto:placeholder@example.com?subject=Media%20Request">Media contact</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ADDRESS + MAP -->
+    <section class="location" aria-labelledby="visit">
+      <div class="location-head">
+        <h2 id="visit">Visit Us</h2>
+        <p class="muted">National Research Council Canada — 100 Sussex Dr, Ottawa, ON K1A 0R6</p>
+      </div>
+
+      <div class="location-grid">
+        <div class="address card">
+          <h3>Address</h3>
+          <address>
+            National Research Council Canada<br/>
+            100 Sussex Dr<br/>
+            Ottawa, ON K1A 0R6<br/>
+            Canada
+          </address>
+
+          <div class="btn-row">
+            <a class="btn-ghost" target="_blank"
+               href="https://www.google.com/maps/dir/?api=1&destination=100+Sussex+Dr%2C+Ottawa%2C+ON">Directions</a>
+            <a class="btn-ghost" target="_blank"
+               href="https://www.google.com/maps/place/100+Sussex+Dr,+Ottawa,+ON+K1A+0R6">Open in Maps</a>
+          </div>
+
+          <ul class="travel">
+            <li><strong>Transit:</strong> Local bus routes stop near Sussex Dr / Global Affairs. Short walk to NRC campus.</li>
+            <li><strong>Parking:</strong> Visitor parking available; check signage at entry.</li>
+            <li><strong>Accessibility:</strong> Accessible entrances are signed at the main building.</li>
+          </ul>
+        </div>
+
+        <div class="map card" aria-label="Map of 100 Sussex Dr, Ottawa">
+          <iframe
+            title="NRC — 100 Sussex Dr, Ottawa"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=100%20Sussex%20Dr%2C%20Ottawa%2C%20ON&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK FAQ -->
+    <section class="faq" aria-labelledby="faq">
+      <h2 id="faq">FAQ</h2>
+      <details>
+        <summary>Do I need an appointment to visit?</summary>
+        <p>Yes—please email us in advance. NRC facilities require visitor clearance and sign-in at reception.</p>
+      </details>
+      <details>
+        <summary>Where should I send application materials?</summary>
+        <p>Follow the instructions on <a href="join.html">Join</a>. For general interest, one PDF (CV, statement, transcripts) is ideal.</p>
+      </details>
+      <details>
+        <summary>Do you host short-term research visits or internships?</summary>
+        <p>Yes—summer, co-op, and visiting internships are common. Please reach out 3–5 months in advance.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
