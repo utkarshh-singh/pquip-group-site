@@ -31,19 +31,25 @@
 
 /* logo treatment: consistent size, grayscale with gentle hover */
 .footer-logos img{
-  height: 24px;                 /* adjust logo height here */
+  height: 32px;             /* larger size for visibility */
   width: auto;
   display:block;
-  filter: grayscale(100%) brightness(92%);
-  opacity: .85;
-  transition: filter .2s ease, opacity .2s ease, transform .2s ease;
+  opacity: .95;             /* almost full brightness */
+  filter: brightness(0) invert(1);             /* remove grayscale */
+  transition: transform .2s ease, opacity .2s ease;
 }
+
 .footer-logos a:hover img{
+  opacity: 1;
+  transform: scale(1.05);   /* subtle pop effect */
+}
+
+/* .footer-logos a:hover img{
   filter: grayscale(0%) brightness(100%);
   opacity: 1;
   transform: translateY(-1px);
 }
-
+ */
 /* ----- Main footer ----- */
 .footer-main{
   background: var(--footer-bg);
