@@ -17,25 +17,27 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
-        run: python -m pip install --upgrade pip requests
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
-      # 1) Update members/<id>/publications.json (supports multiple S2 IDs)
+      # 1) Refresh publications from S2 (your existing script that supports multi-IDs)
       - name: Generate member publications JSON
         run: python tools/s2_to_member_json.py
 
-      # 2) Build homepage auto highlights from this year's publications
-      - name: Build homepage highlights (auto)
+      # 2) Build homepage auto highlights (with Open Graph images)
+      - name: Build homepage highlights (OG images)
         run: python tools/build_highlights.py
 
-      # 3) Commit any changes (pubs + auto highlights)
+      # 3) Commit any changes
       - name: Commit changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add members/**/publications.json data/highlights.auto.json
-            git commit -m "chore: update publications + homepage highlights"
+            git commit -m "chore: update publications + auto highlights (OG images)"
             git push
           else
             echo "No changes."
