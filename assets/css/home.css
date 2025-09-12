@@ -192,6 +192,12 @@
   color: #334155; /* slate-700 */
   margin: 6px 0 14px 0;
 }
+.intro-lede{
+  text-align: justify;          /* main toggle */
+  text-justify: inter-word;     /* better spacing for justified text */
+  hyphens: auto;                /* allow soft hyphens on narrow screens */
+  hanging-punctuation: first;   /* slightly nicer start-of-line punctuation (supported browsers) */
+}
 
 .intro-points{
   display: grid; gap: 8px;
