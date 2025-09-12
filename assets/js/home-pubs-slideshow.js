@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let index = 0;            // index of the first visible card
   let perView = 4;          // how many fit in viewport
   let total = 0;            // total cards
-  let gap = 12;             // MUST match CSS
+  const GAP = 12;           // MUST match CSS
   let timer;
 
   function computePerView(){
@@ -53,43 +53,63 @@ document.addEventListener('DOMContentLoaded', () => {
     perView = w < 720 ? 2 : (w < 980 ? 3 : 4);
   }
 
+  function maxStart(){
+    return Math.max(0, total - perView);
+  }
+
   function updateTransform(){
     const card = track.querySelector('.yp-card');
     if (!card) return;
     const w = card.getBoundingClientRect().width;
-    const offset = (w + gap) * index;
+    const offset = (w + GAP) * index;
     track.style.transform = `translateX(${-offset}px)`;
   }
 
-  function clampIndex(i){
-    // Stop at last fully-visible start (wrap to 0)
-    const maxStart = Math.max(0, total - perView);
-    if (i > maxStart) return 0;                  // wrap to start for continuous feel
-    if (i < 0) return maxStart;                  // wrap to end on prev
-    return i;
+  // Advance one; autoplay wraps only *after* showing the last row
+  function next(auto=false){
+    const limit = maxStart();
+    if (index < limit){
+      index += 1;
+    } else if (auto){
+      index = 0;                   // wrap only on autoplay
+    } else {
+      index = limit;               // clamp on manual click
+    }
+    updateTransform();
   }
 
-  function next(){ index = clampIndex(index + 1); updateTransform(); }
-  function prev(){ index = clampIndex(index - 1); updateTransform(); }
-  function resetTimer(){ clearInterval(timer); timer = setInterval(next, 5000); }
+  function prev(auto=false){
+    const limit = maxStart();
+    if (index > 0){
+      index -= 1;
+    } else if (auto){
+      index = limit;               // wrap only on autoplay
+    } else {
+      index = 0;                   // clamp on manual click
+    }
+    updateTransform();
+  }
+
+  function resetTimer(){ clearInterval(timer); timer = setInterval(() => next(true), 5000); }
 
   // Buttons
   const prevBtn = document.querySelector('.yp-prev');
   const nextBtn = document.querySelector('.yp-next');
-  prevBtn.addEventListener('click', ()=>{ prev(); resetTimer(); });
-  nextBtn.addEventListener('click', ()=>{ next(); resetTimer(); });
+  prevBtn.addEventListener('click', ()=>{ prev(false); resetTimer(); });
+  nextBtn.addEventListener('click', ()=>{ next(false); resetTimer(); });
 
   // Pause on hover
   const carousel = document.querySelector('.year-pubs__carousel');
   carousel.addEventListener('mouseenter', ()=> clearInterval(timer));
   carousel.addEventListener('mouseleave', resetTimer);
 
-  // Recompute on resize (keep current first index in range)
+  // Recompute on resize
   window.addEventListener('resize', () => {
     const before = perView;
     computePerView();
     if (before !== perView){
-      index = clampIndex(index);
+      // keep current *first* item visible, clamp to new bounds
+      index = Math.min(index, maxStart());
       updateTransform();
     }
   });
