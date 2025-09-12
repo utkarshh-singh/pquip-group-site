@@ -20,17 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Build one card
   function cardHTML(item){
+    // We now expect the builder to provide a proper OG image URL in item.image.
+    // Still keep a local fallback in case the remote image 404s later.
     const img = item.image || 'assets/img/pubs/paper-generic.jpg';
     const title = (item.title || '').replace(/"/g,'&quot;');
     const url = item.url || '#';
     return `
       <figure class="yp-card">
         <a href="${url}" target="_blank" rel="noopener" title="${title}">
-          <img src="${img}" alt="">
+          <img src="${img}" alt="" loading="lazy" onerror="this.src='assets/img/pubs/paper-generic.jpg'">
           <figcaption>${item.title || ''}</figcaption>
         </a>
       </figure>`;
   }
+
 
   // ---- carousel wiring ----
   let slideIndex = 0, pages = 1, perView = 4, timer;
@@ -120,18 +123,3 @@ document.addEventListener('DOMContentLoaded', () => {
     render(picks);
   })();
 });
-// Build one card
-function cardHTML(item){
-  // We now expect the builder to provide a proper OG image URL in item.image.
-  // Still keep a local fallback in case the remote image 404s later.
-  const img = item.image || 'assets/img/pubs/paper-generic.jpg';
-  const title = (item.title || '').replace(/"/g,'&quot;');
-  const url = item.url || '#';
-  return `
-    <figure class="yp-card">
-      <a href="${url}" target="_blank" rel="noopener" title="${title}">
-        <img src="${img}" alt="" loading="lazy" onerror="this.src='assets/img/pubs/paper-generic.jpg'">
-        <figcaption>${item.title || ''}</figcaption>
-      </a>
-    </figure>`;
-}
