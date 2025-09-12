@@ -1,0 +1,17 @@
+{
+      "id": "alex",
+      "name": "Alex",
+      "aliases": ["#"],
+      "role": "PhD Student, University of Ottawa",
+      "email": "alex@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/alex.jpg",
+      "orcid": "0000-0002-#",
+      "semanticScholarId": "#",
+      "categories": ["Quantum Optimal Transport"],
+      "linkedin": "https://www.linkedin.com/",
+      "scholar": "",
+      "scholarUser": "#",      
+      "github": "https://github.com/",
+      "website": "#"
+    }
