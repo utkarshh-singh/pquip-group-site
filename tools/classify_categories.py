@@ -35,7 +35,6 @@ def norm_doi(s: str) -> str:
     s = norm(s).lower()
     if not s:
         return s
-    # normalize common DOI forms
     if s.startswith("https://doi.org/"):
         s = s.replace("https://doi.org/", "")
     if s.startswith("doi:"):
@@ -115,11 +114,17 @@ def pick_categories(pub: dict) -> list[str]:
 # ---------- Main ----------
 
 def main():
-    # Optional manual overrides
+    # Optional manual overrides (robust to empty/invalid file)
     overrides = {}
     if OVERRIDES_PATH.exists():
-        with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
-            overrides = json.load(f)
+        try:
+            text = OVERRIDES_PATH.read_text(encoding="utf-8").strip()
+            if text:
+                overrides = json.loads(text)
+            else:
+                print(f"[warn] {OVERRIDES_PATH} is empty; using no overrides.")
+        except Exception as e:
+            print(f"[warn] could not parse {OVERRIDES_PATH}: {e}; using no overrides.")
 
     out = {}
     files = glob.glob(str(MEMBERS_DIR / "*" / "publications.json"))
@@ -127,8 +132,7 @@ def main():
 
     for path in files:
         try:
-            with open(path, "r", encoding="utf-8") as f:
-                pubs = json.load(f)
+            pubs = json.loads(Path(path).read_text(encoding="utf-8"))
         except Exception as e:
             print(f"[warn] skipped {path}: {e}")
             continue
@@ -144,9 +148,7 @@ def main():
 
             out[key] = pick_categories(p)
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
-
+    OUTPUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok] wrote {OUTPUT_PATH} with {len(out)} entries.")
 
 if __name__ == "__main__":
