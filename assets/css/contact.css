@@ -26,6 +26,18 @@
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin-bottom: 24px;
+  align-items: stretch; /* ensures equal height */
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes button(s) to bottom */
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
 }
 .card{
   background:#fff;
