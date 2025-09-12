@@ -13,6 +13,49 @@
   display:grid; grid-template-columns:1fr 140px 220px 220px 100px;
   gap:10px; margin-top:12px;
 }
+
+
+/* --- Toolbar: make Clear always visible and accessible --- */
+.toolbar .btn {                 /* keep your base .btn */
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+/* specific style for the Clear button */
+.toolbar .btn-clear{
+  background: #f1f5f9;                       /* light slate */
+  border: 1px solid rgba(15,23,42,.18);
+  color: #0f172a;                             /* readable text */
+  border-radius: 10px;
+}
+
+.toolbar .btn-clear:hover{
+  background: #e2e8f0;
+}
+
+.toolbar .btn-clear:focus{
+  outline: 2px solid #94a3b8;
+  outline-offset: 2px;
+}
+
+/* ensure inputs/selects don’t look disabled next to the button */
+.toolbar input,
+.toolbar select{
+  background: #fff;
+  color: var(--text);
+}
+
+/* optional: placeholder contrast */
+.toolbar input::placeholder{
+  color: color-mix(in srgb, var(--muted) 70%, #000 30%);
+}
+
+
 .toolbar input,.toolbar select,.toolbar .btn{
   height:40px; border:1px solid var(--line); border-radius:10px; padding:0 10px; background:#fff;
 }
@@ -62,23 +105,3 @@
   .toolbar{ grid-template-columns:1fr 1fr; grid-auto-rows:40px }
   .pub-grid{ grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); }
 }
-
-
-
-/* Filter bar */
-.filters { display:flex; gap:10px; align-items:center; }
-
-/* Make the Clear button always visible */
-.filters .clear-btn{
-  appearance:none;
-  border:1px solid rgba(15,23,42,.18);
-  background:#f1f5f9;                 /* light slate */
-  color:#0f172a;
-  font-weight:600;
-  padding:8px 12px;
-  border-radius:10px;
-  cursor:pointer;
-  box-shadow:0 2px 6px rgba(15,23,42,.10);
-}
-.filters .clear-btn:hover{ background:#e2e8f0; }
-.filters .clear-btn:focus{ outline:2px solid #94a3b8; outline-offset:2px; }
