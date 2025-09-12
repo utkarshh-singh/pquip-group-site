@@ -356,11 +356,11 @@
 
 .logo-grid{
   display:grid;
-  gap:14px;                               /* was 10px */
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));  /* was 72px */
+  gap:18px;                               /* was 14px */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));  /* was 110px */
   align-items:center;
   justify-items:center;
-  min-height:88px;                        /* gives the card some breathing room */
+  min-height:110px;                        /* gives the card some breathing room */ /* was 88px */
 }
 
 /* Logo sizing & visibility */
