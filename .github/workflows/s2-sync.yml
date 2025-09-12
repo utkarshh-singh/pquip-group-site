@@ -20,16 +20,22 @@ jobs:
       - name: Install deps
         run: python -m pip install --upgrade pip requests
 
+      # 1) Update members/<id>/publications.json (supports multiple S2 IDs)
       - name: Generate member publications JSON
         run: python tools/s2_to_member_json.py
 
+      # 2) Build homepage auto highlights from this year's publications
+      - name: Build homepage highlights (auto)
+        run: python tools/build_highlights.py
+
+      # 3) Commit any changes (pubs + auto highlights)
       - name: Commit changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add members/**/publications.json
-            git commit -m "chore: update publications.json from Semantic Scholar"
+            git add members/**/publications.json data/highlights.auto.json
+            git commit -m "chore: update publications + homepage highlights"
             git push
           else
             echo "No changes."
