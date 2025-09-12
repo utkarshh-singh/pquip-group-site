@@ -31,8 +31,8 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/publication_categories.json
-            git commit -m "chore: update publication_categories.json"
+            git add data/publication_categories.json data/publication_categories_verbose.json
+            git commit -m "chore: update publication category maps (simple + verbose)"
             git push
           else
             echo "No changes."
