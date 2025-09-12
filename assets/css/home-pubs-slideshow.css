@@ -1,0 +1,92 @@
+.year-pubs{
+  margin-top: 28px;
+}
+.year-pubs__head{
+  display:flex; align-items:baseline; gap:12px; margin-bottom:10px;
+}
+.year-pubs__head .muted{ color: var(--muted, #6b7280); }
+
+.year-pubs__carousel{
+  position: relative;
+  background: #0b1220;                 /* deep canvas to make images pop */
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 12px 42px;                   /* space for nav buttons */
+  overflow: hidden;
+}
+
+.yp-viewport{
+  overflow: hidden;
+}
+.yp-track{
+  display:flex; gap: 10px;
+  transition: transform .45s ease;
+  will-change: transform;
+  padding: 4px 0;
+}
+
+/* publication card */
+.yp-card{
+  position: relative;
+  flex: 0 0 calc((100% - 30px) / 4);    /* 4 per view on desktop */
+  height: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,.18);
+  background: #111827;
+}
+.yp-card img{
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  display:block;
+}
+.yp-card figcaption{
+  position: absolute; left: 6px; right: 6px; bottom: 6px;
+  background: linear-gradient(to top, rgba(0,0,0,.45), rgba(0,0,0,.05));
+  color: #e5e7eb;
+  font-size: .76rem;                    /* tiny caption */
+  line-height: 1.25;
+  padding: 6px 7px;
+  border-radius: 8px;
+  max-height: 46%;                      /* never covers too much */
+  overflow: hidden; text-overflow: ellipsis;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+}
+
+/* nav buttons */
+.yp-btn{
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.35);
+  color: #fff; background: rgba(255,255,255,.08);
+  display:flex; align-items:center; justify-content:center;
+  cursor: pointer; z-index: 2;
+  transition: background .15s ease, transform .15s ease, opacity .15s ease;
+}
+.yp-btn:hover{ background: rgba(255,255,255,.18); transform: translateY(-50%) scale(1.06); }
+.yp-prev{ left: 8px; }
+.yp-next{ right: 8px; }
+
+/* dots */
+.yp-dots{
+  display:flex; gap:8px; justify-content:center; margin-top:10px;
+}
+.yp-dots button{
+  width:8px; height:8px; border-radius:50%; border:none;
+  background:#98a2b3; opacity:.45;
+  transition: transform .15s ease, opacity .15s ease;
+}
+.yp-dots button.active{ opacity:1; transform: scale(1.25); }
+
+/* responsive: 3 per view tablet, 2 on small screens */
+@media (max-width: 980px){
+  .yp-card{ flex: 0 0 calc((100% - 20px) / 3); height: 160px; }
+}
+@media (max-width: 680px){
+  .year-pubs__carousel{ padding: 12px 36px; }
+  .yp-card{ flex: 0 0 calc((100% - 10px) / 2); height: 150px; }
+  .yp-btn{ width: 30px; height: 30px; }
+}
+@media (max-width: 420px){
+  .yp-card{ height: 140px; }
+}
