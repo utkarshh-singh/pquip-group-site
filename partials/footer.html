@@ -1,24 +1,45 @@
-<footer class="site-footer">
-  <!-- NEW thin strip -->
+<footer class="site-footer" role="contentinfo">
+  <!-- Thin partner strip -->
   <div class="footer-strip">
-    <div class="footer-address">
-      <p>National Research Council Canada<br>
-         100 Sussex Dr, Ottawa, ON K1A 0R6</p>
-    </div>
-    <div class="footer-logos">
-      <a href="https://www.uottawa.ca/" target="_blank" rel="noopener">
-        <img src="assets/img/uOttawa_logo.png" alt="University of Ottawa" />
-      </a>
-      <a href="https://nrc.canada.ca/" target="_blank" rel="noopener">
-        <img src="assets/img/nrc_logo.png" alt="National Research Council Canada" />
-      </a>
-      <a href="https://nexqt.org/" target="_blank" rel="noopener">
-        <img src="assets/img/NEXQT_Logo.png" alt="NEXQT" />
-      </a>
+    <div class="container footer-strip__inner">
+      <address class="footer-address">
+        National Research Council Canada<br>
+        100 Sussex Dr, Ottawa, ON K1A 0R6
+      </address>
+
+      <ul class="footer-logos" aria-label="Partner logos">
+        <li>
+          <a href="https://www.uottawa.ca/" target="_blank" rel="noopener" aria-label="University of Ottawa">
+            <img src="assets/img/uOttawa_logo.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://nrc.canada.ca/" target="_blank" rel="noopener" aria-label="National Research Council Canada">
+            <img src="assets/img/nrc_logo.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://nexqt.org/" target="_blank" rel="noopener" aria-label="NEXQT">
+            <img src="assets/img/NEXQT_Logo.png" alt="">
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
-  <!-- Existing footer content -->
+
+  <!-- Main footer -->
   <div class="footer-main">
-    <p>&copy; <span id="year"></span>2025 PQUIP Group. Built by Utkarsh with ❤️</p>
+    <div class="container footer-main__inner">
+      <p class="copyright">
+        &copy; <span id="year"></span> PQUIP Group. Built by Utkarsh with <span aria-hidden="true">❤️</span>
+      </p>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="join.html">Join</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </div>
 </footer>
