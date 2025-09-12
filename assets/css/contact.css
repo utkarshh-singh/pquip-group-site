@@ -95,3 +95,55 @@
   .contact-grid{ grid-template-columns: 1fr; }
   .contact-hero{ padding:18px; }
 }
+/* Section wrapper */
+.contact-section {
+  margin: 40px 0;
+}
+
+/* Grid layout matching Visit Us */
+.contact-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Contact card styling (same as Visit Us cards) */
+.contact-card {
+  background: #fff;
+  border: 1px solid rgba(15,23,42,0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(15,23,42,0.06);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 160px;  /* uniform height */
+}
+
+.contact-card h3 {
+  margin: 0 0 10px;
+  color: #0f766e; /* teal accent */
+  font-size: 1.1rem;
+}
+
+.contact-card p {
+  color: #475569; /* slate-600 */
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+}
+
+/* Buttons / links */
+.contact-card a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #111827;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.contact-card a:hover {
+  background: #e2e8f0;
+  transform: translateY(-1px);
+}
