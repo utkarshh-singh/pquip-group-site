@@ -76,3 +76,51 @@
 @media (max-width: 900px){
   .people-lede{ font-size:1rem; line-height:1.7; }
 }
+/* ===== People: intro band ===== */
+
+.people-intro{
+  margin: 8px 0 18px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(15,23,42,.10);
+  background: linear-gradient(180deg, rgba(241,245,249,.55), rgba(241,245,249,.32));
+  box-shadow: 0 10px 28px rgba(15,23,42,.06);
+}
+
+.people-intro__head{
+  display:flex; align-items:center; justify-content:space-between;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 8px;
+}
+.people-intro__head h2{
+  margin:0; font-size: 1.15rem; color:#0f172a;
+  letter-spacing:.2px;
+}
+
+/* pill list */
+.people-tags{
+  display:flex; gap:8px; flex-wrap:wrap; margin:0; padding:0; list-style:none;
+}
+.people-tags li{
+  padding:6px 10px; border-radius:999px;
+  background: rgba(2,132,199,.10);
+  border:1px solid rgba(2,132,199,.28);
+  color:#065f46; font-weight:600; font-size:.9rem;
+}
+
+/* readable measure + refined typography */
+.people-lede{
+  color:#334155;               /* slate-700 */
+  font-size:1.05rem;
+  line-height:1.75;
+  letter-spacing:-.005em;
+  max-width: 68ch;             /* elegant column width */
+  margin: 2px 0 0;
+  text-wrap: pretty;
+  hyphens:auto;
+  font-feature-settings:"liga","kern","onum";
+}
+
+/* compact on small screens */
+@media (max-width: 900px){
+  .people-lede{ font-size:1rem; line-height:1.7; }
+}
