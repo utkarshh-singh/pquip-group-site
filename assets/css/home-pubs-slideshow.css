@@ -6,8 +6,8 @@
 /* Carousel wrapper — soft, neutral panel that matches the site */
 .year-pubs__carousel{
   position: relative;
-  background: rgba(15,23,42,0.05);          /* subtle slate tint */
-  border: 1px solid rgba(15,23,42,0.08);
+  background: rgba(15,23,42,0.07);          /* subtle slate tint */
+  border: 1px solid rgba(15,23,42,0.09);
   border-radius: 16px;
   padding: 12px 42px;                        /* room for arrows */
   box-shadow: 0 8px 24px rgba(15,23,42,0.06);
