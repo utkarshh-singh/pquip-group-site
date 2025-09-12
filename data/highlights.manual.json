@@ -1,0 +1,23 @@
+{
+  "updated_at": 0,
+  "items": [
+    {
+      "type": "talk",
+      "title": "Invited talk — Quantum Machine Learning",
+      "date": "2025-02-12",
+      "year": 2025,
+      "url": "https://example.com/talk-slides",
+      "image": "assets/img/highlights/talk-qml.jpg",
+      "tags": ["Talk", "QML"]
+    },
+    {
+      "type": "presentation",
+      "title": "Group tutorial at NEXQT Summer School",
+      "date": "2025-06-18",
+      "year": 2025,
+      "url": "https://example.com/tutorial",
+      "image": "assets/img/highlights/nexqt-school.jpg",
+      "tags": ["Tutorial", "NEXQT"]
+    }
+  ]
+}
