@@ -76,51 +76,46 @@
 @media (max-width: 900px){
   .people-lede{ font-size:1rem; line-height:1.7; }
 }
-/* ===== People: intro band ===== */
+/* ===== People: intro card ===== */
 
 .people-intro{
-  margin: 8px 0 18px;
-  padding: 18px 20px;
-  border-radius: 16px;
-  border: 1px solid rgba(15,23,42,.10);
-  background: linear-gradient(180deg, rgba(241,245,249,.55), rgba(241,245,249,.32));
-  box-shadow: 0 10px 28px rgba(15,23,42,.06);
+  margin: 18px 0 28px;
+  padding: 20px 24px;
+  border-radius: 14px;
+  border: 1px solid rgba(15,23,42,0.08);
+  background: rgba(248,250,252,0.65); /* subtle background */
+  box-shadow: 0 4px 12px rgba(15,23,42,0.04);
+  max-width: 72ch;
 }
 
-.people-intro__head{
-  display:flex; align-items:center; justify-content:space-between;
-  gap: 12px; flex-wrap: wrap; margin-bottom: 8px;
-}
-.people-intro__head h2{
-  margin:0; font-size: 1.15rem; color:#0f172a;
-  letter-spacing:.2px;
-}
-
-/* pill list */
-.people-tags{
-  display:flex; gap:8px; flex-wrap:wrap; margin:0; padding:0; list-style:none;
-}
-.people-tags li{
-  padding:6px 10px; border-radius:999px;
-  background: rgba(2,132,199,.10);
-  border:1px solid rgba(2,132,199,.28);
-  color:#065f46; font-weight:600; font-size:.9rem;
-}
-
-/* readable measure + refined typography */
 .people-lede{
-  color:#334155;               /* slate-700 */
+  color:#334155;                /* slate-700 */
   font-size:1.05rem;
-  line-height:1.75;
-  letter-spacing:-.005em;
-  max-width: 68ch;             /* elegant column width */
-  margin: 2px 0 0;
-  text-wrap: pretty;
-  hyphens:auto;
-  font-feature-settings:"liga","kern","onum";
+  line-height:1.7;
+  margin:0 0 14px 0;
+  text-align: justify;
 }
 
-/* compact on small screens */
-@media (max-width: 900px){
-  .people-lede{ font-size:1rem; line-height:1.7; }
+/* Tags as muted pill-buttons */
+.people-tags{
+  display:flex; gap:10px; flex-wrap:wrap;
+}
+
+.people-tags .tag{
+  display:inline-block;
+  padding:6px 14px;
+  border-radius:999px;
+  font-size:.9rem;
+  font-weight:500;
+  text-decoration:none;
+  color:#334155;
+  background:rgba(226,232,240,0.7); /* slate-200-ish */
+  border:1px solid rgba(203,213,225,0.6);
+  transition: all .2s ease;
+}
+
+.people-tags .tag:hover{
+  background:rgba(203,213,225,0.9); 
+  border-color: rgba(148,163,184,0.9);
+  transform: translateY(-1px);
 }
