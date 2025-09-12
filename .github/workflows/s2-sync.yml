@@ -2,7 +2,7 @@ name: Build Semantic Scholar JSON
 
 on:
   schedule:
-    - cron: "0 4 * * 1"   # Every Monday 04:00 UTC
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 jobs:
@@ -22,22 +22,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      # 1) Refresh publications from S2 (your existing script that supports multi-IDs)
       - name: Generate member publications JSON
         run: python tools/s2_to_member_json.py
 
-      # 2) Build homepage auto highlights (with Open Graph images)
-      - name: Build homepage highlights (OG images)
+      - name: Build homepage highlights (OG images + S2 figures fallback)
+        env:
+          UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}  # optional but helpful
         run: python tools/build_highlights.py
 
-      # 3) Commit any changes
       - name: Commit changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add members/**/publications.json data/highlights.auto.json
-            git commit -m "chore: update publications + auto highlights (OG images)"
+            git commit -m "chore: pubs + highlights (og + S2 figures)"
             git push
           else
             echo "No changes."
