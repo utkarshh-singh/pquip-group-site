@@ -1,0 +1,1566 @@
+{
+  "S2:252960fab5b8c5cc22d84a883e16243639d2e71f": {
+    "title": "Quadrature coherence scale of linear combinations of Gaussian functions in phase space",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.110.012408",
+    "url": "https://doi.org/10.1103/PhysRevA.110.012408",
+    "venue": "Physical Review A",
+    "year": 2024
+  },
+  "S2:873b3b3ac1fcddbc15f3acb6a02d17ca78a68c53": {
+    "title": "Multiphoton interference in a single-spatial-mode quantum walk.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/oe.550931",
+    "url": "https://doi.org/10.1364/oe.550931",
+    "venue": "Optics Express",
+    "year": 2024
+  },
+  "S2:429aa6ddf409613a842a49d3898802b4192d2c38": {
+    "title": "Measuring Impossible Parameters with Indefinite Causal Order",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/cleo_fs.2024.fm4k.2",
+    "url": "https://doi.org/10.1364/cleo_fs.2024.fm4k.2",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2024
+  },
+  "S2:1318636e018950d0049b6920c5f43c575e506c59": {
+    "title": "Coherent Feed Forward Quantum Neural Network",
+    "categories": [
+      "Machine Learning"
+    ],
+    "doi": "10.48550/arxiv.2402.00653",
+    "url": "https://doi.org/10.48550/arXiv.2402.00653",
+    "venue": "Quantum Machine Intelligence",
+    "year": 2024
+  },
+  "S2:aecb3c585d802d55c5453080a3d1f90052da88eb": {
+    "title": "Teleamplification on the Borealis boson-sampling device",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.108.062606",
+    "url": "https://doi.org/10.1103/PhysRevA.108.062606",
+    "venue": "Physical Review A",
+    "year": 2023
+  },
+  "S2:fc93fec0a8f569d68ae68b4d474f98fef9de8be4": {
+    "title": "Sensing Rotations with Multiplane Light Conversion",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevapplied.20.024052",
+    "url": "https://doi.org/10.1103/PhysRevApplied.20.024052",
+    "venue": "Physical Review Applied",
+    "year": 2023
+  },
+  "S2:c0f86c3adc93b8aadcd025b746034761da9f0c0e": {
+    "title": "Seeding Gaussian Boson Samplers with Single Photons for Enhanced State Generation",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.109.023717",
+    "url": "https://doi.org/10.1103/PhysRevA.109.023717",
+    "venue": "Photonics North",
+    "year": 2023
+  },
+  "S2:6249b59aa8d07eb1da286bbafcc760a174e520c3": {
+    "title": "Quantum Control of Rydberg Atoms for Mesoscopic Quantum State and Circuit Preparation",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevapplied.20.034019",
+    "url": "https://doi.org/10.1103/PhysRevApplied.20.034019",
+    "venue": "Physical Review Applied",
+    "year": 2023
+  },
+  "S2:3f0745c2a60cca813eaf1cecfa53e6bc2722bb35": {
+    "title": "Metrological Advantages in Seeded and Lossy Nonlinear Interferometers",
+    "categories": [
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": "10.22331/q-2025-02-04-1619",
+    "url": "https://doi.org/10.22331/q-2025-02-04-1619",
+    "venue": "Quantum",
+    "year": 2023
+  },
+  "S2:8ca7e5dfaf967bbcff448d0386508ea92e4d49bd": {
+    "title": "Measuring the quadrature coherence scale on a cloud quantum computer",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.107.042610",
+    "url": "https://doi.org/10.1103/PhysRevA.107.042610",
+    "venue": "Physical Review A",
+    "year": 2023
+  },
+  "S2:00299907eda9eebdbccd486b85b6ca2289e61ef0": {
+    "title": "High-dimensional Encoding in the Round-Robin Differential-Phase-Shift Protocol",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.22331/q-2023-12-14-1207",
+    "url": "https://doi.org/10.22331/q-2023-12-14-1207",
+    "venue": "Quantum",
+    "year": 2023
+  },
+  "S2:c2a4c7d99ac82c8ac0c0c628596ec6af835599ec": {
+    "title": "Evading noise in multiparameter quantum metrology with indefinite causal order",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physrevresearch.5.033198",
+    "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
+    "venue": "Physical Review Research",
+    "year": 2023
+  },
+  "S2:e45232fe7b80cdef5491fdf00b68fdca73ebef61": {
+    "title": "Efficient line shape estimation by ghost spectroscopy.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/ol.485451",
+    "url": "https://doi.org/10.1364/OL.485451",
+    "venue": "Optics Letters",
+    "year": 2023
+  },
+  "S2:228195f3dc47e014df4088ac6387880be88529f5": {
+    "title": "Purification at the ultimate limit using quantum superpositions of causal order",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1109/pn56061.2022.9908348",
+    "url": "https://doi.org/10.1109/PN56061.2022.9908348",
+    "venue": "Photonics North",
+    "year": 2022
+  },
+  "S2:8cab1def7e0e78077a38dde76e4d91f26f954cfb": {
+    "title": "Optimal transmission estimation with dark counts",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1361-6501/acaf12",
+    "url": "https://doi.org/10.1088/1361-6501/acaf12",
+    "venue": "Measurement science and technology",
+    "year": 2022
+  },
+  "S2:91fab2195e2810958b6755038b4c3ad7f2035bfe": {
+    "title": "Multiparameter transmission estimation at the quantum Cramér–Rao limit on a cloud quantum computer",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1367-2630/aca21c",
+    "url": "https://doi.org/10.1088/1367-2630/aca21c",
+    "venue": "New Journal of Physics",
+    "year": 2022
+  },
+  "S2:36a6c95cf34d14789e071c926eb12ba4c00da80a": {
+    "title": "Beyond transcoherent states: Field states for effecting optimal coherent rotations on single or multiple qubits",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.22331/q-2023-03-28-963",
+    "url": "https://doi.org/10.22331/q-2023-03-28-963",
+    "venue": "Quantum",
+    "year": 2022
+  },
+  "S2:a38dd3aabb3cabfabcdcb86c35906432ec1b24e7": {
+    "title": "Taming singularities of the quantum Fisher information",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1142/s0219749921400049",
+    "url": "https://doi.org/10.1142/S0219749921400049",
+    "venue": "International Journal of Quantum Information",
+    "year": 2021
+  },
+  "S2:546bfff82f89400c4e825f6710df44f63d74207f": {
+    "title": "Quantumness Beyond Entanglement: The Case of Symmetric States",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.105.022433",
+    "url": "https://doi.org/10.1103/PhysRevA.105.022433",
+    "venue": null,
+    "year": 2021
+  },
+  "S2:4b2db8032d387d2461c8e85b348b28bccc5facf7": {
+    "title": "Quantum Polarimetry",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1016/bs.po.2022.01.001",
+    "url": "https://doi.org/10.1016/bs.po.2022.01.001",
+    "venue": null,
+    "year": 2021
+  },
+  "S2:b615b01b063400999cb58cfccd7c3c07ec970a79": {
+    "title": "Intrinsic Sensitivity Limits for Multiparameter Quantum Metrology.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physrevlett.127.110501",
+    "url": "https://doi.org/10.1103/PhysRevLett.127.110501",
+    "venue": "Physical Review Letters",
+    "year": 2021
+  },
+  "S2:cafebfa7131758799dfe722a728983b76685ed69": {
+    "title": "How squeezed states both maximize and minimize the same notion of quantumness",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.104.032425",
+    "url": "https://doi.org/10.1103/PhysRevA.104.032425",
+    "venue": "Physical Review A",
+    "year": 2021
+  },
+  "S2:51b2b79b9377b38c79f903f8e37d49b8ca2ce5a4": {
+    "title": "From polarization multipoles to higher-order coherences.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/ol.443053",
+    "url": "https://doi.org/10.1364/OL.443053",
+    "venue": "Optics Letters",
+    "year": 2021
+  },
+  "S2:7f41f384bd8e3a811b59e4ec618d4c38e7f9aad0": {
+    "title": "Breaking the limits of purification: postselection enhances heat-bath algorithmic cooling",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/2399-6528/acb414",
+    "url": "https://doi.org/10.1088/2399-6528/acb414",
+    "venue": "Journal of Physics Communications",
+    "year": 2021
+  },
+  "S2:f6f66a698b3d498980623be7be772a8e247f5aed": {
+    "title": "Breaking the limits of purification: Indefinite causal order enhances heat-bath algorithmic cooling",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/f6f66a698b3d498980623be7be772a8e247f5aed",
+    "venue": null,
+    "year": 2021
+  },
+  "S2:07a2c94b64c464e05a15197e61ae8668dc8bd54e": {
+    "title": "Transcoherent States: Optical States for Maximal Generation of Atomic Coherence",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/prxquantum.1.020306",
+    "url": "https://doi.org/10.1103/PRXQUANTUM.1.020306",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:a91f93faf3f2d2f5c5c0e892b7f0af363d4c2f50": {
+    "title": "Quantum-Enhanced Rotation Sensing",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/quantum.2020.qth7a.2",
+    "url": "https://doi.org/10.1364/quantum.2020.qth7a.2",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:167231c4992ea973f59b5fc19ef12d9f93a2e634": {
+    "title": "Quantum concepts in optical polarization",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/aop.404175",
+    "url": "https://doi.org/10.1364/aop.404175",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:2a16e652ecc6a75c4528c522e5e43796c1864d4f": {
+    "title": "Multiphase estimation without a reference mode",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.102.022230",
+    "url": "https://doi.org/10.1103/physreva.102.022230",
+    "venue": "Physical Review A",
+    "year": 2020
+  },
+  "S2:691e852eae6e352c15c4e719234a71ec0a7239b9": {
+    "title": "Extremal quantum states",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1116/5.0025819",
+    "url": "https://doi.org/10.1116/5.0025819",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:5485dbcbf96890ccd5b97b3c383cdd5893776167": {
+    "title": "Atom, field, big or small: Who is the coherentist of them all : How to optimally transfer coherence from light to atoms",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1109/pn50013.2020.9167029",
+    "url": "https://doi.org/10.1109/PN50013.2020.9167029",
+    "venue": "Photonics North",
+    "year": 2020
+  },
+  "S2:3f39f141040a2bfc0317d0825868ede810638bea": {
+    "title": "Quantum-enhanced rotation measurements about unknown axes",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/qim.2019.t5a.30",
+    "url": "https://doi.org/10.1364/QIM.2019.T5A.30",
+    "venue": "The A-V",
+    "year": 2019
+  },
+  "S2:82b65db4645705ce36fa412ccf017ab3212640d9": {
+    "title": "Quantum theory of polarimetry: From quantum operations to Mueller matrices",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevresearch.2.023038",
+    "url": "https://doi.org/10.1103/PhysRevResearch.2.023038",
+    "venue": "Physical Review Research",
+    "year": 2019
+  },
+  "S2:fa6f8c4f3f04a96e634e6a8f0daba802f7ca1a69": {
+    "title": "Perturbative expansion of entanglement negativity",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/fa6f8c4f3f04a96e634e6a8f0daba802f7ca1a69",
+    "venue": null,
+    "year": 2019
+  },
+  "S2:21e4a9be8a27369634505653b8d8097513745747": {
+    "title": "Operational symmetries of entangled states",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1751-8121/ab6fc9",
+    "url": "https://doi.org/10.1088/1751-8121/ab6fc9",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2019
+  },
+  "S2:d50e6eac30a578f797a28660115f5f51242d0e05": {
+    "title": "Entanglement generation via diffraction",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.100.042332",
+    "url": "https://doi.org/10.1103/PhysRevA.100.042332",
+    "venue": "Physical Review A",
+    "year": 2019
+  },
+  "S2:e364f8c3312fc92c9870d934b63942937d4a8b07": {
+    "title": "Entanglement as an operational symmetry",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cqo.2019.w6a.15",
+    "url": "https://doi.org/10.1364/cqo.2019.w6a.15",
+    "venue": "Rochester Conference on Coherence and Quantum Optics (CQO-11)",
+    "year": 2019
+  },
+  "S2:86dacb281173c42578878b80c918126eeba9f43d": {
+    "title": "Simulating one-dimensional systems with stationary Rydberg dark polaritons",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/86dacb281173c42578878b80c918126eeba9f43d",
+    "venue": null,
+    "year": 2018
+  },
+  "S2:50b354e6a963c7d1cc04185018e2cd1e7b55a2fd": {
+    "title": "Quantum-limited Euler angle measurements using anticoherent states",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.98.032113",
+    "url": "https://doi.org/10.1103/PhysRevA.98.032113",
+    "venue": "Physical Review A",
+    "year": 2018
+  },
+  "S2:07bbe4acfeb2e4668ced9237a70f5c6c1cf9d4a9": {
+    "title": "Perturbative expansion of entanglement negativity using patterned matrix calculus",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.99.012322",
+    "url": "https://doi.org/10.1103/PhysRevA.99.012322",
+    "venue": "Physical Review A",
+    "year": 2018
+  },
+  "S2:4402831e704f7da8f03f4dd28abe6d7e04372969": {
+    "title": "Finding non-classical states that do not generate entanglement at a beam splitter",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/cleo_qels.2018.ftu4a.3",
+    "url": "https://doi.org/10.1364/CLEO_QELS.2018.FTU4A.3",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2018
+  },
+  "S2:06d83dcf7684861b823b97ffba17fb4ad2c56f1e": {
+    "title": "Perfect polarization for arbitrary light beams",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.96.053859",
+    "url": "https://doi.org/10.1103/PhysRevA.96.053859",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:ff57762ace835ac925c1f210ac70cb5bde2c0be3": {
+    "title": "Nonclassical mixed states that generate zero entanglement with a beam splitter",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1088/1751-8121/aad7c6",
+    "url": "https://doi.org/10.1088/1751-8121/aad7c6",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2017
+  },
+  "S2:980dc2bc68c84c2947e3da50edc8147b1a5b1b5f": {
+    "title": "Emergence of singularities from decoherence: Quantum catastrophes",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.100.063628",
+    "url": "https://doi.org/10.1103/PhysRevA.100.063628",
+    "venue": "Physical Review A",
+    "year": 2016
+  },
+  "S2:945b845b327caa9f6d616f76c6ce9d9e8c403cfd": {
+    "title": "Chondrule Transport in the Early Solar System",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/945b845b327caa9f6d616f76c6ce9d9e8c403cfd",
+    "venue": null,
+    "year": 2016
+  },
+  "S2:237b8a4ed7600b5e6c8b9bece06deae8fe1a0dee": {
+    "title": "Chondrule Transport in Protoplanetary Disks",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1093/mnras/stv1610",
+    "url": "https://doi.org/10.1093/MNRAS/STV1610",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:31a6b9f5b4129970c1cd4671830dabadcd8385ac": {
+    "title": "Powering Disneyâ€™s Frozen with a Carnot refrigerator",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/31a6b9f5b4129970c1cd4671830dabadcd8385ac",
+    "venue": null,
+    "year": 2014
+  },
+  "S2:70b9076e7e72c3326ca4a8d7bbf74d9e2e390064": {
+    "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b": {
+    "title": "Entanglement, loss, and quantumness: When balanced beam splitters are best",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b",
+    "venue": null,
+    "year": 2024
+  },
+  "S2:3952f98a77c5f3daba0ed8131f7f19569488de3f": {
+    "title": "Complex-valued Wigner entropy of a quantum state",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1007/s40509-024-00325-8",
+    "url": "https://doi.org/10.1007/s40509-024-00325-8",
+    "venue": "Quantum Studies: Mathematics and Foundations",
+    "year": 2023
+  },
+  "S2:1e0c12a460b1389e4836e8d1932aee9af82d7010": {
+    "title": "Nonclassicality gain/loss through photon-addition/subtraction on Multi-Mode Gaussian States",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/1e0c12a460b1389e4836e8d1932aee9af82d7010",
+    "venue": null,
+    "year": 2022
+  },
+  "S2:6e5a22b2bd9f6d6edf053f5e12307b8248bf3768": {
+    "title": "Decoherence and nonclassicality of photon-added and photon-subtracted multimode Gaussian states",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.107.043713",
+    "url": "https://doi.org/10.1103/PhysRevA.107.043713",
+    "venue": "Physical Review A",
+    "year": 2022
+  },
+  "S2:5ab41d3892402e25eb4f41a195cbb276565c5ba9": {
+    "title": "Realignment separability criterion assisted with filtration for detecting continuous-variable entanglement",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.104.022427",
+    "url": "https://doi.org/10.1103/PhysRevA.104.022427",
+    "venue": "Physical Review A",
+    "year": 2021
+  },
+  "S2:35721f9c5c5e7ae63378ce1d7f942b6569d0f886": {
+    "title": "Relating the entanglement and optical nonclassicality of multimode states of a bosonic quantum field",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.102.032413",
+    "url": "https://doi.org/10.1103/PHYSREVA.102.032413",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:6c2e1bb88a094cd59d44f36938dd15bdf97aa96e": {
+    "title": "Comparing Entanglement and Optical Nonclassicality of Bosonic States",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/quantum.2020.qth7a.7",
+    "url": "https://doi.org/10.1364/quantum.2020.qth7a.7",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:9d2a098a137f0415b073acd88e5529d2ed636f36": {
+    "title": "Weak realignment criterion for detecting continuous-variable entanglement",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/9d2a098a137f0415b073acd88e5529d2ed636f36",
+    "venue": null,
+    "year": 2019
+  },
+  "S2:688244bc56b5837a69327b9277e0fc2075a511b1": {
+    "title": "Quadrature Coherence Scale Driven Fast Decoherence of Bosonic Quantum Field States.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physrevlett.124.090402",
+    "url": "https://doi.org/10.1103/PhysRevLett.124.090402",
+    "venue": "Physical Review Letters",
+    "year": 2019
+  },
+  "S2:8c569a1dc9d8ae8ef5f099b16ad51590cfe839cb": {
+    "title": "Multicopy uncertainty observable inducing a symplectic-invariant uncertainty relation in position and momentum phase space",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.100.052112",
+    "url": "https://doi.org/10.1103/physreva.100.052112",
+    "venue": "Physical Review A",
+    "year": 2019
+  },
+  "S2:47c8a1864cee33e57e24d9213c6788bb95f3fa39": {
+    "title": "Multi-copy uncertainty observable inducing a symplectic-invariant uncertainty relation",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.100.052112",
+    "url": "https://doi.org/10.1103/PhysRevA.100.052112",
+    "venue": null,
+    "year": 2019
+  },
+  "S2:788561e57cfe9858fef63bc0be48492fba15b216": {
+    "title": "Continuous-variable entropic uncertainty relations",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1751-8121/ab03f3",
+    "url": "https://doi.org/10.1088/1751-8121/ab03f3",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2018
+  },
+  "S2:74e644cbf4ea874f0af9735dba5b9ae55ae6172d": {
+    "title": "Multidimensional entropic uncertainty relation based on a commutator matrix in position and momentum spaces",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.97.012111",
+    "url": "https://doi.org/10.1103/PhysRevA.97.012111",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:d46752df8300a22810eef7a89f5691d4f5859d46": {
+    "title": "Entropy-power uncertainty relations: towards a tight inequality for all Gaussian pure states",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1751-8121/aa852f",
+    "url": "https://doi.org/10.1088/1751-8121/aa852f",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:eb8aaf8962fd50b441fde624f086ab765836b709": {
+    "title": "A tight entropy-power uncertainty relation",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/eb8aaf8962fd50b441fde624f086ab765836b709",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:95be6037874a132fcb2e31b443ede232d6a81a1a": {
+    "title": "Higher Order Nonclassicality from Nonlinear Coherent States for Models with Quadratic Spectrum",
+    "categories": [
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": "10.3390/sym8050036",
+    "url": "https://doi.org/10.3390/sym8050036",
+    "venue": "Symmetry",
+    "year": 2016
+  },
+  "S2:eace3da1a832be6e69b161f4efce24631a25fe45": {
+    "title": "Gaussianity-dependent separability criterion for continuous-variable systems",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/eace3da1a832be6e69b161f4efce24631a25fe45",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:dd02d8a8ceee930bbbdec754832f283ddabcf916": {
+    "title": "Detection of non-Gaussian entangled states with an improved continuous-variable separability criterion",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.93.032330",
+    "url": "https://doi.org/10.1103/PhysRevA.93.032330",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:71da34f7d49c58c2156ab7d421f68f1d86ffbb1a": {
+    "title": "Public Space One – Unique Entity of Sustained Madness",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/71da34f7d49c58c2156ab7d421f68f1d86ffbb1a",
+    "venue": null,
+    "year": 2013
+  },
+  "S2:fcd11daa82b85e4865dc542d145b9cca96a13f82": {
+    "title": "Beam splitter and entanglement created with the squeezed coherent states of the Morse potential",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/fcd11daa82b85e4865dc542d145b9cca96a13f82",
+    "venue": null,
+    "year": 2013
+  },
+  "S2:099cd640f8cab264ba240b9f4ab2daf94e2429d2": {
+    "title": "Trajectories of generalized quantum states for systems with finite discrete spectrum and classical analogs",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1063/1.4759390",
+    "url": "https://doi.org/10.1063/1.4759390",
+    "venue": null,
+    "year": 2012
+  },
+  "S2:0562f9de78e462b5425c2782fc5d29e459adc7bc": {
+    "title": "Corrigendum: Squeezed coherent states and the one-dimensional Morse quantum system",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/0562f9de78e462b5425c2782fc5d29e459adc7bc",
+    "venue": null,
+    "year": 2012
+  },
+  "S2:954b91a302c04fee722722c38871c9e967a2e4bf": {
+    "title": "Squeezed coherent states and the one-dimensional Morse quantum system",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1751-8113/45/24/244007",
+    "url": "https://doi.org/10.1088/1751-8113/45/24/244007",
+    "venue": null,
+    "year": 2011
+  },
+  "S2:629069dd5fcdb5645e1e3d3c43c7276ef1ea3821": {
+    "title": "Nonclassicality and quantum non-Gaussianity of photon-added/subtracted multi-mode Gaussian states",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/629069dd5fcdb5645e1e3d3c43c7276ef1ea3821",
+    "venue": null,
+    "year": null
+  },
+  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": {
+    "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": {
+    "title": "Adaptive Non-Gaussian Quantum State Engineering",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": {
+    "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
+    "categories": [
+      "Machine Learning"
+    ],
+    "doi": "10.1002/qute.202400074",
+    "url": "https://doi.org/10.1002/qute.202400074",
+    "venue": "Advanced Quantum Technologies",
+    "year": 2024
+  },
+  "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": {
+    "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/ome.549582",
+    "url": "https://doi.org/10.1364/ome.549582",
+    "venue": "Optical Materials Express",
+    "year": 2025
+  },
+  "S2:3767c60c93e422ae4ba64c37132c90d3e4b2fa3a": {
+    "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:90960bbd5128c51ce9efcbb3c715ccd26f272ca2": {
+    "title": "Imaging at the quantum limit with convolutional neural networks",
+    "categories": [
+      "Machine Learning",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.48550/arxiv.2506.13488",
+    "url": "https://doi.org/10.48550/arXiv.2506.13488",
+    "venue": "arXiv.org",
+    "year": 2025
+  },
+  "S2:00449496834477f23047f996e64ec897235c9392": {
+    "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:cd6397ab56ef76cf6c96480f1ead2829c698d128": {
+    "title": "A Resource Efficient Quantum Kernel",
+    "categories": [
+      "Machine Learning"
+    ],
+    "doi": "10.48550/arxiv.2507.03689",
+    "url": "https://doi.org/10.48550/arXiv.2507.03689",
+    "venue": "arXiv.org",
+    "year": 2025
+  },
+  "S2:c65e0b763d12ea43ea749f49dbfbc73782e00171": {
+    "title": "Unwanted couplings can induce amplification in quantum memories despite negligible apparent noise",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/c65e0b763d12ea43ea749f49dbfbc73782e00171",
+    "venue": null,
+    "year": 2024
+  },
+  "S2:f655fa3db7c9e222b952453a3575d282f988f4e2": {
+    "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/f655fa3db7c9e222b952453a3575d282f988f4e2",
+    "venue": null,
+    "year": 2024
+  },
+  "S2:c304372dafccc7c2484ff027f474c1271cef3bcd": {
+    "title": "Programmable Photonic Quantum Circuits with Ultrafast Time-Bin Encoding.",
+    "categories": [
+      "Photonic QIP",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/physrevlett.133.090601",
+    "url": "https://doi.org/10.1103/physrevlett.133.090601",
+    "venue": "Physical Review Letters",
+    "year": 2024
+  },
+  "S2:10a2b7af8968f61a9a8c8dae1bf1bf62f528cc4a": {
+    "title": "Predicting atmospheric turbulence for secure quantum communications in free space.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/oe.546606",
+    "url": "https://doi.org/10.1364/OE.546606",
+    "venue": "Optics Express",
+    "year": 2024
+  },
+  "S2:612de1bdc3991717a6431e78c522357f65d653cd": {
+    "title": "Photonic quantum walk with ultrafast time-bin encoding",
+    "categories": [
+      "Photonic QIP",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1364/optica.510312",
+    "url": "https://doi.org/10.1364/optica.510312",
+    "venue": "Optica",
+    "year": 2024
+  },
+  "S2:070ebe2703358512e24b87d4a3fde0ca14b6655e": {
+    "title": "Frequency- and dissipation-dependent entanglement advantage in spin-network quantum reservoir computing",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.110.042416",
+    "url": "https://doi.org/10.1103/physreva.110.042416",
+    "venue": "Physical Review A",
+    "year": 2024
+  },
+  "S2:61386abda2829d0434e192479bac6a62c98e921e": {
+    "title": "Photonic Orbital Angular Momentum for Novel Protocols in QKD and Certified Deletion",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/quantum.2023.qtu3a.31",
+    "url": "https://doi.org/10.1364/quantum.2023.qtu3a.31",
+    "venue": "Optica Quantum 2.0 Conference and Exhibition",
+    "year": 2023
+  },
+  "S2:7049c5f04505874004bc9ae28514f2c5fc63dcf8": {
+    "title": "Noncryogenic Quantum Repeaters with hot Hybrid Alkali-Noble Gases",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physrevapplied.19.054063",
+    "url": "https://doi.org/10.1103/physrevapplied.19.054063",
+    "venue": "Physical Review Applied",
+    "year": 2023
+  },
+  "S2:0d7c422e8c6a22c5f608666534052086aa1581bf": {
+    "title": "Measuring ultrafast time-bin qudits",
+    "categories": [
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/physreva.107.022618",
+    "url": "https://doi.org/10.1103/PhysRevA.107.022618",
+    "venue": "Physical Review A",
+    "year": 2023
+  },
+  "S2:c7eac9d5c99cb67cc9e2aa39d499d4f96d584841": {
+    "title": "Full Spatial Characterization of Entangled Structured Photons.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevlett.132.063802",
+    "url": "https://doi.org/10.1103/PhysRevLett.132.063802",
+    "venue": "Physical Review Letters",
+    "year": 2023
+  },
+  "S2:52b69cfc496854e8b9b6d977aa11c47c33c77816": {
+    "title": "Fast adaptive optics for high-dimensional quantum communications in turbulent channels",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/s42005-025-01986-6",
+    "url": "https://doi.org/10.1038/s42005-025-01986-6",
+    "venue": "Communications Physics",
+    "year": 2023
+  },
+  "S2:ddd3fe18d202fa55ad33a30a3e1ae1e99aa5ed3e": {
+    "title": "Proposal for non-cryogenic quantum repeaters with hot hybrid alkali-noble gases",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/ddd3fe18d202fa55ad33a30a3e1ae1e99aa5ed3e",
+    "venue": null,
+    "year": 2022
+  },
+  "S2:3223e0dec5be43c45d722fc833612e50a5826130": {
+    "title": "Manipulating the symmetry of transverse momentum entangled biphoton states.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/oe.458776",
+    "url": "https://doi.org/10.1364/OE.458776",
+    "venue": "Optics Express",
+    "year": 2022
+  },
+  "S2:771a64fa183d1a7f02994ac440144dc66f7780f6": {
+    "title": "Tera-mode of Spatiotemporal N00N States",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/771a64fa183d1a7f02994ac440144dc66f7780f6",
+    "venue": null,
+    "year": 2021
+  },
+  "S2:bfabf30dcf8805985ea5a4140f910327743fab77": {
+    "title": "Simulation of many-body dynamics using Rydberg excitons",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/2058-9565/ac70f4",
+    "url": "https://doi.org/10.1088/2058-9565/ac70f4",
+    "venue": "Quantum Science and Technology",
+    "year": 2021
+  },
+  "S2:151e402a80cf2d3a69880b03a44ab91b77140224": {
+    "title": "Quantum Communication with Ultrafast Time-Bin Qubits",
+    "categories": [
+      "Quantum Light–Matter Interaction",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/prxquantum.3.010332",
+    "url": "https://doi.org/10.1103/prxquantum.3.010332",
+    "venue": "PRX Quantum",
+    "year": 2021
+  },
+  "S2:2d111d7f85c72706d970de867116bec6540bc000": {
+    "title": "High-speed imaging of spatiotemporal correlations in Hong-Ou-Mandel interference.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/oe.456433",
+    "url": "https://doi.org/10.1364/OE.456433",
+    "venue": "Optics Express",
+    "year": 2021
+  },
+  "S2:fdc41bbdf9c0dd9621c3fd822db37f43d017e558": {
+    "title": "Achieving Ultimate Noise Tolerance in Quantum Communication",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevapplied.15.024027",
+    "url": "https://doi.org/10.1103/PHYSREVAPPLIED.15.024027",
+    "venue": "Physical Review Applied",
+    "year": 2021
+  },
+  "S2:a963aae5c58357299633f90b3c619ca3f0cfe569": {
+    "title": "Underwater quantum communication over a 30-meter flume tank",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/a963aae5c58357299633f90b3c619ca3f0cfe569",
+    "venue": null,
+    "year": 2020
+  },
+  "S2:93fc69d9840a3292c4aba25773e37b0d5378defe": {
+    "title": "Investigation of underwater quantum channels in a 30 meter flume tank using structured photons",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1367-2630/abb688",
+    "url": "https://doi.org/10.1088/1367-2630/abb688",
+    "venue": "New Journal of Physics",
+    "year": 2020
+  },
+  "S2:69215d6306b15c84d85512e24f631e8746a09514": {
+    "title": "Atomic Quantum Memory in the Autler-Townes Regime",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cleo_qels.2020.fth3d.1",
+    "url": "https://doi.org/10.1364/cleo_qels.2020.fth3d.1",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2020
+  },
+  "S2:acde845fbbe418a264d548a04aaab3d60d870ef2": {
+    "title": "Ju n 20 12 Controllable-dipole quantum memory",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/acde845fbbe418a264d548a04aaab3d60d870ef2",
+    "venue": null,
+    "year": 2019
+  },
+  "S2:4b265db8da4b7bd136d27f0eaf5d716312e77a62": {
+    "title": "High-Dimensional Quantum Cryptography using Twisted Photons; from the Laboratory to realistic conditions",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/qim.2019.s2a.3",
+    "url": "https://doi.org/10.1364/QIM.2019.S2A.3",
+    "venue": "The A-V",
+    "year": 2019
+  },
+  "S2:d478bfcdd0a8868da4b17a23bec5c3b780baf8f9": {
+    "title": "Generation of doubly excited Rydberg states based on Rydberg antiblockade in a cold atomic ensemble",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/d478bfcdd0a8868da4b17a23bec5c3b780baf8f9",
+    "venue": null,
+    "year": 2019
+  },
+  "S2:1a19b50b2244f7246af30528c9718c9ee9f243e4": {
+    "title": "Characterization of an underwater channel for quantum communications in the Ottawa River.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/oe.27.026346",
+    "url": "https://doi.org/10.1364/OE.27.026346",
+    "venue": "Optics Express",
+    "year": 2019
+  },
+  "S2:14d5168972f44e5cc5d6369b3b15d231243e059e": {
+    "title": "Underwater Quantum Key Distribution in Outdoor Conditions with Twisted Photons",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/14d5168972f44e5cc5d6369b3b15d231243e059e",
+    "venue": null,
+    "year": 2018
+  },
+  "S2:2cc9dcb98de67d6351a64d8e5bee8de360ade65e": {
+    "title": "Theory of cavity-enhanced nondestructive detection of photonic qubits in a solid-state atomic ensemble",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.98.043842",
+    "url": "https://doi.org/10.1103/PhysRevA.98.043842",
+    "venue": "Physical Review A",
+    "year": 2018
+  },
+  "S2:8f97a520af6bef2c71b26366a466807d1b8ea11a": {
+    "title": "Round-robin differential-phase-shift quantum key distribution with twisted photons",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.98.010301",
+    "url": "https://doi.org/10.1103/PhysRevA.98.010301",
+    "venue": "Physical Review A",
+    "year": 2018
+  },
+  "S2:fb9058561c24fb85998bd2de8924e8b64eb9cda1": {
+    "title": "Quantum process tomography of a high-dimensional quantum communication channel",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.22331/q-2019-05-06-138",
+    "url": "https://doi.org/10.22331/q-2019-05-06-138",
+    "venue": "Quantum",
+    "year": 2018
+  },
+  "S2:ee26c444fc2b73051f01e7b77d69c2f3b16efd05": {
+    "title": "Quantum cryptography with twisted photons through an outdoor underwater channel.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/oe.26.022563",
+    "url": "https://doi.org/10.1364/OE.26.022563",
+    "venue": "Optics Express",
+    "year": 2018
+  },
+  "S2:2626bf075a876e33f5f4edf063be10e909367648": {
+    "title": "Experimental quantum cryptography in laboratory, long-distance and underwater conditions using structured light (Conference Presentation)",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1117/12.2503448",
+    "url": "https://doi.org/10.1117/12.2503448",
+    "venue": "Quantum Information Science and Technology IV",
+    "year": 2018
+  },
+  "S2:b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad": {
+    "title": "Experimental investigation of quantum key distribution protocols with twisted photons",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad",
+    "venue": null,
+    "year": 2018
+  },
+  "S2:22746591e7935acc8236a2220827187f9568e592": {
+    "title": "Experimental investigation of high-dimensional quantum key distribution protocols with twisted photons",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.22331/q-2018-12-04-111",
+    "url": "https://doi.org/10.22331/q-2018-12-04-111",
+    "venue": "Quantum",
+    "year": 2018
+  },
+  "S2:79b9f3947826206fdad2173e2b44d75b68a7ce70": {
+    "title": "Time-bin-to-polarization conversion of ultrafast photonic qubits",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/physreva.96.053812",
+    "url": "https://doi.org/10.1103/PhysRevA.96.053812",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:b0716f11947d2255a340ecf21a8dde4c4c8f80ed": {
+    "title": "Storage of polarization-entangled THz-bandwidth photons in a diamond quantum memory",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.96.012324",
+    "url": "https://doi.org/10.1103/PhysRevA.96.012324",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:0fd84f85a0c442b405b95eb3e33fdc7369526b6a": {
+    "title": "Single-photon source based on Rydberg exciton blockade",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1361-6455/aa8d7c",
+    "url": "https://doi.org/10.1088/1361-6455/aa8d7c",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:a54ba50840917239765d8a3b7c67868030fc7550": {
+    "title": "Quantum frequency conversion with ultra-broadband tuning in a Raman memory",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.95.053816",
+    "url": "https://doi.org/10.1103/PHYSREVA.95.053816",
+    "venue": null,
+    "year": 2017
+  },
+  "S2:9bad869896047f37cab031407d65f9193f905157": {
+    "title": "Entanglement between more than two hundred macroscopic atomic ensembles in a solid",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/s41467-017-00897-7",
+    "url": "https://doi.org/10.1038/s41467-017-00897-7",
+    "venue": "Nature Communications",
+    "year": 2017
+  },
+  "S2:5a321882638a071d125743e0ebba131cdeab660d": {
+    "title": "Coherent storage and manipulation of broadband photons via dynamically controlled Autler–Townes splitting",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/s41566-018-0279-0",
+    "url": "https://doi.org/10.1038/s41566-018-0279-0",
+    "venue": "Nature Photonics",
+    "year": 2017
+  },
+  "S2:6935b263fed1f58fe41c7aab68401bc3f0589ea8": {
+    "title": "Thanks to 2015 Reviewers",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1080/09500340.2016.1160994",
+    "url": "https://doi.org/10.1080/09500340.2016.1160994",
+    "venue": null,
+    "year": 2016
+  },
+  "S2:bbf2dce29fdd42aee2e5502baa88b98a54b08586": {
+    "title": "Reducing noise in a Raman quantum memory.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/ol.41.005055",
+    "url": "https://doi.org/10.1364/OL.41.005055",
+    "venue": "Optics Letters",
+    "year": 2016
+  },
+  "S2:cfb6fada2309ae3c75ba5416f059d47c742b306c": {
+    "title": "Proposal and proof-of-principle demonstration of non-destructive detection of photonic qubits using a Tm:LiNbO3 waveguide",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/ncomms13454",
+    "url": "https://doi.org/10.1038/ncomms13454",
+    "venue": "Nature Communications",
+    "year": 2016
+  },
+  "S2:60a5a5aa21339fab2d9fce899af0a0ac21d886a3": {
+    "title": "Phonon-Mediated Nonclassical Interference in Diamond.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physrevlett.117.073603",
+    "url": "https://doi.org/10.1103/PhysRevLett.117.073603",
+    "venue": "Physical Review Letters",
+    "year": 2016
+  },
+  "S2:b2a17ad9e887322839240885f7cf5f15d089fed2": {
+    "title": "High-dimensional intracity quantum cryptography with structured photons",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/optica.4.001006",
+    "url": "https://doi.org/10.1364/OPTICA.4.001006",
+    "venue": null,
+    "year": 2016
+  },
+  "S2:0848767e0ed427002b8aefa2c740ec40a509f54b": {
+    "title": "Raman-induced slow-light delay of THz-bandwidth pulses",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.93.043810",
+    "url": "https://doi.org/10.1103/PhysRevA.93.043810",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:90fd89764dc76e971a1e5dee59c2aa1a2d2c4b54": {
+    "title": "Quantum memories: emerging applications and recent advances",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1080/09500340.2016.1148212",
+    "url": "https://doi.org/10.1080/09500340.2016.1148212",
+    "venue": "Journal of Modern Optics",
+    "year": 2015
+  },
+  "S2:2567b091f010fc23279bbe00250402291346c6f6": {
+    "title": "Photonic Controlled-Phase Gate Based on Rydberg Interactions",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/2567b091f010fc23279bbe00250402291346c6f6",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:fa4e82b9e104777b3a8ea9e7f936cb94eba10c46": {
+    "title": "Efficiency of an enhanced linear optical Bell-state measurement scheme with realistic imperfections",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.94.032332",
+    "url": "https://doi.org/10.1103/PhysRevA.94.032332",
+    "venue": null,
+    "year": 2015
+  },
+  "S2:2e9d85d177452256e3832e56858faf3f2fb4d33a": {
+    "title": "Photon-photon gate via the interaction between two collective Rydberg excitations",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.91.030301",
+    "url": "https://doi.org/10.1103/PhysRevA.91.030301",
+    "venue": null,
+    "year": 2014
+  },
+  "S2:79a4ac89f902300daeb7352970ecaed0b37968d1": {
+    "title": "An integrated processor for photonic quantum states using a broadband light–matter interface",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1367-2630/16/6/065019",
+    "url": "https://doi.org/10.1088/1367-2630/16/6/065019",
+    "venue": null,
+    "year": 2014
+  },
+  "S2:cdf03fbb53dc2b82e9bc6552a5967c9fb71cc4fc": {
+    "title": "Toward Practical Solid-State Based Quantum Memories",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.5072/prism/28474",
+    "url": "https://doi.org/10.5072/PRISM/28474",
+    "venue": null,
+    "year": 2013
+  },
+  "S2:75c8a2cbf0dbceeb63e066856bd28742706068a4": {
+    "title": "Raman quantum memory based on an ensemble of nitrogen-vacancy centers coupled to a microcavity",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.89.040301",
+    "url": "https://doi.org/10.1103/PhysRevA.89.040301",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2013
+  },
+  "S2:9802dfb8171f31f0634585565f150ddacfb02aef": {
+    "title": "Photonic quantum memory in two-level ensembles based on modulating the refractive index in time: equivalence to gradient echo memory",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": "10.1103/physreva.86.013833",
+    "url": "https://doi.org/10.1103/PhysRevA.86.013833",
+    "venue": null,
+    "year": 2012
+  },
+  "S2:6bab8aa38852a811ea7ad5acfcb35ab4785715fd": {
+    "title": "Precision requirements for spin-echo based quantum memories",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/icqi.2011.qtua2",
+    "url": "https://doi.org/10.1364/ICQI.2011.QTUA2",
+    "venue": null,
+    "year": 2011
+  },
+  "S2:edaef27a06db8259f676cee0147a06ade876ff1a": {
+    "title": "Controlled-dipole quantum memory",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/edaef27a06db8259f676cee0147a06ade876ff1a",
+    "venue": null,
+    "year": 2011
+  },
+  "S2:362caa41376eaf885fc960d3e5d914c5462e5543": {
+    "title": "Controllable-dipole quantum memory",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1103/physreva.86.013813",
+    "url": "https://doi.org/10.1103/PhysRevA.86.013813",
+    "venue": null,
+    "year": 2011
+  },
+  "S2:738c3ede0a6600c8a74e5e5a4e06ca68d699d64c": {
+    "title": "Quantum repeaters based on Rydberg-blockade-coupled atomic ensembles",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.81.052311",
+    "url": "https://doi.org/10.1103/PhysRevA.81.052311",
+    "venue": null,
+    "year": 2010
+  },
+  "S2:c0b91248cb497c2421f8966e4cc682d62c16513d": {
+    "title": "Precision requirements for spin-echo-based quantum memories",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.83.032315",
+    "url": "https://doi.org/10.1103/PhysRevA.83.032315",
+    "venue": null,
+    "year": 2010
+  },
+  "S2:1c119fc58cedc83b6734c4880ad0d6c751b7e8bc": {
+    "title": "Non-Hermitian interaction of matter and light",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/0031-8949/77/06/065002",
+    "url": "https://doi.org/10.1088/0031-8949/77/06/065002",
+    "venue": null,
+    "year": 2008
+  },
+  "S2:639cf4cefa09659ebcec16ce5fec1ce963a15a4c": {
+    "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+    "venue": null,
+    "year": 2025
+  },
+  "S2:1b4fbdd828abf4bae244512b27674d44d536bfd0": {
+    "title": "Photonic multipartite entanglement in discrete variables without arbitrary unitaries",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": "10.1103/physrevresearch.7.013060",
+    "url": "https://doi.org/10.1103/physrevresearch.7.013060",
+    "venue": "Physical Review Research",
+    "year": 2024
+  },
+  "S2:b34c70c2941dbc23a1c1b91fd8e11c1ab6412fee": {
+    "title": "Frequency Bin Encoding and Graphs",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/cleo_fs.2024.ftu4f.7",
+    "url": "https://doi.org/10.1364/cleo_fs.2024.ftu4f.7",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2024
+  },
+  "S2:56dc29b41bd08aad3428942869761c90082adc69": {
+    "title": "Tripartite Frequency-bin-encoded W States on a Chip",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/cleo_at.2023.jth2a.44",
+    "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.44",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2023
+  },
+  "S2:eb752975e48f38e3ec3f2c79f135662160d9fd93": {
+    "title": "Integrated photonic sources of frequency-bin-encoded multipartite entangled states",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": "10.1103/physreva.109.013505",
+    "url": "https://doi.org/10.1103/physreva.109.013505",
+    "venue": "Physical Review A",
+    "year": 2023
+  },
+  "S2:69ec3ebc70620155a7596615a63b5b89d7ffa751": {
+    "title": "An Integrated Approach to Third-order Parametric Down-conversion",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cleo_at.2023.jth2a.15",
+    "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.15",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2023
+  },
+  "S2:1a98409f293a138b094fc7bb700c4842328680dc": {
+    "title": "Resonant and nonresonant integrated third-order parametric down-conversion",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.106.013710",
+    "url": "https://doi.org/10.1103/PhysRevA.106.013710",
+    "venue": "Physical Review A",
+    "year": 2022
+  },
+  "S2:5a3c2ecc5661878c9de5153cfd3e465e0d92007e": {
+    "title": "Quantum-referenced spontaneous emission tomography",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/2058-9565/acf47b",
+    "url": "https://doi.org/10.1088/2058-9565/acf47b",
+    "venue": "Quantum Science and Technology",
+    "year": 2022
+  },
+  "S2:9a430f2155ef5bbcbcd9ca2f68c3558f057ccb02": {
+    "title": "Out, Lost, or Broken: Photon Pairs from a Lossy Resonator",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1364/cleo_at.2022.jtu3a.20",
+    "url": "https://doi.org/10.1364/cleo_at.2022.jtu3a.20",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2022
+  },
+  "S2:992e1040705ac8000420a63294de816bfd0196f7": {
+    "title": "Modeling nonlinear optics in lossy integrated photonic structures: two strategies",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/992e1040705ac8000420a63294de816bfd0196f7",
+    "venue": null,
+    "year": 2022
+  },
+  "S2:d5b390b0231a63c2f722da7f690f940fa6fe2185": {
+    "title": "Two strategies for modeling nonlinear optics in lossy integrated photonic structures",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": "10.1103/physreva.106.043707",
+    "url": "https://doi.org/10.1103/PhysRevA.106.043707",
+    "venue": "Physical Review A",
+    "year": 2021
+  },
+  "S2:c2d4cbdb9738bd316c13dbbed9939540ef1f382b": {
+    "title": "Modeling nonlinear optics in lossy microring systems: two strategies",
+    "categories": [
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/c2d4cbdb9738bd316c13dbbed9939540ef1f382b",
+    "venue": null,
+    "year": 2021
+  },
+  "S2:2289fa7789cb97372ecab7ea136dbc1459469720": {
+    "title": "Generation of photon pairs by stimulated emission in ring resonators.",
+    "categories": [
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/ol.448161",
+    "url": "https://doi.org/10.1364/OL.448161",
+    "venue": "Optics Letters",
+    "year": 2021
+  },
+  "S2:8589eb4f1350bdf8be654d435248c6d2c228bd2b": {
+    "title": "Associations between performance-based and self-reported prospective memory, impulsivity and encoding support.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1016/j.actpsy.2020.103066",
+    "url": "https://doi.org/10.1016/j.actpsy.2020.103066",
+    "venue": "Acta Psychologica",
+    "year": 2020
+  },
+  "S2:032da917e2d4353653ceadd7db5650058c776ef0": {
+    "title": "Predictive cues and spatial attentional bias for alcohol: Manipulations of cue-outcome mapping.",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1016/j.addbeh.2019.106247",
+    "url": "https://doi.org/10.1016/j.addbeh.2019.106247",
+    "venue": "Addictive Behaviours",
+    "year": 2019
+  }
+}
