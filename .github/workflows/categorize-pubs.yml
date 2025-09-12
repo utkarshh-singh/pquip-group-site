@@ -1,0 +1,39 @@
+name: Build publication categories
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"   # Mondays 05:00 UTC
+  workflow_dispatch:
+  push:
+    paths:
+      - "members/**/publications.json"
+      - "tools/classify_categories.py"
+      - "data/categories.overrides.json"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Classify categories
+        run: |
+          python tools/classify_categories.py
+
+      - name: Commit JSON
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/publication_categories.json
+            git commit -m "chore: update publication_categories.json"
+            git push
+          else
+            echo "No changes."
+          fi
