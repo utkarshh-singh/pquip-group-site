@@ -40,7 +40,7 @@
 .hero-cta .btn{ margin-right:12px }
 
 /* dots */
-.slideshow-dots{
+/* .slideshow-dots{
   position: absolute;
   bottom: 12px; left: 50%; transform: translateX(-50%);
   display:flex; gap:8px;
@@ -52,4 +52,58 @@
   border:none; background:#fff7;
   cursor:pointer;
 }
-.slideshow-dots button.active{ background:#fff }
+.slideshow-dots button.active{ background:#fff } */
+
+/* Dots: bottom-left, tiny transparent 3D balls */
+.slideshow-dots{
+  position: absolute;
+  bottom: 14px;
+  left: 14px;                 /* moved to bottom-left */
+  display:flex;
+  gap:10px;
+  z-index: 3;
+}
+
+.slideshow-dots button{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.35);
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.9), rgba(255,255,255,.35) 38%, rgba(255,255,255,.18) 60%, rgba(0,0,0,.12) 100%),
+    linear-gradient(to bottom, rgba(255,255,255,.25), rgba(0,0,0,.12));
+  box-shadow:
+    inset 0 2px 4px rgba(255,255,255,.35),   /* inner highlight */
+    inset 0 -2px 4px rgba(0,0,0,.15),        /* inner shading */
+    0 1px 2px rgba(0,0,0,.25);               /* subtle outer shadow */
+  opacity:.9;
+  cursor:pointer;
+  transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease, border-color .18s ease;
+  backdrop-filter: blur(2px);                /* glassy feel (supported browsers) */
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.slideshow-dots button:hover{
+  transform: scale(1.15);
+  opacity: 1;
+  box-shadow:
+    inset 0 2px 5px rgba(255,255,255,.45),
+    inset 0 -2px 6px rgba(0,0,0,.2),
+    0 2px 4px rgba(0,0,0,.3);
+}
+
+.slideshow-dots button.active{
+  transform: scale(1.25);
+  border-color: rgba(255,255,255,.9);
+  box-shadow:
+    inset 0 3px 6px rgba(255,255,255,.55),
+    inset 0 -3px 8px rgba(0,0,0,.25),
+    0 3px 6px rgba(0,0,0,.35);
+}
+
+.slideshow-dots button:focus-visible{
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+  transform: scale(1.25);
+}
+
