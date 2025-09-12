@@ -69,10 +69,29 @@
         </article>
       </div>
     </section>
+
+    <!-- ====== This Year's Highlights (Publications Slideshow) ====== -->
+    <section class="year-pubs">
+      <div class="year-pubs__head">
+        <h2>This Year’s Highlights</h2>
+        <p class="muted">Selected publications from the current year</p>
+      </div>
+    
+      <div class="year-pubs__carousel">
+        <button class="yp-btn yp-prev" aria-label="Previous">‹</button>
+        <div class="yp-viewport">
+          <div class="yp-track" id="yp-track"></div>
+        </div>
+        <button class="yp-btn yp-next" aria-label="Next">›</button>
+      </div>
+    
+      <div class="yp-dots" id="yp-dots" aria-label="Slide navigation"></div>
+    </section>
   </main>
 
   <div id="site-footer"></div>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/home-slideshow.js"></script> <!-- NEW -->
+  <script src="assets/js/home-pubs-slideshow.js"></script>
 </body>
 </html>
