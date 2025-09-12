@@ -1,29 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Join — PQuIP Group</title>
-  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Join — PQUIP Group</title>
+  <link rel="stylesheet" href="assets/css/join.css" />
 </head>
 <body>
-<div id="site-header"></div>
-<main class="container main-content">
-  <section>
-    <h1>Join the Group</h1>
-    <p>We welcome motivated students and postdocs with backgrounds in physics, maths, CS, or related fields.</p>
-    <h3>How to Apply</h3>
-    <ol>
-      <li>Send your CV and a short statement of interest.</li>
-      <li>Include transcripts (unofficial is fine).</li>
-      <li>Mention any publications, preprints, or notable projects.</li>
-    </ol>
-    <p>Email: <a href="mailto:placeholder@example.com">placeholder@example.com</a></p>
-  </section>
-</main>
-<div id="site-footer"></div>
-<script src="assets/js/main.js"></script>
+  <div id="site-header"></div>
+
+  <main class="container main-content join">
+
+    <!-- HERO -->
+    <section class="join-hero">
+      <div class="hero-text">
+        <h1>Join the PQUIP Group</h1>
+        <p>We welcome motivated students and postdocs with backgrounds in physics, photonics, EE, CS/ML, or related fields. We combine theory, simulation, and experiment across quantum communications, light–matter interfaces, quantum simulation, and photonic quantum information processing.</p>
+
+        <div class="cta">
+          <!-- TODO: set your real address -->
+          <a class="btn" href="mailto:placeholder@example.com?subject=Application%20to%20PQUIP%20Group%20-%20Your%20Name&body=Hi%20PQUIP%20Group%2C%0D%0A%0D%0AI'm%20interested%20in%20applying%20for%20%5BPostdoc%20%7C%20PhD%20%7C%20MSc%20%7C%20Intern%5D.%0D%0A%0D%0ASee%20attached%20(1)%20CV%2C%20(2)%20unofficial%20transcripts%2C%20(3)%20statement%20of%20interest.%0D%0A%0D%0ABest%2C%0D%0A%5BYour%20Name%5D">Email your application</a>
+          <a class="btn-ghost" href="#apply">How to apply</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRACKS -->
+    <section class="tracks" aria-labelledby="tracks-title">
+      <h2 id="tracks-title">Open Tracks</h2>
+      <div class="cards">
+        <article class="track">
+          <h3>Postdoctoral Researchers</h3>
+          <ul>
+            <li>Background in quantum optics, photonics, quantum information, or ML for quantum.</li>
+            <li>Lead subprojects; mentor students; publish and present.</li>
+            <li><strong>Start:</strong> Rolling (typically 3–12 months lead time).</li>
+          </ul>
+          <p class="note">Please mention your earliest start date and two recent representative papers.</p>
+        </article>
+
+        <article class="track">
+          <h3>PhD Students</h3>
+          <ul>
+            <li>Strong coursework/research in physics, photonics, EE, or CS/ML.</li>
+            <li>Experience with one of: quantum optics labs, simulations, or ML.</li>
+            <li><strong>Start:</strong> Fall/Winter; applications reviewed year-round.</li>
+          </ul>
+          <p class="note">Include unofficial transcripts; highlight any publications or preprints.</p>
+        </article>
+
+        <article class="track">
+          <h3>MSc / MEng Students</h3>
+          <ul>
+            <li>Excellent undergraduate preparation in a relevant field.</li>
+            <li>Thesis or project options available depending on fit.</li>
+            <li><strong>Start:</strong> Fall/Winter; reviewed on a rolling basis.</li>
+          </ul>
+          <p class="note">Tell us which research area(s) excite you and any prior lab/software experience.</p>
+        </article>
+
+        <article class="track">
+          <h3>Undergrad / Visiting Interns</h3>
+          <ul>
+            <li>Research terms (NSERC/USRA, co-op, summer), 8–16+ weeks.</li>
+            <li>Good programming or lab skills are a plus.</li>
+            <li><strong>Start:</strong> Summer/Fall; apply 3–5 months ahead.</li>
+          </ul>
+          <p class="note">Attach an unofficial transcript and a short paragraph about your interests.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW TO APPLY -->
+    <section class="apply" id="apply" aria-labelledby="apply-title">
+      <div class="apply-inner">
+        <h2 id="apply-title">How to Apply</h2>
+        <ol class="steps">
+          <li><strong>Prepare a single PDF</strong> with:
+            <ul>
+              <li>CV (with publications and links, if any)</li>
+              <li>Statement of interest (1–2 pages): background, interests, and how you see your fit</li>
+              <li>Unofficial transcripts (for student roles)</li>
+            </ul>
+          </li>
+          <li><strong>Email your application</strong> to <a href="mailto:placeholder@example.com">placeholder@example.com</a> with the subject:<br>
+            <code>Application – [Postdoc | PhD | MSc | Intern] – Your Name</code>
+          </li>
+          <li><strong>Optional:</strong> include links to code (GitHub), preprints, or posters.</li>
+        </ol>
+
+        <div class="inline-cards">
+          <div class="icard">
+            <h4>Selection & Timing</h4>
+            <p>We review applications continuously and invite shortlisted candidates for a brief call followed by an interview. Typical timelines are 2–6 weeks depending on the role and season.</p>
+          </div>
+          <div class="icard">
+            <h4>Funding & Support</h4>
+            <p>Positions are fully funded. Competitive scholarships and fellowships are encouraged; we will support strong candidates for relevant programs.</p>
+          </div>
+          <div class="icard">
+            <h4>Environment</h4>
+            <p>We are co-located across the National Research Council of Canada and the University of Ottawa with access to excellent photonics and computation facilities.</p>
+          </div>
+        </div>
+
+        <div class="apply-cta">
+          <a class="btn" href="mailto:placeholder@example.com?subject=Application%20to%20PQUIP%20Group%20-%20Your%20Name&body=Hi%20PQUIP%20Group%2C%0D%0A%0D%0AI%27m%20interested%20in%20applying%20for%20%5BPostdoc%20%7C%20PhD%20%7C%20MSc%20%7C%20Intern%5D.%0D%0A%0D%0APlease%20find%20attached%20my%20CV%2C%20statement%20of%20interest%2C%20and%20transcripts.%0D%0A%0D%0ARegards%2C%0D%0A%5BYour%20Name%5D">Send my application</a>
+          <a class="btn-ghost" href="#tracks-title">See open tracks</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">FAQ</h2>
+      <details>
+        <summary>Do I need prior quantum experience?</summary>
+        <p>No. We value core strengths (e.g., optics, control, computing/ML, algorithms) and a willingness to learn. Tell us how your skills transfer.</p>
+      </details>
+      <details>
+        <summary>Can I apply without publications?</summary>
+        <p>Yes. For student roles, coursework, projects, or open-source work are great signals. Share links if applicable.</p>
+      </details>
+      <details>
+        <summary>Where are you located?</summary>
+        <p>Ottawa, Canada — primarily at the National Research Council of Canada and the University of Ottawa.</p>
+      </details>
+      <details>
+        <summary>Equity, Diversity & Inclusion</summary>
+        <p>We are committed to a respectful, inclusive environment. We encourage applications from all qualified candidates, including individuals from under-represented groups.</p>
+      </details>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
