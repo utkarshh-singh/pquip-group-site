@@ -356,7 +356,7 @@
 
 .logo-grid{
   display:grid;
-  gap:18px;                               /* was 14px */
+  gap:10px;                               /* was 14px */
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));  /* was 110px */
   align-items:center;
   justify-items:center;
