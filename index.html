@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
   <title>PQUIP Group</title>
-  <!-- Global head (fonts, base styles) remains as you have it -->
   <link rel="stylesheet" href="assets/css/home.css" />
+  <link rel="stylesheet" href="assets/css/home-slideshow.css" />  <!-- NEW -->
 </head>
 <body>
   <div id="site-header"></div>
 
   <main class="container main-content">
-    <section class="hero-full" aria-label="PQUIP Group">
-      <!-- The image is now an element, not a CSS background -->
-      <img class="hero-bg" src="assets/img/group.jpg" alt="" loading="eager" decoding="async" />
-    
-      <!-- Bottom overlay with CTAs on top of the image -->
+    <!-- HERO SLIDESHOW (boxed inside container) -->
+    <section class="hero-slideshow" aria-label="PQUIP Group">
+      <div class="slides">
+        <!-- Replace with your real images (keep relative paths) -->
+        <img src="assets/img/group1.jpg" class="slide active" alt="Group photo 1" loading="eager" decoding="async">
+        <img src="assets/img/group2.jpg" class="slide" alt="Group photo 2" loading="lazy">
+        <img src="assets/img/group3.jpg" class="slide" alt="Group photo 3" loading="lazy">
+      </div>
+
+      <!-- Bottom overlay with CTAs (same links you had) -->
       <div class="hero-overlay">
         <div class="overlay-inner">
           <nav class="hero-cta" aria-label="Primary quick links">
@@ -24,8 +29,10 @@
           </nav>
         </div>
       </div>
-    </section>
 
+      <!-- Dots -->
+      <div class="slideshow-dots" aria-label="Slide navigation"></div>
+    </section>
 
     <!-- Text section below the image -->
     <section class="home-intro">
@@ -38,7 +45,6 @@
         simulation, and photonic quantum information processing.
       </p>
 
-      <!-- (Optional) Three quick cards below -->
       <div class="cards">
         <article class="card">
           <h3>News</h3>
@@ -61,5 +67,6 @@
 
   <div id="site-footer"></div>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/home-slideshow.js"></script> <!-- NEW -->
 </body>
 </html>
