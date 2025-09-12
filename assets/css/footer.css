@@ -1,0 +1,40 @@
+.site-footer{
+  background:#111827;  /* dark gray background */
+  color:#ddd;
+  font-size:.9rem;
+  line-height:1.4;
+}
+
+.footer-main{
+  padding:16px 20px;
+  text-align:center;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.footer-strip{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 20px;
+  background:#0d121a; /* slightly darker strip */
+  font-size:.85rem;
+}
+
+.footer-address p{
+  margin:0;
+  color:#aaa;
+}
+
+.footer-logos{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.footer-logos img{
+  height:28px;
+  width:auto;
+  opacity:.8;
+  transition:opacity .2s ease;
+}
+.footer-logos img:hover{ opacity:1 }
