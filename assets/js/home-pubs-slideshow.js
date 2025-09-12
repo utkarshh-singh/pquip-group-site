@@ -41,56 +41,56 @@ document.addEventListener('DOMContentLoaded', () => {
       </figure>`;
   }
 
-  // ===== Carousel state (slide 1 item at a time) =====
-  let index = 0;            // index of the first visible card
-  let perView = 4;          // how many fit in viewport
-  let total = 0;            // total cards
-  const GAP = 12;           // MUST match CSS
+  // ===== Carousel state (infinite loop, 1-by-1) =====
+  let index = 0;             // index within the *cloned* track
+  let perView = 4;           // cards visible; recalculated on resize
+  let total = 0;             // original items count (no clones)
+  let gap = 12;              // MUST match CSS
   let timer;
+  let sliding = false;       // lock during transition
 
   function computePerView(){
     const w = track.closest('.yp-viewport').clientWidth;
     perView = w < 720 ? 2 : (w < 980 ? 3 : 4);
   }
 
-  function maxStart(){
-    return Math.max(0, total - perView);
+  function cardWidth(){
+    const c = track.querySelector('.yp-card');
+    return c ? c.getBoundingClientRect().width : 0;
   }
 
-  function updateTransform(){
-    const card = track.querySelector('.yp-card');
-    if (!card) return;
-    const w = card.getBoundingClientRect().width;
-    const offset = (w + GAP) * index;
-    track.style.transform = `translateX(${-offset}px)`;
-  }
-
-  // Advance one; autoplay wraps only *after* showing the last row
-  function next(auto=false){
-    const limit = maxStart();
-    if (index < limit){
-      index += 1;
-    } else if (auto){
-      index = 0;                   // wrap only on autoplay
+  function translateTo(i, withAnim = true){
+    const width = cardWidth();
+    const offset = (width + gap) * i;
+    if (!withAnim) {
+      track.style.transition = 'none';
+      track.style.transform  = `translateX(${-offset}px)`;
+      // force reflow, then restore transition
+      void track.offsetHeight;
+      track.style.transition = '';
     } else {
-      index = limit;               // clamp on manual click
+      track.style.transform  = `translateX(${-offset}px)`;
     }
-    updateTransform();
   }
 
-  function prev(auto=false){
-    const limit = maxStart();
-    if (index > 0){
-      index -= 1;
-    } else if (auto){
-      index = limit;               // wrap only on autoplay
-    } else {
-      index = 0;                   // clamp on manual click
-    }
-    updateTransform();
+  function next(auto = false){
+    if (sliding) return;
+    sliding = true;
+    index += 1;
+    translateTo(index, true);
   }
 
-  function resetTimer(){ clearInterval(timer); timer = setInterval(() => next(true), 5000); }
+  function prev(auto = false){
+    if (sliding) return;
+    sliding = true;
+    index -= 1;
+    translateTo(index, true);
+  }
+
+  function resetTimer(){
+    clearInterval(timer);
+    timer = setInterval(() => next(true), 5000);
+  }
 
   // Buttons
   const prevBtn = document.querySelector('.yp-prev');
@@ -103,16 +103,68 @@ document.addEventListener('DOMContentLoaded', () => {
   carousel.addEventListener('mouseenter', ()=> clearInterval(timer));
   carousel.addEventListener('mouseleave', resetTimer);
 
-  // Recompute on resize
+  // Snap after CSS transition ends (wrap logic with clones)
+  track.addEventListener('transitionend', () => {
+    const totalCloned = total + 2 * perView; // total children in track
+    const firstReal   = perView;             // first real card index
+    const lastRealEnd = perView + total - 1; // last real card index
+
+    if (index > lastRealEnd) {
+      // moved into the cloned head → jump back to first real
+      index = firstReal;
+      translateTo(index, false);
+    } else if (index < firstReal) {
+      // moved into the cloned tail → jump to last real
+      index = lastRealEnd;
+      translateTo(index, false);
+    }
+    sliding = false;
+  });
+
+  // Re-render with correct clones when layout changes
   window.addEventListener('resize', () => {
     const before = perView;
     computePerView();
-    if (before !== perView){
-      // keep current *first* item visible, clamp to new bounds
-      index = Math.min(index, maxStart());
-      updateTransform();
+    if (before !== perView) {
+      rebuildTrack(); // rebuild clones for new perView
+    } else {
+      // minor width change → keep current transform accurate
+      translateTo(index, false);
     }
   });
+
+  // ===== Build track with clones =====
+  function rebuildTrackContent(items){
+    // items: original list
+    const frag = [];
+    const n = items.length;
+    // 1) tail clones (last perView → start)
+    const tail = items.slice(Math.max(0, n - perView));
+    tail.forEach(it => frag.push(cardHTML(it)));
+    // 2) original
+    items.forEach(it => frag.push(cardHTML(it)));
+    // 3) head clones (first perView → end)
+    const head = items.slice(0, perView);
+    head.forEach(it => frag.push(cardHTML(it)));
+    track.innerHTML = frag.join('');
+  }
+
+  function rebuildTrack(){
+    // Rebuild using the previously chosen items in DOM
+    const originals = Array.from(track.querySelectorAll('.yp-card a')).map(a => ({
+      url: a.getAttribute('href'),
+      image: a.querySelector('img')?.getAttribute('src'),
+      title: a.getAttribute('title')
+    }));
+    if (!originals.length) return;
+    computePerView();
+    rebuildTrackContent(originals);
+    total = originals.length;
+
+    // Start at first real item (after tail clones)
+    index = perView;
+    translateTo(index, false);
+  }
 
   // ===== Load and render =====
   (async () => {
@@ -127,12 +179,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const items = manual.concat(shuffle(auto).slice(0, fill));
     if (!items.length) return;
 
-    track.innerHTML = items.map(cardHTML).join('');
+    computePerView();
+    rebuildTrackContent(items);
     total = items.length;
 
-    computePerView();
-    index = 0;
-    updateTransform();
+    // set start position to first real card (skip tail clones)
+    index = perView;
+    translateTo(index, false);
+
     resetTimer();
   })();
 });
