@@ -15,47 +15,6 @@
 }
 
 
-/* --- Toolbar: make Clear always visible and accessible --- */
-.toolbar .btn {                 /* keep your base .btn */
-  cursor: pointer;
-  box-shadow: var(--shadow-sm);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  font-weight: 600;
-}
-
-/* specific style for the Clear button */
-.toolbar .btn-clear{
-  background: #f1f5f9;                       /* light slate */
-  border: 1px solid rgba(15,23,42,.18);
-  color: #0f172a;                             /* readable text */
-  border-radius: 10px;
-}
-
-.toolbar .btn-clear:hover{
-  background: #e2e8f0;
-}
-
-.toolbar .btn-clear:focus{
-  outline: 2px solid #94a3b8;
-  outline-offset: 2px;
-}
-
-/* ensure inputs/selects don’t look disabled next to the button */
-.toolbar input,
-.toolbar select{
-  background: #fff;
-  color: var(--text);
-}
-
-/* optional: placeholder contrast */
-.toolbar input::placeholder{
-  color: color-mix(in srgb, var(--muted) 70%, #000 30%);
-}
-
-
 .toolbar input,.toolbar select,.toolbar .btn{
   height:40px; border:1px solid var(--line); border-radius:10px; padding:0 10px; background:#fff;
 }
