@@ -21,10 +21,11 @@
 }
 
 /* Grid of contact cards */
-.contact-grid{
-  display:grid; gap:12px;
-  grid-template-columns: repeat(3,1fr);
-  margin-bottom:18px;
+.contact-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 24px;
 }
 .card{
   background:#fff;
