@@ -1,0 +1,17 @@
+{
+      "id": "noah",
+      "name": "Noah Gladstein",
+      "aliases": ["N. Gladstein", "Noah G."],
+      "role": "Research officer, National Research Council",
+      "email": "noah@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/noah.jpg",
+      "orcid": "0000-0002-3301-7672",
+      "semanticScholarId": "1390051644",
+      "categories": ["Quantum Communication", "Quantum Metrology"],
+      "linkedin": "https://www.linkedin.com/",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=7_CxD0EAAAAJ&view_op=list_works&sortby=pubdate",
+      "scholarUser": "7_CxD0EAAAAJ",      
+      "github": "https://github.com/",
+      "website": "http://quantumtechnology.ca/noah"
+    }
