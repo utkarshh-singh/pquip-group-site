@@ -1,6 +1,6 @@
 {
       "id": "zahra",
-      "name": "Zahra",
+      "name": "Zahra Esmaeili",
       "aliases": ["#", "#"],
       "role": "PhD Student — Quantum Info., University of Ottawa",
       "email": "zahra@example.com",
@@ -11,6 +11,7 @@
       "categories": ["#"],
       "linkedin": "#",
       "scholar": "#",
+      "scholarUser": "4ZJ9EtkAAAAJ",
       "github": "https://github.com/",
       "website": "#"
     }
