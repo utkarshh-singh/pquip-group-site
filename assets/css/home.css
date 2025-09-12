@@ -266,3 +266,60 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* === Intro readability refinements (append to end of home.css) === */
+
+/* 1) Keep the paragraph column within an ideal measure */
+.intro-band .intro-left{
+  max-width: 68ch;              /* ~60–72 characters per line */
+}
+
+/* 2) Lede paragraph: size/line-height tuned for Inter */
+.intro-band .intro-lede{
+  font-size: 1.05rem;           /* was 1.125rem */
+  line-height: 1.75;            /* was 1.8 (keeps block tighter) */
+  letter-spacing: -0.005em;     /* subtle optical tightening */
+  color: #334155;               /* slate-700 */
+  text-wrap: pretty;            /* better line breaks (modern browsers) */
+  hyphens: auto;                /* allow hyphenation on narrow widths */
+  font-feature-settings: "liga","kern","onum";
+}
+
+/* 3) Capability pills: a touch lighter and airier */
+.intro-band .intro-points li{
+  font-size: 0.975rem;          /* was default */
+  line-height: 1.55;
+  font-weight: 500;
+  padding: 10px 14px 10px 30px; /* a bit more breathing room */
+}
+
+/* 4) Kicker pills aren’t louder than the body text */
+.intro-band .intro-kicker span{
+  font-size: 0.9rem;            /* was .92rem */
+  padding: 6px 10px;
+}
+
+/* 5) Right-column stats balanced with copy */
+.intro-band .stat strong{ font-size: 1.35rem; }  /* was 1.6rem */
+.intro-band .stat span{   font-size: 0.9rem;  }
+
+/* 6) Panel feel: a hair softer */
+.intro-band{
+  gap: 24px;                    /* was 28px */
+  padding: 20px;                /* was 22px */
+  background: linear-gradient(180deg, rgba(241,245,249,0.50), rgba(241,245,249,0.32));
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 10px 28px rgba(15,23,42,0.06);
+  border-radius: 16px;          /* was 18px */
+}
+
+/* 7) Responsive: slightly narrower column & size on small screens */
+@media (max-width: 980px){
+  .intro-band .intro-left{ max-width: 64ch; }
+  .intro-band .intro-lede{ font-size: 1rem; line-height: 1.7; }
+}
+@media (max-width: 680px){
+  .intro-band .intro-left{ max-width: 60ch; }
+  .intro-band .intro-lede{ font-size: 0.975rem; line-height: 1.65; }
+  .intro-band{ padding: 18px; gap: 18px; }
+}
