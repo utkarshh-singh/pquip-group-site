@@ -55,55 +55,52 @@
 .slideshow-dots button.active{ background:#fff } */
 
 /* Dots: bottom-left, tiny transparent 3D balls */
+/* Dots: bottom-left, smaller, subtle transparent 3D balls */
 .slideshow-dots{
   position: absolute;
   bottom: 14px;
-  left: 14px;                 /* moved to bottom-left */
+  left: 14px;
   display:flex;
-  gap:10px;
+  gap:8px;
   z-index: 3;
 }
 
 .slideshow-dots button{
-  width:12px;
-  height:12px;
+  width:10px;
+  height:10px;
   border-radius:50%;
-  border:1px solid rgba(255,255,255,.35);
+  border:1px solid rgba(255,255,255,.25);
   background:
-    radial-gradient(circle at 35% 30%, rgba(255,255,255,.9), rgba(255,255,255,.35) 38%, rgba(255,255,255,.18) 60%, rgba(0,0,0,.12) 100%),
-    linear-gradient(to bottom, rgba(255,255,255,.25), rgba(0,0,0,.12));
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.6), rgba(255,255,255,.2) 40%, rgba(0,0,0,.1) 100%),
+    linear-gradient(to bottom, rgba(255,255,255,.15), rgba(0,0,0,.1));
   box-shadow:
-    inset 0 2px 4px rgba(255,255,255,.35),   /* inner highlight */
-    inset 0 -2px 4px rgba(0,0,0,.15),        /* inner shading */
-    0 1px 2px rgba(0,0,0,.25);               /* subtle outer shadow */
-  opacity:.9;
+    inset 0 1px 2px rgba(255,255,255,.25),
+    inset 0 -1px 2px rgba(0,0,0,.15),
+    0 1px 2px rgba(0,0,0,.2);
+  opacity:.6;                  /* more transparent */
   cursor:pointer;
   transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease, border-color .18s ease;
-  backdrop-filter: blur(2px);                /* glassy feel (supported browsers) */
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
 }
 
 .slideshow-dots button:hover{
   transform: scale(1.15);
-  opacity: 1;
-  box-shadow:
-    inset 0 2px 5px rgba(255,255,255,.45),
-    inset 0 -2px 6px rgba(0,0,0,.2),
-    0 2px 4px rgba(0,0,0,.3);
+  opacity: .85;
+  border-color: rgba(255,255,255,.5);
 }
 
 .slideshow-dots button.active{
-  transform: scale(1.25);
+  transform: scale(1.2);
+  opacity: 1;
   border-color: rgba(255,255,255,.9);
   box-shadow:
-    inset 0 3px 6px rgba(255,255,255,.55),
-    inset 0 -3px 8px rgba(0,0,0,.25),
-    0 3px 6px rgba(0,0,0,.35);
+    inset 0 2px 4px rgba(255,255,255,.35),
+    inset 0 -2px 5px rgba(0,0,0,.25),
+    0 2px 4px rgba(0,0,0,.35);
 }
 
 .slideshow-dots button:focus-visible{
   outline: 2px solid #fff;
   outline-offset: 2px;
-  transform: scale(1.25);
 }
-
