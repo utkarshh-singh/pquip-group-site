@@ -119,3 +119,45 @@
   border-color: rgba(148,163,184,0.9);
   transform: translateY(-1px);
 }
+/* ===== Generic card box ===== */
+.card-box {
+  padding: 22px 24px;
+  margin: 20px 0 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(15,23,42,0.08);
+  background: #fff; /* white but sits above gray page */
+  box-shadow: 0 4px 12px rgba(15,23,42,0.04);
+}
+
+/* Intro text */
+.people-lede{
+  color:#334155;
+  font-size:1.05rem;
+  line-height:1.75;
+  margin:0 0 16px 0;
+  max-width: 70ch;
+}
+
+/* Tag pills */
+.people-tags{
+  display:flex; gap:10px; flex-wrap:wrap;
+}
+
+.people-tags .tag{
+  display:inline-block;
+  padding:6px 14px;
+  border-radius:999px;
+  font-size:.9rem;
+  font-weight:500;
+  text-decoration:none;
+  color:#334155;
+  background:rgba(241,245,249,0.9);  /* light gray */
+  border:1px solid rgba(226,232,240,0.9);
+  transition: all .2s ease;
+}
+
+.people-tags .tag:hover{
+  background:rgba(226,232,240,1);
+  border-color: rgba(203,213,225,1);
+  transform: translateY(-1px);
+}
