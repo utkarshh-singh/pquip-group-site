@@ -1,0 +1,49 @@
+/* ---------- Header Styles ---------- */
+
+.site-header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 8px 20px;
+  min-height: 64px; /* keeps header balanced */
+  background:#fff;
+  border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.site-header .logo{
+  display:flex; align-items:center; gap:12px;
+  text-decoration:none;
+}
+
+.site-header .logo img{
+  height: 48px;   /* make logo bigger */
+  width:auto;
+  display:block;
+  border-radius:6px;         /* optional soft corners */
+  box-shadow:0 2px 6px rgba(0,0,0,.08); /* optional subtle lift */
+}
+
+.site-header .logo strong{
+  font-size:1.1rem;
+  color:#0f172a;
+}
+.site-header .logo span{
+  font-size:.82rem;
+  color:#6b7280;
+}
+
+.site-header nav ul{
+  display:flex; gap:20px;
+  list-style:none; margin:0; padding:0;
+}
+.site-header nav a{
+  text-decoration:none;
+  color:#334155;
+  font-weight:500;
+}
+.site-header nav a:hover{
+  color:#0f766e; /* teal hover */
+}
+
+/* Larger logo on wide screens */
+@media (min-width:1024px){
+  .site-header .logo img{ height:56px; }
+}
