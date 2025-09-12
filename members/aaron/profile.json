@@ -5,7 +5,7 @@
       "role": "Research officer, National Research Council",
       "email": "aaron@example.com",
       "phone": "+1 (555) 123-4567",
-      "photo": "assets/img/aaron.avif",
+      "photo": "assets/img/aaron.jpg",
       "orcid": "0000-0002-3301-7672",
       "semanticScholarId": "51178031",
       "categories": ["Quantum Communication", "Quantum Machine Learning", "Quantum Metrology"],
