@@ -406,3 +406,28 @@
   background:#f1f5f9; cursor:pointer; font-weight:700;
 }
 .strip-btn:hover{ background:#e2e8f0; }
+
+
+
+/* Scope logo sizing to the collaborators card only, override any global .logo */
+.partners .logo {
+  height: 80px !important;     /* force an actual size */
+  width: auto !important;
+  max-height: none !important;
+  max-width: 180px;
+  object-fit: contain;
+  padding: 6px 8px;
+  filter: grayscale(60%) opacity(.95);
+}
+
+.partners .logo-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+  align-items: center;
+  justify-items: center;
+  min-height: 120px;
+}
+
+/* helpers */
+.partners .logo--light { filter: drop-shadow(0 0 1px rgba(0,0,0,.35)) drop-shadow(0 1px 1px rgba(0,0,0,.35)); }
+.partners .logo--wide  { height: 90px !important; max-width: 220px; }
