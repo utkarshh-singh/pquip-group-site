@@ -5,7 +5,7 @@
       "role": "PhD Student, University of Ottawa",
       "email": "alex@example.com",
       "phone": "+1 (555) 123-4567",
-      "photo": "assets/img/alex.jpg",
+      "photo": "assets/img/alex.png",
       "orcid": "0000-0002-#",
       "semanticScholarId": "#",
       "categories": ["Quantum Optimal Transport"],
