@@ -331,49 +331,68 @@
   .intro-band{ padding: 18px; gap: 18px; }
 }
 /* Small “card” look to match your stat tiles */
+/* Small “card” look to match your stat tiles */
 .cardish{
   background:#fff;
   border:1px solid rgba(15,23,42,0.10);
   border-radius:12px;
-  padding:12px;
+  padding:14px;                           /* a bit more padding */
   box-shadow:0 6px 16px rgba(15,23,42,0.05);
 }
 
+/* Collaborators title */
 .partners h4{
   margin:0 0 8px 0;
-  font-size:.98rem; color:#0f172a;
+  font-size:.98rem;
+  color:#0f172a;
 }
 
-/* Calm grid of logos */
+/* Grid of logos – bigger, centered */
 .logo-grid{
-  display:grid; gap:10px;
-  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+  display:grid;
+  gap:14px;                               /* was 10px */
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));  /* was 72px */
   align-items:center;
+  justify-items:center;
+  min-height:88px;                        /* gives the card some breathing room */
 }
+
+/* Logo sizing & visibility */
 .logo{
   display:block;
   max-width:100%;
-  max-height:32px;              /* keeps them visually even */
+  max-height:56px;                        /* was 32px */
   object-fit:contain;
-  filter: grayscale(100%) opacity(.85);
-  transition: filter .2s ease, transform .2s ease;
+  padding:4px 6px;                        /* avoids edge clipping */
+  filter: grayscale(70%) opacity(.95);    /* softer, still visible */
+  transition: filter .18s ease, transform .18s ease;
 }
 .logo:hover{
-  filter: none;
+  filter:none;
   transform: translateY(-1px);
 }
 
-/* Optional: switch to a subtle horizontal strip when you have many logos */
+/* Helper classes */
+.logo--light{                              /* for white/very light logos */
+  filter: drop-shadow(0 0 1px rgba(0,0,0,.25)) drop-shadow(0 1px 1px rgba(0,0,0,.25));
+}
+.logo--wide{                               /* for extra wide, short logos */
+  max-height:64px;
+}
+
+/* Optional: horizontal strip if you have many logos */
 .logo-strip{
-  display:flex; gap:16px; overflow:auto; scroll-snap-type:x mandatory;
+  display:flex; gap:16px;
+  overflow:auto; scroll-snap-type:x mandatory;
   padding:6px 2px; scrollbar-width:none; -ms-overflow-style:none;
 }
 .logo-strip::-webkit-scrollbar{ display:none; }
-.logo-strip .logo{ scroll-snap-align:center; flex: 0 0 auto; }
+.logo-strip .logo{ scroll-snap-align:center; flex:0 0 auto; }
 
 .strip-controls{ display:flex; gap:6px; justify-content:flex-end; margin-top:8px; }
 .strip-btn{
-  width:28px; height:28px; border-radius:999px; border:1px solid rgba(15,23,42,.12);
+  width:28px; height:28px; border-radius:999px;
+  border:1px solid rgba(15,23,42,.12);
   background:#f1f5f9; cursor:pointer; font-weight:700;
 }
 .strip-btn:hover{ background:#e2e8f0; }
