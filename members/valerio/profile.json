@@ -5,12 +5,13 @@
       "role": "PhD Candidate — Photonics Quantum Info., University of Ottawa",
       "email": "milica@example.com",
       "phone": "+1 (555) 123-4567",
-      "photo": "assets/img/valerio.png",
+      "photo": "assets/img/valerio.jpg",
       "orcid": "0000-##",
       "semanticScholarId": "2206148195",
       "categories": ["Quantum Communication"],
       "linkedin": "https://ca.linkedin.com/in/valerio-crescimanna",
       "scholar": "#",
+      "scholarUser": "#",
       "github": "https://github.com/",
       "website": "#"
     }
