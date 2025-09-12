@@ -1,0 +1,17 @@
+{
+      "id": "nira",
+      "name": "Nira",
+      "aliases": ["#", "#"],
+      "role": "Visiting Student — Quantum Info., University of Ottawa",
+      "email": "nira@example.com",
+      "phone": "+1 (555) 123-4567",
+      "photo": "assets/img/nira.jpg",
+      "orcid": "0000-##",
+      "semanticScholarId": "#",
+      "categories": ["#"],
+      "linkedin": "#",
+      "scholar": "#",
+      "scholarUser": "#",
+      "github": "https://github.com/",
+      "website": "#"
+    }
