@@ -2,12 +2,12 @@
   "updated_at": 0,
   "items": [
     {
-      "type": "talk",
-      "title": "Invited talk — Quantum Machine Learning",
-      "date": "2025-02-12",
+      "type": "Workshop",
+      "title": "Qiskit Fall fest 2025",
+      "date": "2025-11-01",
       "year": 2025,
-      "url": "https://example.com/talk-slides",
-      "image": "assets/img/highlights/talk-qml.jpg",
+      "url": "https://www.uoquantum.com/",
+      "image": "https://www.uoquantum.com/assets/Full_Illustration.png",
       "tags": ["Talk", "QML"]
     },
     {
