@@ -160,3 +160,76 @@
   margin-bottom: 6px;
   font-size: 0.96rem;
 }
+/* ---------- Open Positions section ---------- */
+.openings{ margin: 24px 0 8px; }
+.openings-head{ display:flex; align-items:baseline; gap:10px; margin-bottom:10px; }
+.openings-head .muted{ color:#64748b; }
+
+.openings-list{
+  display:grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.openings-empty{
+  background:#f8fafc;
+  border:1px solid rgba(15,23,42,.08);
+  border-radius:12px;
+  padding:16px;
+  color:#475569;
+}
+
+.open-card{
+  background:#fff;
+  border:1px solid rgba(15,23,42,.10);
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(15,23,42,.06);
+  padding:14px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.open-card__head h3{
+  margin:0 0 4px 0;
+  font-size:1.05rem;
+  color:#0f172a;
+}
+.meta{ display:flex; flex-wrap:wrap; gap:8px; }
+.meta-item{
+  font-size:.86rem; color:#334155;
+  background:#eef2ff; border:1px solid #e2e8f0;
+  padding:4px 8px; border-radius:999px;
+}
+
+.tags{ display:flex; flex-wrap:wrap; gap:6px; }
+.pill{
+  display:inline-block; font-size:.82rem; color:#0f172a;
+  background:#f1f5f9; border:1px solid rgba(15,23,42,.10);
+  padding:4px 8px; border-radius:999px;
+}
+
+.summary{ margin: 4px 0; color:#334155; }
+
+.open-card__cols{
+  display:grid; gap:12px; grid-template-columns: 1fr 1fr;
+}
+.open-card__cols h4{ margin:0 0 6px 0; font-size:.95rem; color:#0f172a; }
+.bullets{ margin: 0; padding-left: 18px; color:#334155; line-height:1.55; }
+.bullets li{ margin-bottom:6px; font-size:.95rem; }
+
+.open-card__foot{
+  display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between;
+  border-top:1px dashed rgba(15,23,42,.12); padding-top:10px;
+}
+.open-card__foot .dates{ display:flex; gap:12px; color:#475569; font-size:.9rem; }
+.open-card__foot .how{ color:#475569; font-size:.9rem; }
+.open-card__foot .btn{
+  display:inline-block; background:#0f766e; color:#fff; text-decoration:none;
+  font-weight:600; padding:8px 12px; border-radius:10px; border:1px solid rgba(15,23,42,.16);
+}
+
+/* Responsive */
+@media (max-width: 860px){
+  .open-card__cols{ grid-template-columns: 1fr; }
+}
