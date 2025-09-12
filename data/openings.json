@@ -1,0 +1,28 @@
+{
+  "updated_at": "2025-03-01",
+  "openings": [
+    {
+      "id": "postdoc-quantum-comms-2025",
+      "title": "Postdoctoral Fellow — Quantum Communications",
+      "track": "Postdoc",
+      "type": "Full-time",
+      "location": "Ottawa, Canada",
+      "start": "Flexible (2025)",
+      "deadline": "Open until filled",
+      "tags": ["Quantum optics", "QKD", "Photonics"],
+      "summary": "Lead experimental/theory efforts on photonic quantum communications and networking with NRC/uOttawa collaborators.",
+      "responsibilities": [
+        "Design & execute experiments/simulations in photonic QKD and networking.",
+        "Publish in top venues; present at conferences.",
+        "Mentor students and coordinate with collaborators."
+      ],
+      "requirements": [
+        "PhD in physics, maths, or related field (completed or near completion).",
+        "Strong background in quantum optics/communications or photonics.",
+        "Track record of publications."
+      ],
+      "how_to_apply": "Email a single PDF (CV, brief statement, 2–3 references) with subject “Application – Postdoc – Your Name”.",
+      "contact": "placeholder@example.com"
+    }
+  ]
+}
