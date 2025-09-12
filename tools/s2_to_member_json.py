@@ -1,12 +1,15 @@
+#!/usr/bin/env python3
 import json, os, time, sys
 from urllib.parse import quote
 import requests
 
 ROOT = os.path.dirname(os.path.dirname(__file__))
 MANIFEST = os.path.join(ROOT, "members", "manifest.json")
-API = "https://api.semanticscholar.org/graph/v1/author/"
-FIELDS = "papers.title,papers.year,papers.venue,papers.url,papers.externalIds,papers.authors"
-PER_MEMBER = int(os.environ.get("S2_PER_MEMBER", "12"))
+
+S2_BASE = "https://api.semanticscholar.org/graph/v1"
+# Include paperId + openAccessPdf; author list kept small (names only)
+PAPER_FIELDS = "paperId,title,year,venue,url,externalIds,authors,openAccessPdf"
+PAGE_SIZE = 100
 
 def read_json(path):
     try:
@@ -22,82 +25,93 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
     os.replace(tmp, path)
 
-def get_profile(member_id):
-    p = os.path.join(ROOT, "members", member_id, "profile.json")
+def get_profile(mid):
+    p = os.path.join(ROOT, "members", mid, "profile.json")
     return read_json(p) or {}
 
-def fetch_author(author_id):
-    url = f"{API}{quote(str(author_id))}?fields={FIELDS}"
-    r = requests.get(url, timeout=45)
-    r.raise_for_status()
-    return r.json()
-
-def normalize_pubs(j):
-    papers = (j or {}).get("papers") or []
-    # sort newest first, limit
-    papers = sorted(papers, key=lambda p: (p.get("year") or 0), reverse=True)[:PER_MEMBER]
-    out = []
-    for p in papers:
-        title = p.get("title") or ""
-        year  = p.get("year")
-        venue = p.get("venue") or ""
-        doi   = None
-        ext   = p.get("externalIds") or {}
-        if isinstance(ext, dict) and ext.get("DOI"):
-            doi = str(ext["DOI"])
-        url = f"https://doi.org/{doi}" if doi else (p.get("url") or "")
-        authors = [a.get("name") for a in (p.get("authors") or []) if a.get("name")]
-        out.append({
-            "title": title,
-            "year": year,
-            "venue": venue,
-            "doi": doi,
-            "url": url,
-            "authors": authors
-        })
-    return out
-
-def get_ids(val):
+def ids_from(val):
     if not val: return []
-    if isinstance(val, (list, tuple)): return [str(x) for x in val]
+    if isinstance(val, (list, tuple)): return [str(x) for x in val if str(x).strip()]
     return [str(val)]
 
+def fetch_author_papers(aid):
+    items, offset = [], 0
+    while True:
+        url = f"{S2_BASE}/author/{quote(str(aid))}/papers?limit={PAGE_SIZE}&offset={offset}&fields={PAPER_FIELDS}"
+        r = requests.get(url, timeout=45)
+        r.raise_for_status()
+        j = r.json()
+        data = j.get("data") or j.get("papers") or []
+        if not data: break
+        items.extend(data)
+        if len(data) < PAGE_SIZE: break
+        offset += PAGE_SIZE
+    return items
+
+def normalize(p):
+    # author/{id}/papers returns flat fields on each item (paperId, title, ...)
+    title = p.get("title") or ""
+    year  = p.get("year")
+    venue = p.get("venue") or ""
+    ext   = p.get("externalIds") or {}
+    doi   = ext.get("DOI")
+    arxiv = ext.get("ArXiv") or ext.get("arXiv") or ext.get("ARXIV")
+    oa    = (p.get("openAccessPdf") or {}).get("url")
+    url   = f"https://doi.org/{doi}" if doi else (p.get("url") or "")
+    authors = [a.get("name") for a in (p.get("authors") or []) if a.get("name")]
+    return {
+        "paperId": p.get("paperId") or None,   # <— needed for figure URLs
+        "title": title,
+        "year": year,
+        "venue": venue,
+        "doi": str(doi) if doi else None,
+        "url": url,
+        "authors": authors,
+        "oa_pdf": oa,
+        "arxivId": arxiv
+    }
+
+def norm_key(n):
+    return (n.get("doi") or (n.get("title") or "").lower()).strip()
+
 def main():
-    ids = read_json(MANIFEST) or []
-    if not isinstance(ids, list):
-        print("ERROR: members/manifest.json must be a JSON array", file=sys.stderr)
+    manifest = read_json(MANIFEST)
+    if not isinstance(manifest, list):
+        print("ERROR: members/manifest.json must be an array of member ids", file=sys.stderr)
         sys.exit(1)
 
-    for mid in ids:
+    for mid in manifest:
         prof = get_profile(mid)
-        aids = get_ids(prof.get("semanticScholarId"))
+        aids = ids_from(prof.get("semanticScholarId"))
         if not aids:
             print(f"skip {mid}: no semanticScholarId", file=sys.stderr)
             continue
-        pubs_all = []
+
+        raw = []
         for aid in aids:
             try:
-                data = fetch_author(aid)
-                pubs = normalize_pubs(data)
-                pubs_all.extend(pubs)
+                raw.extend(fetch_author_papers(aid))
             except Exception as e:
-                print(f"ERROR for {mid}/{aid}: {e}", file=sys.stderr)
-        # dedupe by DOI or title
-        dedup = {}
-        for p in pubs_all:
-            key = (p.get("doi") or p.get("title","")).lower()
-            if key not in dedup: dedup[key] = p
-        pubs_final = list(dedup.values())
+                print(f"ERROR fetch {mid}/{aid}: {e}", file=sys.stderr)
 
-        payload = {
+        dedup = {}
+        for r in raw:
+            n = normalize(r)
+            k = norm_key(n)
+            if k and k not in dedup:
+                dedup[k] = n
+
+        pubs = list(dedup.values())
+        pubs.sort(key=lambda x: (x.get("year") or 0, x.get("title") or ""), reverse=True)
+
+        out = os.path.join(ROOT, "members", mid, "publications.json")
+        write_json(out, {
             "source": "semantic_scholar",
             "author_ids": aids,
             "updated_at": int(time.time()),
-            "publications": pubs_final
-        }
-        out = os.path.join(ROOT, "members", mid, "publications.json")
-        write_json(out, payload)
-        print(f"- wrote {out} with {len(pubs_final)} items")
+            "publications": pubs
+        })
+        print(f"- wrote {out} with {len(pubs)} items")
 
 if __name__ == "__main__":
     main()
