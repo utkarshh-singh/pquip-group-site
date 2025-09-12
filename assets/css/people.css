@@ -35,3 +35,44 @@
   height:var(--avatar-size);
   object-fit:cover;
   border-radius:50%;              /* circle avatars; remove if you prefer rounded-squ*
+
+/* ---------- People: Intro band ---------- */
+.people-intro{
+  margin: 8px 0 18px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(15,23,42,.10);
+  background: linear-gradient(180deg, rgba(241,245,249,.55), rgba(241,245,249,.32));
+  box-shadow: 0 10px 28px rgba(15,23,42,.06);
+}
+
+.people-kicker{
+  display:flex; flex-wrap:wrap; gap:10px; margin:0 0 10px;
+}
+.people-kicker span{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:999px;
+  background: rgba(2,132,199,.10);
+  border:1px solid rgba(2,132,199,.28);
+  color:#065f46;                 /* teal accent */
+  font-weight:600;
+  font-size:.9rem;
+}
+
+.people-lede{
+  color:#334155;                 /* slate-700 */
+  font-size:1.05rem;
+  line-height:1.75;
+  letter-spacing:-.005em;
+  max-width: 70ch;               /* elegant reading width */
+  margin:2px 0 0;
+  text-wrap: pretty;
+  hyphens:auto;
+  font-feature-settings:"liga","kern","onum";
+}
+
+/* (Optional) tighten on small screens */
+@media (max-width: 900px){
+  .people-lede{ font-size:1rem; line-height:1.7; }
+}
