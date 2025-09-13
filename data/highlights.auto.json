@@ -1,6 +1,97 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1757731122,
-  "items": []
+  "updated_at": 1757731302,
+  "items": [
+    {
+      "type": "publication",
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "image": "https://figures.semanticscholar.org/5ba81020cb60f312f23dfcd0ee0f44baf5e21229/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+      "year": 2025,
+      "url": "https://doi.org/10.1364/ome.549582",
+      "image": "https://opg.optica.org/getThumbnail.cfm?uri=ome-15-4-626&size=200&o=y",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
+      "image": "https://figures.semanticscholar.org/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Imaging at the quantum limit with convolutional neural networks",
+      "year": 2025,
+      "url": "https://doi.org/10.48550/arXiv.2506.13488",
+      "image": "https://figures.semanticscholar.org/90960bbd5128c51ce9efcbb3c715ccd26f272ca2/500px/3-Figure2-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
+      "image": "https://figures.semanticscholar.org/00449496834477f23047f996e64ec897235c9392/500px/3-Figure3-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "image": "https://figures.semanticscholar.org/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "A Resource Efficient Quantum Kernel",
+      "year": 2025,
+      "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    }
+  ]
 }
