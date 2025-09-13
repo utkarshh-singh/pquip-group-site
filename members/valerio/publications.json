@@ -3,6 +3,94 @@
   "author_ids": [
     "2206148195"
   ],
-  "updated_at": 1757731884,
-  "publications": []
+  "updated_at": 1757732261,
+  "publications": [
+    {
+      "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "authors": [
+        "Milica Banic",
+        "Valerio Crescimanna",
+        "J. E. Bourassa",
+        "C. González-Arciniegas",
+        "Rafael N. Alexander",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2504.10606"
+    },
+    {
+      "paperId": "dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "authors": [
+        "Valerio Crescimanna",
+        "Shang Yu",
+        "Khabat Heshami",
+        "Raj B. Patel"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2502.14967"
+    },
+    {
+      "paperId": "af2af1779fe6b4e72c7f62555e8f0046b4b930f1",
+      "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
+      "year": 2024,
+      "venue": "Advanced Quantum Technologies",
+      "doi": "10.1002/qute.202400074",
+      "url": "https://doi.org/10.1002/qute.202400074",
+      "authors": [
+        "Shang Yu",
+        "Zhian Jia",
+        "Aonan Zhang",
+        "Ewan Mer",
+        "Zhenghao Li",
+        "Valerio Crescimanna",
+        "Kuan‐Cheng Chen",
+        "Raj B. Patel",
+        "Ian A. Walmsley",
+        "D. Kaszlikowski"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2409.02533"
+    },
+    {
+      "paperId": "c0f86c3adc93b8aadcd025b746034761da9f0c0e",
+      "title": "Seeding Gaussian Boson Samplers with Single Photons for Enhanced State Generation",
+      "year": 2023,
+      "venue": "Photonics North",
+      "doi": "10.1103/PhysRevA.109.023717",
+      "url": "https://doi.org/10.1103/PhysRevA.109.023717",
+      "authors": [
+        "Valerio Crescimanna",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
+      "arxivId": "2311.03432"
+    },
+    {
+      "paperId": "6249b59aa8d07eb1da286bbafcc760a174e520c3",
+      "title": "Quantum Control of Rydberg Atoms for Mesoscopic Quantum State and Circuit Preparation",
+      "year": 2023,
+      "venue": "Physical Review Applied",
+      "doi": "10.1103/PhysRevApplied.20.034019",
+      "url": "https://doi.org/10.1103/PhysRevApplied.20.034019",
+      "authors": [
+        "Valerio Crescimanna",
+        "Jacob M. Taylor",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2302.07893",
+      "arxivId": "2302.07893"
+    }
+  ]
 }
