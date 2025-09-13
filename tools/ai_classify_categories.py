@@ -56,7 +56,7 @@ def load_labels() -> List[str]:
     return [
         "Quantum Communication","Quantum Nonlinear Optics","Quantum Light–Matter Interaction",
         "Quantum Simulation","Photonic QIP","Ultrafast Quantum Photonics",
-        "Machine Learning","Photonics","Quantum Information","Quantum Computing","Other"
+        "Quantum Machine Learning","Photonics","Quantum Information","Quantum Computing","Other"
     ]
 
 def load_overrides() -> Dict[str, List[str]]:
