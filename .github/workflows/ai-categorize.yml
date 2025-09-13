@@ -1,0 +1,50 @@
+name: AI categorize publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+  push:
+    paths:
+      - "members/**/publications.json"
+      - "tools/ai_classify_categories.py"
+      - "data/categories.labels.json"
+      - "data/categories.overrides.json"
+      - "requirements.txt"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache HF models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run AI classifier
+        run: python tools/ai_classify_categories.py
+
+      - name: Commit JSON
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/publication_categories.json data/publication_categories_verbose.json
+            git commit -m "chore: AI-categorized publications (simple + verbose)"
+            git push
+          else
+            echo "No changes."
+          fi
