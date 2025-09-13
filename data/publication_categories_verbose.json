@@ -1,0 +1,3711 @@
+{
+  "S2:252960fab5b8c5cc22d84a883e16243639d2e71f": {
+    "title": "Quadrature coherence scale of linear combinations of Gaussian functions in phase space",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.110.012408",
+    "url": "https://doi.org/10.1103/PhysRevA.110.012408",
+    "venue": "Physical Review A",
+    "year": 2024,
+    "scores": {
+      "Quantum Information": 0.04807175695896149,
+      "Photonics": 0.022142117843031883,
+      "Other": 0.0034444956108927727,
+      "Quantum Light–Matter Interaction": 0.00263415090739727,
+      "Quantum Nonlinear Optics": 0.0022366091143339872,
+      "Quantum Computing": 0.0015823279973119497,
+      "Quantum Simulation": 0.0010086452821269631,
+      "Quantum Communication": 0.0004604024870786816,
+      "Ultrafast Quantum Photonics": 0.00014483708946499974,
+      "Quantum Machine Learning": 0.0001206642555189319,
+      "Photonic QIP": 0.0001172669290099293
+    }
+  },
+  "S2:873b3b3ac1fcddbc15f3acb6a02d17ca78a68c53": {
+    "title": "Multiphoton interference in a single-spatial-mode quantum walk.",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/oe.550931",
+    "url": "https://doi.org/10.1364/oe.550931",
+    "venue": "Optics Express",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9996951818466187,
+      "Quantum Light–Matter Interaction": 0.6922267079353333,
+      "Photonic QIP": 0.18862926959991455,
+      "Quantum Information": 0.104803666472435,
+      "Quantum Nonlinear Optics": 0.01951105147600174,
+      "Quantum Computing": 0.009081858210265636,
+      "Quantum Simulation": 0.007857991382479668,
+      "Other": 0.001417727442458272,
+      "Quantum Communication": 0.000356898206518963,
+      "Ultrafast Quantum Photonics": 0.000246399431489408,
+      "Quantum Machine Learning": 6.372459029080346e-05
+    }
+  },
+  "S2:429aa6ddf409613a842a49d3898802b4192d2c38": {
+    "title": "Measuring Impossible Parameters with Indefinite Causal Order",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/cleo_fs.2024.fm4k.2",
+    "url": "https://doi.org/10.1364/cleo_fs.2024.fm4k.2",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.8956161141395569,
+      "Quantum Information": 0.6606194376945496,
+      "Quantum Simulation": 0.027490943670272827,
+      "Quantum Computing": 0.01974160596728325,
+      "Quantum Nonlinear Optics": 0.014962557703256607,
+      "Other": 0.004947115667164326,
+      "Quantum Light–Matter Interaction": 0.002527538686990738,
+      "Photonic QIP": 0.001106665818952024,
+      "Quantum Communication": 0.00030137738212943077,
+      "Quantum Machine Learning": 0.00022564403479918838,
+      "Ultrafast Quantum Photonics": 0.00018265703693032265
+    }
+  },
+  "S2:1318636e018950d0049b6920c5f43c575e506c59": {
+    "title": "Coherent Feed Forward Quantum Neural Network",
+    "categories": [
+      "Quantum Computing",
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.48550/arxiv.2402.00653",
+    "url": "https://doi.org/10.48550/arXiv.2402.00653",
+    "venue": "Quantum Machine Intelligence",
+    "year": 2024,
+    "scores": {
+      "Quantum Computing": 0.9714473485946655,
+      "Photonics": 0.9511157274246216,
+      "Quantum Information": 0.9051105380058289,
+      "Quantum Simulation": 0.028486672788858414,
+      "Quantum Machine Learning": 0.018509408459067345,
+      "Other": 0.009127830155193806,
+      "Quantum Light–Matter Interaction": 0.004233238287270069,
+      "Quantum Communication": 0.0015408018371090293,
+      "Quantum Nonlinear Optics": 0.00024402739654760808,
+      "Ultrafast Quantum Photonics": 0.00014283973723649979,
+      "Photonic QIP": 0.0001133726691477932
+    }
+  },
+  "S2:aecb3c585d802d55c5453080a3d1f90052da88eb": {
+    "title": "Teleamplification on the Borealis boson-sampling device",
+    "categories": [
+      "Quantum Information",
+      "Quantum Communication",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physreva.108.062606",
+    "url": "https://doi.org/10.1103/PhysRevA.108.062606",
+    "venue": "Physical Review A",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.9706999659538269,
+      "Quantum Communication": 0.8463702201843262,
+      "Quantum Computing": 0.5032544136047363,
+      "Photonics": 0.09316812455654144,
+      "Quantum Simulation": 0.030902018770575523,
+      "Quantum Light–Matter Interaction": 0.022020788863301277,
+      "Other": 0.008034865371882915,
+      "Quantum Nonlinear Optics": 0.005643881857395172,
+      "Photonic QIP": 0.0002842750691343099,
+      "Ultrafast Quantum Photonics": 0.00028192359604872763,
+      "Quantum Machine Learning": 0.00020956444495823234
+    }
+  },
+  "S2:fc93fec0a8f569d68ae68b4d474f98fef9de8be4": {
+    "title": "Sensing Rotations with Multiplane Light Conversion",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1103/physrevapplied.20.024052",
+    "url": "https://doi.org/10.1103/PhysRevApplied.20.024052",
+    "venue": "Physical Review Applied",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.5809847116470337,
+      "Quantum Information": 0.07610438019037247,
+      "Quantum Light–Matter Interaction": 0.0106000741943717,
+      "Quantum Simulation": 0.004932573065161705,
+      "Other": 0.004011665005236864,
+      "Quantum Computing": 0.003028983948752284,
+      "Quantum Communication": 0.0024772118777036667,
+      "Quantum Nonlinear Optics": 0.0018472246592864394,
+      "Photonic QIP": 0.0014998819679021835,
+      "Quantum Machine Learning": 0.00014243306941352785,
+      "Ultrafast Quantum Photonics": 0.00012755347415804863
+    }
+  },
+  "S2:c0f86c3adc93b8aadcd025b746034761da9f0c0e": {
+    "title": "Seeding Gaussian Boson Samplers with Single Photons for Enhanced State Generation",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.109.023717",
+    "url": "https://doi.org/10.1103/PhysRevA.109.023717",
+    "venue": "Photonics North",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9999390244483948,
+      "Photonic QIP": 0.9546875357627869,
+      "Quantum Light–Matter Interaction": 0.9328567385673523,
+      "Quantum Information": 0.899103045463562,
+      "Quantum Nonlinear Optics": 0.7349107265472412,
+      "Quantum Computing": 0.23033560812473297,
+      "Quantum Simulation": 0.12671364843845367,
+      "Other": 0.0025094901211559772,
+      "Quantum Machine Learning": 0.0006653700256720185,
+      "Ultrafast Quantum Photonics": 0.00036467393510974944,
+      "Quantum Communication": 0.00016570586012676358
+    }
+  },
+  "S2:6249b59aa8d07eb1da286bbafcc760a174e520c3": {
+    "title": "Quantum Control of Rydberg Atoms for Mesoscopic Quantum State and Circuit Preparation",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevapplied.20.034019",
+    "url": "https://doi.org/10.1103/PhysRevApplied.20.034019",
+    "venue": "Physical Review Applied",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.3422546684741974,
+      "Quantum Computing": 0.1252313256263733,
+      "Quantum Simulation": 0.12376008927822113,
+      "Quantum Communication": 0.00861768051981926,
+      "Other": 0.0042091840878129005,
+      "Quantum Light–Matter Interaction": 0.0008785424870438874,
+      "Quantum Nonlinear Optics": 0.0008722587372176349,
+      "Photonics": 0.0002414795890217647,
+      "Quantum Machine Learning": 0.00014107291644904763,
+      "Photonic QIP": 4.6305318392114714e-05,
+      "Ultrafast Quantum Photonics": 3.557365562301129e-05
+    }
+  },
+  "S2:3f0745c2a60cca813eaf1cecfa53e6bc2722bb35": {
+    "title": "Metrological Advantages in Seeded and Lossy Nonlinear Interferometers",
+    "categories": [
+      "Quantum Information",
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": "10.22331/q-2025-02-04-1619",
+    "url": "https://doi.org/10.22331/q-2025-02-04-1619",
+    "venue": "Quantum",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.5274858474731445,
+      "Quantum Nonlinear Optics": 0.4165351390838623,
+      "Photonics": 0.09571744501590729,
+      "Quantum Simulation": 0.06914220005273819,
+      "Quantum Light–Matter Interaction": 0.0468008816242218,
+      "Quantum Computing": 0.03521205857396126,
+      "Quantum Communication": 0.02059127204120159,
+      "Other": 0.009925604797899723,
+      "Quantum Machine Learning": 0.00034169008722528815,
+      "Photonic QIP": 0.00012614348088391125,
+      "Ultrafast Quantum Photonics": 8.076427911873907e-05
+    }
+  },
+  "S2:8ca7e5dfaf967bbcff448d0386508ea92e4d49bd": {
+    "title": "Measuring the quadrature coherence scale on a cloud quantum computer",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": "10.1103/physreva.107.042610",
+    "url": "https://doi.org/10.1103/PhysRevA.107.042610",
+    "venue": "Physical Review A",
+    "year": 2023,
+    "scores": {
+      "Quantum Computing": 0.9959906935691833,
+      "Quantum Information": 0.9502159357070923,
+      "Photonics": 0.9190906286239624,
+      "Quantum Simulation": 0.1655116081237793,
+      "Quantum Light–Matter Interaction": 0.025590302422642708,
+      "Quantum Nonlinear Optics": 0.01679210737347603,
+      "Other": 0.003551450092345476,
+      "Ultrafast Quantum Photonics": 0.0008291300036944449,
+      "Quantum Communication": 0.00038782611954957247,
+      "Photonic QIP": 0.00024388368183281273,
+      "Quantum Machine Learning": 0.00020988985488656908
+    }
+  },
+  "S2:00299907eda9eebdbccd486b85b6ca2289e61ef0": {
+    "title": "High-dimensional Encoding in the Round-Robin Differential-Phase-Shift Protocol",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.22331/q-2023-12-14-1207",
+    "url": "https://doi.org/10.22331/q-2023-12-14-1207",
+    "venue": "Quantum",
+    "year": 2023,
+    "scores": {
+      "Quantum Communication": 0.9090452790260315,
+      "Quantum Information": 0.9051328897476196,
+      "Quantum Computing": 0.7254533171653748,
+      "Photonics": 0.6069055795669556,
+      "Quantum Simulation": 0.012131229974329472,
+      "Other": 0.005424227565526962,
+      "Quantum Light–Matter Interaction": 0.0022727097384631634,
+      "Quantum Nonlinear Optics": 0.0016980920918285847,
+      "Quantum Machine Learning": 0.0003309588646516204,
+      "Ultrafast Quantum Photonics": 0.00016535546455997974,
+      "Photonic QIP": 0.00014678847219329327
+    }
+  },
+  "S2:c2a4c7d99ac82c8ac0c0c628596ec6af835599ec": {
+    "title": "Evading noise in multiparameter quantum metrology with indefinite causal order",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevresearch.5.033198",
+    "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
+    "venue": "Physical Review Research",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.05044542998075485,
+      "Quantum Computing": 0.008855241350829601,
+      "Other": 0.0023195247631520033,
+      "Photonics": 0.0013367189094424248,
+      "Quantum Simulation": 0.000968866515904665,
+      "Quantum Nonlinear Optics": 0.0008307999814860523,
+      "Quantum Light–Matter Interaction": 0.00044888333650305867,
+      "Quantum Machine Learning": 0.0001053051819326356,
+      "Quantum Communication": 9.182534267893061e-05,
+      "Ultrafast Quantum Photonics": 3.7923557101748884e-05,
+      "Photonic QIP": 2.9924034606665373e-05
+    }
+  },
+  "S2:e45232fe7b80cdef5491fdf00b68fdca73ebef61": {
+    "title": "Efficient line shape estimation by ghost spectroscopy.",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/ol.485451",
+    "url": "https://doi.org/10.1364/OL.485451",
+    "venue": "Optics Letters",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9845118522644043,
+      "Quantum Information": 0.15129713714122772,
+      "Quantum Nonlinear Optics": 0.004626746755093336,
+      "Quantum Computing": 0.004392559640109539,
+      "Photonic QIP": 0.003639559494331479,
+      "Quantum Light–Matter Interaction": 0.003460916690528393,
+      "Other": 0.0021639063488692045,
+      "Quantum Machine Learning": 0.000644043437205255,
+      "Quantum Simulation": 0.00048075217637233436,
+      "Quantum Communication": 9.967583901016042e-05,
+      "Ultrafast Quantum Photonics": 7.442083733621985e-05
+    }
+  },
+  "S2:228195f3dc47e014df4088ac6387880be88529f5": {
+    "title": "Purification at the ultimate limit using quantum superpositions of causal order",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Photonic QIP"
+    ],
+    "doi": "10.1109/pn56061.2022.9908348",
+    "url": "https://doi.org/10.1109/PN56061.2022.9908348",
+    "venue": "Photonics North",
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.9990987777709961,
+      "Quantum Information": 0.9080737829208374,
+      "Photonic QIP": 0.8462815880775452,
+      "Quantum Nonlinear Optics": 0.10945593565702438,
+      "Quantum Light–Matter Interaction": 0.08151110261678696,
+      "Quantum Simulation": 0.06356997787952423,
+      "Quantum Computing": 0.04052934795618057,
+      "Ultrafast Quantum Photonics": 0.0036033859942108393,
+      "Other": 0.0015527971554547548,
+      "Quantum Machine Learning": 0.0004501253424677998,
+      "Quantum Communication": 0.00030351863824762404
+    }
+  },
+  "S2:8cab1def7e0e78077a38dde76e4d91f26f954cfb": {
+    "title": "Optimal transmission estimation with dark counts",
+    "categories": [
+      "Quantum Communication"
+    ],
+    "doi": "10.1088/1361-6501/acaf12",
+    "url": "https://doi.org/10.1088/1361-6501/acaf12",
+    "venue": "Measurement science and technology",
+    "year": 2022,
+    "scores": {
+      "Quantum Communication": 0.03400734066963196,
+      "Photonic QIP": 0.00829368457198143,
+      "Photonics": 0.006764373276382685,
+      "Other": 0.0052718897350132465,
+      "Quantum Information": 0.003161706728860736,
+      "Quantum Light–Matter Interaction": 0.0030220497865229845,
+      "Quantum Nonlinear Optics": 0.000987995881587267,
+      "Quantum Simulation": 0.0008819290087558329,
+      "Quantum Computing": 0.0006755437352694571,
+      "Quantum Machine Learning": 0.00025297331740148365,
+      "Ultrafast Quantum Photonics": 9.31955873966217e-05
+    }
+  },
+  "S2:91fab2195e2810958b6755038b4c3ad7f2035bfe": {
+    "title": "Multiparameter transmission estimation at the quantum Cramér–Rao limit on a cloud quantum computer",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Communication",
+      "Quantum Information"
+    ],
+    "doi": "10.1088/1367-2630/aca21c",
+    "url": "https://doi.org/10.1088/1367-2630/aca21c",
+    "venue": "New Journal of Physics",
+    "year": 2022,
+    "scores": {
+      "Quantum Computing": 0.9986093044281006,
+      "Quantum Communication": 0.9643446803092957,
+      "Quantum Information": 0.8794665336608887,
+      "Quantum Simulation": 0.8788821697235107,
+      "Photonics": 0.14158236980438232,
+      "Other": 0.0028295605443418026,
+      "Quantum Nonlinear Optics": 0.002512263134121895,
+      "Quantum Machine Learning": 0.0015471243532374501,
+      "Quantum Light–Matter Interaction": 0.000784774252679199,
+      "Ultrafast Quantum Photonics": 0.0004842116904910654,
+      "Photonic QIP": 9.516620775684714e-05
+    }
+  },
+  "S2:36a6c95cf34d14789e071c926eb12ba4c00da80a": {
+    "title": "Beyond transcoherent states: Field states for effecting optimal coherent rotations on single or multiple qubits",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.22331/q-2023-03-28-963",
+    "url": "https://doi.org/10.22331/q-2023-03-28-963",
+    "venue": "Quantum",
+    "year": 2022,
+    "scores": {
+      "Quantum Information": 0.9358125925064087,
+      "Photonics": 0.876714825630188,
+      "Quantum Computing": 0.8722369074821472,
+      "Quantum Simulation": 0.8528249263763428,
+      "Other": 0.016299283131957054,
+      "Quantum Nonlinear Optics": 0.005275525618344545,
+      "Quantum Light–Matter Interaction": 0.0033161714673042297,
+      "Quantum Machine Learning": 0.00018776376964524388,
+      "Quantum Communication": 0.0001748701761243865,
+      "Ultrafast Quantum Photonics": 0.0001535925839561969,
+      "Photonic QIP": 4.644147338694893e-05
+    }
+  },
+  "S2:a38dd3aabb3cabfabcdcb86c35906432ec1b24e7": {
+    "title": "Taming singularities of the quantum Fisher information",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1142/s0219749921400049",
+    "url": "https://doi.org/10.1142/S0219749921400049",
+    "venue": "International Journal of Quantum Information",
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.9991770386695862,
+      "Quantum Computing": 0.09808749705553055,
+      "Photonics": 0.0061483606696128845,
+      "Other": 0.0049749077297747135,
+      "Quantum Simulation": 0.004163424484431744,
+      "Quantum Light–Matter Interaction": 0.0010199963580816984,
+      "Quantum Nonlinear Optics": 0.0008821989758871496,
+      "Quantum Communication": 0.0005663883057422936,
+      "Quantum Machine Learning": 0.0002749851264525205,
+      "Ultrafast Quantum Photonics": 6.964540079934523e-05,
+      "Photonic QIP": 4.660696504288353e-05
+    }
+  },
+  "S2:546bfff82f89400c4e825f6710df44f63d74207f": {
+    "title": "Quantumness Beyond Entanglement: The Case of Symmetric States",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.105.022433",
+    "url": "https://doi.org/10.1103/PhysRevA.105.022433",
+    "venue": null,
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.9056132435798645,
+      "Quantum Computing": 0.05326604098081589,
+      "Photonics": 0.021569037809967995,
+      "Other": 0.014495331794023514,
+      "Quantum Light–Matter Interaction": 0.014426752924919128,
+      "Quantum Simulation": 0.009059236384928226,
+      "Quantum Nonlinear Optics": 0.00093318015569821,
+      "Quantum Communication": 0.0007518376805819571,
+      "Quantum Machine Learning": 0.0003186682006344199,
+      "Ultrafast Quantum Photonics": 6.8632434704341e-05,
+      "Photonic QIP": 6.516044959425926e-05
+    }
+  },
+  "S2:4b2db8032d387d2461c8e85b348b28bccc5facf7": {
+    "title": "Quantum Polarimetry",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1016/bs.po.2022.01.001",
+    "url": "https://doi.org/10.1016/bs.po.2022.01.001",
+    "venue": null,
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.8039588332176208,
+      "Quantum Information": 0.6352083086967468,
+      "Quantum Light–Matter Interaction": 0.06165904551744461,
+      "Quantum Computing": 0.050245363265275955,
+      "Quantum Simulation": 0.015383418649435043,
+      "Quantum Nonlinear Optics": 0.003351498395204544,
+      "Quantum Communication": 0.0020195781253278255,
+      "Other": 0.0019757256377488375,
+      "Quantum Machine Learning": 0.000900992308743298,
+      "Photonic QIP": 0.0006981462356634438,
+      "Ultrafast Quantum Photonics": 0.00017709079838823527
+    }
+  },
+  "S2:b615b01b063400999cb58cfccd7c3c07ec970a79": {
+    "title": "Intrinsic Sensitivity Limits for Multiparameter Quantum Metrology.",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevlett.127.110501",
+    "url": "https://doi.org/10.1103/PhysRevLett.127.110501",
+    "venue": "Physical Review Letters",
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.25932425260543823,
+      "Quantum Computing": 0.004504187498241663,
+      "Other": 0.0018159204628318548,
+      "Quantum Simulation": 0.0012040712172165513,
+      "Quantum Light–Matter Interaction": 0.0006044082110747695,
+      "Quantum Nonlinear Optics": 0.00027101626619696617,
+      "Photonics": 0.00022776570403948426,
+      "Quantum Communication": 0.00014825706603005528,
+      "Quantum Machine Learning": 5.712202982977033e-05,
+      "Photonic QIP": 3.7666031857952476e-05,
+      "Ultrafast Quantum Photonics": 3.752377233467996e-05
+    }
+  },
+  "S2:cafebfa7131758799dfe722a728983b76685ed69": {
+    "title": "How squeezed states both maximize and minimize the same notion of quantumness",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.104.032425",
+    "url": "https://doi.org/10.1103/PhysRevA.104.032425",
+    "venue": "Physical Review A",
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.5918957591056824,
+      "Quantum Computing": 0.004868133459240198,
+      "Quantum Light–Matter Interaction": 0.0032453611493110657,
+      "Quantum Simulation": 0.001929942867718637,
+      "Other": 0.0015440128045156598,
+      "Quantum Communication": 0.0010364295449107885,
+      "Quantum Nonlinear Optics": 0.0010328458156436682,
+      "Photonics": 0.0003201472864020616,
+      "Quantum Machine Learning": 0.00031766213942319155,
+      "Ultrafast Quantum Photonics": 3.756289879675023e-05,
+      "Photonic QIP": 3.540838588378392e-05
+    }
+  },
+  "S2:51b2b79b9377b38c79f903f8e37d49b8ca2ce5a4": {
+    "title": "From polarization multipoles to higher-order coherences.",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/ol.443053",
+    "url": "https://doi.org/10.1364/OL.443053",
+    "venue": "Optics Letters",
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.9982773065567017,
+      "Quantum Information": 0.8656740188598633,
+      "Quantum Nonlinear Optics": 0.22563259303569794,
+      "Quantum Light–Matter Interaction": 0.08390560746192932,
+      "Quantum Simulation": 0.061363354325294495,
+      "Quantum Computing": 0.01066810917109251,
+      "Photonic QIP": 0.008000870235264301,
+      "Other": 0.004841670859605074,
+      "Quantum Communication": 0.0007608733722008765,
+      "Ultrafast Quantum Photonics": 0.00031475667492486537,
+      "Quantum Machine Learning": 0.0002171842788811773
+    }
+  },
+  "S2:7f41f384bd8e3a811b59e4ec618d4c38e7f9aad0": {
+    "title": "Breaking the limits of purification: postselection enhances heat-bath algorithmic cooling",
+    "categories": [
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.1088/2399-6528/acb414",
+    "url": "https://doi.org/10.1088/2399-6528/acb414",
+    "venue": "Journal of Physics Communications",
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.4387143552303314,
+      "Quantum Computing": 0.3633792996406555,
+      "Quantum Communication": 0.1157832220196724,
+      "Quantum Simulation": 0.10388021171092987,
+      "Quantum Light–Matter Interaction": 0.08196788281202316,
+      "Other": 0.0173165425658226,
+      "Quantum Nonlinear Optics": 0.006024292204529047,
+      "Photonics": 0.004662652965635061,
+      "Quantum Machine Learning": 0.001335516688413918,
+      "Ultrafast Quantum Photonics": 0.0010099554201588035,
+      "Photonic QIP": 0.00039043708238750696
+    }
+  },
+  "S2:f6f66a698b3d498980623be7be772a8e247f5aed": {
+    "title": "Breaking the limits of purification: Indefinite causal order enhances heat-bath algorithmic cooling",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/f6f66a698b3d498980623be7be772a8e247f5aed",
+    "venue": null,
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.9152689576148987,
+      "Quantum Computing": 0.09544552117586136,
+      "Quantum Simulation": 0.049455177038908005,
+      "Quantum Light–Matter Interaction": 0.04377920925617218,
+      "Other": 0.004979118704795837,
+      "Quantum Nonlinear Optics": 0.002080116653814912,
+      "Photonics": 0.0012695789337158203,
+      "Quantum Machine Learning": 0.0007411925471387804,
+      "Photonic QIP": 0.0004034086305182427,
+      "Quantum Communication": 0.00039183671469800174,
+      "Ultrafast Quantum Photonics": 0.0003252415917813778
+    }
+  },
+  "S2:07a2c94b64c464e05a15197e61ae8668dc8bd54e": {
+    "title": "Transcoherent States: Optical States for Maximal Generation of Atomic Coherence",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/prxquantum.1.020306",
+    "url": "https://doi.org/10.1103/PRXQUANTUM.1.020306",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9986603856086731,
+      "Quantum Light–Matter Interaction": 0.9038228392601013,
+      "Quantum Information": 0.44370657205581665,
+      "Photonic QIP": 0.11992017924785614,
+      "Quantum Simulation": 0.11542468518018723,
+      "Quantum Nonlinear Optics": 0.046879690140485764,
+      "Other": 0.03535662218928337,
+      "Quantum Computing": 0.00709109241142869,
+      "Ultrafast Quantum Photonics": 0.0008924963767640293,
+      "Quantum Communication": 0.0006352275959216058,
+      "Quantum Machine Learning": 0.00017698918236419559
+    }
+  },
+  "S2:a91f93faf3f2d2f5c5c0e892b7f0af363d4c2f50": {
+    "title": "Quantum-Enhanced Rotation Sensing",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.1364/quantum.2020.qth7a.2",
+    "url": "https://doi.org/10.1364/quantum.2020.qth7a.2",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Quantum Information": 0.7113685607910156,
+      "Photonics": 0.5652288198471069,
+      "Quantum Computing": 0.5302841663360596,
+      "Quantum Simulation": 0.02145860530436039,
+      "Quantum Communication": 0.020360266789793968,
+      "Quantum Light–Matter Interaction": 0.002842117100954056,
+      "Quantum Nonlinear Optics": 0.0022984426468610764,
+      "Other": 0.0007979352376423776,
+      "Photonic QIP": 0.0006082593463361263,
+      "Quantum Machine Learning": 0.0006082547479309142,
+      "Ultrafast Quantum Photonics": 0.0002613093820400536
+    }
+  },
+  "S2:167231c4992ea973f59b5fc19ef12d9f93a2e634": {
+    "title": "Quantum concepts in optical polarization",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/aop.404175",
+    "url": "https://doi.org/10.1364/aop.404175",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9786339998245239,
+      "Photonic QIP": 0.14088554680347443,
+      "Quantum Light–Matter Interaction": 0.030966976657509804,
+      "Quantum Information": 0.018044739961624146,
+      "Quantum Computing": 0.011926749721169472,
+      "Quantum Nonlinear Optics": 0.001113583566620946,
+      "Quantum Simulation": 0.001028199098072946,
+      "Other": 0.0010062629589810967,
+      "Quantum Machine Learning": 0.00011268384696450084,
+      "Quantum Communication": 9.840229904511943e-05,
+      "Ultrafast Quantum Photonics": 4.701103534898721e-05
+    }
+  },
+  "S2:2a16e652ecc6a75c4528c522e5e43796c1864d4f": {
+    "title": "Multiphase estimation without a reference mode",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.102.022230",
+    "url": "https://doi.org/10.1103/physreva.102.022230",
+    "venue": "Physical Review A",
+    "year": 2020,
+    "scores": {
+      "Quantum Information": 0.03484228253364563,
+      "Quantum Computing": 0.0027290768921375275,
+      "Other": 0.0025857307482510805,
+      "Quantum Nonlinear Optics": 0.0008393920725211501,
+      "Quantum Light–Matter Interaction": 0.00035614531952887774,
+      "Quantum Machine Learning": 0.0001640088012209162,
+      "Quantum Simulation": 0.00013235840015113354,
+      "Quantum Communication": 9.743886766955256e-05,
+      "Photonics": 8.278850873466581e-05,
+      "Photonic QIP": 5.121259891893715e-05,
+      "Ultrafast Quantum Photonics": 4.2840470996452495e-05
+    }
+  },
+  "S2:691e852eae6e352c15c4e719234a71ec0a7239b9": {
+    "title": "Extremal quantum states",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1116/5.0025819",
+    "url": "https://doi.org/10.1116/5.0025819",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Quantum Information": 0.06792499125003815,
+      "Quantum Computing": 0.0056759449653327465,
+      "Quantum Simulation": 0.005449066404253244,
+      "Other": 0.004304039292037487,
+      "Photonics": 0.0027216265443712473,
+      "Quantum Light–Matter Interaction": 0.0005871683824807405,
+      "Quantum Nonlinear Optics": 0.0002477926609572023,
+      "Ultrafast Quantum Photonics": 0.0001623845164431259,
+      "Quantum Machine Learning": 0.0001323644391959533,
+      "Quantum Communication": 9.264330583391711e-05,
+      "Photonic QIP": 5.558902557822876e-05
+    }
+  },
+  "S2:5485dbcbf96890ccd5b97b3c383cdd5893776167": {
+    "title": "Atom, field, big or small: Who is the coherentist of them all : How to optimally transfer coherence from light to atoms",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1109/pn50013.2020.9167029",
+    "url": "https://doi.org/10.1109/PN50013.2020.9167029",
+    "venue": "Photonics North",
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9998627305030823,
+      "Quantum Light–Matter Interaction": 0.9420326352119446,
+      "Quantum Information": 0.9107159972190857,
+      "Photonic QIP": 0.11071346700191498,
+      "Quantum Nonlinear Optics": 0.08037196099758148,
+      "Quantum Simulation": 0.06054554134607315,
+      "Other": 0.030314017087221146,
+      "Quantum Computing": 0.01533433236181736,
+      "Quantum Communication": 0.011321759782731533,
+      "Quantum Machine Learning": 0.0005355128669179976,
+      "Ultrafast Quantum Photonics": 8.499742398271337e-05
+    }
+  },
+  "S2:3f39f141040a2bfc0317d0825868ede810638bea": {
+    "title": "Quantum-enhanced rotation measurements about unknown axes",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Quantum Simulation"
+    ],
+    "doi": "10.1364/qim.2019.t5a.30",
+    "url": "https://doi.org/10.1364/QIM.2019.T5A.30",
+    "venue": "The A-V",
+    "year": 2019,
+    "scores": {
+      "Quantum Computing": 0.7255252599716187,
+      "Quantum Information": 0.6104428172111511,
+      "Quantum Simulation": 0.38138648867607117,
+      "Photonics": 0.013422711752355099,
+      "Other": 0.004344081971794367,
+      "Quantum Nonlinear Optics": 0.0038294882979243994,
+      "Quantum Light–Matter Interaction": 0.001489624148234725,
+      "Quantum Communication": 0.0010421850020065904,
+      "Quantum Machine Learning": 0.0002539897686801851,
+      "Photonic QIP": 0.00021437111718114465,
+      "Ultrafast Quantum Photonics": 0.0001674083323450759
+    }
+  },
+  "S2:82b65db4645705ce36fa412ccf017ab3212640d9": {
+    "title": "Quantum theory of polarimetry: From quantum operations to Mueller matrices",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevresearch.2.023038",
+    "url": "https://doi.org/10.1103/PhysRevResearch.2.023038",
+    "venue": "Physical Review Research",
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.052455730736255646,
+      "Quantum Nonlinear Optics": 0.020082036033272743,
+      "Other": 0.0077539063058793545,
+      "Quantum Light–Matter Interaction": 0.007281441707164049,
+      "Quantum Computing": 0.002505167853087187,
+      "Quantum Simulation": 0.001048689940944314,
+      "Quantum Communication": 0.0004409575485624373,
+      "Photonics": 0.0003050022933166474,
+      "Quantum Machine Learning": 0.00010208360617980361,
+      "Photonic QIP": 8.330485434271395e-05,
+      "Ultrafast Quantum Photonics": 3.131172707071528e-05
+    }
+  },
+  "S2:fa6f8c4f3f04a96e634e6a8f0daba802f7ca1a69": {
+    "title": "Perturbative expansion of entanglement negativity",
+    "categories": [
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/fa6f8c4f3f04a96e634e6a8f0daba802f7ca1a69",
+    "venue": null,
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.966675877571106,
+      "Photonics": 0.9487002491950989,
+      "Quantum Computing": 0.20210541784763336,
+      "Quantum Light–Matter Interaction": 0.14521847665309906,
+      "Quantum Simulation": 0.07403215020895004,
+      "Other": 0.036481939256191254,
+      "Quantum Nonlinear Optics": 0.033981699496507645,
+      "Quantum Communication": 0.005084703676402569,
+      "Ultrafast Quantum Photonics": 0.00047799438470974565,
+      "Photonic QIP": 0.00042021743138320744,
+      "Quantum Machine Learning": 0.0003129101824015379
+    }
+  },
+  "S2:21e4a9be8a27369634505653b8d8097513745747": {
+    "title": "Operational symmetries of entangled states",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1088/1751-8121/ab6fc9",
+    "url": "https://doi.org/10.1088/1751-8121/ab6fc9",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2019,
+    "scores": {
+      "Photonics": 0.03449796140193939,
+      "Quantum Light–Matter Interaction": 0.03229251876473427,
+      "Other": 0.003145139664411545,
+      "Quantum Information": 0.0012803999707102776,
+      "Quantum Computing": 0.001252599060535431,
+      "Quantum Simulation": 0.000995611073449254,
+      "Quantum Nonlinear Optics": 0.0004997153882868588,
+      "Quantum Communication": 0.00026291035464964807,
+      "Ultrafast Quantum Photonics": 0.00014894112246111035,
+      "Quantum Machine Learning": 8.557101682526991e-05,
+      "Photonic QIP": 6.129984831204638e-05
+    }
+  },
+  "S2:d50e6eac30a578f797a28660115f5f51242d0e05": {
+    "title": "Entanglement generation via diffraction",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.100.042332",
+    "url": "https://doi.org/10.1103/PhysRevA.100.042332",
+    "venue": "Physical Review A",
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.44763311743736267,
+      "Quantum Light–Matter Interaction": 0.07241736352443695,
+      "Other": 0.010571494698524475,
+      "Quantum Communication": 0.006468439474701881,
+      "Photonics": 0.006165057420730591,
+      "Photonic QIP": 0.003259858349338174,
+      "Quantum Nonlinear Optics": 0.002770486753433943,
+      "Quantum Computing": 0.002751457504928112,
+      "Quantum Simulation": 0.001031077466905117,
+      "Quantum Machine Learning": 0.00018651722348295152,
+      "Ultrafast Quantum Photonics": 9.479658911004663e-05
+    }
+  },
+  "S2:e364f8c3312fc92c9870d934b63942937d4a8b07": {
+    "title": "Entanglement as an operational symmetry",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/cqo.2019.w6a.15",
+    "url": "https://doi.org/10.1364/cqo.2019.w6a.15",
+    "venue": "Rochester Conference on Coherence and Quantum Optics (CQO-11)",
+    "year": 2019,
+    "scores": {
+      "Photonics": 0.9957317113876343,
+      "Quantum Information": 0.36410167813301086,
+      "Quantum Light–Matter Interaction": 0.1527784764766693,
+      "Quantum Computing": 0.024979084730148315,
+      "Other": 0.0032503390684723854,
+      "Quantum Nonlinear Optics": 0.0029514029156416655,
+      "Quantum Simulation": 0.0008331454591825604,
+      "Photonic QIP": 0.0007380312890745699,
+      "Quantum Communication": 0.0004982436075806618,
+      "Quantum Machine Learning": 0.00011974191147601232,
+      "Ultrafast Quantum Photonics": 4.9493726692162454e-05
+    }
+  },
+  "S2:86dacb281173c42578878b80c918126eeba9f43d": {
+    "title": "Simulating one-dimensional systems with stationary Rydberg dark polaritons",
+    "categories": [
+      "Quantum Simulation",
+      "Quantum Computing",
+      "Quantum Nonlinear Optics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/86dacb281173c42578878b80c918126eeba9f43d",
+    "venue": null,
+    "year": 2018,
+    "scores": {
+      "Quantum Simulation": 0.9975712895393372,
+      "Quantum Computing": 0.565496027469635,
+      "Quantum Nonlinear Optics": 0.4050976037979126,
+      "Quantum Information": 0.39070865511894226,
+      "Photonics": 0.11107613146305084,
+      "Quantum Light–Matter Interaction": 0.021409202367067337,
+      "Photonic QIP": 0.0019388305954635143,
+      "Other": 0.0017546553863212466,
+      "Ultrafast Quantum Photonics": 0.0002947340253740549,
+      "Quantum Machine Learning": 0.00027562433388084173,
+      "Quantum Communication": 0.0002620479790493846
+    }
+  },
+  "S2:50b354e6a963c7d1cc04185018e2cd1e7b55a2fd": {
+    "title": "Quantum-limited Euler angle measurements using anticoherent states",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.98.032113",
+    "url": "https://doi.org/10.1103/PhysRevA.98.032113",
+    "venue": "Physical Review A",
+    "year": 2018,
+    "scores": {
+      "Quantum Information": 0.8353263139724731,
+      "Quantum Computing": 0.07707490772008896,
+      "Quantum Nonlinear Optics": 0.01732456311583519,
+      "Quantum Simulation": 0.003356540109962225,
+      "Other": 0.0029007901903241873,
+      "Photonics": 0.0019405096536502242,
+      "Quantum Light–Matter Interaction": 0.0010392706608399749,
+      "Quantum Communication": 0.0007066265097819269,
+      "Quantum Machine Learning": 0.00011519274266902357,
+      "Ultrafast Quantum Photonics": 9.270252485293895e-05,
+      "Photonic QIP": 4.737521521747112e-05
+    }
+  },
+  "S2:07bbe4acfeb2e4668ced9237a70f5c6c1cf9d4a9": {
+    "title": "Perturbative expansion of entanglement negativity using patterned matrix calculus",
+    "categories": [
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.99.012322",
+    "url": "https://doi.org/10.1103/PhysRevA.99.012322",
+    "venue": "Physical Review A",
+    "year": 2018,
+    "scores": {
+      "Quantum Information": 0.9744061827659607,
+      "Quantum Light–Matter Interaction": 0.5794965028762817,
+      "Quantum Computing": 0.12195349484682083,
+      "Photonics": 0.06858858466148376,
+      "Other": 0.008387241512537003,
+      "Quantum Simulation": 0.008379279635846615,
+      "Quantum Communication": 0.0074257818050682545,
+      "Quantum Nonlinear Optics": 0.007006541360169649,
+      "Quantum Machine Learning": 0.000247926393058151,
+      "Ultrafast Quantum Photonics": 0.000174755317857489,
+      "Photonic QIP": 8.79746294231154e-05
+    }
+  },
+  "S2:4402831e704f7da8f03f4dd28abe6d7e04372969": {
+    "title": "Finding non-classical states that do not generate entanglement at a beam splitter",
+    "categories": [
+      "Photonics",
+      "Quantum Nonlinear Optics",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cleo_qels.2018.ftu4a.3",
+    "url": "https://doi.org/10.1364/CLEO_QELS.2018.FTU4A.3",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2018,
+    "scores": {
+      "Photonics": 0.9920251965522766,
+      "Quantum Nonlinear Optics": 0.9859216213226318,
+      "Quantum Light–Matter Interaction": 0.9809598326683044,
+      "Quantum Information": 0.9805724024772644,
+      "Quantum Computing": 0.8882116675376892,
+      "Other": 0.7560378313064575,
+      "Quantum Simulation": 0.1438133269548416,
+      "Photonic QIP": 0.013213546015322208,
+      "Quantum Communication": 0.0005172162200324237,
+      "Quantum Machine Learning": 0.0004104553663637489,
+      "Ultrafast Quantum Photonics": 0.00015598269237671047
+    }
+  },
+  "S2:06d83dcf7684861b823b97ffba17fb4ad2c56f1e": {
+    "title": "Perfect polarization for arbitrary light beams",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1103/physreva.96.053859",
+    "url": "https://doi.org/10.1103/PhysRevA.96.053859",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9868226051330566,
+      "Quantum Simulation": 0.03532305732369423,
+      "Quantum Information": 0.02931741438806057,
+      "Quantum Light–Matter Interaction": 0.01445080991834402,
+      "Quantum Computing": 0.009071878157556057,
+      "Quantum Nonlinear Optics": 0.007618386298418045,
+      "Photonic QIP": 0.0029220404103398323,
+      "Other": 0.0003364752046763897,
+      "Ultrafast Quantum Photonics": 0.00018729544535744935,
+      "Quantum Machine Learning": 0.00018377756350673735,
+      "Quantum Communication": 9.003801824292168e-05
+    }
+  },
+  "S2:ff57762ace835ac925c1f210ac70cb5bde2c0be3": {
+    "title": "Nonclassical mixed states that generate zero entanglement with a beam splitter",
+    "categories": [
+      "Quantum Nonlinear Optics",
+      "Quantum Light–Matter Interaction",
+      "Photonics"
+    ],
+    "doi": "10.1088/1751-8121/aad7c6",
+    "url": "https://doi.org/10.1088/1751-8121/aad7c6",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2017,
+    "scores": {
+      "Quantum Nonlinear Optics": 0.9883603453636169,
+      "Quantum Light–Matter Interaction": 0.9458650946617126,
+      "Photonics": 0.8213412165641785,
+      "Other": 0.3418412208557129,
+      "Quantum Information": 0.018515417352318764,
+      "Quantum Simulation": 0.0064824167639017105,
+      "Quantum Computing": 0.0037408508360385895,
+      "Photonic QIP": 0.0025304583832621574,
+      "Quantum Communication": 0.0011543426662683487,
+      "Ultrafast Quantum Photonics": 0.0004552326863631606,
+      "Quantum Machine Learning": 0.00012346224684733897
+    }
+  },
+  "S2:980dc2bc68c84c2947e3da50edc8147b1a5b1b5f": {
+    "title": "Emergence of singularities from decoherence: Quantum catastrophes",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.100.063628",
+    "url": "https://doi.org/10.1103/PhysRevA.100.063628",
+    "venue": "Physical Review A",
+    "year": 2016,
+    "scores": {
+      "Quantum Information": 0.0647449642419815,
+      "Other": 0.009562953375279903,
+      "Quantum Simulation": 0.002580828033387661,
+      "Quantum Computing": 0.002090427791699767,
+      "Quantum Light–Matter Interaction": 0.0019780106376856565,
+      "Quantum Communication": 0.0002136554685421288,
+      "Quantum Nonlinear Optics": 0.00012685310503002256,
+      "Photonics": 0.00010697697871364653,
+      "Quantum Machine Learning": 6.463841418735683e-05,
+      "Photonic QIP": 3.796158853219822e-05,
+      "Ultrafast Quantum Photonics": 2.949568079202436e-05
+    }
+  },
+  "S2:945b845b327caa9f6d616f76c6ce9d9e8c403cfd": {
+    "title": "Chondrule Transport in the Early Solar System",
+    "categories": [
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/945b845b327caa9f6d616f76c6ce9d9e8c403cfd",
+    "venue": null,
+    "year": 2016,
+    "scores": {
+      "Quantum Information": 0.5026336312294006,
+      "Quantum Light–Matter Interaction": 0.4087064862251282,
+      "Photonics": 0.2000216841697693,
+      "Quantum Simulation": 0.08787654340267181,
+      "Quantum Computing": 0.03706761822104454,
+      "Photonic QIP": 0.015109711326658726,
+      "Quantum Nonlinear Optics": 0.013286704197525978,
+      "Other": 0.004296600352972746,
+      "Quantum Communication": 0.002987930318340659,
+      "Ultrafast Quantum Photonics": 0.00095653923926875,
+      "Quantum Machine Learning": 0.00012421362043824047
+    }
+  },
+  "S2:237b8a4ed7600b5e6c8b9bece06deae8fe1a0dee": {
+    "title": "Chondrule Transport in Protoplanetary Disks",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1093/mnras/stv1610",
+    "url": "https://doi.org/10.1093/MNRAS/STV1610",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Quantum Information": 0.8365249633789062,
+      "Quantum Simulation": 0.3018471300601959,
+      "Quantum Light–Matter Interaction": 0.14028513431549072,
+      "Quantum Computing": 0.10201229155063629,
+      "Quantum Communication": 0.05489618331193924,
+      "Photonics": 0.01725115440785885,
+      "Quantum Nonlinear Optics": 0.00924368854612112,
+      "Other": 0.005143695045262575,
+      "Photonic QIP": 0.002992745954543352,
+      "Ultrafast Quantum Photonics": 0.0011256275465711951,
+      "Quantum Machine Learning": 0.00014040622045286
+    }
+  },
+  "S2:31a6b9f5b4129970c1cd4671830dabadcd8385ac": {
+    "title": "Powering Disneyâ€™s Frozen with a Carnot refrigerator",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/31a6b9f5b4129970c1cd4671830dabadcd8385ac",
+    "venue": null,
+    "year": 2014,
+    "scores": {
+      "Photonic QIP": 0.07493919134140015,
+      "Quantum Light–Matter Interaction": 0.02274804189801216,
+      "Photonics": 0.004211709834635258,
+      "Other": 0.002449437975883484,
+      "Quantum Nonlinear Optics": 0.0013542708475142717,
+      "Quantum Computing": 0.0011464355047792196,
+      "Quantum Simulation": 0.0008512681815773249,
+      "Quantum Information": 0.0005566811305470765,
+      "Ultrafast Quantum Photonics": 0.00045491091441363096,
+      "Quantum Machine Learning": 0.00030538675491698086,
+      "Quantum Communication": 0.00013938943448010832
+    }
+  },
+  "S2:70b9076e7e72c3326ca4a8d7bbf74d9e2e390064": {
+    "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Photonics": 0.9954638481140137,
+      "Quantum Information": 0.9676241278648376,
+      "Quantum Light–Matter Interaction": 0.9107956886291504,
+      "Quantum Computing": 0.9022510051727295,
+      "Quantum Nonlinear Optics": 0.6926360130310059,
+      "Quantum Simulation": 0.6881263852119446,
+      "Photonic QIP": 0.04691058397293091,
+      "Other": 0.032540109008550644,
+      "Quantum Machine Learning": 0.005220408551394939,
+      "Quantum Communication": 0.003771026385948062,
+      "Ultrafast Quantum Photonics": 0.00284105003811419
+    }
+  },
+  "S2:e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b": {
+    "title": "Entanglement, loss, and quantumness: When balanced beam splitters are best",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b",
+    "venue": null,
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9660794734954834,
+      "Quantum Light–Matter Interaction": 0.4649979770183563,
+      "Quantum Nonlinear Optics": 0.07355411350727081,
+      "Quantum Simulation": 0.047736797481775284,
+      "Quantum Computing": 0.021487755700945854,
+      "Quantum Information": 0.019037669524550438,
+      "Other": 0.003966049756854773,
+      "Quantum Machine Learning": 0.0007589071174152195,
+      "Photonic QIP": 0.0006700883968733251,
+      "Quantum Communication": 0.0006099528982304037,
+      "Ultrafast Quantum Photonics": 0.00016636129294056445
+    }
+  },
+  "S2:3952f98a77c5f3daba0ed8131f7f19569488de3f": {
+    "title": "Complex-valued Wigner entropy of a quantum state",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1007/s40509-024-00325-8",
+    "url": "https://doi.org/10.1007/s40509-024-00325-8",
+    "venue": "Quantum Studies: Mathematics and Foundations",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.013618916273117065,
+      "Other": 0.003103571943938732,
+      "Quantum Computing": 0.0008122071740217507,
+      "Quantum Simulation": 0.0003224412212148309,
+      "Quantum Light–Matter Interaction": 0.00029487619758583605,
+      "Photonics": 0.00010152754111913964,
+      "Quantum Communication": 9.410658094566315e-05,
+      "Quantum Nonlinear Optics": 7.013425783952698e-05,
+      "Quantum Machine Learning": 6.649396527791396e-05,
+      "Ultrafast Quantum Photonics": 3.505649874568917e-05,
+      "Photonic QIP": 3.0178433007677086e-05
+    }
+  },
+  "S2:1e0c12a460b1389e4836e8d1932aee9af82d7010": {
+    "title": "Nonclassicality gain/loss through photon-addition/subtraction on Multi-Mode Gaussian States",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/1e0c12a460b1389e4836e8d1932aee9af82d7010",
+    "venue": null,
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.974011242389679,
+      "Quantum Computing": 0.8958337306976318,
+      "Quantum Light–Matter Interaction": 0.769910991191864,
+      "Quantum Information": 0.754889726638794,
+      "Quantum Simulation": 0.5731276273727417,
+      "Quantum Nonlinear Optics": 0.07729929685592651,
+      "Photonic QIP": 0.010324466973543167,
+      "Other": 0.008799884468317032,
+      "Quantum Machine Learning": 0.0005569257773458958,
+      "Quantum Communication": 0.0002981770667247474,
+      "Ultrafast Quantum Photonics": 0.00016960842185653746
+    }
+  },
+  "S2:6e5a22b2bd9f6d6edf053f5e12307b8248bf3768": {
+    "title": "Decoherence and nonclassicality of photon-added and photon-subtracted multimode Gaussian states",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.107.043713",
+    "url": "https://doi.org/10.1103/PhysRevA.107.043713",
+    "venue": "Physical Review A",
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.9957668781280518,
+      "Quantum Light–Matter Interaction": 0.9797302484512329,
+      "Quantum Information": 0.925574541091919,
+      "Quantum Nonlinear Optics": 0.2560310363769531,
+      "Quantum Computing": 0.037659574300050735,
+      "Quantum Simulation": 0.015856225043535233,
+      "Photonic QIP": 0.015314792282879353,
+      "Other": 0.009130174294114113,
+      "Quantum Communication": 0.0017571091884747148,
+      "Ultrafast Quantum Photonics": 0.0002598533174023032,
+      "Quantum Machine Learning": 0.00019320030696690083
+    }
+  },
+  "S2:5ab41d3892402e25eb4f41a195cbb276565c5ba9": {
+    "title": "Realignment separability criterion assisted with filtration for detecting continuous-variable entanglement",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.104.022427",
+    "url": "https://doi.org/10.1103/PhysRevA.104.022427",
+    "venue": "Physical Review A",
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.9393409490585327,
+      "Photonics": 0.33473876118659973,
+      "Quantum Light–Matter Interaction": 0.03497188538312912,
+      "Quantum Computing": 0.021778639405965805,
+      "Quantum Communication": 0.009188958443701267,
+      "Other": 0.008161291480064392,
+      "Quantum Nonlinear Optics": 0.0021928180940449238,
+      "Quantum Simulation": 0.001812947215512395,
+      "Quantum Machine Learning": 0.0001745191984809935,
+      "Ultrafast Quantum Photonics": 0.00013384906924329698,
+      "Photonic QIP": 5.061487536295317e-05
+    }
+  },
+  "S2:35721f9c5c5e7ae63378ce1d7f942b6569d0f886": {
+    "title": "Relating the entanglement and optical nonclassicality of multimode states of a bosonic quantum field",
+    "categories": [
+      "Photonics",
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.102.032413",
+    "url": "https://doi.org/10.1103/PHYSREVA.102.032413",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9720664024353027,
+      "Quantum Communication": 0.846630871295929,
+      "Quantum Light–Matter Interaction": 0.6938468813896179,
+      "Photonic QIP": 0.2821131944656372,
+      "Quantum Information": 0.11610221117734909,
+      "Other": 0.009406883269548416,
+      "Quantum Nonlinear Optics": 0.008879096247255802,
+      "Quantum Computing": 0.003447608556598425,
+      "Quantum Simulation": 0.0008215585839934647,
+      "Ultrafast Quantum Photonics": 0.00014606743934564292,
+      "Quantum Machine Learning": 0.00011365725367795676
+    }
+  },
+  "S2:6c2e1bb88a094cd59d44f36938dd15bdf97aa96e": {
+    "title": "Comparing Entanglement and Optical Nonclassicality of Bosonic States",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/quantum.2020.qth7a.7",
+    "url": "https://doi.org/10.1364/quantum.2020.qth7a.7",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9343941807746887,
+      "Quantum Light–Matter Interaction": 0.2463618516921997,
+      "Quantum Information": 0.1049468144774437,
+      "Photonic QIP": 0.032735854387283325,
+      "Other": 0.02129972353577614,
+      "Quantum Nonlinear Optics": 0.014269441366195679,
+      "Quantum Computing": 0.010596629232168198,
+      "Quantum Simulation": 0.004442385397851467,
+      "Quantum Communication": 0.0010063543450087309,
+      "Ultrafast Quantum Photonics": 0.00027069656061939895,
+      "Quantum Machine Learning": 0.00017093034693971276
+    }
+  },
+  "S2:9d2a098a137f0415b073acd88e5529d2ed636f36": {
+    "title": "Weak realignment criterion for detecting continuous-variable entanglement",
+    "categories": [
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/9d2a098a137f0415b073acd88e5529d2ed636f36",
+    "venue": null,
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.9736005663871765,
+      "Photonics": 0.8938274383544922,
+      "Quantum Computing": 0.10911142826080322,
+      "Quantum Light–Matter Interaction": 0.07608255743980408,
+      "Quantum Simulation": 0.03272552043199539,
+      "Quantum Nonlinear Optics": 0.006977512035518885,
+      "Quantum Communication": 0.003543219994753599,
+      "Other": 0.0013054991140961647,
+      "Quantum Machine Learning": 0.00030714942840859294,
+      "Photonic QIP": 0.00019724784942809492,
+      "Ultrafast Quantum Photonics": 6.593515718122944e-05
+    }
+  },
+  "S2:688244bc56b5837a69327b9277e0fc2075a511b1": {
+    "title": "Quadrature Coherence Scale Driven Fast Decoherence of Bosonic Quantum Field States.",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevlett.124.090402",
+    "url": "https://doi.org/10.1103/PhysRevLett.124.090402",
+    "venue": "Physical Review Letters",
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.2310444712638855,
+      "Quantum Computing": 0.029285680502653122,
+      "Photonics": 0.015974340960383415,
+      "Quantum Light–Matter Interaction": 0.005858621560037136,
+      "Quantum Simulation": 0.003820706158876419,
+      "Quantum Nonlinear Optics": 0.0023995861411094666,
+      "Other": 0.0017503545386716723,
+      "Quantum Communication": 0.00029920239467173815,
+      "Ultrafast Quantum Photonics": 0.00021515082335099578,
+      "Photonic QIP": 0.00011932440247619525,
+      "Quantum Machine Learning": 5.364861499401741e-05
+    }
+  },
+  "S2:8c569a1dc9d8ae8ef5f099b16ad51590cfe839cb": {
+    "title": "Multicopy uncertainty observable inducing a symplectic-invariant uncertainty relation in position and momentum phase space",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.100.052112",
+    "url": "https://doi.org/10.1103/physreva.100.052112",
+    "venue": "Physical Review A",
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.07744447141885757,
+      "Quantum Communication": 0.012476669624447823,
+      "Other": 0.004139014519751072,
+      "Quantum Simulation": 0.0008197301649488509,
+      "Quantum Light–Matter Interaction": 0.00046421881415881217,
+      "Quantum Computing": 0.0004587385628838092,
+      "Quantum Nonlinear Optics": 0.00020115592633374035,
+      "Photonics": 0.00018273091700393707,
+      "Quantum Machine Learning": 6.480852607637644e-05,
+      "Ultrafast Quantum Photonics": 3.732405821210705e-05,
+      "Photonic QIP": 3.661851224023849e-05
+    }
+  },
+  "S2:47c8a1864cee33e57e24d9213c6788bb95f3fa39": {
+    "title": "Multi-copy uncertainty observable inducing a symplectic-invariant uncertainty relation",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.100.052112",
+    "url": "https://doi.org/10.1103/PhysRevA.100.052112",
+    "venue": null,
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.08613993972539902,
+      "Quantum Communication": 0.004516290966421366,
+      "Other": 0.0014552620705217123,
+      "Quantum Simulation": 0.001387156778946519,
+      "Quantum Computing": 0.0012312870239838958,
+      "Photonics": 0.0007448319811373949,
+      "Quantum Nonlinear Optics": 0.000639519130345434,
+      "Quantum Light–Matter Interaction": 0.00042577265412546694,
+      "Quantum Machine Learning": 9.959517046809196e-05,
+      "Photonic QIP": 7.434090366587043e-05,
+      "Ultrafast Quantum Photonics": 5.5078609875636175e-05
+    }
+  },
+  "S2:788561e57cfe9858fef63bc0be48492fba15b216": {
+    "title": "Continuous-variable entropic uncertainty relations",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1088/1751-8121/ab03f3",
+    "url": "https://doi.org/10.1088/1751-8121/ab03f3",
+    "venue": "Journal of Physics A: Mathematical and Theoretical",
+    "year": 2018,
+    "scores": {
+      "Other": 0.002249149838462472,
+      "Quantum Light–Matter Interaction": 0.0002855964994523674,
+      "Quantum Information": 0.00022524291125591844,
+      "Quantum Nonlinear Optics": 0.0001874634181149304,
+      "Quantum Simulation": 9.00126324268058e-05,
+      "Quantum Computing": 7.64632859500125e-05,
+      "Photonic QIP": 7.126927084755152e-05,
+      "Quantum Machine Learning": 5.887915540370159e-05,
+      "Ultrafast Quantum Photonics": 5.693641287507489e-05,
+      "Quantum Communication": 5.369882637751289e-05,
+      "Photonics": 3.4280517866136506e-05
+    }
+  },
+  "S2:74e644cbf4ea874f0af9735dba5b9ae55ae6172d": {
+    "title": "Multidimensional entropic uncertainty relation based on a commutator matrix in position and momentum spaces",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.97.012111",
+    "url": "https://doi.org/10.1103/PhysRevA.97.012111",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Quantum Information": 0.015521058812737465,
+      "Quantum Communication": 0.002379711251705885,
+      "Other": 0.0014920393005013466,
+      "Quantum Computing": 0.00116923195309937,
+      "Quantum Simulation": 0.0007303640013560653,
+      "Quantum Nonlinear Optics": 0.0006104774656705558,
+      "Quantum Light–Matter Interaction": 0.0004557579813990742,
+      "Quantum Machine Learning": 0.00011993628140771762,
+      "Photonics": 7.68210447859019e-05,
+      "Photonic QIP": 5.196970596443862e-05,
+      "Ultrafast Quantum Photonics": 5.181758388062008e-05
+    }
+  },
+  "S2:d46752df8300a22810eef7a89f5691d4f5859d46": {
+    "title": "Entropy-power uncertainty relations: towards a tight inequality for all Gaussian pure states",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1088/1751-8121/aa852f",
+    "url": "https://doi.org/10.1088/1751-8121/aa852f",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Quantum Information": 0.7763844132423401,
+      "Other": 0.0011901076650246978,
+      "Quantum Simulation": 0.000766557059250772,
+      "Quantum Computing": 0.0006415945244953036,
+      "Quantum Nonlinear Optics": 0.0005440919194370508,
+      "Quantum Light–Matter Interaction": 0.0005360186914913356,
+      "Quantum Machine Learning": 0.00017234860570169985,
+      "Photonics": 0.0001523059472674504,
+      "Quantum Communication": 0.00010016386659117416,
+      "Ultrafast Quantum Photonics": 8.550477650715038e-05,
+      "Photonic QIP": 3.603978257160634e-05
+    }
+  },
+  "S2:eb8aaf8962fd50b441fde624f086ab765836b709": {
+    "title": "A tight entropy-power uncertainty relation",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/eb8aaf8962fd50b441fde624f086ab765836b709",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Quantum Information": 0.030943822115659714,
+      "Quantum Simulation": 0.0010316352127119899,
+      "Other": 0.0008427620632573962,
+      "Quantum Computing": 0.0004209268372505903,
+      "Quantum Light–Matter Interaction": 0.0003995268198195845,
+      "Quantum Nonlinear Optics": 0.0003410952049307525,
+      "Quantum Machine Learning": 0.00010514332097955048,
+      "Photonic QIP": 8.779317431617528e-05,
+      "Photonics": 8.608483040006831e-05,
+      "Ultrafast Quantum Photonics": 6.786252924939618e-05,
+      "Quantum Communication": 5.954005609964952e-05
+    }
+  },
+  "S2:95be6037874a132fcb2e31b443ede232d6a81a1a": {
+    "title": "Higher Order Nonclassicality from Nonlinear Coherent States for Models with Quadratic Spectrum",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.3390/sym8050036",
+    "url": "https://doi.org/10.3390/sym8050036",
+    "venue": "Symmetry",
+    "year": 2016,
+    "scores": {
+      "Other": 0.011442880146205425,
+      "Quantum Simulation": 0.009561629965901375,
+      "Quantum Information": 0.00898807030171156,
+      "Quantum Nonlinear Optics": 0.004802504554390907,
+      "Quantum Light–Matter Interaction": 0.004168275278061628,
+      "Quantum Computing": 0.0006664382526651025,
+      "Quantum Communication": 0.0002290046395501122,
+      "Photonics": 0.0002117171825375408,
+      "Photonic QIP": 0.00019790566875599325,
+      "Quantum Machine Learning": 0.00010159495286643505,
+      "Ultrafast Quantum Photonics": 3.8925765693420544e-05
+    }
+  },
+  "S2:eace3da1a832be6e69b161f4efce24631a25fe45": {
+    "title": "Gaussianity-dependent separability criterion for continuous-variable systems",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/eace3da1a832be6e69b161f4efce24631a25fe45",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Other": 0.0012279492802917957,
+      "Quantum Information": 0.0005058128735981882,
+      "Quantum Light–Matter Interaction": 0.00016103533562272787,
+      "Photonics": 0.00010394684795755893,
+      "Quantum Simulation": 9.809060429688543e-05,
+      "Quantum Nonlinear Optics": 9.316476644016802e-05,
+      "Quantum Computing": 7.591128087369725e-05,
+      "Ultrafast Quantum Photonics": 4.741774682770483e-05,
+      "Photonic QIP": 4.013382931589149e-05,
+      "Quantum Machine Learning": 3.903892866219394e-05,
+      "Quantum Communication": 2.8547216061269864e-05
+    }
+  },
+  "S2:dd02d8a8ceee930bbbdec754832f283ddabcf916": {
+    "title": "Detection of non-Gaussian entangled states with an improved continuous-variable separability criterion",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physreva.93.032330",
+    "url": "https://doi.org/10.1103/PhysRevA.93.032330",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Quantum Information": 0.9796712398529053,
+      "Photonics": 0.9696421027183533,
+      "Quantum Computing": 0.9527877569198608,
+      "Quantum Simulation": 0.7879804968833923,
+      "Quantum Light–Matter Interaction": 0.5142090916633606,
+      "Other": 0.0784425362944603,
+      "Quantum Nonlinear Optics": 0.04657111316919327,
+      "Quantum Machine Learning": 0.0040823668241500854,
+      "Quantum Communication": 0.0005746028036810458,
+      "Ultrafast Quantum Photonics": 0.00030070971115492284,
+      "Photonic QIP": 0.0001030258645187132
+    }
+  },
+  "S2:71da34f7d49c58c2156ab7d421f68f1d86ffbb1a": {
+    "title": "Public Space One – Unique Entity of Sustained Madness",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/71da34f7d49c58c2156ab7d421f68f1d86ffbb1a",
+    "venue": null,
+    "year": 2013,
+    "scores": {
+      "Other": 0.012902004644274712,
+      "Quantum Information": 0.00409567728638649,
+      "Quantum Light–Matter Interaction": 0.0017143598524853587,
+      "Photonics": 0.0011325078085064888,
+      "Quantum Computing": 0.0005405519041232765,
+      "Quantum Simulation": 0.0004443670331966132,
+      "Quantum Communication": 0.0002936150995083153,
+      "Photonic QIP": 0.00019547814736142755,
+      "Ultrafast Quantum Photonics": 0.00015138958406168967,
+      "Quantum Nonlinear Optics": 0.00013969828432891518,
+      "Quantum Machine Learning": 0.00010444671352161095
+    }
+  },
+  "S2:fcd11daa82b85e4865dc542d145b9cca96a13f82": {
+    "title": "Beam splitter and entanglement created with the squeezed coherent states of the Morse potential",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/fcd11daa82b85e4865dc542d145b9cca96a13f82",
+    "venue": null,
+    "year": 2013,
+    "scores": {
+      "Photonics": 0.998616635799408,
+      "Quantum Information": 0.984803318977356,
+      "Quantum Simulation": 0.9711328744888306,
+      "Quantum Computing": 0.9652640223503113,
+      "Quantum Light–Matter Interaction": 0.9062122106552124,
+      "Quantum Nonlinear Optics": 0.19175614416599274,
+      "Quantum Communication": 0.010296485386788845,
+      "Other": 0.004370581358671188,
+      "Photonic QIP": 0.003406308824196458,
+      "Ultrafast Quantum Photonics": 0.001941401045769453,
+      "Quantum Machine Learning": 0.00041549530578777194
+    }
+  },
+  "S2:099cd640f8cab264ba240b9f4ab2daf94e2429d2": {
+    "title": "Trajectories of generalized quantum states for systems with finite discrete spectrum and classical analogs",
+    "categories": [
+      "Quantum Simulation"
+    ],
+    "doi": "10.1063/1.4759390",
+    "url": "https://doi.org/10.1063/1.4759390",
+    "venue": null,
+    "year": 2012,
+    "scores": {
+      "Quantum Simulation": 0.028829200193285942,
+      "Photonics": 0.007790805771946907,
+      "Quantum Information": 0.005777451675385237,
+      "Quantum Computing": 0.0033019434195011854,
+      "Other": 0.002510392339900136,
+      "Quantum Light–Matter Interaction": 0.0011265540961176157,
+      "Quantum Nonlinear Optics": 0.0005863119731657207,
+      "Quantum Machine Learning": 0.00010217136878054589,
+      "Photonic QIP": 6.473144458141178e-05,
+      "Quantum Communication": 6.191649299580604e-05,
+      "Ultrafast Quantum Photonics": 5.056132431491278e-05
+    }
+  },
+  "S2:0562f9de78e462b5425c2782fc5d29e459adc7bc": {
+    "title": "Corrigendum: Squeezed coherent states and the one-dimensional Morse quantum system",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/0562f9de78e462b5425c2782fc5d29e459adc7bc",
+    "venue": null,
+    "year": 2012,
+    "scores": {
+      "Photonics": 0.9439876675605774,
+      "Quantum Information": 0.12623944878578186,
+      "Quantum Computing": 0.04623395577073097,
+      "Quantum Simulation": 0.039142705500125885,
+      "Quantum Nonlinear Optics": 0.029650870710611343,
+      "Other": 0.015612556599080563,
+      "Quantum Light–Matter Interaction": 0.013828990049660206,
+      "Ultrafast Quantum Photonics": 0.0006568307871930301,
+      "Quantum Communication": 0.00033327811979688704,
+      "Photonic QIP": 0.0002616134297568351,
+      "Quantum Machine Learning": 0.00014949063188396394
+    }
+  },
+  "S2:954b91a302c04fee722722c38871c9e967a2e4bf": {
+    "title": "Squeezed coherent states and the one-dimensional Morse quantum system",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1088/1751-8113/45/24/244007",
+    "url": "https://doi.org/10.1088/1751-8113/45/24/244007",
+    "venue": null,
+    "year": 2011,
+    "scores": {
+      "Photonics": 0.9606605172157288,
+      "Quantum Simulation": 0.05711686983704567,
+      "Quantum Information": 0.03327101096510887,
+      "Quantum Computing": 0.025290003046393394,
+      "Quantum Nonlinear Optics": 0.011885659769177437,
+      "Quantum Light–Matter Interaction": 0.007349428255110979,
+      "Other": 0.0014783788938075304,
+      "Ultrafast Quantum Photonics": 0.0004934645839966834,
+      "Photonic QIP": 0.0002157984854420647,
+      "Quantum Machine Learning": 0.00010469662811374292,
+      "Quantum Communication": 7.360579184023663e-05
+    }
+  },
+  "S2:629069dd5fcdb5645e1e3d3c43c7276ef1ea3821": {
+    "title": "Nonclassicality and quantum non-Gaussianity of photon-added/subtracted multi-mode Gaussian states",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/629069dd5fcdb5645e1e3d3c43c7276ef1ea3821",
+    "venue": null,
+    "year": null,
+    "scores": {
+      "Photonics": 0.9842467308044434,
+      "Quantum Information": 0.1434277445077896,
+      "Quantum Light–Matter Interaction": 0.05026860162615776,
+      "Photonic QIP": 0.04904331639409065,
+      "Quantum Nonlinear Optics": 0.02928783930838108,
+      "Quantum Computing": 0.022079074755311012,
+      "Other": 0.020240742713212967,
+      "Quantum Simulation": 0.009740056470036507,
+      "Quantum Machine Learning": 0.00014896057837177068,
+      "Quantum Communication": 0.00014422149979509413,
+      "Ultrafast Quantum Photonics": 0.00011782682122429833
+    }
+  },
+  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": {
+    "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+    "categories": [
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Quantum Simulation": 0.9567373394966125,
+      "Quantum Information": 0.11736269295215607,
+      "Quantum Computing": 0.09620684385299683,
+      "Quantum Light–Matter Interaction": 0.0055490718223154545,
+      "Quantum Nonlinear Optics": 0.002020955551415682,
+      "Other": 0.00042157681309618056,
+      "Quantum Machine Learning": 0.000311339768813923,
+      "Photonics": 0.00020892090105917305,
+      "Quantum Communication": 0.00017701939214020967,
+      "Ultrafast Quantum Photonics": 0.00015639964840374887,
+      "Photonic QIP": 0.0001269443309865892
+    }
+  },
+  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": {
+    "title": "Adaptive Non-Gaussian Quantum State Engineering",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Quantum Information": 0.08379761129617691,
+      "Other": 0.05282649025321007,
+      "Quantum Simulation": 0.03597230836749077,
+      "Quantum Computing": 0.0356016643345356,
+      "Quantum Machine Learning": 0.006330789998173714,
+      "Photonics": 0.0032256320118904114,
+      "Quantum Light–Matter Interaction": 0.0028205655980855227,
+      "Quantum Nonlinear Optics": 0.0006768782623112202,
+      "Photonic QIP": 0.00014512061898130924,
+      "Quantum Communication": 0.00011310284025967121,
+      "Ultrafast Quantum Photonics": 5.399058136390522e-05
+    }
+  },
+  "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": {
+    "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Machine Learning"
+    ],
+    "doi": "10.1002/qute.202400074",
+    "url": "https://doi.org/10.1002/qute.202400074",
+    "venue": "Advanced Quantum Technologies",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9623802304267883,
+      "Quantum Information": 0.9229556322097778,
+      "Quantum Machine Learning": 0.9094528555870056,
+      "Quantum Computing": 0.8538486957550049,
+      "Photonic QIP": 0.22584158182144165,
+      "Quantum Light–Matter Interaction": 0.12312179058790207,
+      "Quantum Simulation": 0.024745646864175797,
+      "Other": 0.00762672396376729,
+      "Quantum Nonlinear Optics": 0.006251740735024214,
+      "Quantum Communication": 0.0005158710409887135,
+      "Ultrafast Quantum Photonics": 9.105742356041446e-05
+    }
+  },
+  "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": {
+    "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/ome.549582",
+    "url": "https://doi.org/10.1364/ome.549582",
+    "venue": "Optical Materials Express",
+    "year": 2025,
+    "scores": {
+      "Photonics": 0.9986826777458191,
+      "Quantum Information": 0.7950294613838196,
+      "Photonic QIP": 0.15317443013191223,
+      "Quantum Light–Matter Interaction": 0.03843292221426964,
+      "Quantum Simulation": 0.018163617700338364,
+      "Quantum Nonlinear Optics": 0.011249295435845852,
+      "Quantum Computing": 0.007586575113236904,
+      "Other": 0.004491869360208511,
+      "Ultrafast Quantum Photonics": 0.0005228694062680006,
+      "Quantum Machine Learning": 0.00025507231475785375,
+      "Quantum Communication": 0.00014830284635536373
+    }
+  },
+  "S2:3767c60c93e422ae4ba64c37132c90d3e4b2fa3a": {
+    "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Photonics": 0.9642080068588257,
+      "Quantum Light–Matter Interaction": 0.046877890825271606,
+      "Quantum Information": 0.024953292682766914,
+      "Quantum Simulation": 0.0057489401660859585,
+      "Other": 0.001958424923941493,
+      "Quantum Nonlinear Optics": 0.0011833184398710728,
+      "Photonic QIP": 0.0009935911512002349,
+      "Quantum Computing": 0.0006866949261166155,
+      "Quantum Machine Learning": 0.0002807356941048056,
+      "Quantum Communication": 0.00023255290579982102,
+      "Ultrafast Quantum Photonics": 7.062075019348413e-05
+    }
+  },
+  "S2:90960bbd5128c51ce9efcbb3c715ccd26f272ca2": {
+    "title": "Imaging at the quantum limit with convolutional neural networks",
+    "categories": [
+      "Quantum Computing",
+      "Photonics",
+      "Quantum Machine Learning"
+    ],
+    "doi": "10.48550/arxiv.2506.13488",
+    "url": "https://doi.org/10.48550/arXiv.2506.13488",
+    "venue": "arXiv.org",
+    "year": 2025,
+    "scores": {
+      "Quantum Computing": 0.988919734954834,
+      "Photonics": 0.9868199825286865,
+      "Quantum Machine Learning": 0.9516847729682922,
+      "Quantum Information": 0.745040774345398,
+      "Quantum Light–Matter Interaction": 0.01933407224714756,
+      "Quantum Simulation": 0.005443229340016842,
+      "Photonic QIP": 0.002303855028003454,
+      "Quantum Nonlinear Optics": 0.0021492657251656055,
+      "Ultrafast Quantum Photonics": 0.002129639033228159,
+      "Other": 0.0012290107551962137,
+      "Quantum Communication": 0.00046230910811573267
+    }
+  },
+  "S2:00449496834477f23047f996e64ec897235c9392": {
+    "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Quantum Computing": 0.9865773320198059,
+      "Quantum Information": 0.9714180827140808,
+      "Quantum Simulation": 0.8986340761184692,
+      "Photonics": 0.8663309216499329,
+      "Quantum Light–Matter Interaction": 0.0025037555024027824,
+      "Other": 0.0010532973101362586,
+      "Quantum Nonlinear Optics": 0.0007163929985836148,
+      "Quantum Communication": 0.0005706012016162276,
+      "Ultrafast Quantum Photonics": 0.0002661387843545526,
+      "Quantum Machine Learning": 0.0002206110948463902,
+      "Photonic QIP": 7.971838931553066e-05
+    }
+  },
+  "S2:cd6397ab56ef76cf6c96480f1ead2829c698d128": {
+    "title": "A Resource Efficient Quantum Kernel",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": "10.48550/arxiv.2507.03689",
+    "url": "https://doi.org/10.48550/arXiv.2507.03689",
+    "venue": "arXiv.org",
+    "year": 2025,
+    "scores": {
+      "Quantum Computing": 0.9733105897903442,
+      "Quantum Information": 0.9620060324668884,
+      "Photonics": 0.9178905487060547,
+      "Quantum Simulation": 0.014145924709737301,
+      "Quantum Light–Matter Interaction": 0.0023001590743660927,
+      "Other": 0.002284430665895343,
+      "Quantum Nonlinear Optics": 0.001158866798505187,
+      "Ultrafast Quantum Photonics": 0.00028305398882366717,
+      "Quantum Machine Learning": 0.00027077202685177326,
+      "Quantum Communication": 0.0002631138195283711,
+      "Photonic QIP": 5.50989898329135e-05
+    }
+  },
+  "S2:c65e0b763d12ea43ea749f49dbfbc73782e00171": {
+    "title": "Unwanted couplings can induce amplification in quantum memories despite negligible apparent noise",
+    "categories": [
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/c65e0b763d12ea43ea749f49dbfbc73782e00171",
+    "venue": null,
+    "year": 2024,
+    "scores": {
+      "Quantum Information": 0.9553259611129761,
+      "Photonics": 0.9399195313453674,
+      "Quantum Computing": 0.11249618232250214,
+      "Quantum Communication": 0.033084437251091,
+      "Other": 0.026014456525444984,
+      "Quantum Simulation": 0.018041415140032768,
+      "Quantum Light–Matter Interaction": 0.002734395442530513,
+      "Quantum Nonlinear Optics": 0.0012400264386087656,
+      "Quantum Machine Learning": 0.0006084885098971426,
+      "Photonic QIP": 9.898769349092618e-05,
+      "Ultrafast Quantum Photonics": 7.698782428633422e-05
+    }
+  },
+  "S2:f655fa3db7c9e222b952453a3575d282f988f4e2": {
+    "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Photonic QIP"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/f655fa3db7c9e222b952453a3575d282f988f4e2",
+    "venue": null,
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9915716052055359,
+      "Quantum Information": 0.9174829125404358,
+      "Photonic QIP": 0.44517970085144043,
+      "Quantum Light–Matter Interaction": 0.10776675492525101,
+      "Quantum Simulation": 0.08035518229007721,
+      "Quantum Computing": 0.05919884517788887,
+      "Quantum Nonlinear Optics": 0.05643976479768753,
+      "Other": 0.003591864136978984,
+      "Ultrafast Quantum Photonics": 0.0009115920402109623,
+      "Quantum Machine Learning": 0.0005850705783814192,
+      "Quantum Communication": 0.0002894217905122787
+    }
+  },
+  "S2:c304372dafccc7c2484ff027f474c1271cef3bcd": {
+    "title": "Programmable Photonic Quantum Circuits with Ultrafast Time-Bin Encoding.",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physrevlett.133.090601",
+    "url": "https://doi.org/10.1103/physrevlett.133.090601",
+    "venue": "Physical Review Letters",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9994794130325317,
+      "Photonic QIP": 0.9968094825744629,
+      "Quantum Computing": 0.995466947555542,
+      "Quantum Information": 0.992468535900116,
+      "Ultrafast Quantum Photonics": 0.9594259858131409,
+      "Quantum Simulation": 0.13957230746746063,
+      "Quantum Light–Matter Interaction": 0.08703169971704483,
+      "Other": 0.0022108065895736217,
+      "Quantum Nonlinear Optics": 0.002127876039594412,
+      "Quantum Communication": 0.002101343125104904,
+      "Quantum Machine Learning": 0.0002626656787469983
+    }
+  },
+  "S2:10a2b7af8968f61a9a8c8dae1bf1bf62f528cc4a": {
+    "title": "Predicting atmospheric turbulence for secure quantum communications in free space.",
+    "categories": [
+      "Photonics",
+      "Quantum Communication",
+      "Quantum Computing"
+    ],
+    "doi": "10.1364/oe.546606",
+    "url": "https://doi.org/10.1364/OE.546606",
+    "venue": "Optics Express",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9980825781822205,
+      "Quantum Communication": 0.9933605194091797,
+      "Quantum Computing": 0.9897112846374512,
+      "Quantum Information": 0.985211968421936,
+      "Quantum Simulation": 0.9496746063232422,
+      "Quantum Light–Matter Interaction": 0.06903067231178284,
+      "Photonic QIP": 0.026186399161815643,
+      "Quantum Machine Learning": 0.02072412148118019,
+      "Quantum Nonlinear Optics": 0.01013957429677248,
+      "Other": 0.004118384327739477,
+      "Ultrafast Quantum Photonics": 0.00030037801479920745
+    }
+  },
+  "S2:612de1bdc3991717a6431e78c522357f65d653cd": {
+    "title": "Photonic quantum walk with ultrafast time-bin encoding",
+    "categories": [
+      "Photonics",
+      "Ultrafast Quantum Photonics",
+      "Photonic QIP"
+    ],
+    "doi": "10.1364/optica.510312",
+    "url": "https://doi.org/10.1364/optica.510312",
+    "venue": "Optica",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9997935891151428,
+      "Ultrafast Quantum Photonics": 0.9894309639930725,
+      "Photonic QIP": 0.9799471497535706,
+      "Quantum Computing": 0.9535391926765442,
+      "Quantum Information": 0.9454036951065063,
+      "Quantum Simulation": 0.8989449739456177,
+      "Quantum Light–Matter Interaction": 0.8237406015396118,
+      "Quantum Nonlinear Optics": 0.03424005210399628,
+      "Quantum Communication": 0.002226154087111354,
+      "Other": 0.001740307081490755,
+      "Quantum Machine Learning": 0.0005887956940568984
+    }
+  },
+  "S2:070ebe2703358512e24b87d4a3fde0ca14b6655e": {
+    "title": "Frequency- and dissipation-dependent entanglement advantage in spin-network quantum reservoir computing",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": "10.1103/physreva.110.042416",
+    "url": "https://doi.org/10.1103/physreva.110.042416",
+    "venue": "Physical Review A",
+    "year": 2024,
+    "scores": {
+      "Quantum Computing": 0.9995189309120178,
+      "Quantum Information": 0.9843149781227112,
+      "Photonics": 0.9819331765174866,
+      "Quantum Simulation": 0.1396845281124115,
+      "Quantum Light–Matter Interaction": 0.09220612049102783,
+      "Quantum Communication": 0.0071890694089233875,
+      "Other": 0.0029024279210716486,
+      "Quantum Nonlinear Optics": 0.0018921890296041965,
+      "Quantum Machine Learning": 0.0004960332298651338,
+      "Ultrafast Quantum Photonics": 0.00031052183476276696,
+      "Photonic QIP": 0.00014846371777821332
+    }
+  },
+  "S2:61386abda2829d0434e192479bac6a62c98e921e": {
+    "title": "Photonic Orbital Angular Momentum for Novel Protocols in QKD and Certified Deletion",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/quantum.2023.qtu3a.31",
+    "url": "https://doi.org/10.1364/quantum.2023.qtu3a.31",
+    "venue": "Optica Quantum 2.0 Conference and Exhibition",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9997039437294006,
+      "Quantum Computing": 0.9948325753211975,
+      "Quantum Information": 0.9917038083076477,
+      "Photonic QIP": 0.9620622992515564,
+      "Quantum Simulation": 0.8662472367286682,
+      "Quantum Light–Matter Interaction": 0.7941813468933105,
+      "Quantum Nonlinear Optics": 0.045422185212373734,
+      "Quantum Communication": 0.006003023125231266,
+      "Other": 0.004032404161989689,
+      "Quantum Machine Learning": 0.0036959564313292503,
+      "Ultrafast Quantum Photonics": 0.0003020862932316959
+    }
+  },
+  "S2:7049c5f04505874004bc9ae28514f2c5fc63dcf8": {
+    "title": "Noncryogenic Quantum Repeaters with hot Hybrid Alkali-Noble Gases",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevapplied.19.054063",
+    "url": "https://doi.org/10.1103/physrevapplied.19.054063",
+    "venue": "Physical Review Applied",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.9510362148284912,
+      "Quantum Communication": 0.09615113586187363,
+      "Quantum Nonlinear Optics": 0.05674883350729942,
+      "Other": 0.02162913605570793,
+      "Quantum Simulation": 0.018768468871712685,
+      "Quantum Computing": 0.014969682320952415,
+      "Quantum Light–Matter Interaction": 0.007447592448443174,
+      "Photonics": 0.0067725046537816525,
+      "Photonic QIP": 0.0005123492446728051,
+      "Ultrafast Quantum Photonics": 0.00015772566257510334,
+      "Quantum Machine Learning": 9.44662097026594e-05
+    }
+  },
+  "S2:0d7c422e8c6a22c5f608666534052086aa1581bf": {
+    "title": "Measuring ultrafast time-bin qudits",
+    "categories": [
+      "Quantum Information",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/physreva.107.022618",
+    "url": "https://doi.org/10.1103/PhysRevA.107.022618",
+    "venue": "Physical Review A",
+    "year": 2023,
+    "scores": {
+      "Quantum Information": 0.9306228160858154,
+      "Ultrafast Quantum Photonics": 0.7271116971969604,
+      "Quantum Computing": 0.049511171877384186,
+      "Other": 0.028118837624788284,
+      "Photonics": 0.013469303958117962,
+      "Quantum Nonlinear Optics": 0.0051273456774652,
+      "Quantum Simulation": 0.00403602235019207,
+      "Quantum Light–Matter Interaction": 0.0027442032005637884,
+      "Quantum Communication": 0.0005284636281430721,
+      "Photonic QIP": 0.00047287833876907825,
+      "Quantum Machine Learning": 0.00019933456496801227
+    }
+  },
+  "S2:c7eac9d5c99cb67cc9e2aa39d499d4f96d584841": {
+    "title": "Full Spatial Characterization of Entangled Structured Photons.",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevlett.132.063802",
+    "url": "https://doi.org/10.1103/PhysRevLett.132.063802",
+    "venue": "Physical Review Letters",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9975512623786926,
+      "Quantum Information": 0.9332208633422852,
+      "Quantum Light–Matter Interaction": 0.012765305116772652,
+      "Photonic QIP": 0.003948114812374115,
+      "Quantum Computing": 0.001904510660097003,
+      "Other": 0.0018476408440619707,
+      "Quantum Nonlinear Optics": 0.0016230009496212006,
+      "Quantum Simulation": 0.0012519415467977524,
+      "Quantum Communication": 0.0005168459611013532,
+      "Ultrafast Quantum Photonics": 0.00014903859118930995,
+      "Quantum Machine Learning": 0.0001095744883059524
+    }
+  },
+  "S2:52b69cfc496854e8b9b6d977aa11c47c33c77816": {
+    "title": "Fast adaptive optics for high-dimensional quantum communications in turbulent channels",
+    "categories": [
+      "Photonics",
+      "Quantum Communication",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/s42005-025-01986-6",
+    "url": "https://doi.org/10.1038/s42005-025-01986-6",
+    "venue": "Communications Physics",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9978345632553101,
+      "Quantum Communication": 0.9962986707687378,
+      "Quantum Light–Matter Interaction": 0.9494627118110657,
+      "Quantum Computing": 0.9103989005088806,
+      "Quantum Information": 0.8973586559295654,
+      "Photonic QIP": 0.22512328624725342,
+      "Quantum Simulation": 0.15432670712471008,
+      "Ultrafast Quantum Photonics": 0.024382634088397026,
+      "Quantum Nonlinear Optics": 0.02000458911061287,
+      "Other": 0.0038597602397203445,
+      "Quantum Machine Learning": 0.0016884177457541227
+    }
+  },
+  "S2:ddd3fe18d202fa55ad33a30a3e1ae1e99aa5ed3e": {
+    "title": "Proposal for non-cryogenic quantum repeaters with hot hybrid alkali-noble gases",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/ddd3fe18d202fa55ad33a30a3e1ae1e99aa5ed3e",
+    "venue": null,
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.9975423216819763,
+      "Quantum Computing": 0.9648310542106628,
+      "Quantum Information": 0.9353369474411011,
+      "Quantum Communication": 0.7500941753387451,
+      "Quantum Light–Matter Interaction": 0.15970344841480255,
+      "Quantum Simulation": 0.14631667733192444,
+      "Quantum Nonlinear Optics": 0.07693997770547867,
+      "Photonic QIP": 0.022392746061086655,
+      "Other": 0.0035137415397912264,
+      "Ultrafast Quantum Photonics": 0.0010053609730675817,
+      "Quantum Machine Learning": 0.0002177198912249878
+    }
+  },
+  "S2:3223e0dec5be43c45d722fc833612e50a5826130": {
+    "title": "Manipulating the symmetry of transverse momentum entangled biphoton states.",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/oe.458776",
+    "url": "https://doi.org/10.1364/OE.458776",
+    "venue": "Optics Express",
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.99972003698349,
+      "Quantum Light–Matter Interaction": 0.9624296426773071,
+      "Quantum Information": 0.9584893584251404,
+      "Quantum Simulation": 0.9499499797821045,
+      "Quantum Computing": 0.14678288996219635,
+      "Quantum Nonlinear Optics": 0.1092648133635521,
+      "Photonic QIP": 0.040470559149980545,
+      "Other": 0.004166013095527887,
+      "Ultrafast Quantum Photonics": 0.00040333211654797196,
+      "Quantum Communication": 0.00029094432829879224,
+      "Quantum Machine Learning": 0.00010630390170263126
+    }
+  },
+  "S2:771a64fa183d1a7f02994ac440144dc66f7780f6": {
+    "title": "Tera-mode of Spatiotemporal N00N States",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/771a64fa183d1a7f02994ac440144dc66f7780f6",
+    "venue": null,
+    "year": 2021,
+    "scores": {
+      "Quantum Information": 0.4097031354904175,
+      "Quantum Simulation": 0.0703171119093895,
+      "Quantum Nonlinear Optics": 0.013912374153733253,
+      "Quantum Computing": 0.012486381456255913,
+      "Other": 0.008015453815460205,
+      "Photonics": 0.006623285822570324,
+      "Ultrafast Quantum Photonics": 0.006106328219175339,
+      "Quantum Light–Matter Interaction": 0.0038902824744582176,
+      "Photonic QIP": 0.00036684912629425526,
+      "Quantum Machine Learning": 0.0002577910781838,
+      "Quantum Communication": 0.0001343361072940752
+    }
+  },
+  "S2:bfabf30dcf8805985ea5a4140f910327743fab77": {
+    "title": "Simulation of many-body dynamics using Rydberg excitons",
+    "categories": [
+      "Quantum Simulation",
+      "Photonics"
+    ],
+    "doi": "10.1088/2058-9565/ac70f4",
+    "url": "https://doi.org/10.1088/2058-9565/ac70f4",
+    "venue": "Quantum Science and Technology",
+    "year": 2021,
+    "scores": {
+      "Quantum Simulation": 0.9970024228096008,
+      "Photonics": 0.8003745079040527,
+      "Photonic QIP": 0.03205390274524689,
+      "Quantum Computing": 0.02752785012125969,
+      "Quantum Light–Matter Interaction": 0.027361823245882988,
+      "Quantum Nonlinear Optics": 0.004097612574696541,
+      "Quantum Information": 0.004055228549987078,
+      "Other": 0.0021239190828055143,
+      "Ultrafast Quantum Photonics": 0.0001183000931632705,
+      "Quantum Communication": 8.507615712005645e-05,
+      "Quantum Machine Learning": 8.254319982370362e-05
+    }
+  },
+  "S2:151e402a80cf2d3a69880b03a44ab91b77140224": {
+    "title": "Quantum Communication with Ultrafast Time-Bin Qubits",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Computing",
+      "Photonics"
+    ],
+    "doi": "10.1103/prxquantum.3.010332",
+    "url": "https://doi.org/10.1103/prxquantum.3.010332",
+    "venue": "PRX Quantum",
+    "year": 2021,
+    "scores": {
+      "Quantum Communication": 0.9913691282272339,
+      "Quantum Computing": 0.972413182258606,
+      "Photonics": 0.9362397789955139,
+      "Quantum Information": 0.9005194306373596,
+      "Ultrafast Quantum Photonics": 0.12461532652378082,
+      "Quantum Simulation": 0.011716900393366814,
+      "Quantum Light–Matter Interaction": 0.0024781697429716587,
+      "Other": 0.001541387988254428,
+      "Quantum Nonlinear Optics": 0.00036554300459101796,
+      "Quantum Machine Learning": 0.00017201121954713017,
+      "Photonic QIP": 7.014374568825588e-05
+    }
+  },
+  "S2:2d111d7f85c72706d970de867116bec6540bc000": {
+    "title": "High-speed imaging of spatiotemporal correlations in Hong-Ou-Mandel interference.",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/oe.456433",
+    "url": "https://doi.org/10.1364/OE.456433",
+    "venue": "Optics Express",
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.9902488589286804,
+      "Quantum Light–Matter Interaction": 0.15196460485458374,
+      "Quantum Information": 0.04092348739504814,
+      "Photonic QIP": 0.017478246241807938,
+      "Quantum Nonlinear Optics": 0.004264488350600004,
+      "Other": 0.0033286833204329014,
+      "Ultrafast Quantum Photonics": 0.0020762248896062374,
+      "Quantum Computing": 0.0017739353934302926,
+      "Quantum Communication": 0.0011694026179611683,
+      "Quantum Simulation": 0.0009572198614478111,
+      "Quantum Machine Learning": 0.00017575998208485544
+    }
+  },
+  "S2:fdc41bbdf9c0dd9621c3fd822db37f43d017e558": {
+    "title": "Achieving Ultimate Noise Tolerance in Quantum Communication",
+    "categories": [
+      "Quantum Communication",
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physrevapplied.15.024027",
+    "url": "https://doi.org/10.1103/PHYSREVAPPLIED.15.024027",
+    "venue": "Physical Review Applied",
+    "year": 2021,
+    "scores": {
+      "Quantum Communication": 0.9991015195846558,
+      "Quantum Information": 0.984251856803894,
+      "Quantum Computing": 0.9669718146324158,
+      "Photonics": 0.480366587638855,
+      "Quantum Light–Matter Interaction": 0.1259106695652008,
+      "Ultrafast Quantum Photonics": 0.013628841377794743,
+      "Quantum Simulation": 0.010774287395179272,
+      "Other": 0.0032012714073061943,
+      "Quantum Nonlinear Optics": 0.0030117551796138287,
+      "Quantum Machine Learning": 0.00034762106952257454,
+      "Photonic QIP": 0.00020209859940223396
+    }
+  },
+  "S2:a963aae5c58357299633f90b3c619ca3f0cfe569": {
+    "title": "Underwater quantum communication over a 30-meter flume tank",
+    "categories": [
+      "Quantum Communication",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/a963aae5c58357299633f90b3c619ca3f0cfe569",
+    "venue": null,
+    "year": 2020,
+    "scores": {
+      "Quantum Communication": 0.9860589504241943,
+      "Photonics": 0.9566275477409363,
+      "Quantum Computing": 0.7921445369720459,
+      "Quantum Information": 0.6093941330909729,
+      "Quantum Simulation": 0.013539016246795654,
+      "Quantum Light–Matter Interaction": 0.007839621976017952,
+      "Photonic QIP": 0.0007204478024505079,
+      "Other": 0.00037953516584821045,
+      "Ultrafast Quantum Photonics": 0.0003224060928914696,
+      "Quantum Nonlinear Optics": 0.000304966582916677,
+      "Quantum Machine Learning": 0.00013855300494469702
+    }
+  },
+  "S2:93fc69d9840a3292c4aba25773e37b0d5378defe": {
+    "title": "Investigation of underwater quantum channels in a 30 meter flume tank using structured photons",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1367-2630/abb688",
+    "url": "https://doi.org/10.1088/1367-2630/abb688",
+    "venue": "New Journal of Physics",
+    "year": 2020,
+    "scores": {
+      "Photonics": 0.9964309334754944,
+      "Photonic QIP": 0.9863762855529785,
+      "Quantum Light–Matter Interaction": 0.9282587170600891,
+      "Quantum Simulation": 0.921332597732544,
+      "Quantum Information": 0.8160756826400757,
+      "Quantum Nonlinear Optics": 0.01861247979104519,
+      "Quantum Computing": 0.006335207261145115,
+      "Other": 0.0026823098305612803,
+      "Quantum Communication": 0.0007316822884604335,
+      "Ultrafast Quantum Photonics": 0.0004090621951036155,
+      "Quantum Machine Learning": 0.000145929487189278
+    }
+  },
+  "S2:69215d6306b15c84d85512e24f631e8746a09514": {
+    "title": "Atomic Quantum Memory in the Autler-Townes Regime",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cleo_qels.2020.fth3d.1",
+    "url": "https://doi.org/10.1364/cleo_qels.2020.fth3d.1",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2020,
+    "scores": {
+      "Quantum Information": 0.9858406186103821,
+      "Photonics": 0.9616876840591431,
+      "Quantum Light–Matter Interaction": 0.8428668975830078,
+      "Quantum Computing": 0.1064804270863533,
+      "Quantum Simulation": 0.059377532452344894,
+      "Photonic QIP": 0.059156328439712524,
+      "Quantum Nonlinear Optics": 0.032549817115068436,
+      "Other": 0.0038448332343250513,
+      "Quantum Machine Learning": 0.0004258860135450959,
+      "Quantum Communication": 0.0003535914875101298,
+      "Ultrafast Quantum Photonics": 0.00022575040929950774
+    }
+  },
+  "S2:acde845fbbe418a264d548a04aaab3d60d870ef2": {
+    "title": "Ju n 20 12 Controllable-dipole quantum memory",
+    "categories": [
+      "Quantum Information",
+      "Quantum Computing",
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/acde845fbbe418a264d548a04aaab3d60d870ef2",
+    "venue": null,
+    "year": 2019,
+    "scores": {
+      "Quantum Information": 0.9838575720787048,
+      "Quantum Computing": 0.9559874534606934,
+      "Photonics": 0.9316372275352478,
+      "Quantum Nonlinear Optics": 0.07063814997673035,
+      "Quantum Simulation": 0.05337504297494888,
+      "Quantum Light–Matter Interaction": 0.0252670980989933,
+      "Quantum Communication": 0.006570269353687763,
+      "Other": 0.0031155904289335012,
+      "Photonic QIP": 0.0015756710199639201,
+      "Quantum Machine Learning": 0.001234019291587174,
+      "Ultrafast Quantum Photonics": 0.000728705374058336
+    }
+  },
+  "S2:4b265db8da4b7bd136d27f0eaf5d716312e77a62": {
+    "title": "High-Dimensional Quantum Cryptography using Twisted Photons; from the Laboratory to realistic conditions",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Photonics"
+    ],
+    "doi": "10.1364/qim.2019.s2a.3",
+    "url": "https://doi.org/10.1364/QIM.2019.S2A.3",
+    "venue": "The A-V",
+    "year": 2019,
+    "scores": {
+      "Quantum Computing": 0.9987266659736633,
+      "Quantum Information": 0.9962887763977051,
+      "Photonics": 0.9948370456695557,
+      "Photonic QIP": 0.9486563205718994,
+      "Quantum Communication": 0.935562252998352,
+      "Quantum Light–Matter Interaction": 0.9264479875564575,
+      "Quantum Simulation": 0.8095024228096008,
+      "Other": 0.001663791947066784,
+      "Quantum Nonlinear Optics": 0.0013473439030349255,
+      "Ultrafast Quantum Photonics": 0.0010907405521720648,
+      "Quantum Machine Learning": 0.0002130551147274673
+    }
+  },
+  "S2:d478bfcdd0a8868da4b17a23bec5c3b780baf8f9": {
+    "title": "Generation of doubly excited Rydberg states based on Rydberg antiblockade in a cold atomic ensemble",
+    "categories": [
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/d478bfcdd0a8868da4b17a23bec5c3b780baf8f9",
+    "venue": null,
+    "year": 2019,
+    "scores": {
+      "Quantum Simulation": 0.9573886394500732,
+      "Quantum Information": 0.15102234482765198,
+      "Quantum Light–Matter Interaction": 0.12261105328798294,
+      "Quantum Computing": 0.07965520024299622,
+      "Quantum Nonlinear Optics": 0.05872490257024765,
+      "Other": 0.002396658528596163,
+      "Photonics": 0.001813727430999279,
+      "Quantum Communication": 0.000680222234223038,
+      "Photonic QIP": 0.00030568131478503346,
+      "Ultrafast Quantum Photonics": 0.00025975744938477874,
+      "Quantum Machine Learning": 0.00020913683692924678
+    }
+  },
+  "S2:1a19b50b2244f7246af30528c9718c9ee9f243e4": {
+    "title": "Characterization of an underwater channel for quantum communications in the Ottawa River.",
+    "categories": [
+      "Photonics",
+      "Quantum Communication",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/oe.27.026346",
+    "url": "https://doi.org/10.1364/OE.27.026346",
+    "venue": "Optics Express",
+    "year": 2019,
+    "scores": {
+      "Photonics": 0.9980321526527405,
+      "Quantum Communication": 0.9810660481452942,
+      "Quantum Information": 0.9395924210548401,
+      "Quantum Computing": 0.14431996643543243,
+      "Quantum Light–Matter Interaction": 0.07068164646625519,
+      "Quantum Simulation": 0.012308224104344845,
+      "Photonic QIP": 0.0061942036263644695,
+      "Other": 0.004258082248270512,
+      "Quantum Nonlinear Optics": 0.0036092791706323624,
+      "Ultrafast Quantum Photonics": 0.0003912626998499036,
+      "Quantum Machine Learning": 0.00031803693855181336
+    }
+  },
+  "S2:14d5168972f44e5cc5d6369b3b15d231243e059e": {
+    "title": "Underwater Quantum Key Distribution in Outdoor Conditions with Twisted Photons",
+    "categories": [
+      "Quantum Computing",
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/14d5168972f44e5cc5d6369b3b15d231243e059e",
+    "venue": null,
+    "year": 2018,
+    "scores": {
+      "Quantum Computing": 0.9986241459846497,
+      "Photonics": 0.9983353018760681,
+      "Quantum Information": 0.9964509606361389,
+      "Quantum Simulation": 0.9890038967132568,
+      "Quantum Light–Matter Interaction": 0.6226109862327576,
+      "Photonic QIP": 0.3235059976577759,
+      "Quantum Nonlinear Optics": 0.03577947989106178,
+      "Quantum Communication": 0.002147565595805645,
+      "Other": 0.0007471998105756938,
+      "Ultrafast Quantum Photonics": 0.0004994661430828273,
+      "Quantum Machine Learning": 0.00041684284224174917
+    }
+  },
+  "S2:2cc9dcb98de67d6351a64d8e5bee8de360ade65e": {
+    "title": "Theory of cavity-enhanced nondestructive detection of photonic qubits in a solid-state atomic ensemble",
+    "categories": [
+      "Photonic QIP",
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.98.043842",
+    "url": "https://doi.org/10.1103/PhysRevA.98.043842",
+    "venue": "Physical Review A",
+    "year": 2018,
+    "scores": {
+      "Photonic QIP": 0.9930546879768372,
+      "Photonics": 0.9885952472686768,
+      "Quantum Information": 0.9782034754753113,
+      "Quantum Light–Matter Interaction": 0.9508946537971497,
+      "Quantum Computing": 0.03472729027271271,
+      "Quantum Nonlinear Optics": 0.01773216761648655,
+      "Quantum Simulation": 0.005950262304395437,
+      "Other": 0.004724487196654081,
+      "Quantum Communication": 0.0010029313853010535,
+      "Ultrafast Quantum Photonics": 0.0006868179771117866,
+      "Quantum Machine Learning": 0.0003064427000936121
+    }
+  },
+  "S2:8f97a520af6bef2c71b26366a466807d1b8ea11a": {
+    "title": "Round-robin differential-phase-shift quantum key distribution with twisted photons",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Photonic QIP"
+    ],
+    "doi": "10.1103/physreva.98.010301",
+    "url": "https://doi.org/10.1103/PhysRevA.98.010301",
+    "venue": "Physical Review A",
+    "year": 2018,
+    "scores": {
+      "Photonics": 0.990243673324585,
+      "Quantum Information": 0.9411733150482178,
+      "Photonic QIP": 0.9373680949211121,
+      "Quantum Nonlinear Optics": 0.7270317077636719,
+      "Quantum Computing": 0.24095074832439423,
+      "Quantum Light–Matter Interaction": 0.08235928416252136,
+      "Quantum Simulation": 0.008113503456115723,
+      "Other": 0.0025990225840359926,
+      "Quantum Communication": 0.0016591345192864537,
+      "Ultrafast Quantum Photonics": 0.0009356840164400637,
+      "Quantum Machine Learning": 0.00018006114987656474
+    }
+  },
+  "S2:fb9058561c24fb85998bd2de8924e8b64eb9cda1": {
+    "title": "Quantum process tomography of a high-dimensional quantum communication channel",
+    "categories": [
+      "Quantum Communication",
+      "Photonics",
+      "Quantum Simulation"
+    ],
+    "doi": "10.22331/q-2019-05-06-138",
+    "url": "https://doi.org/10.22331/q-2019-05-06-138",
+    "venue": "Quantum",
+    "year": 2018,
+    "scores": {
+      "Quantum Communication": 0.867407500743866,
+      "Photonics": 0.6997320652008057,
+      "Quantum Simulation": 0.6856689453125,
+      "Quantum Information": 0.12260764837265015,
+      "Quantum Computing": 0.11458327621221542,
+      "Quantum Light–Matter Interaction": 0.004313331097364426,
+      "Other": 0.0011965797748416662,
+      "Quantum Nonlinear Optics": 0.0004586796276271343,
+      "Ultrafast Quantum Photonics": 0.00021964189363643527,
+      "Quantum Machine Learning": 0.000160836469149217,
+      "Photonic QIP": 6.485643825726584e-05
+    }
+  },
+  "S2:ee26c444fc2b73051f01e7b77d69c2f3b16efd05": {
+    "title": "Quantum cryptography with twisted photons through an outdoor underwater channel.",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/oe.26.022563",
+    "url": "https://doi.org/10.1364/OE.26.022563",
+    "venue": "Optics Express",
+    "year": 2018,
+    "scores": {
+      "Photonics": 0.9995002746582031,
+      "Quantum Computing": 0.9913731217384338,
+      "Quantum Information": 0.9882671236991882,
+      "Photonic QIP": 0.9704087972640991,
+      "Quantum Communication": 0.9556585550308228,
+      "Quantum Light–Matter Interaction": 0.908828616142273,
+      "Quantum Nonlinear Optics": 0.018436113372445107,
+      "Quantum Simulation": 0.0075545781292021275,
+      "Other": 0.002027227310463786,
+      "Ultrafast Quantum Photonics": 0.0003608194238040596,
+      "Quantum Machine Learning": 9.470902296015993e-05
+    }
+  },
+  "S2:2626bf075a876e33f5f4edf063be10e909367648": {
+    "title": "Experimental quantum cryptography in laboratory, long-distance and underwater conditions using structured light (Conference Presentation)",
+    "categories": [
+      "Quantum Information",
+      "Quantum Computing",
+      "Photonics"
+    ],
+    "doi": "10.1117/12.2503448",
+    "url": "https://doi.org/10.1117/12.2503448",
+    "venue": "Quantum Information Science and Technology IV",
+    "year": 2018,
+    "scores": {
+      "Quantum Information": 0.9897095561027527,
+      "Quantum Computing": 0.9463526010513306,
+      "Photonics": 0.9239330291748047,
+      "Quantum Light–Matter Interaction": 0.8854901194572449,
+      "Quantum Communication": 0.09599681198596954,
+      "Photonic QIP": 0.04783220589160919,
+      "Quantum Simulation": 0.023544946685433388,
+      "Other": 0.0031152742449194193,
+      "Quantum Nonlinear Optics": 0.0009782351553440094,
+      "Ultrafast Quantum Photonics": 0.00012631693971343338,
+      "Quantum Machine Learning": 0.000119057520350907
+    }
+  },
+  "S2:b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad": {
+    "title": "Experimental investigation of quantum key distribution protocols with twisted photons",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad",
+    "venue": null,
+    "year": 2018,
+    "scores": {
+      "Photonics": 0.9925903081893921,
+      "Photonic QIP": 0.8754867315292358,
+      "Quantum Information": 0.8722521662712097,
+      "Quantum Computing": 0.8603509068489075,
+      "Quantum Light–Matter Interaction": 0.8174536824226379,
+      "Quantum Simulation": 0.037979643791913986,
+      "Quantum Nonlinear Optics": 0.033952806144952774,
+      "Other": 0.0011246341746300459,
+      "Quantum Communication": 0.000758206588216126,
+      "Ultrafast Quantum Photonics": 0.00034424677141942084,
+      "Quantum Machine Learning": 0.00013388505612965673
+    }
+  },
+  "S2:22746591e7935acc8236a2220827187f9568e592": {
+    "title": "Experimental investigation of high-dimensional quantum key distribution protocols with twisted photons",
+    "categories": [
+      "Photonics",
+      "Photonic QIP"
+    ],
+    "doi": "10.22331/q-2018-12-04-111",
+    "url": "https://doi.org/10.22331/q-2018-12-04-111",
+    "venue": "Quantum",
+    "year": 2018,
+    "scores": {
+      "Photonics": 0.9828523397445679,
+      "Photonic QIP": 0.7686573266983032,
+      "Quantum Computing": 0.16215266287326813,
+      "Quantum Information": 0.16125541925430298,
+      "Quantum Light–Matter Interaction": 0.11320783942937851,
+      "Quantum Simulation": 0.01584826596081257,
+      "Quantum Nonlinear Optics": 0.012366160750389099,
+      "Other": 0.0015466924523934722,
+      "Ultrafast Quantum Photonics": 0.00035520430537872016,
+      "Quantum Communication": 0.00030107356724329293,
+      "Quantum Machine Learning": 8.786496618995443e-05
+    }
+  },
+  "S2:79b9f3947826206fdad2173e2b44d75b68a7ce70": {
+    "title": "Time-bin-to-polarization conversion of ultrafast photonic qubits",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Ultrafast Quantum Photonics"
+    ],
+    "doi": "10.1103/physreva.96.053812",
+    "url": "https://doi.org/10.1103/PhysRevA.96.053812",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9996411204338074,
+      "Quantum Information": 0.9641691446304321,
+      "Ultrafast Quantum Photonics": 0.9537966251373291,
+      "Photonic QIP": 0.9109282493591309,
+      "Quantum Computing": 0.8876451849937439,
+      "Quantum Light–Matter Interaction": 0.438789963722229,
+      "Quantum Simulation": 0.11082074791193008,
+      "Quantum Nonlinear Optics": 0.031064627692103386,
+      "Other": 0.0010012935381382704,
+      "Quantum Communication": 0.000860688800457865,
+      "Quantum Machine Learning": 0.0007336242124438286
+    }
+  },
+  "S2:b0716f11947d2255a340ecf21a8dde4c4c8f80ed": {
+    "title": "Storage of polarization-entangled THz-bandwidth photons in a diamond quantum memory",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.96.012324",
+    "url": "https://doi.org/10.1103/PhysRevA.96.012324",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9996829628944397,
+      "Quantum Information": 0.8913908004760742,
+      "Quantum Computing": 0.34274980425834656,
+      "Photonic QIP": 0.039847102016210556,
+      "Quantum Light–Matter Interaction": 0.005720505490899086,
+      "Quantum Nonlinear Optics": 0.0018977762665599585,
+      "Quantum Simulation": 0.001205066917464137,
+      "Quantum Communication": 0.00047040096251294017,
+      "Other": 0.0003731213801074773,
+      "Ultrafast Quantum Photonics": 0.0003413411322981119,
+      "Quantum Machine Learning": 8.689747483003885e-05
+    }
+  },
+  "S2:0fd84f85a0c442b405b95eb3e33fdc7369526b6a": {
+    "title": "Single-photon source based on Rydberg exciton blockade",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1361-6455/aa8d7c",
+    "url": "https://doi.org/10.1088/1361-6455/aa8d7c",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9998348355293274,
+      "Quantum Information": 0.9324663281440735,
+      "Quantum Light–Matter Interaction": 0.8410455584526062,
+      "Quantum Nonlinear Optics": 0.4844439625740051,
+      "Photonic QIP": 0.30466893315315247,
+      "Quantum Computing": 0.204721599817276,
+      "Quantum Simulation": 0.11196039617061615,
+      "Other": 0.0018783515552058816,
+      "Quantum Communication": 0.00041170281474478543,
+      "Ultrafast Quantum Photonics": 0.00040780138806439936,
+      "Quantum Machine Learning": 0.000151591666508466
+    }
+  },
+  "S2:a54ba50840917239765d8a3b7c67868030fc7550": {
+    "title": "Quantum frequency conversion with ultra-broadband tuning in a Raman memory",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Simulation"
+    ],
+    "doi": "10.1103/physreva.95.053816",
+    "url": "https://doi.org/10.1103/PHYSREVA.95.053816",
+    "venue": null,
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9984787106513977,
+      "Quantum Computing": 0.9933059811592102,
+      "Quantum Simulation": 0.3953718841075897,
+      "Quantum Information": 0.10007898509502411,
+      "Quantum Nonlinear Optics": 0.024573305621743202,
+      "Ultrafast Quantum Photonics": 0.01993674971163273,
+      "Quantum Light–Matter Interaction": 0.011982528492808342,
+      "Photonic QIP": 0.003213414689525962,
+      "Quantum Communication": 0.001751431031152606,
+      "Other": 0.0006742600235156715,
+      "Quantum Machine Learning": 0.0002531998907215893
+    }
+  },
+  "S2:9bad869896047f37cab031407d65f9193f905157": {
+    "title": "Entanglement between more than two hundred macroscopic atomic ensembles in a solid",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1038/s41467-017-00897-7",
+    "url": "https://doi.org/10.1038/s41467-017-00897-7",
+    "venue": "Nature Communications",
+    "year": 2017,
+    "scores": {
+      "Quantum Information": 0.33453741669654846,
+      "Quantum Communication": 0.32905006408691406,
+      "Quantum Simulation": 0.2758418917655945,
+      "Quantum Light–Matter Interaction": 0.03114834986627102,
+      "Quantum Computing": 0.016519982367753983,
+      "Photonics": 0.009624402970075607,
+      "Other": 0.006759217474609613,
+      "Quantum Nonlinear Optics": 0.0009772032499313354,
+      "Ultrafast Quantum Photonics": 0.0001442428183509037,
+      "Quantum Machine Learning": 0.000120678058010526,
+      "Photonic QIP": 4.6571822167607024e-05
+    }
+  },
+  "S2:5a321882638a071d125743e0ebba131cdeab660d": {
+    "title": "Coherent storage and manipulation of broadband photons via dynamically controlled Autler–Townes splitting",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1038/s41566-018-0279-0",
+    "url": "https://doi.org/10.1038/s41566-018-0279-0",
+    "venue": "Nature Photonics",
+    "year": 2017,
+    "scores": {
+      "Photonics": 0.9998841881752014,
+      "Quantum Information": 0.986504852771759,
+      "Quantum Light–Matter Interaction": 0.9631964564323425,
+      "Quantum Computing": 0.9133208394050598,
+      "Photonic QIP": 0.10761723667383194,
+      "Quantum Simulation": 0.0746237114071846,
+      "Quantum Nonlinear Optics": 0.05147076025605202,
+      "Other": 0.0061317989602684975,
+      "Ultrafast Quantum Photonics": 0.003506172215566039,
+      "Quantum Communication": 0.0030370675958693027,
+      "Quantum Machine Learning": 0.00045731308637186885
+    }
+  },
+  "S2:6935b263fed1f58fe41c7aab68401bc3f0589ea8": {
+    "title": "Thanks to 2015 Reviewers",
+    "categories": [
+      "Photonic QIP"
+    ],
+    "doi": "10.1080/09500340.2016.1160994",
+    "url": "https://doi.org/10.1080/09500340.2016.1160994",
+    "venue": null,
+    "year": 2016,
+    "scores": {
+      "Photonic QIP": 0.001976677915081382,
+      "Other": 0.0005987838958390057,
+      "Quantum Light–Matter Interaction": 0.00021121783356647938,
+      "Quantum Nonlinear Optics": 0.00013683851284440607,
+      "Ultrafast Quantum Photonics": 0.00012608202814590186,
+      "Quantum Information": 9.025810868479311e-05,
+      "Photonics": 5.751951175625436e-05,
+      "Quantum Machine Learning": 5.229648377280682e-05,
+      "Quantum Simulation": 4.394562347442843e-05,
+      "Quantum Computing": 4.0913069824455306e-05,
+      "Quantum Communication": 3.245063635404222e-05
+    }
+  },
+  "S2:bbf2dce29fdd42aee2e5502baa88b98a54b08586": {
+    "title": "Reducing noise in a Raman quantum memory.",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/ol.41.005055",
+    "url": "https://doi.org/10.1364/OL.41.005055",
+    "venue": "Optics Letters",
+    "year": 2016,
+    "scores": {
+      "Photonics": 0.9993647336959839,
+      "Quantum Information": 0.9465088248252869,
+      "Photonic QIP": 0.05574892461299896,
+      "Quantum Light–Matter Interaction": 0.042773690074682236,
+      "Quantum Nonlinear Optics": 0.022464707493782043,
+      "Quantum Simulation": 0.02011736109852791,
+      "Quantum Computing": 0.010870637372136116,
+      "Other": 0.0020499390084296465,
+      "Quantum Communication": 0.00017579266568645835,
+      "Quantum Machine Learning": 0.00011005901615135372,
+      "Ultrafast Quantum Photonics": 9.400871931575239e-05
+    }
+  },
+  "S2:cfb6fada2309ae3c75ba5416f059d47c742b306c": {
+    "title": "Proposal and proof-of-principle demonstration of non-destructive detection of photonic qubits using a Tm:LiNbO3 waveguide",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Information"
+    ],
+    "doi": "10.1038/ncomms13454",
+    "url": "https://doi.org/10.1038/ncomms13454",
+    "venue": "Nature Communications",
+    "year": 2016,
+    "scores": {
+      "Photonics": 0.9995046257972717,
+      "Photonic QIP": 0.9971168041229248,
+      "Quantum Information": 0.9960219860076904,
+      "Quantum Computing": 0.9849831461906433,
+      "Quantum Light–Matter Interaction": 0.9532883167266846,
+      "Quantum Nonlinear Optics": 0.31495800614356995,
+      "Quantum Communication": 0.1629328429698944,
+      "Quantum Simulation": 0.14312291145324707,
+      "Ultrafast Quantum Photonics": 0.011844823136925697,
+      "Quantum Machine Learning": 0.00402346346527338,
+      "Other": 0.003197460900992155
+    }
+  },
+  "S2:60a5a5aa21339fab2d9fce899af0a0ac21d886a3": {
+    "title": "Phonon-Mediated Nonclassical Interference in Diamond.",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevlett.117.073603",
+    "url": "https://doi.org/10.1103/PhysRevLett.117.073603",
+    "venue": "Physical Review Letters",
+    "year": 2016,
+    "scores": {
+      "Quantum Information": 0.692343533039093,
+      "Quantum Light–Matter Interaction": 0.11814342439174652,
+      "Other": 0.02269112318754196,
+      "Quantum Nonlinear Optics": 0.00799071229994297,
+      "Photonics": 0.007742025423794985,
+      "Quantum Simulation": 0.002357549499720335,
+      "Quantum Computing": 0.0021391063928604126,
+      "Quantum Communication": 0.0012121482286602259,
+      "Photonic QIP": 0.0005275423754937947,
+      "Ultrafast Quantum Photonics": 8.971192437456921e-05,
+      "Quantum Machine Learning": 6.376161036314443e-05
+    }
+  },
+  "S2:b2a17ad9e887322839240885f7cf5f15d089fed2": {
+    "title": "High-dimensional intracity quantum cryptography with structured photons",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/optica.4.001006",
+    "url": "https://doi.org/10.1364/OPTICA.4.001006",
+    "venue": null,
+    "year": 2016,
+    "scores": {
+      "Photonics": 0.9963832497596741,
+      "Quantum Computing": 0.9953370690345764,
+      "Quantum Information": 0.989427924156189,
+      "Quantum Communication": 0.9449324011802673,
+      "Photonic QIP": 0.8655046224594116,
+      "Quantum Light–Matter Interaction": 0.779223620891571,
+      "Quantum Simulation": 0.02863471210002899,
+      "Quantum Nonlinear Optics": 0.012923923321068287,
+      "Other": 0.0020628664642572403,
+      "Ultrafast Quantum Photonics": 0.0011904399143531919,
+      "Quantum Machine Learning": 0.0002499618858564645
+    }
+  },
+  "S2:0848767e0ed427002b8aefa2c740ec40a509f54b": {
+    "title": "Raman-induced slow-light delay of THz-bandwidth pulses",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1103/physreva.93.043810",
+    "url": "https://doi.org/10.1103/PhysRevA.93.043810",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Photonics": 0.9978333711624146,
+      "Quantum Light–Matter Interaction": 0.030965572223067284,
+      "Quantum Information": 0.02842416800558567,
+      "Quantum Nonlinear Optics": 0.026099923998117447,
+      "Photonic QIP": 0.008819079957902431,
+      "Quantum Simulation": 0.007547837216407061,
+      "Quantum Communication": 0.003274451708421111,
+      "Quantum Computing": 0.0015279013896360993,
+      "Other": 0.0005049729952588677,
+      "Ultrafast Quantum Photonics": 0.0002787586417980492,
+      "Quantum Machine Learning": 8.99810329428874e-05
+    }
+  },
+  "S2:90fd89764dc76e971a1e5dee59c2aa1a2d2c4b54": {
+    "title": "Quantum memories: emerging applications and recent advances",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.1080/09500340.2016.1148212",
+    "url": "https://doi.org/10.1080/09500340.2016.1148212",
+    "venue": "Journal of Modern Optics",
+    "year": 2015,
+    "scores": {
+      "Quantum Information": 0.9977383017539978,
+      "Photonics": 0.9965111613273621,
+      "Quantum Computing": 0.963636577129364,
+      "Quantum Light–Matter Interaction": 0.5560780763626099,
+      "Quantum Simulation": 0.041808463633060455,
+      "Photonic QIP": 0.020137568935751915,
+      "Quantum Machine Learning": 0.01872013881802559,
+      "Quantum Nonlinear Optics": 0.007890722714364529,
+      "Other": 0.004190916195511818,
+      "Quantum Communication": 0.0013476320309564471,
+      "Ultrafast Quantum Photonics": 0.00012362423876766115
+    }
+  },
+  "S2:2567b091f010fc23279bbe00250402291346c6f6": {
+    "title": "Photonic Controlled-Phase Gate Based on Rydberg Interactions",
+    "categories": [
+      "Photonics",
+      "Photonic QIP",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/2567b091f010fc23279bbe00250402291346c6f6",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Photonics": 0.9983090758323669,
+      "Photonic QIP": 0.7036818861961365,
+      "Quantum Light–Matter Interaction": 0.648331880569458,
+      "Quantum Information": 0.1156783476471901,
+      "Quantum Simulation": 0.10346280783414841,
+      "Quantum Nonlinear Optics": 0.03243543952703476,
+      "Quantum Computing": 0.02968624047935009,
+      "Quantum Communication": 0.0038856950122863054,
+      "Other": 0.001853047520853579,
+      "Ultrafast Quantum Photonics": 0.00033152863034047186,
+      "Quantum Machine Learning": 0.0001789150119293481
+    }
+  },
+  "S2:fa4e82b9e104777b3a8ea9e7f936cb94eba10c46": {
+    "title": "Efficiency of an enhanced linear optical Bell-state measurement scheme with realistic imperfections",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1103/physreva.94.032332",
+    "url": "https://doi.org/10.1103/PhysRevA.94.032332",
+    "venue": null,
+    "year": 2015,
+    "scores": {
+      "Photonics": 0.9909351468086243,
+      "Quantum Simulation": 0.058989014476537704,
+      "Photonic QIP": 0.02216804400086403,
+      "Quantum Information": 0.019892120733857155,
+      "Quantum Computing": 0.006899773608893156,
+      "Quantum Light–Matter Interaction": 0.006732587236911058,
+      "Quantum Nonlinear Optics": 0.0012210390996187925,
+      "Other": 0.0005686568329110742,
+      "Quantum Communication": 0.0003351779014337808,
+      "Quantum Machine Learning": 0.00019468968093860894,
+      "Ultrafast Quantum Photonics": 0.00015096519200596958
+    }
+  },
+  "S2:2e9d85d177452256e3832e56858faf3f2fb4d33a": {
+    "title": "Photon-photon gate via the interaction between two collective Rydberg excitations",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Simulation"
+    ],
+    "doi": "10.1103/physreva.91.030301",
+    "url": "https://doi.org/10.1103/PhysRevA.91.030301",
+    "venue": null,
+    "year": 2014,
+    "scores": {
+      "Photonics": 0.9997649788856506,
+      "Quantum Computing": 0.972725510597229,
+      "Quantum Simulation": 0.9196714758872986,
+      "Quantum Light–Matter Interaction": 0.912982165813446,
+      "Quantum Communication": 0.7682504057884216,
+      "Quantum Information": 0.7039718627929688,
+      "Photonic QIP": 0.3261720836162567,
+      "Quantum Nonlinear Optics": 0.1563044637441635,
+      "Other": 0.0033209798857569695,
+      "Ultrafast Quantum Photonics": 0.001399646163918078,
+      "Quantum Machine Learning": 0.00018488678324501961
+    }
+  },
+  "S2:79a4ac89f902300daeb7352970ecaed0b37968d1": {
+    "title": "An integrated processor for photonic quantum states using a broadband light–matter interface",
+    "categories": [
+      "Photonics",
+      "Quantum Computing",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1088/1367-2630/16/6/065019",
+    "url": "https://doi.org/10.1088/1367-2630/16/6/065019",
+    "venue": null,
+    "year": 2014,
+    "scores": {
+      "Photonics": 0.9797230958938599,
+      "Quantum Computing": 0.9555269479751587,
+      "Quantum Light–Matter Interaction": 0.9516486525535583,
+      "Quantum Information": 0.7704872488975525,
+      "Photonic QIP": 0.24817371368408203,
+      "Quantum Simulation": 0.16195528209209442,
+      "Quantum Communication": 0.019992491230368614,
+      "Ultrafast Quantum Photonics": 0.004791717045009136,
+      "Quantum Nonlinear Optics": 0.0012391948839649558,
+      "Other": 0.0009315938223153353,
+      "Quantum Machine Learning": 0.00024321835371665657
+    }
+  },
+  "S2:cdf03fbb53dc2b82e9bc6552a5967c9fb71cc4fc": {
+    "title": "Toward Practical Solid-State Based Quantum Memories",
+    "categories": [
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.5072/prism/28474",
+    "url": "https://doi.org/10.5072/PRISM/28474",
+    "venue": null,
+    "year": 2013,
+    "scores": {
+      "Quantum Information": 0.9825373291969299,
+      "Quantum Computing": 0.9372496008872986,
+      "Photonics": 0.13679499924182892,
+      "Quantum Simulation": 0.03832820802927017,
+      "Quantum Machine Learning": 0.0184259545058012,
+      "Quantum Light–Matter Interaction": 0.007544000633060932,
+      "Other": 0.003477205289527774,
+      "Quantum Communication": 0.0019083661027252674,
+      "Quantum Nonlinear Optics": 0.0007740986184217036,
+      "Photonic QIP": 0.0005031612818129361,
+      "Ultrafast Quantum Photonics": 0.00011206652561668307
+    }
+  },
+  "S2:75c8a2cbf0dbceeb63e066856bd28742706068a4": {
+    "title": "Raman quantum memory based on an ensemble of nitrogen-vacancy centers coupled to a microcavity",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.89.040301",
+    "url": "https://doi.org/10.1103/PhysRevA.89.040301",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2013,
+    "scores": {
+      "Photonics": 0.9982079267501831,
+      "Quantum Information": 0.9775915741920471,
+      "Quantum Light–Matter Interaction": 0.9089925289154053,
+      "Quantum Computing": 0.22861143946647644,
+      "Quantum Simulation": 0.07443536072969437,
+      "Quantum Nonlinear Optics": 0.0688278004527092,
+      "Photonic QIP": 0.06458326429128647,
+      "Other": 0.0018442830769345164,
+      "Quantum Communication": 0.0011502343695610762,
+      "Ultrafast Quantum Photonics": 0.00031213517650030553,
+      "Quantum Machine Learning": 0.00017314546857960522
+    }
+  },
+  "S2:9802dfb8171f31f0634585565f150ddacfb02aef": {
+    "title": "Photonic quantum memory in two-level ensembles based on modulating the refractive index in time: equivalence to gradient echo memory",
+    "categories": [
+      "Photonics",
+      "Quantum Simulation",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.86.013833",
+    "url": "https://doi.org/10.1103/PhysRevA.86.013833",
+    "venue": null,
+    "year": 2012,
+    "scores": {
+      "Photonics": 0.999839723110199,
+      "Quantum Simulation": 0.9868512153625488,
+      "Quantum Information": 0.9851921200752258,
+      "Photonic QIP": 0.9630292654037476,
+      "Quantum Computing": 0.9009200930595398,
+      "Quantum Light–Matter Interaction": 0.8890155553817749,
+      "Quantum Nonlinear Optics": 0.2632213532924652,
+      "Quantum Communication": 0.004689721390604973,
+      "Other": 0.0019479264738038182,
+      "Quantum Machine Learning": 0.0004019186890218407,
+      "Ultrafast Quantum Photonics": 0.0003373344661667943
+    }
+  },
+  "S2:6bab8aa38852a811ea7ad5acfcb35ab4785715fd": {
+    "title": "Precision requirements for spin-echo based quantum memories",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.1364/icqi.2011.qtua2",
+    "url": "https://doi.org/10.1364/ICQI.2011.QTUA2",
+    "venue": null,
+    "year": 2011,
+    "scores": {
+      "Photonics": 0.9861722588539124,
+      "Quantum Information": 0.9838573336601257,
+      "Quantum Computing": 0.980079174041748,
+      "Quantum Simulation": 0.9258267283439636,
+      "Quantum Nonlinear Optics": 0.023160573095083237,
+      "Quantum Communication": 0.018208883702754974,
+      "Quantum Light–Matter Interaction": 0.007340017706155777,
+      "Photonic QIP": 0.001994058024138212,
+      "Quantum Machine Learning": 0.001635007094591856,
+      "Other": 0.0012069831136614084,
+      "Ultrafast Quantum Photonics": 0.0002161468582926318
+    }
+  },
+  "S2:edaef27a06db8259f676cee0147a06ade876ff1a": {
+    "title": "Controlled-dipole quantum memory",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/edaef27a06db8259f676cee0147a06ade876ff1a",
+    "venue": null,
+    "year": 2011,
+    "scores": {
+      "Quantum Information": 0.9825178384780884,
+      "Photonics": 0.9707072973251343,
+      "Quantum Computing": 0.9384229183197021,
+      "Quantum Simulation": 0.2570648491382599,
+      "Quantum Light–Matter Interaction": 0.01890268363058567,
+      "Quantum Nonlinear Optics": 0.014073001220822334,
+      "Quantum Communication": 0.0035099165979772806,
+      "Photonic QIP": 0.0022481849882751703,
+      "Other": 0.0011244191555306315,
+      "Quantum Machine Learning": 0.0008322131470777094,
+      "Ultrafast Quantum Photonics": 0.00028122009825892746
+    }
+  },
+  "S2:362caa41376eaf885fc960d3e5d914c5462e5543": {
+    "title": "Controllable-dipole quantum memory",
+    "categories": [
+      "Quantum Information",
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physreva.86.013813",
+    "url": "https://doi.org/10.1103/PhysRevA.86.013813",
+    "venue": null,
+    "year": 2011,
+    "scores": {
+      "Quantum Information": 0.9801629781723022,
+      "Photonics": 0.9636473655700684,
+      "Quantum Computing": 0.9559191465377808,
+      "Quantum Simulation": 0.051813192665576935,
+      "Quantum Nonlinear Optics": 0.022540830075740814,
+      "Quantum Light–Matter Interaction": 0.01257993932813406,
+      "Quantum Communication": 0.0028061179909855127,
+      "Photonic QIP": 0.0017508473247289658,
+      "Quantum Machine Learning": 0.001327965990640223,
+      "Other": 0.0012276844354346395,
+      "Ultrafast Quantum Photonics": 0.00034136802423745394
+    }
+  },
+  "S2:738c3ede0a6600c8a74e5e5a4e06ca68d699d64c": {
+    "title": "Quantum repeaters based on Rydberg-blockade-coupled atomic ensembles",
+    "categories": [
+      "Quantum Computing",
+      "Photonics",
+      "Quantum Simulation"
+    ],
+    "doi": "10.1103/physreva.81.052311",
+    "url": "https://doi.org/10.1103/PhysRevA.81.052311",
+    "venue": null,
+    "year": 2010,
+    "scores": {
+      "Quantum Computing": 0.9972254633903503,
+      "Photonics": 0.990854799747467,
+      "Quantum Simulation": 0.9624818563461304,
+      "Quantum Information": 0.9432832598686218,
+      "Quantum Light–Matter Interaction": 0.09188356250524521,
+      "Quantum Nonlinear Optics": 0.0790865495800972,
+      "Quantum Communication": 0.03520672395825386,
+      "Ultrafast Quantum Photonics": 0.0021699604112654924,
+      "Other": 0.0013271266361698508,
+      "Photonic QIP": 0.0009216438047587872,
+      "Quantum Machine Learning": 0.00014682601613458246
+    }
+  },
+  "S2:c0b91248cb497c2421f8966e4cc682d62c16513d": {
+    "title": "Precision requirements for spin-echo-based quantum memories",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Computing"
+    ],
+    "doi": "10.1103/physreva.83.032315",
+    "url": "https://doi.org/10.1103/PhysRevA.83.032315",
+    "venue": null,
+    "year": 2010,
+    "scores": {
+      "Photonics": 0.9918394684791565,
+      "Quantum Information": 0.9810608625411987,
+      "Quantum Computing": 0.9784388542175293,
+      "Quantum Simulation": 0.885170578956604,
+      "Quantum Nonlinear Optics": 0.01656954549252987,
+      "Quantum Communication": 0.015963055193424225,
+      "Quantum Light–Matter Interaction": 0.004354862030595541,
+      "Photonic QIP": 0.0025935741141438484,
+      "Quantum Machine Learning": 0.0017402565572410822,
+      "Other": 0.0010159993544220924,
+      "Ultrafast Quantum Photonics": 0.00018390432524029166
+    }
+  },
+  "S2:1c119fc58cedc83b6734c4880ad0d6c751b7e8bc": {
+    "title": "Non-Hermitian interaction of matter and light",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1088/0031-8949/77/06/065002",
+    "url": "https://doi.org/10.1088/0031-8949/77/06/065002",
+    "venue": null,
+    "year": 2008,
+    "scores": {
+      "Other": 0.956373929977417,
+      "Photonics": 0.06607934087514877,
+      "Quantum Light–Matter Interaction": 0.03794068470597267,
+      "Quantum Simulation": 0.01734761893749237,
+      "Quantum Information": 0.015801379457116127,
+      "Quantum Communication": 0.014839435927569866,
+      "Photonic QIP": 0.006324185989797115,
+      "Quantum Nonlinear Optics": 0.0021174615249037743,
+      "Quantum Computing": 0.0007212391356006265,
+      "Ultrafast Quantum Photonics": 0.00022006976359989494,
+      "Quantum Machine Learning": 0.00015555757272522897
+    }
+  },
+  "S2:639cf4cefa09659ebcec16ce5fec1ce963a15a4c": {
+    "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
+    "categories": [
+      "Photonics",
+      "Quantum Simulation",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+    "venue": null,
+    "year": 2025,
+    "scores": {
+      "Photonics": 0.99875807762146,
+      "Quantum Simulation": 0.902692437171936,
+      "Quantum Light–Matter Interaction": 0.8649734854698181,
+      "Quantum Computing": 0.8174140453338623,
+      "Quantum Information": 0.44907960295677185,
+      "Quantum Nonlinear Optics": 0.41834643483161926,
+      "Photonic QIP": 0.06540357321500778,
+      "Other": 0.0036126715131103992,
+      "Ultrafast Quantum Photonics": 0.0008660762687213719,
+      "Quantum Machine Learning": 0.000348394678439945,
+      "Quantum Communication": 0.00014967889001127332
+    }
+  },
+  "S2:1b4fbdd828abf4bae244512b27674d44d536bfd0": {
+    "title": "Photonic multipartite entanglement in discrete variables without arbitrary unitaries",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physrevresearch.7.013060",
+    "url": "https://doi.org/10.1103/physrevresearch.7.013060",
+    "venue": "Physical Review Research",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9998944997787476,
+      "Quantum Light–Matter Interaction": 0.9919450283050537,
+      "Quantum Information": 0.9837015271186829,
+      "Quantum Nonlinear Optics": 0.9313898086547852,
+      "Photonic QIP": 0.9049448370933533,
+      "Quantum Computing": 0.7487719655036926,
+      "Quantum Simulation": 0.030374854803085327,
+      "Quantum Communication": 0.011742892675101757,
+      "Other": 0.006378312595188618,
+      "Ultrafast Quantum Photonics": 0.00037745569716207683,
+      "Quantum Machine Learning": 0.00013349141227081418
+    }
+  },
+  "S2:b34c70c2941dbc23a1c1b91fd8e11c1ab6412fee": {
+    "title": "Frequency Bin Encoding and Graphs",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/cleo_fs.2024.ftu4f.7",
+    "url": "https://doi.org/10.1364/cleo_fs.2024.ftu4f.7",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2024,
+    "scores": {
+      "Photonics": 0.9410266876220703,
+      "Quantum Information": 0.04931405931711197,
+      "Photonic QIP": 0.0053253150545060635,
+      "Other": 0.0023438725620508194,
+      "Quantum Computing": 0.002127828076481819,
+      "Quantum Light–Matter Interaction": 0.0013659796677529812,
+      "Quantum Nonlinear Optics": 0.000404376070946455,
+      "Quantum Machine Learning": 0.0002350713184569031,
+      "Quantum Communication": 0.00020825093088205904,
+      "Quantum Simulation": 0.00018464103050064296,
+      "Ultrafast Quantum Photonics": 9.068227518582717e-05
+    }
+  },
+  "S2:56dc29b41bd08aad3428942869761c90082adc69": {
+    "title": "Tripartite Frequency-bin-encoded W States on a Chip",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1364/cleo_at.2023.jth2a.44",
+    "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.44",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.7329942584037781,
+      "Quantum Information": 0.38173308968544006,
+      "Quantum Computing": 0.011995494365692139,
+      "Quantum Light–Matter Interaction": 0.006726082880049944,
+      "Quantum Nonlinear Optics": 0.004293916746973991,
+      "Other": 0.004192211665213108,
+      "Photonic QIP": 0.003451959928497672,
+      "Quantum Simulation": 0.0033684868831187487,
+      "Quantum Communication": 0.00037542550126090646,
+      "Ultrafast Quantum Photonics": 0.000206630167667754,
+      "Quantum Machine Learning": 0.00018774178170133382
+    }
+  },
+  "S2:eb752975e48f38e3ec3f2c79f135662160d9fd93": {
+    "title": "Integrated photonic sources of frequency-bin-encoded multipartite entangled states",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction",
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.109.013505",
+    "url": "https://doi.org/10.1103/physreva.109.013505",
+    "venue": "Physical Review A",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9998972415924072,
+      "Quantum Light–Matter Interaction": 0.933390736579895,
+      "Quantum Information": 0.9199525713920593,
+      "Photonic QIP": 0.4322100281715393,
+      "Quantum Nonlinear Optics": 0.005840030964463949,
+      "Quantum Simulation": 0.005777367856353521,
+      "Other": 0.005183756817132235,
+      "Quantum Computing": 0.004779850132763386,
+      "Quantum Communication": 0.0005819838843308389,
+      "Ultrafast Quantum Photonics": 0.00024797741207294166,
+      "Quantum Machine Learning": 0.00013873768330086023
+    }
+  },
+  "S2:69ec3ebc70620155a7596615a63b5b89d7ffa751": {
+    "title": "An Integrated Approach to Third-order Parametric Down-conversion",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": "10.1364/cleo_at.2023.jth2a.15",
+    "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.15",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2023,
+    "scores": {
+      "Photonics": 0.9850642085075378,
+      "Quantum Information": 0.29085659980773926,
+      "Quantum Light–Matter Interaction": 0.10610360652208328,
+      "Quantum Nonlinear Optics": 0.0453365258872509,
+      "Photonic QIP": 0.03269452229142189,
+      "Quantum Simulation": 0.008275402709841728,
+      "Quantum Computing": 0.006144152954220772,
+      "Other": 0.005470980424433947,
+      "Quantum Machine Learning": 0.0004797497240360826,
+      "Ultrafast Quantum Photonics": 0.00042648555245250463,
+      "Quantum Communication": 0.00025949234259314835
+    }
+  },
+  "S2:1a98409f293a138b094fc7bb700c4842328680dc": {
+    "title": "Resonant and nonresonant integrated third-order parametric down-conversion",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1103/physreva.106.013710",
+    "url": "https://doi.org/10.1103/PhysRevA.106.013710",
+    "venue": "Physical Review A",
+    "year": 2022,
+    "scores": {
+      "Quantum Information": 0.08428698033094406,
+      "Other": 0.03644590452313423,
+      "Quantum Nonlinear Optics": 0.027634980157017708,
+      "Quantum Light–Matter Interaction": 0.008509579114615917,
+      "Quantum Simulation": 0.004161601420491934,
+      "Quantum Computing": 0.0022302563302218914,
+      "Photonics": 0.00222759204916656,
+      "Quantum Communication": 0.0016322118462994695,
+      "Photonic QIP": 0.00016953193699009717,
+      "Ultrafast Quantum Photonics": 0.0001477432087995112,
+      "Quantum Machine Learning": 0.00010247834143228829
+    }
+  },
+  "S2:5a3c2ecc5661878c9de5153cfd3e465e0d92007e": {
+    "title": "Quantum-referenced spontaneous emission tomography",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1088/2058-9565/acf47b",
+    "url": "https://doi.org/10.1088/2058-9565/acf47b",
+    "venue": "Quantum Science and Technology",
+    "year": 2022,
+    "scores": {
+      "Quantum Information": 0.44274812936782837,
+      "Photonics": 0.0540410540997982,
+      "Quantum Computing": 0.04320288449525833,
+      "Quantum Simulation": 0.034655213356018066,
+      "Quantum Light–Matter Interaction": 0.022512303665280342,
+      "Other": 0.00482618622481823,
+      "Quantum Nonlinear Optics": 0.001603217446245253,
+      "Photonic QIP": 0.0014956140657886863,
+      "Quantum Communication": 0.0002634254633449018,
+      "Ultrafast Quantum Photonics": 0.00026291553513146937,
+      "Quantum Machine Learning": 0.00015807240561116487
+    }
+  },
+  "S2:9a430f2155ef5bbcbcd9ca2f68c3558f057ccb02": {
+    "title": "Out, Lost, or Broken: Photon Pairs from a Lossy Resonator",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1364/cleo_at.2022.jtu3a.20",
+    "url": "https://doi.org/10.1364/cleo_at.2022.jtu3a.20",
+    "venue": "Conference on Lasers and Electro-Optics",
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.9988502860069275,
+      "Quantum Information": 0.9403122663497925,
+      "Quantum Light–Matter Interaction": 0.8806729316711426,
+      "Quantum Nonlinear Optics": 0.1908087134361267,
+      "Photonic QIP": 0.030312925577163696,
+      "Quantum Simulation": 0.012180468067526817,
+      "Quantum Computing": 0.008797699585556984,
+      "Other": 0.005233899690210819,
+      "Quantum Communication": 0.0010669464245438576,
+      "Ultrafast Quantum Photonics": 0.00039664271753281355,
+      "Quantum Machine Learning": 0.00033272066502831876
+    }
+  },
+  "S2:992e1040705ac8000420a63294de816bfd0196f7": {
+    "title": "Modeling nonlinear optics in lossy integrated photonic structures: two strategies",
+    "categories": [
+      "Photonics"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/992e1040705ac8000420a63294de816bfd0196f7",
+    "venue": null,
+    "year": 2022,
+    "scores": {
+      "Photonics": 0.9995602369308472,
+      "Quantum Light–Matter Interaction": 0.25783637166023254,
+      "Quantum Simulation": 0.03750668093562126,
+      "Quantum Nonlinear Optics": 0.028301052749156952,
+      "Photonic QIP": 0.0163411982357502,
+      "Quantum Information": 0.007125541567802429,
+      "Other": 0.006003672257065773,
+      "Quantum Computing": 0.000435415975516662,
+      "Quantum Machine Learning": 0.00010318995191482827,
+      "Ultrafast Quantum Photonics": 7.083212403813377e-05,
+      "Quantum Communication": 6.777199450880289e-05
+    }
+  },
+  "S2:d5b390b0231a63c2f722da7f690f940fa6fe2185": {
+    "title": "Two strategies for modeling nonlinear optics in lossy integrated photonic structures",
+    "categories": [
+      "Photonics",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physreva.106.043707",
+    "url": "https://doi.org/10.1103/PhysRevA.106.043707",
+    "venue": "Physical Review A",
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.9984959363937378,
+      "Quantum Light–Matter Interaction": 0.8920513391494751,
+      "Quantum Nonlinear Optics": 0.09478483349084854,
+      "Quantum Information": 0.06360088288784027,
+      "Quantum Simulation": 0.053254157304763794,
+      "Photonic QIP": 0.03946906700730324,
+      "Other": 0.01592099294066429,
+      "Quantum Computing": 0.001044242992065847,
+      "Quantum Communication": 0.00014557979011442512,
+      "Quantum Machine Learning": 0.00012836132373195142,
+      "Ultrafast Quantum Photonics": 9.297626093029976e-05
+    }
+  },
+  "S2:c2d4cbdb9738bd316c13dbbed9939540ef1f382b": {
+    "title": "Modeling nonlinear optics in lossy microring systems: two strategies",
+    "categories": [
+      "Photonics",
+      "Quantum Simulation",
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/c2d4cbdb9738bd316c13dbbed9939540ef1f382b",
+    "venue": null,
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.9929940104484558,
+      "Quantum Simulation": 0.8754116296768188,
+      "Quantum Light–Matter Interaction": 0.5203645825386047,
+      "Quantum Information": 0.07198092341423035,
+      "Quantum Nonlinear Optics": 0.06298455595970154,
+      "Other": 0.004431287292391062,
+      "Photonic QIP": 0.002146579558029771,
+      "Quantum Computing": 0.0016486962558701634,
+      "Quantum Machine Learning": 0.0001669973280513659,
+      "Ultrafast Quantum Photonics": 9.194398444378749e-05,
+      "Quantum Communication": 7.248698966577649e-05
+    }
+  },
+  "S2:2289fa7789cb97372ecab7ea136dbc1459469720": {
+    "title": "Generation of photon pairs by stimulated emission in ring resonators.",
+    "categories": [
+      "Photonics",
+      "Quantum Information",
+      "Quantum Simulation"
+    ],
+    "doi": "10.1364/ol.448161",
+    "url": "https://doi.org/10.1364/OL.448161",
+    "venue": "Optics Letters",
+    "year": 2021,
+    "scores": {
+      "Photonics": 0.9997363686561584,
+      "Quantum Information": 0.7311391234397888,
+      "Quantum Simulation": 0.6432510018348694,
+      "Quantum Light–Matter Interaction": 0.13461433351039886,
+      "Quantum Nonlinear Optics": 0.0922403633594513,
+      "Photonic QIP": 0.06061316281557083,
+      "Quantum Computing": 0.006447941064834595,
+      "Other": 0.0026121896225959063,
+      "Ultrafast Quantum Photonics": 0.0002368447749176994,
+      "Quantum Communication": 0.00019025038636755198,
+      "Quantum Machine Learning": 9.731842874316499e-05
+    }
+  },
+  "S2:8589eb4f1350bdf8be654d435248c6d2c228bd2b": {
+    "title": "Associations between performance-based and self-reported prospective memory, impulsivity and encoding support.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1016/j.actpsy.2020.103066",
+    "url": "https://doi.org/10.1016/j.actpsy.2020.103066",
+    "venue": "Acta Psychologica",
+    "year": 2020,
+    "scores": {
+      "Other": 0.005950909107923508,
+      "Quantum Light–Matter Interaction": 6.915849371580407e-05,
+      "Quantum Information": 4.355913551989943e-05,
+      "Quantum Machine Learning": 3.738968007382937e-05,
+      "Photonic QIP": 3.515476419124752e-05,
+      "Quantum Nonlinear Optics": 2.658519588294439e-05,
+      "Quantum Communication": 2.3763905119267292e-05,
+      "Ultrafast Quantum Photonics": 2.106564170389902e-05,
+      "Quantum Computing": 2.009861964324955e-05,
+      "Photonics": 1.9149159925291315e-05,
+      "Quantum Simulation": 1.757712561811786e-05
+    }
+  },
+  "S2:032da917e2d4353653ceadd7db5650058c776ef0": {
+    "title": "Predictive cues and spatial attentional bias for alcohol: Manipulations of cue-outcome mapping.",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1016/j.addbeh.2019.106247",
+    "url": "https://doi.org/10.1016/j.addbeh.2019.106247",
+    "venue": "Addictive Behaviours",
+    "year": 2019,
+    "scores": {
+      "Other": 0.01710691675543785,
+      "Quantum Light–Matter Interaction": 0.00017047864093910903,
+      "Quantum Information": 0.00013466569362208247,
+      "Quantum Machine Learning": 0.00010460252815391868,
+      "Quantum Nonlinear Optics": 5.742783469031565e-05,
+      "Photonic QIP": 5.682710980181582e-05,
+      "Quantum Communication": 4.413633359945379e-05,
+      "Quantum Simulation": 3.671530066640116e-05,
+      "Quantum Computing": 3.447229755693115e-05,
+      "Ultrafast Quantum Photonics": 2.2497333702631295e-05,
+      "Photonics": 2.2316597096505575e-05
+    }
+  }
+}
