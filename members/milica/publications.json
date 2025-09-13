@@ -4,6 +4,260 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1757731519,
-  "publications": []
+  "updated_at": 1757731702,
+  "publications": [
+    {
+      "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "authors": [
+        "Gisell Lorena Osorio",
+        "Milena Banic",
+        "Nicolas N. Quesada"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2506.15810"
+    },
+    {
+      "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "authors": [
+        "Milica Banic",
+        "Valerio Crescimanna",
+        "J. E. Bourassa",
+        "C. González-Arciniegas",
+        "Rafael N. Alexander",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2504.10606"
+    },
+    {
+      "paperId": "1b4fbdd828abf4bae244512b27674d44d536bfd0",
+      "title": "Photonic multipartite entanglement in discrete variables without arbitrary unitaries",
+      "year": 2024,
+      "venue": "Physical Review Research",
+      "doi": "10.1103/physrevresearch.7.013060",
+      "url": "https://doi.org/10.1103/physrevresearch.7.013060",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2409.04250"
+    },
+    {
+      "paperId": "b34c70c2941dbc23a1c1b91fd8e11c1ab6412fee",
+      "title": "Frequency Bin Encoding and Graphs",
+      "year": 2024,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2024.ftu4f.7",
+      "url": "https://doi.org/10.1364/cleo_fs.2024.ftu4f.7",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "Marco Liscidini"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "56dc29b41bd08aad3428942869761c90082adc69",
+      "title": "Tripartite Frequency-bin-encoded W States on a Chip",
+      "year": 2023,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2023.jth2a.44",
+      "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.44",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "eb752975e48f38e3ec3f2c79f135662160d9fd93",
+      "title": "Integrated photonic sources of frequency-bin-encoded multipartite entangled states",
+      "year": 2023,
+      "venue": "Physical Review A",
+      "doi": "10.1103/physreva.109.013505",
+      "url": "https://doi.org/10.1103/physreva.109.013505",
+      "authors": [
+        "Milena Banic",
+        "J. Sipe",
+        "M. Liscidini"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2305.01797",
+      "arxivId": "2305.01797"
+    },
+    {
+      "paperId": "69ec3ebc70620155a7596615a63b5b89d7ffa751",
+      "title": "An Integrated Approach to Third-order Parametric Down-conversion",
+      "year": 2023,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2023.jth2a.15",
+      "url": "https://doi.org/10.1364/cleo_at.2023.jth2a.15",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "1a98409f293a138b094fc7bb700c4842328680dc",
+      "title": "Resonant and nonresonant integrated third-order parametric down-conversion",
+      "year": 2022,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.106.013710",
+      "url": "https://doi.org/10.1103/PhysRevA.106.013710",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2204.09159",
+      "arxivId": "2204.09159"
+    },
+    {
+      "paperId": "5a3c2ecc5661878c9de5153cfd3e465e0d92007e",
+      "title": "Quantum-referenced spontaneous emission tomography",
+      "year": 2022,
+      "venue": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/acf47b",
+      "url": "https://doi.org/10.1088/2058-9565/acf47b",
+      "authors": [
+        "I. Faruque",
+        "Ben M. Burridge",
+        "Milena Banic",
+        "M. Borghi",
+        "J. Sipe",
+        "J. Rarity",
+        "J. Barreto"
+      ],
+      "oa_pdf": "https://iopscience.iop.org/article/10.1088/2058-9565/acf47b/pdf",
+      "arxivId": "2212.12521"
+    },
+    {
+      "paperId": "9a430f2155ef5bbcbcd9ca2f68c3558f057ccb02",
+      "title": "Out, Lost, or Broken: Photon Pairs from a Lossy Resonator",
+      "year": 2022,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_at.2022.jtu3a.20",
+      "url": "https://doi.org/10.1364/cleo_at.2022.jtu3a.20",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "992e1040705ac8000420a63294de816bfd0196f7",
+      "title": "Modeling nonlinear optics in lossy integrated photonic structures: two strategies",
+      "year": 2022,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/992e1040705ac8000420a63294de816bfd0196f7",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "d5b390b0231a63c2f722da7f690f940fa6fe2185",
+      "title": "Two strategies for modeling nonlinear optics in lossy integrated photonic structures",
+      "year": 2021,
+      "venue": "Physical Review A",
+      "doi": "10.1103/PhysRevA.106.043707",
+      "url": "https://doi.org/10.1103/PhysRevA.106.043707",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2111.14711",
+      "arxivId": "2111.14711"
+    },
+    {
+      "paperId": "c2d4cbdb9738bd316c13dbbed9939540ef1f382b",
+      "title": "Modeling nonlinear optics in lossy microring systems: two strategies",
+      "year": 2021,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/c2d4cbdb9738bd316c13dbbed9939540ef1f382b",
+      "authors": [
+        "Milena Banic",
+        "L. Zatti",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "2289fa7789cb97372ecab7ea136dbc1459469720",
+      "title": "Generation of photon pairs by stimulated emission in ring resonators.",
+      "year": 2021,
+      "venue": "Optics Letters",
+      "doi": "10.1364/OL.448161",
+      "url": "https://doi.org/10.1364/OL.448161",
+      "authors": [
+        "Milena Banic",
+        "M. Liscidini",
+        "J. Sipe"
+      ],
+      "oa_pdf": "https://arxiv.org/pdf/2107.06339",
+      "arxivId": "2107.06339"
+    },
+    {
+      "paperId": "8589eb4f1350bdf8be654d435248c6d2c228bd2b",
+      "title": "Associations between performance-based and self-reported prospective memory, impulsivity and encoding support.",
+      "year": 2020,
+      "venue": "Acta Psychologica",
+      "doi": "10.1016/j.actpsy.2020.103066",
+      "url": "https://doi.org/10.1016/j.actpsy.2020.103066",
+      "authors": [
+        "T. Gladwin",
+        "Matt Jewiss",
+        "Milena Banic",
+        "Antonina Pereira"
+      ],
+      "oa_pdf": "https://eprints.chi.ac.uk//id/eprint/5126/1/Associations%20between%20Performance-based%20and%20Self-reported%20PM.pdf",
+      "arxivId": null
+    },
+    {
+      "paperId": "032da917e2d4353653ceadd7db5650058c776ef0",
+      "title": "Predictive cues and spatial attentional bias for alcohol: Manipulations of cue-outcome mapping.",
+      "year": 2019,
+      "venue": "Addictive Behaviours",
+      "doi": "10.1016/j.addbeh.2019.106247",
+      "url": "https://doi.org/10.1016/j.addbeh.2019.106247",
+      "authors": [
+        "T. Gladwin",
+        "Milena Banic",
+        "Bernd Figner",
+        "M. Vink"
+      ],
+      "oa_pdf": "https://dspace.library.uu.nl/bitstream/handle/1874/408386/1_s2.0_S030646031931041X_main.pdf?sequence=1&isAllowed=y",
+      "arxivId": null
+    }
+  ]
 }

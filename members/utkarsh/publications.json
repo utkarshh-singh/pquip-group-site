@@ -3,6 +3,38 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1757731526,
-  "publications": []
+  "updated_at": 1757731703,
+  "publications": [
+    {
+      "paperId": "cd6397ab56ef76cf6c96480f1ead2829c698d128",
+      "title": "A Resource Efficient Quantum Kernel",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2507.03689",
+      "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "authors": [
+        "Utkarsh Singh",
+        "J. Laprade",
+        "Aaron Z. Goldberg",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2507.03689"
+    },
+    {
+      "paperId": "1318636e018950d0049b6920c5f43c575e506c59",
+      "title": "Coherent Feed Forward Quantum Neural Network",
+      "year": 2024,
+      "venue": "Quantum Machine Intelligence",
+      "doi": "10.48550/arXiv.2402.00653",
+      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "authors": [
+        "Utkarsh Singh",
+        "A. Goldberg",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2402.00653"
+    }
+  ]
 }
