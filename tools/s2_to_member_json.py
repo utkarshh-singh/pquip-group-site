@@ -49,27 +49,82 @@ def fetch_author_papers(aid):
     return items
 
 def normalize(p):
-    # author/{id}/papers returns flat fields on each item (paperId, title, ...)
-    title = p.get("title") or ""
-    year  = p.get("year")
-    venue = p.get("venue") or ""
-    ext   = p.get("externalIds") or {}
-    doi   = ext.get("DOI")
-    arxiv = ext.get("ArXiv") or ext.get("arXiv") or ext.get("ARXIV")
-    oa    = (p.get("openAccessPdf") or {}).get("url")
-    url   = f"https://doi.org/{doi}" if doi else (p.get("url") or "")
-    authors = [a.get("name") for a in (p.get("authors") or []) if a.get("name")]
-    return {
-        "paperId": p.get("paperId") or None,   # <— needed for figure URLs
-        "title": title,
-        "year": year,
-        "venue": venue,
-        "doi": str(doi) if doi else None,
-        "url": url,
-        "authors": authors,
-        "oa_pdf": oa,
-        "arxivId": arxiv
-    }
+  # original flat shape from /author/{id}/papers
+  title = p.get("title") or ""
+  year  = p.get("year")
+  venue = p.get("venue") or ""
+  ext   = p.get("externalIds") or {}
+  doi   = ext.get("DOI")
+  arxiv = ext.get("ArXiv") or ext.get("arXiv") or ext.get("ARXIV")
+  oa    = (p.get("openAccessPdf") or {}).get("url")
+  url   = f"https://doi.org/{doi}" if doi else (p.get("url") or "")
+  authors = [a.get("name") for a in (p.get("authors") or []) if isinstance(a, dict) and a.get("name")]
+
+  out = {
+    "paperId": p.get("paperId") or None,
+    "title": title,
+    "year": year,
+    "venue": venue,
+    "doi": str(doi) if doi else None,
+    "url": url,
+    "authors": authors,
+    "oa_pdf": oa,
+    "arxivId": arxiv
+  }
+
+  # Try to read extras if they happen to be present already (rare in this endpoint)
+  fos = p.get("fieldsOfStudy") or []
+  topics = []
+  raw_topics = p.get("topics") or []
+  if raw_topics:
+    # normalize topic objects/strings
+    seen = set()
+    for t in raw_topics:
+      name = (t.get("topic") if isinstance(t, dict) else str(t)).strip() if t else ""
+      if name:
+        key = name.lower()
+        if key not in seen:
+          seen.add(key)
+          topics.append(name)
+
+  abstract = (p.get("abstract") or "").strip()
+
+  # If still missing topics/abstract, fetch lightweight paper details once
+  if not topics and not abstract and out["paperId"]:
+    try:
+      details_url = f"{S2_BASE}/paper/{quote(str(out['paperId']))}"
+      params = {"fields": "abstract,topics,fieldsOfStudy"}
+      r = requests.get(details_url, params=params, timeout=30)
+      if r.ok:
+        pj = r.json()
+        # fieldsOfStudy
+        if not fos:
+          fos = pj.get("fieldsOfStudy") or []
+        # topics
+        raw = pj.get("topics") or []
+        if raw:
+          seen = set()
+          for t in raw:
+            name = (t.get("topic") if isinstance(t, dict) else str(t)).strip() if t else ""
+            if name:
+              key = name.lower()
+              if key not in seen:
+                seen.add(key)
+                topics.append(name)
+        # abstract
+        if not topics:
+          abstract = (pj.get("abstract") or "").strip()
+    except Exception:
+      pass  # stay silent; keep base fields
+
+  if fos:
+    out["fieldsOfStudy"] = fos
+  if topics:
+    out["topics"] = topics
+  elif abstract:
+    out["abstract"] = abstract[:2000]  # only if topics missing
+
+  return out
 
 def norm_key(n):
     return (n.get("doi") or (n.get("title") or "").lower()).strip()
