@@ -62,7 +62,7 @@ Welcome to the official repository for the PQuIP Group website. This repository 
 
 ### Adding/Updating Your Profile
 - Edit `members/[your first name]/page.html` to update your personal page
-- Update your photos in `assets/img/` or `assets/img/`
+- Update your photos in `assets/img/`
 - Include: name, title, bio, contact info, research interests, etc. at 'members/[your first name]/profile.json'
 
 ### Creating Your Member Page (New Members)
