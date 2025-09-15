@@ -6,9 +6,26 @@ Welcome to the official repository for the PQuIP Group website. This repository 
 
 ```
 ├── index.html          # Homepage
+├── publications.html   # Group Publications
+├── member.html         # Members
+├── news.html           # Extras
+├── join.html           # Join Us
 ├── people.html         # Team members page
-├── research.html       # Research projects and publications
+├── research.html       # Research projects
+├── contact.html        # Contact Us
 ├── assets/
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript files
+│   └── img/           # Images and photos
+├── tools/
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript files
+│   └── img/           # Images and photos
+├── data/
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript files
+│   └── img/           # Images and photos
+├── members/
 │   ├── css/           # Stylesheets
 │   ├── js/            # JavaScript files
 │   └── img/           # Images and photos
