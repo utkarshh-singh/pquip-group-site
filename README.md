@@ -17,18 +17,16 @@ Welcome to the official repository for the PQuIP Group website. This repository 
 │   ├── css/           # Stylesheets
 │   ├── js/            # JavaScript files
 │   └── img/           # Images and photos
+    ```
 ├── tools/
-│   ├── css/           # Stylesheets
-│   ├── js/            # JavaScript files
-│   └── img/           # Images and photos
+│   ├──           
+|   ```
 ├── data/
-│   ├── css/           # Stylesheets
-│   ├── js/            # JavaScript files
-│   └── img/           # Images and photos
+│   ├──           
+|   ```
 ├── members/
-│   ├── css/           # Stylesheets
-│   ├── js/            # JavaScript files
-│   └── img/           # Images and photos
+│   ├──           
+│   ```
 └── README.md          # This file
 ```
 
