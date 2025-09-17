@@ -6,38 +6,6 @@
   "updated_at": 1758148220,
   "publications": [
     {
-      "paperId": "99e8fb3c5e37245c3b69a67a558ce6d2d47b5b8e",
-      "title": "Performance Enhancement and Restoration of Micromechanical Resonators Via UV-Ozone Treatment",
-      "year": 2021,
-      "venue": "IEEE/LEOS International Conference on Optical MEMS",
-      "doi": "10.1109/MEMS51782.2021.9375184",
-      "url": "https://doi.org/10.1109/MEMS51782.2021.9375184",
-      "authors": [
-        "Qianyi Xie",
-        "S. Afshar",
-        "A. Ozgurluk",
-        "C. Nguyen"
-      ],
-      "oa_pdf": "",
-      "arxivId": null
-    },
-    {
-      "paperId": "aae7a756ae5aad9017545de47ad95ea6bd6d5c23",
-      "title": "199-MHz Polysilicon Micromechanical Disk Array-Composite Oscillator",
-      "year": 2020,
-      "venue": "2020 Joint Conference of the IEEE International Frequency Control Symposium and International Symposium on Applications of Ferroelectrics (IFCS-ISAF)",
-      "doi": "10.1109/IFCS-ISAF41089.2020.9234862",
-      "url": "https://doi.org/10.1109/IFCS-ISAF41089.2020.9234862",
-      "authors": [
-        "Qianyi Xie",
-        "S. Afshar",
-        "A. Ozgurluk",
-        "C. Nguyen"
-      ],
-      "oa_pdf": "",
-      "arxivId": null
-    },
-    {
       "paperId": "12cbf0d2f7284aef20796bcfec424fa2b938744e",
       "title": "Anisotropy of the Seebeck Coefficient in the Cuprate Superconductor YBa 2 Cu 3 O y : Fermi-Surface Reconstruction by Bidirectional Charge Order",
       "year": 2017,
@@ -91,32 +59,6 @@
       ],
       "oa_pdf": "https://link.aps.org/accepted/10.1103/PhysRevB.95.224517",
       "arxivId": "1607.05693"
-    },
-    {
-      "paperId": "b598b210e2d98efb8ac5e416c6bb795932d9192d",
-      "title": "Seebeck coefficient of underdoped La$ _{2-x} $Sr$_{x} $CuO$ _{4} $ in high magnetic fields : Fermi-surface reconstruction by charge-density-wave order",
-      "year": 2015,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/b598b210e2d98efb8ac5e416c6bb795932d9192d",
-      "authors": [
-        "S. Badoux",
-        "S. Afshar",
-        "B. Michon",
-        "A. Ouellet",
-        "S. Fortier",
-        "D. Leboeuf",
-        "T. Croft",
-        "C. Lester",
-        "S. Hayden",
-        "H. Takagi",
-        "K. Yamada",
-        "D. Graf",
-        "N. Doiron-Leyraud",
-        "L. Taillefer"
-      ],
-      "oa_pdf": "",
-      "arxivId": null
     },
     {
       "paperId": "b281a346a3992727a7edf7efbc45be3bbb105b5c",
