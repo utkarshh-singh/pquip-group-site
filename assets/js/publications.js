@@ -3,7 +3,7 @@
 
   const $ = s => document.querySelector(s);
   const resultsEl = $('#pub-results');
-  const qEl = $('#q'), yearEl = $('#year'), authorEl = $('#author'), catEl = $('#category');
+  const qEl = $('#q'), yearEl = $('#year'), authorEl = $('#author'); //, catEl = $('#category')
   const clearBtn = $('#clear'), loadMoreBtn = $('#load-more'), loadMoreWrap = $('#load-more-wrap');
 
   let allPubs = [], filtered = []; let page = 0;
