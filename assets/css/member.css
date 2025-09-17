@@ -21,8 +21,8 @@
   display:flex; gap:18px; align-items:center;
 }
 .avatar{
-  width: 132px; height: 132px; object-fit: cover;
-  border-radius: 14px;
+  width: 180px; height: 180px; object-fit: cover;
+  border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.7);
   box-shadow: 0 12px 24px rgba(15,23,42,0.12);
   background:#eef2f7;
