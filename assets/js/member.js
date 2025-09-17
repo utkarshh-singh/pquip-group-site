@@ -146,7 +146,7 @@ async function loadMember(){
   // CV detection (async)
   const cvPath = await findCV(encodeURIComponent(id));
   const cvBtn = cvPath
-    ? `<a class="btn btn-primary" href="${cvPath}" target="_blank" rel="noopener" download>Download CV</a>`
+    ? `<a class="btn btn-ghost" href="${cvPath}" target="_blank" rel="noopener">Download CV</a>`
     : '';
 
   // render
