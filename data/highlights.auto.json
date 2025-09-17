@@ -1,34 +1,24 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1757910632,
+  "updated_at": 1758148241,
   "items": [
-    {
-      "type": "publication",
-      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
-      "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
-      "image": "https://figures.semanticscholar.org/5ba81020cb60f312f23dfcd0ee0f44baf5e21229/500px/3-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
-      "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
     {
       "type": "publication",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
       "year": 2025,
       "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
       "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "image": "https://figures.semanticscholar.org/5ba81020cb60f312f23dfcd0ee0f44baf5e21229/500px/3-Figure1-1.png",
       "tags": [
         "Publication"
       ]
@@ -79,6 +69,16 @@
       "year": 2025,
       "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
       "image": "https://figures.semanticscholar.org/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]

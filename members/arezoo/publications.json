@@ -1,96 +1,149 @@
 {
   "source": "semantic_scholar",
   "author_ids": [
-    "2206148195"
+    "31269320"
   ],
-  "updated_at": 1757910612,
+  "updated_at": 1758148220,
   "publications": [
     {
-      "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
-      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
-      "year": 2025,
+      "paperId": "99e8fb3c5e37245c3b69a67a558ce6d2d47b5b8e",
+      "title": "Performance Enhancement and Restoration of Micromechanical Resonators Via UV-Ozone Treatment",
+      "year": 2021,
+      "venue": "IEEE/LEOS International Conference on Optical MEMS",
+      "doi": "10.1109/MEMS51782.2021.9375184",
+      "url": "https://doi.org/10.1109/MEMS51782.2021.9375184",
+      "authors": [
+        "Qianyi Xie",
+        "S. Afshar",
+        "A. Ozgurluk",
+        "C. Nguyen"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "aae7a756ae5aad9017545de47ad95ea6bd6d5c23",
+      "title": "199-MHz Polysilicon Micromechanical Disk Array-Composite Oscillator",
+      "year": 2020,
+      "venue": "2020 Joint Conference of the IEEE International Frequency Control Symposium and International Symposium on Applications of Ferroelectrics (IFCS-ISAF)",
+      "doi": "10.1109/IFCS-ISAF41089.2020.9234862",
+      "url": "https://doi.org/10.1109/IFCS-ISAF41089.2020.9234862",
+      "authors": [
+        "Qianyi Xie",
+        "S. Afshar",
+        "A. Ozgurluk",
+        "C. Nguyen"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "12cbf0d2f7284aef20796bcfec424fa2b938744e",
+      "title": "Anisotropy of the Seebeck Coefficient in the Cuprate Superconductor YBa 2 Cu 3 O y : Fermi-Surface Reconstruction by Bidirectional Charge Order",
+      "year": 2017,
+      "venue": "",
+      "doi": "10.1103/PhysRevX.7.031042",
+      "url": "https://doi.org/10.1103/PhysRevX.7.031042",
+      "authors": [
+        "O. Cyr-Choiniere",
+        "S. Badoux",
+        "G. Grissonnanche",
+        "B. Michon",
+        "S. Afshar",
+        "S. Fortier",
+        "D. Leboeuf",
+        "David Graf",
+        "James Day",
+        "D. Bonn",
+        "D. Bonn",
+        "W. Hardy",
+        "W. Hardy",
+        "Ruixing Liang",
+        "Ruixing Liang",
+        "N. Doiron-Leyraud",
+        "Louis Taillefer",
+        "Louis Taillefer"
+      ],
+      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevX.7.031042",
+      "arxivId": "1704.03829"
+    },
+    {
+      "paperId": "70f9d1162c41942eeb11244f9c996270b56c7eb9",
+      "title": "Fermi-surface transformation across the pseudogap critical point of the cuprate superconductor La1.6-xNd0.4SrxCuO4",
+      "year": 2016,
+      "venue": "",
+      "doi": "10.1103/PhysRevB.95.224517",
+      "url": "https://doi.org/10.1103/PhysRevB.95.224517",
+      "authors": [
+        "C. Collignon",
+        "C. Collignon",
+        "S. Badoux",
+        "S. Afshar",
+        "B. Michon",
+        "F. Laliberté",
+        "O. Cyr-Choiniere",
+        "J. Zhou",
+        "S. Licciardello",
+        "S. Wiedmann",
+        "N. Doiron-Leyraud",
+        "L. Taillefer",
+        "L. Taillefer"
+      ],
+      "oa_pdf": "https://link.aps.org/accepted/10.1103/PhysRevB.95.224517",
+      "arxivId": "1607.05693"
+    },
+    {
+      "paperId": "b598b210e2d98efb8ac5e416c6bb795932d9192d",
+      "title": "Seebeck coefficient of underdoped La$ _{2-x} $Sr$_{x} $CuO$ _{4} $ in high magnetic fields : Fermi-surface reconstruction by charge-density-wave order",
+      "year": 2015,
       "venue": "",
       "doi": null,
-      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "url": "https://www.semanticscholar.org/paper/b598b210e2d98efb8ac5e416c6bb795932d9192d",
       "authors": [
-        "Milica Banic",
-        "Valerio Crescimanna",
-        "J. E. Bourassa",
-        "C. González-Arciniegas",
-        "Rafael N. Alexander",
-        "Khabat Heshami"
+        "S. Badoux",
+        "S. Afshar",
+        "B. Michon",
+        "A. Ouellet",
+        "S. Fortier",
+        "D. Leboeuf",
+        "T. Croft",
+        "C. Lester",
+        "S. Hayden",
+        "H. Takagi",
+        "K. Yamada",
+        "D. Graf",
+        "N. Doiron-Leyraud",
+        "L. Taillefer"
       ],
       "oa_pdf": "",
-      "arxivId": "2504.10606"
+      "arxivId": null
     },
     {
-      "paperId": "dffd3f104fbbf6c1f1b538922eea2687ff347cba",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
-      "year": 2025,
+      "paperId": "b281a346a3992727a7edf7efbc45be3bbb105b5c",
+      "title": "Critical Doping for the Onset of Fermi-Surface Reconstruction by Charge-Density-Wave Order in the Cuprate Superconductor La$ _{2-x} $Sr$_{x} $CuO$ _{4}$",
+      "year": 2015,
       "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "doi": "10.1103/PhysRevX.6.021004",
+      "url": "https://doi.org/10.1103/PhysRevX.6.021004",
       "authors": [
-        "Valerio Crescimanna",
-        "Shang Yu",
-        "Khabat Heshami",
-        "Raj B. Patel"
+        "S. Badoux",
+        "S. Afshar",
+        "B. Michon",
+        "A. Ouellet",
+        "S. Fortier",
+        "D. Leboeuf",
+        "T. Croft",
+        "C. Lester",
+        "S. Hayden",
+        "H. Takagi",
+        "K. Yamada",
+        "D. Graf",
+        "N. Doiron-Leyraud",
+        "L. Taillefer",
+        "L. Taillefer"
       ],
-      "oa_pdf": "",
-      "arxivId": "2502.14967"
-    },
-    {
-      "paperId": "af2af1779fe6b4e72c7f62555e8f0046b4b930f1",
-      "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
-      "year": 2024,
-      "venue": "Advanced Quantum Technologies",
-      "doi": "10.1002/qute.202400074",
-      "url": "https://doi.org/10.1002/qute.202400074",
-      "authors": [
-        "Shang Yu",
-        "Zhian Jia",
-        "Aonan Zhang",
-        "Ewan Mer",
-        "Zhenghao Li",
-        "Valerio Crescimanna",
-        "Kuan‐Cheng Chen",
-        "Raj B. Patel",
-        "Ian A. Walmsley",
-        "D. Kaszlikowski"
-      ],
-      "oa_pdf": "",
-      "arxivId": "2409.02533"
-    },
-    {
-      "paperId": "c0f86c3adc93b8aadcd025b746034761da9f0c0e",
-      "title": "Seeding Gaussian Boson Samplers with Single Photons for Enhanced State Generation",
-      "year": 2023,
-      "venue": "Photonics North",
-      "doi": "10.1103/PhysRevA.109.023717",
-      "url": "https://doi.org/10.1103/PhysRevA.109.023717",
-      "authors": [
-        "Valerio Crescimanna",
-        "A. Goldberg",
-        "Khabat Heshami"
-      ],
-      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
-      "arxivId": "2311.03432"
-    },
-    {
-      "paperId": "6249b59aa8d07eb1da286bbafcc760a174e520c3",
-      "title": "Quantum Control of Rydberg Atoms for Mesoscopic Quantum State and Circuit Preparation",
-      "year": 2023,
-      "venue": "Physical Review Applied",
-      "doi": "10.1103/PhysRevApplied.20.034019",
-      "url": "https://doi.org/10.1103/PhysRevApplied.20.034019",
-      "authors": [
-        "Valerio Crescimanna",
-        "Jacob M. Taylor",
-        "A. Goldberg",
-        "Khabat Heshami"
-      ],
-      "oa_pdf": "https://arxiv.org/pdf/2302.07893",
-      "arxivId": "2302.07893"
+      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevX.6.021004",
+      "arxivId": "1512.00292"
     }
   ]
 }
