@@ -4,15 +4,15 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1758148217,
+  "updated_at": 1758515360,
   "publications": [
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "venue": "Quantum Science and Technology",
+      "doi": "10.1088/2058-9565/ae0759",
+      "url": "https://doi.org/10.1088/2058-9565/ae0759",
       "authors": [
         "Gisell Lorena Osorio",
         "Milena Banic",

@@ -1,13 +1,13 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1758148241,
+  "updated_at": 1758515376,
   "items": [
     {
       "type": "publication",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
       "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
+      "url": "https://doi.org/10.1088/2058-9565/ae0759",
       "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
