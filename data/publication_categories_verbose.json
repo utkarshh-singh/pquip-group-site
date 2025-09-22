@@ -1755,77 +1755,149 @@
       "Machine Learning": 4.289811840862967e-05
     }
   },
-  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": {
-    "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+  "S2:99e8fb3c5e37245c3b69a67a558ce6d2d47b5b8e": {
+    "title": "Performance Enhancement and Restoration of Micromechanical Resonators Via UV-Ozone Treatment",
+    "categories": [
+      "Quantum Light–Matter Interaction",
+      "Photonics"
+    ],
+    "doi": "10.1109/mems51782.2021.9375184",
+    "url": "https://doi.org/10.1109/MEMS51782.2021.9375184",
+    "venue": "IEEE/LEOS International Conference on Optical MEMS",
+    "year": 2021,
+    "source": "ai",
+    "scores": {
+      "Photonics": 0.9256893920898437,
+      "Quantum Light–Matter Interaction": 0.956645667552948,
+      "Photonic QIP": 0.2916422486305237,
+      "Quantum Simulation": 0.21028953790664673,
+      "Quantum Information": 0.033402175009250634,
+      "Quantum Nonlinear Optics": 0.01933128386735916,
+      "Quantum Computing": 0.005609066691249609,
+      "Other": 0.0023096688091754913,
+      "Quantum Communication": 0.0006421406287699938,
+      "Ultrafast Quantum Photonics": 0.0005494659999385476,
+      "Machine Learning": 0.00012077361316187307
+    }
+  },
+  "S2:aae7a756ae5aad9017545de47ad95ea6bd6d5c23": {
+    "title": "199-MHz Polysilicon Micromechanical Disk Array-Composite Oscillator",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1109/ifcs-isaf41089.2020.9234862",
+    "url": "https://doi.org/10.1109/IFCS-ISAF41089.2020.9234862",
+    "venue": "2020 Joint Conference of the IEEE International Frequency Control Symposium and International Symposium on Applications of Ferroelectrics (IFCS-ISAF)",
+    "year": 2020,
+    "source": "ai",
+    "scores": {
+      "Photonics": -0.044038213491439826,
+      "Other": 0.0028331975918263197,
+      "Ultrafast Quantum Photonics": 0.001877799048088491,
+      "Quantum Nonlinear Optics": 0.001716081635095179,
+      "Quantum Computing": 0.001628990052267909,
+      "Quantum Information": -0.06860255513340235,
+      "Quantum Simulation": 0.0009873331291601062,
+      "Photonic QIP": 0.000848308380227536,
+      "Quantum Light–Matter Interaction": 0.0003372478240635246,
+      "Quantum Communication": 0.0001441138592781499,
+      "Machine Learning": 4.859927503275685e-05
+    }
+  },
+  "S2:12cbf0d2f7284aef20796bcfec424fa2b938744e": {
+    "title": "Anisotropy of the Seebeck Coefficient in the Cuprate Superconductor YBa 2 Cu 3 O y : Fermi-Surface Reconstruction by Bidirectional Charge Order",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevx.7.031042",
+    "url": "https://doi.org/10.1103/PhysRevX.7.031042",
+    "venue": null,
+    "year": 2017,
+    "source": "ai",
+    "scores": {
+      "Quantum Light–Matter Interaction": 0.06425561755895615,
+      "Quantum Information": -0.007396317720413215,
+      "Quantum Simulation": 0.05041540786623955,
+      "Quantum Nonlinear Optics": 0.00709962472319603,
+      "Other": 0.004551170393824577,
+      "Photonic QIP": 0.002225324744358659,
+      "Quantum Computing": 0.0015896836994215846,
+      "Quantum Communication": 0.0011497680097818375,
+      "Photonics": -0.069606380937621,
+      "Ultrafast Quantum Photonics": 0.00011215236008865759,
+      "Machine Learning": 0.0001074925676221028
+    }
+  },
+  "S2:70f9d1162c41942eeb11244f9c996270b56c7eb9": {
+    "title": "Fermi-surface transformation across the pseudogap critical point of the cuprate superconductor La1.6-xNd0.4SrxCuO4",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": "10.1103/physrevb.95.224517",
+    "url": "https://doi.org/10.1103/PhysRevB.95.224517",
+    "venue": null,
+    "year": 2016,
+    "source": "ai",
+    "scores": {
+      "Quantum Light–Matter Interaction": 0.4166487455368042,
+      "Quantum Simulation": 0.0984557494521141,
+      "Quantum Information": -0.030158508270978934,
+      "Quantum Nonlinear Optics": 0.017978407442569733,
+      "Other": 0.0013661724515259266,
+      "Quantum Computing": 0.0012016694527119398,
+      "Photonics": -0.06975923777674325,
+      "Photonic QIP": 0.0002032280171988532,
+      "Ultrafast Quantum Photonics": 0.00013191108882892877,
+      "Quantum Communication": 8.210060332203284e-05,
+      "Machine Learning": 5.7797304179985076e-05
+    }
+  },
+  "S2:b598b210e2d98efb8ac5e416c6bb795932d9192d": {
+    "title": "Seebeck coefficient of underdoped La$ _{2-x} $Sr$_{x} $CuO$ _{4} $ in high magnetic fields : Fermi-surface reconstruction by charge-density-wave order",
     "categories": [
       "Quantum Simulation"
     ],
     "doi": null,
-    "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+    "url": "https://www.semanticscholar.org/paper/b598b210e2d98efb8ac5e416c6bb795932d9192d",
     "venue": null,
-    "year": 2025,
+    "year": 2015,
     "source": "ai",
     "scores": {
-      "Quantum Simulation": 0.9567373394966125,
-      "Quantum Information": 0.04736269295215606,
-      "Quantum Computing": 0.09620684385299683,
-      "Quantum Light–Matter Interaction": 0.0055490718223154545,
-      "Quantum Nonlinear Optics": 0.002020955551415682,
-      "Other": 0.00042157681309618056,
-      "Machine Learning": 0.0003393407096154988,
-      "Photonics": -0.06979107909894083,
-      "Quantum Communication": 0.00017701939214020967,
-      "Ultrafast Quantum Photonics": 0.00015639964840374887,
-      "Photonic QIP": 0.0001269443309865892
+      "Quantum Simulation": 0.7275621294975281,
+      "Quantum Light–Matter Interaction": 0.05396108701825142,
+      "Quantum Information": -0.016912053972482688,
+      "Quantum Nonlinear Optics": 0.030738098546862602,
+      "Quantum Computing": 0.004904124885797501,
+      "Other": 0.0023702068720012903,
+      "Photonics": -0.0693967748596333,
+      "Photonic QIP": 0.0003148681716993451,
+      "Ultrafast Quantum Photonics": 0.00028129477868787944,
+      "Quantum Communication": 0.00023628570488654077,
+      "Machine Learning": 8.772657020017505e-05
     }
   },
-  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": {
-    "title": "Adaptive Non-Gaussian Quantum State Engineering",
+  "S2:b281a346a3992727a7edf7efbc45be3bbb105b5c": {
+    "title": "Critical Doping for the Onset of Fermi-Surface Reconstruction by Charge-Density-Wave Order in the Cuprate Superconductor La$ _{2-x} $Sr$_{x} $CuO$ _{4}$",
     "categories": [
-      "Other"
+      "Quantum Simulation"
     ],
-    "doi": null,
-    "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+    "doi": "10.1103/physrevx.6.021004",
+    "url": "https://doi.org/10.1103/PhysRevX.6.021004",
     "venue": null,
-    "year": 2025,
+    "year": 2015,
     "source": "ai",
     "scores": {
-      "Quantum Information": 0.013797611296176904,
-      "Other": 0.05282649025321007,
-      "Quantum Simulation": 0.03597230836749077,
-      "Quantum Computing": 0.0356016643345356,
-      "Photonics": -0.0667743679881096,
-      "Quantum Light–Matter Interaction": 0.0028205655980855227,
-      "Machine Learning": 0.0025277980603277683,
-      "Quantum Nonlinear Optics": 0.0006768782623112202,
-      "Photonic QIP": 0.00014512061898130924,
-      "Quantum Communication": 0.00011310284025967121,
-      "Ultrafast Quantum Photonics": 5.399058136390522e-05
-    }
-  },
-  "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": {
-    "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
-    "categories": [
-      "Photonics",
-      "Quantum Computing"
-    ],
-    "doi": "10.1002/qute.202400074",
-    "url": "https://doi.org/10.1002/qute.202400074",
-    "venue": "Advanced Quantum Technologies",
-    "year": 2024,
-    "source": "ai",
-    "scores": {
-      "Photonics": 0.8923802304267883,
-      "Quantum Information": 0.8529556322097778,
-      "Quantum Computing": 0.8538486957550049,
-      "Photonic QIP": 0.22584158182144165,
-      "Quantum Light–Matter Interaction": 0.12312179058790207,
-      "Machine Learning": 0.04991884529590607,
-      "Quantum Simulation": 0.024745646864175797,
-      "Other": 0.00762672396376729,
-      "Quantum Nonlinear Optics": 0.006251740735024214,
-      "Quantum Communication": 0.0005158710409887135,
-      "Ultrafast Quantum Photonics": 9.105742356041446e-05
+      "Quantum Simulation": 0.15673793852329254,
+      "Quantum Information": 0.030998505949974053,
+      "Quantum Light–Matter Interaction": 0.08099384605884552,
+      "Quantum Computing": 0.007174210622906685,
+      "Quantum Nonlinear Optics": 0.0038598107639700174,
+      "Other": 0.0017503972630947828,
+      "Photonics": -0.06918844981584699,
+      "Quantum Communication": 0.0003683255345094949,
+      "Photonic QIP": 0.00016541901277378201,
+      "Ultrafast Quantum Photonics": 0.0001381858019158244,
+      "Machine Learning": 9.049216168932617e-05
     }
   },
   "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": {
@@ -1925,6 +1997,54 @@
       "Ultrafast Quantum Photonics": 0.0002661387843545526,
       "Photonic QIP": 7.971838931553066e-05,
       "Machine Learning": 5.803988460684195e-05
+    }
+  },
+  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": {
+    "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+    "categories": [
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+    "venue": null,
+    "year": 2025,
+    "source": "ai",
+    "scores": {
+      "Quantum Simulation": 0.9567373394966125,
+      "Quantum Information": 0.04736269295215606,
+      "Quantum Computing": 0.09620684385299683,
+      "Quantum Light–Matter Interaction": 0.0055490718223154545,
+      "Quantum Nonlinear Optics": 0.002020955551415682,
+      "Other": 0.00042157681309618056,
+      "Machine Learning": 0.0003393407096154988,
+      "Photonics": -0.06979107909894083,
+      "Quantum Communication": 0.00017701939214020967,
+      "Ultrafast Quantum Photonics": 0.00015639964840374887,
+      "Photonic QIP": 0.0001269443309865892
+    }
+  },
+  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": {
+    "title": "Adaptive Non-Gaussian Quantum State Engineering",
+    "categories": [
+      "Other"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+    "venue": null,
+    "year": 2025,
+    "source": "ai",
+    "scores": {
+      "Quantum Information": 0.013797611296176904,
+      "Other": 0.05282649025321007,
+      "Quantum Simulation": 0.03597230836749077,
+      "Quantum Computing": 0.0356016643345356,
+      "Photonics": -0.0667743679881096,
+      "Quantum Light–Matter Interaction": 0.0028205655980855227,
+      "Machine Learning": 0.0025277980603277683,
+      "Quantum Nonlinear Optics": 0.0006768782623112202,
+      "Photonic QIP": 0.00014512061898130924,
+      "Quantum Communication": 0.00011310284025967121,
+      "Ultrafast Quantum Photonics": 5.399058136390522e-05
     }
   },
   "S2:cd6397ab56ef76cf6c96480f1ead2829c698d128": {
@@ -3419,26 +3539,26 @@
   "S2:639cf4cefa09659ebcec16ce5fec1ce963a15a4c": {
     "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
     "categories": [
-      "Photonics",
-      "Quantum Simulation"
+      "Photonic QIP",
+      "Photonics"
     ],
-    "doi": null,
-    "url": "https://www.semanticscholar.org/paper/639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
-    "venue": null,
+    "doi": "10.1088/2058-9565/ae0759",
+    "url": "https://doi.org/10.1088/2058-9565/ae0759",
+    "venue": "Quantum Science and Technology",
     "year": 2025,
     "source": "ai",
     "scores": {
-      "Photonics": 0.9287580776214599,
-      "Quantum Simulation": 0.902692437171936,
-      "Quantum Light–Matter Interaction": 0.8649734854698181,
-      "Quantum Computing": 0.8174140453338623,
-      "Quantum Information": 0.37907960295677184,
-      "Quantum Nonlinear Optics": 0.41834643483161926,
-      "Photonic QIP": 0.06540357321500778,
-      "Other": 0.0036126715131103992,
-      "Ultrafast Quantum Photonics": 0.0008660762687213719,
-      "Quantum Communication": 0.00014967889001127332,
-      "Machine Learning": 0.00010455533629283309
+      "Photonics": 0.9246498274803161,
+      "Photonic QIP": 0.9354144930839539,
+      "Quantum Light–Matter Interaction": 0.055764853954315186,
+      "Quantum Nonlinear Optics": 0.02613912522792816,
+      "Quantum Simulation": 0.012442254461348057,
+      "Other": 0.006239601410925388,
+      "Quantum Information": -0.06696099618449808,
+      "Quantum Computing": 0.0028410523664206266,
+      "Ultrafast Quantum Photonics": 9.897013660520315e-05,
+      "Quantum Communication": 7.719445420661941e-05,
+      "Machine Learning": 3.0501267247018404e-05
     }
   },
   "S2:1b4fbdd828abf4bae244512b27674d44d536bfd0": {
@@ -3781,6 +3901,31 @@
       "Quantum Computing": 3.447229755693115e-05,
       "Ultrafast Quantum Photonics": 2.2497333702631295e-05,
       "Photonics": -0.0699776834029035
+    }
+  },
+  "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": {
+    "title": "Shedding Light on the Future: Exploring Quantum Neural Networks through Optics",
+    "categories": [
+      "Photonics",
+      "Quantum Computing"
+    ],
+    "doi": "10.1002/qute.202400074",
+    "url": "https://doi.org/10.1002/qute.202400074",
+    "venue": "Advanced Quantum Technologies",
+    "year": 2024,
+    "source": "ai",
+    "scores": {
+      "Photonics": 0.8923802304267883,
+      "Quantum Information": 0.8529556322097778,
+      "Quantum Computing": 0.8538486957550049,
+      "Photonic QIP": 0.22584158182144165,
+      "Quantum Light–Matter Interaction": 0.12312179058790207,
+      "Machine Learning": 0.04991884529590607,
+      "Quantum Simulation": 0.024745646864175797,
+      "Other": 0.00762672396376729,
+      "Quantum Nonlinear Optics": 0.006251740735024214,
+      "Quantum Communication": 0.0005158710409887135,
+      "Ultrafast Quantum Photonics": 9.105742356041446e-05
     }
   }
 }
