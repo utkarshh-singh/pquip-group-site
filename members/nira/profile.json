@@ -1,17 +1,11 @@
 {
       "id": "nira",
-      "name": "Nira",
-      "aliases": ["#", "#"],
+      "name": "Nirajara Dungwatanawanich",
       "role": "Visiting Student",
-      "email": "nira@example.com",
-      "phone": "+1 (555) 123-4567",
+      "email": "nirajara.dun@gmail.com",
       "photo": "assets/img/nira.jpg",
-      "orcid": "0000-##",
-      "semanticScholarId": "#",
-      "categories": ["#"],
-      "linkedin": "#",
-      "scholar": "#",
-      "scholarUser": "#",
-      "github": "https://github.com/",
-      "website": "#"
+      "orcid": "0000-0001-7410-4142",
+      "linkedin": "https://www.linkedin.com/in/nirajara-dungwatanawanich/",
+      "github": "https://github.com/Nirajara",
+      "website": "https://nirajara.github.io/"
     }
