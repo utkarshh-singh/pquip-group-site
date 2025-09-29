@@ -1,8 +1,48 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1758515376,
+  "updated_at": 1759120253,
   "items": [
+    {
+      "type": "publication",
+      "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "image": "https://figures.semanticscholar.org/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "image": "https://figures.semanticscholar.org/5ba81020cb60f312f23dfcd0ee0f44baf5e21229/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "A Resource Efficient Quantum Kernel",
+      "year": 2025,
+      "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
     {
       "type": "publication",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
@@ -15,10 +55,10 @@
     },
     {
       "type": "publication",
-      "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
+      "title": "Efficient Triplet Generation in a Resonator",
       "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
-      "image": "https://figures.semanticscholar.org/5ba81020cb60f312f23dfcd0ee0f44baf5e21229/500px/3-Figure1-1.png",
+      "url": "https://doi.org/10.1364/cleo_fs.2025.ff143_4",
+      "image": "https://opg.optica.org/getThumbnail.cfm?uri=CLEO_FS-2025-FF143_4&o=y",
       "tags": [
         "Publication"
       ]
@@ -59,36 +99,6 @@
       "year": 2025,
       "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
       "image": "https://figures.semanticscholar.org/00449496834477f23047f996e64ec897235c9392/500px/3-Figure3-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
-      "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
-      "image": "https://figures.semanticscholar.org/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064/500px/3-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
-      "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "A Resource Efficient Quantum Kernel",
-      "year": 2025,
-      "url": "https://doi.org/10.48550/arXiv.2507.03689",
-      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]

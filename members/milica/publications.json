@@ -4,7 +4,7 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1758515360,
+  "updated_at": 1759120229,
   "publications": [
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
@@ -40,6 +40,23 @@
       "arxivId": "2504.10606"
     },
     {
+      "paperId": "9d0f6a759678ea73d2e07f0174052d44327cc29d",
+      "title": "Efficient Triplet Generation in a Resonator",
+      "year": 2025,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2025.ff143_4",
+      "url": "https://doi.org/10.1364/cleo_fs.2025.ff143_4",
+      "authors": [
+        "Samuel E. Fontaine",
+        "Colin Vendromin",
+        "M. Liscidini",
+        "J. E. Sipe",
+        "Milena Banic"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
       "paperId": "1b4fbdd828abf4bae244512b27674d44d536bfd0",
       "title": "Photonic multipartite entanglement in discrete variables without arbitrary unitaries",
       "year": 2024,
@@ -64,7 +81,7 @@
       "authors": [
         "Milena Banic",
         "J. Sipe",
-        "Marco Liscidini"
+        "M. Liscidini"
       ],
       "oa_pdf": "",
       "arxivId": null
