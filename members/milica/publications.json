@@ -4,8 +4,24 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1759724947,
+  "updated_at": 1760329804,
   "publications": [
+    {
+      "paperId": "767d51a192219317d98631beee5e73af7318fe02",
+      "title": "Towards deterministic non-Gaussianity on a chip",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/767d51a192219317d98631beee5e73af7318fe02",
+      "authors": [
+        "Samuel E. Fontaine",
+        "J. E. Sipe",
+        "Marco Liscidini",
+        "Milena Banic"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2510.07658"
+    },
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",

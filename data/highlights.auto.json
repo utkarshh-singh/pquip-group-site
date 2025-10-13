@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1759724966,
+  "updated_at": 1760329820,
   "items": [
     {
       "type": "publication",
@@ -38,6 +38,16 @@
       "title": "A Resource Efficient Quantum Kernel",
       "year": 2025,
       "url": "https://doi.org/10.48550/arXiv.2507.03689",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Towards deterministic non-Gaussianity on a chip",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/767d51a192219317d98631beee5e73af7318fe02",
       "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
