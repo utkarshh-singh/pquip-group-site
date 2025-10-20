@@ -1925,6 +1925,30 @@
       "Machine Learning": 8.938495011534542e-05
     }
   },
+  "S2:2ed78961f71c11966e7078fd8219e0878e27140b": {
+    "title": "Magnetometry with Broadband Microwave Fields in Nitrogen-Vacancy Centers in Diamond",
+    "categories": [
+      "Quantum Light–Matter Interaction"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/2ed78961f71c11966e7078fd8219e0878e27140b",
+    "venue": null,
+    "year": 2025,
+    "source": "ai",
+    "scores": {
+      "Photonics": -0.03414529904723168,
+      "Quantum Light–Matter Interaction": 0.02543097734451294,
+      "Quantum Simulation": 0.011028817854821682,
+      "Quantum Information": -0.05949599917978049,
+      "Photonic QIP": 0.005840831436216831,
+      "Quantum Computing": 0.0015645665116608143,
+      "Quantum Nonlinear Optics": 0.0014688567025586963,
+      "Other": 0.0010309650097042322,
+      "Ultrafast Quantum Photonics": 0.00038895680336281657,
+      "Quantum Communication": 0.00025485188234597445,
+      "Machine Learning": 7.585201092297211e-05
+    }
+  },
   "S2:3767c60c93e422ae4ba64c37132c90d3e4b2fa3a": {
     "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
     "categories": [
