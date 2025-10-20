@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1760329796,
+  "updated_at": 1760934668,
   "publications": [
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
@@ -21,6 +21,24 @@
       ],
       "oa_pdf": "https://doi.org/10.1364/ome.549582",
       "arxivId": null
+    },
+    {
+      "paperId": "2ed78961f71c11966e7078fd8219e0878e27140b",
+      "title": "Magnetometry with Broadband Microwave Fields in Nitrogen-Vacancy Centers in Diamond",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/2ed78961f71c11966e7078fd8219e0878e27140b",
+      "authors": [
+        "Arezoo Afshar",
+        "Andrew H. Proppe",
+        "Noah Lupu-Gladstein",
+        "Lilian Childress",
+        "Aaron Z. Goldberg",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2510.11720"
     },
     {
       "paperId": "3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
