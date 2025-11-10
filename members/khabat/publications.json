@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1762144493,
+  "updated_at": 1762749212,
   "publications": [
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
@@ -136,11 +136,11 @@
     },
     {
       "paperId": "dffd3f104fbbf6c1f1b538922eea2687ff347cba",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "title": "Adaptive non-Gaussian quantum state engineering",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "venue": "Physical Review A",
+      "doi": "10.1103/jhkz-84dz",
+      "url": "https://doi.org/10.1103/jhkz-84dz",
       "authors": [
         "Valerio Crescimanna",
         "Shang Yu",
@@ -345,17 +345,17 @@
     },
     {
       "paperId": "1318636e018950d0049b6920c5f43c575e506c59",
-      "title": "Coherent Feed Forward Quantum Neural Network",
+      "title": "Coherent feed-forward quantum neural network",
       "year": 2024,
       "venue": "Quantum Machine Intelligence",
-      "doi": "10.48550/arXiv.2402.00653",
-      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "doi": "10.1007/s42484-024-00222-8",
+      "url": "https://doi.org/10.1007/s42484-024-00222-8",
       "authors": [
         "Utkarsh Singh",
         "A. Goldberg",
         "Khabat Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
       "arxivId": "2402.00653"
     },
     {

@@ -3,7 +3,7 @@
   "author_ids": [
     "2206148195"
   ],
-  "updated_at": 1762144521,
+  "updated_at": 1762749225,
   "publications": [
     {
       "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
@@ -25,11 +25,11 @@
     },
     {
       "paperId": "dffd3f104fbbf6c1f1b538922eea2687ff347cba",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "title": "Adaptive non-Gaussian quantum state engineering",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "venue": "Physical Review A",
+      "doi": "10.1103/jhkz-84dz",
+      "url": "https://doi.org/10.1103/jhkz-84dz",
       "authors": [
         "Valerio Crescimanna",
         "Shang Yu",

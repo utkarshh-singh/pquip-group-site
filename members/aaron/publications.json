@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1762144508,
+  "updated_at": 1762749218,
   "publications": [
     {
       "paperId": "252960fab5b8c5cc22d84a883e16243639d2e71f",
@@ -61,17 +61,17 @@
     },
     {
       "paperId": "1318636e018950d0049b6920c5f43c575e506c59",
-      "title": "Coherent Feed Forward Quantum Neural Network",
+      "title": "Coherent feed-forward quantum neural network",
       "year": 2024,
       "venue": "Quantum Machine Intelligence",
-      "doi": "10.48550/arXiv.2402.00653",
-      "url": "https://doi.org/10.48550/arXiv.2402.00653",
+      "doi": "10.1007/s42484-024-00222-8",
+      "url": "https://doi.org/10.1007/s42484-024-00222-8",
       "authors": [
         "Utkarsh Singh",
         "A. Goldberg",
         "Khabat Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
       "arxivId": "2402.00653"
     },
     {

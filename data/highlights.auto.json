@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1762144552,
+  "updated_at": 1762749243,
   "items": [
     {
       "type": "publication",
@@ -25,9 +25,9 @@
     },
     {
       "type": "publication",
-      "title": "Adaptive Non-Gaussian Quantum State Engineering",
+      "title": "Adaptive non-Gaussian quantum state engineering",
       "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/dffd3f104fbbf6c1f1b538922eea2687ff347cba",
+      "url": "https://doi.org/10.1103/jhkz-84dz",
       "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
