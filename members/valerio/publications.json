@@ -3,15 +3,15 @@
   "author_ids": [
     "2206148195"
   ],
-  "updated_at": 1762749225,
+  "updated_at": 1763353979,
   "publications": [
     {
       "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
       "title": "Exact simulation of realistic Gottesman-Kitaev-Preskill cluster states",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
+      "venue": "Physical Review A",
+      "doi": "10.1103/h6dj-cxsy",
+      "url": "https://doi.org/10.1103/h6dj-cxsy",
       "authors": [
         "Milica Banic",
         "Valerio Crescimanna",
