@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1763354004,
+  "updated_at": 1763959160,
   "items": [
     {
       "type": "publication",
@@ -68,7 +68,7 @@
       "title": "Efficient Triplet Generation in a Resonator",
       "year": 2025,
       "url": "https://doi.org/10.1364/cleo_fs.2025.ff143_4",
-      "image": "https://opg.optica.org/getThumbnail.cfm?uri=CLEO_FS-2025-FF143_4&o=y",
+      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]
@@ -78,7 +78,7 @@
       "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
       "year": 2025,
       "url": "https://doi.org/10.1364/ome.549582",
-      "image": "https://opg.optica.org/getThumbnail.cfm?uri=ome-15-4-626&size=200&o=y",
+      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]
