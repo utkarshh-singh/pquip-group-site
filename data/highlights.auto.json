@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1763959160,
+  "updated_at": 1764564869,
   "items": [
     {
       "type": "publication",
@@ -68,7 +68,7 @@
       "title": "Efficient Triplet Generation in a Resonator",
       "year": 2025,
       "url": "https://doi.org/10.1364/cleo_fs.2025.ff143_4",
-      "image": "assets/img/pubs/paper-generic.jpg",
+      "image": "https://opg.optica.org/getThumbnail.cfm?uri=CLEO_FS-2025-FF143_4&o=y",
       "tags": [
         "Publication"
       ]
@@ -78,7 +78,7 @@
       "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
       "year": 2025,
       "url": "https://doi.org/10.1364/ome.549582",
-      "image": "assets/img/pubs/paper-generic.jpg",
+      "image": "https://opg.optica.org/getThumbnail.cfm?uri=ome-15-4-626&size=200&o=y",
       "tags": [
         "Publication"
       ]
@@ -115,10 +115,10 @@
     },
     {
       "type": "publication",
-      "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+      "title": "High-dimensional quantum key distribution with Qubit-like states",
       "year": 2025,
-      "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
-      "image": "https://figures.semanticscholar.org/00449496834477f23047f996e64ec897235c9392/500px/3-Figure3-1.png",
+      "url": "https://doi.org/10.1038/s42005-025-02376-8",
+      "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42005-025-02376-8/MediaObjects/42005_2025_2376_Fig1_HTML.png",
       "tags": [
         "Publication"
       ]

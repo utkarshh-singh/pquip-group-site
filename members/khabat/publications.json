@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1763959106,
+  "updated_at": 1764564825,
   "publications": [
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
@@ -83,11 +83,11 @@
     },
     {
       "paperId": "00449496834477f23047f996e64ec897235c9392",
-      "title": "High-Dimensional Quantum Key Distribution with Qubit-like States",
+      "title": "High-dimensional quantum key distribution with Qubit-like states",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/00449496834477f23047f996e64ec897235c9392",
+      "venue": "Communications Physics",
+      "doi": "10.1038/s42005-025-02376-8",
+      "url": "https://doi.org/10.1038/s42005-025-02376-8",
       "authors": [
         "Lukas Scarfe",
         "Rojan Abolhassani",
@@ -108,7 +108,7 @@
       "doi": "10.1103/h6dj-cxsy",
       "url": "https://doi.org/10.1103/h6dj-cxsy",
       "authors": [
-        "Milica Banic",
+        "Milena Banic",
         "Valerio Crescimanna",
         "J. E. Bourassa",
         "C. González-Arciniegas",
