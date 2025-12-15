@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1765168740,
+  "updated_at": 1765774091,
   "items": [
     {
       "type": "publication",
@@ -78,7 +78,7 @@
       "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
       "year": 2025,
       "url": "https://doi.org/10.1364/ome.549582",
-      "image": "https://opg.optica.org/getThumbnail.cfm?uri=ome-15-4-626&size=200&o=y",
+      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]
