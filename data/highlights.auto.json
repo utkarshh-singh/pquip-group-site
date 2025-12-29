@@ -1,8 +1,18 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2025,
-  "updated_at": 1766378875,
+  "updated_at": 1766984102,
   "items": [
+    {
+      "type": "publication",
+      "title": "Quantum Wasserstein distance for Gaussian states",
+      "year": 2025,
+      "url": "https://www.semanticscholar.org/paper/66bb404e76ffdf93703357725440ffa6ef1c9564",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
     {
       "type": "publication",
       "title": "Equalities and inequalities from entanglement, loss, and beam splitters",

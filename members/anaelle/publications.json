@@ -3,8 +3,25 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1766378828,
+  "updated_at": 1766984061,
   "publications": [
+    {
+      "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
+      "title": "Quantum Wasserstein distance for Gaussian states",
+      "year": 2025,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/66bb404e76ffdf93703357725440ffa6ef1c9564",
+      "authors": [
+        "A. Hertz",
+        "Mohammad Ahmadpoor",
+        "Oleksandr Dzhenzherov",
+        "Augusto Gerolin",
+        "Khabat Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2512.17809"
+    },
     {
       "paperId": "70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
       "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
