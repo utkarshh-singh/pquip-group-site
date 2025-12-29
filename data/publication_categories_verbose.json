@@ -1148,6 +1148,30 @@
       "Quantum Communication": 0.00013938943448010832
     }
   },
+  "S2:66bb404e76ffdf93703357725440ffa6ef1c9564": {
+    "title": "Quantum Wasserstein distance for Gaussian states",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/66bb404e76ffdf93703357725440ffa6ef1c9564",
+    "venue": null,
+    "year": 2025,
+    "source": "ai",
+    "scores": {
+      "Quantum Information": 0.6306579041481017,
+      "Photonics": 0.1851005184650421,
+      "Quantum Computing": 0.06591610610485077,
+      "Quantum Simulation": 0.0020254640839993954,
+      "Quantum Nonlinear Optics": 0.0014111715136095881,
+      "Quantum Communication": 0.001220000209286809,
+      "Other": 0.0011119239497929811,
+      "Quantum Light–Matter Interaction": 0.0009463015012443066,
+      "Ultrafast Quantum Photonics": 0.00013665063306689262,
+      "Photonic QIP": 9.015125397127122e-05,
+      "Machine Learning": 5.813798634335399e-05
+    }
+  },
   "S2:70b9076e7e72c3326ca4a8d7bbf74d9e2e390064": {
     "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
     "categories": [
