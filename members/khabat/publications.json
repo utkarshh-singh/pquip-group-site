@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1768193714,
+  "updated_at": 1768798613,
   "publications": [
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
@@ -61,9 +61,9 @@
       "paperId": "3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
       "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
+      "venue": "Optics Express",
+      "doi": "10.1364/oe.582413",
+      "url": "https://doi.org/10.1364/oe.582413",
       "authors": [
         "Rojan Abolhassani",
         "Lukas Scarfe",
@@ -1343,7 +1343,7 @@
         "J. Cheung",
         "N. Chi",
         "B. Chichkov",
-        "Rajarshee Roy Choudhury",
+        "R. Choudhury",
         "J. Christian",
         "Yun Chung",
         "M. Ciappina",

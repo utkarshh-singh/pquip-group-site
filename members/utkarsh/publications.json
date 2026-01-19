@@ -3,8 +3,22 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1768193742,
+  "updated_at": 1768798629,
   "publications": [
+    {
+      "paperId": "e57c311c8f1e9c6c5b59da96250a3ff6672a3df9",
+      "title": "Lightweight Transformers for Zero-Shot and Fine-Tuned Text-to-SQL Generation Using Spider",
+      "year": 2025,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2508.04623",
+      "url": "https://doi.org/10.48550/arXiv.2508.04623",
+      "authors": [
+        "Chirag Seth",
+        "Utkarsh Singh"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2508.04623"
+    },
     {
       "paperId": "cd6397ab56ef76cf6c96480f1ead2829c698d128",
       "title": "A Resource Efficient Quantum Kernel",
@@ -22,6 +36,20 @@
       "arxivId": "2507.03689"
     },
     {
+      "paperId": "4e2b4ae61c52b8acbf105161d6b39210185bf597",
+      "title": "Optimising the power consumption of camera flash using fuzzy logic",
+      "year": 2024,
+      "venue": "COMPUTING, NETWORKS, AND RENEWABLE ENERGY",
+      "doi": "10.1063/5.0207310",
+      "url": "https://doi.org/10.1063/5.0207310",
+      "authors": [
+        "Utkarsh Singh",
+        "V. P. Singh"
+      ],
+      "oa_pdf": "https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0207310/19970321/020021_1_5.0207310.pdf",
+      "arxivId": null
+    },
+    {
       "paperId": "1318636e018950d0049b6920c5f43c575e506c59",
       "title": "Coherent feed-forward quantum neural network",
       "year": 2024,
@@ -35,6 +63,22 @@
       ],
       "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
       "arxivId": "2402.00653"
+    },
+    {
+      "paperId": "680b3abc84b588292aebadf5d8aa021501ff89a2",
+      "title": "memorAIs: an Optical Character Recognition and Rule-Based Medication Intake Reminder-Generating Solution",
+      "year": 2023,
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2312.06841",
+      "url": "https://doi.org/10.48550/arXiv.2312.06841",
+      "authors": [
+        "Eden Shaveet",
+        "Utkarsh Singh",
+        "Nicholas Assaderaghi",
+        "Maximo Librandi"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2312.06841"
     }
   ]
 }
