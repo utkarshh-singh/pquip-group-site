@@ -577,6 +577,18 @@
   "S2:032da917e2d4353653ceadd7db5650058c776ef0": [
     "Machine Learning"
   ],
+  "S2:e57c311c8f1e9c6c5b59da96250a3ff6672a3df9": [
+    "Quantum Computing",
+    "Quantum Information"
+  ],
+  "S2:4e2b4ae61c52b8acbf105161d6b39210185bf597": [
+    "Photonic QIP",
+    "Photonics"
+  ],
+  "S2:680b3abc84b588292aebadf5d8aa021501ff89a2": [
+    "Machine Learning",
+    "Photonics"
+  ],
   "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": [
     "Photonics",
     "Quantum Computing"

@@ -1978,23 +1978,23 @@
     "categories": [
       "Photonics"
     ],
-    "doi": null,
-    "url": "https://www.semanticscholar.org/paper/3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
-    "venue": null,
+    "doi": "10.1364/oe.582413",
+    "url": "https://doi.org/10.1364/oe.582413",
+    "venue": "Optics Express",
     "year": 2025,
     "source": "ai",
     "scores": {
-      "Photonics": 0.8942080068588256,
-      "Quantum Light–Matter Interaction": 0.046877890825271606,
-      "Quantum Information": -0.04504670731723309,
-      "Quantum Simulation": 0.0057489401660859585,
-      "Other": 0.001958424923941493,
-      "Quantum Nonlinear Optics": 0.0011833184398710728,
-      "Photonic QIP": 0.0009935911512002349,
-      "Quantum Computing": 0.0006866949261166155,
-      "Machine Learning": 0.0006639889907091856,
-      "Quantum Communication": 0.00023255290579982102,
-      "Ultrafast Quantum Photonics": 7.062075019348413e-05
+      "Photonics": 0.9054461646080016,
+      "Quantum Light–Matter Interaction": 0.05649843066930771,
+      "Quantum Information": -0.036923184692859656,
+      "Quantum Simulation": 0.005657273810356855,
+      "Other": 0.003966746851801872,
+      "Quantum Nonlinear Optics": 0.0022888665553182364,
+      "Photonic QIP": 0.0008928812458179891,
+      "Quantum Computing": 0.0005047412123531103,
+      "Machine Learning": 0.0002885266731027514,
+      "Quantum Communication": 0.00010914245649473742,
+      "Ultrafast Quantum Photonics": 9.84470680123195e-05
     }
   },
   "S2:90960bbd5128c51ce9efcbb3c715ccd26f272ca2": {
@@ -3998,6 +3998,81 @@
       "Quantum Computing": 3.447229755693115e-05,
       "Ultrafast Quantum Photonics": 2.2497333702631295e-05,
       "Photonics": -0.0699776834029035
+    }
+  },
+  "S2:e57c311c8f1e9c6c5b59da96250a3ff6672a3df9": {
+    "title": "Lightweight Transformers for Zero-Shot and Fine-Tuned Text-to-SQL Generation Using Spider",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": "10.48550/arxiv.2508.04623",
+    "url": "https://doi.org/10.48550/arXiv.2508.04623",
+    "venue": "arXiv.org",
+    "year": 2025,
+    "source": "ai",
+    "scores": {
+      "Quantum Computing": 0.9549882411956787,
+      "Quantum Information": 0.7770547795295715,
+      "Photonics": -0.006718508601188666,
+      "Quantum Communication": 0.055096544325351715,
+      "Quantum Light–Matter Interaction": 0.024816857650876045,
+      "Photonic QIP": 0.006818399764597416,
+      "Quantum Simulation": 0.0027013197541236877,
+      "Other": 0.0014254316920414567,
+      "Quantum Nonlinear Optics": 0.0011916222283616662,
+      "Ultrafast Quantum Photonics": 0.0009746927535161376,
+      "Machine Learning": 0.00041142094414681196
+    }
+  },
+  "S2:4e2b4ae61c52b8acbf105161d6b39210185bf597": {
+    "title": "Optimising the power consumption of camera flash using fuzzy logic",
+    "categories": [
+      "Photonic QIP",
+      "Photonics"
+    ],
+    "doi": "10.1063/5.0207310",
+    "url": "https://doi.org/10.1063/5.0207310",
+    "venue": "COMPUTING, NETWORKS, AND RENEWABLE ENERGY",
+    "year": 2024,
+    "source": "ai",
+    "scores": {
+      "Photonic QIP": 0.9777705669403076,
+      "Photonics": 0.8859201598167419,
+      "Quantum Light–Matter Interaction": 0.012997422367334366,
+      "Other": 0.011806893162429333,
+      "Quantum Nonlinear Optics": 0.004966270178556442,
+      "Machine Learning": 0.0027545106131583452,
+      "Quantum Information": -0.06902072385884822,
+      "Quantum Computing": 0.0002991253277286887,
+      "Quantum Simulation": 0.00019536806212272495,
+      "Quantum Communication": 0.00015596835874021053,
+      "Ultrafast Quantum Photonics": 9.009359200717881e-05
+    }
+  },
+  "S2:680b3abc84b588292aebadf5d8aa021501ff89a2": {
+    "title": "memorAIs: an Optical Character Recognition and Rule-Based Medication Intake Reminder-Generating Solution",
+    "categories": [
+      "Machine Learning",
+      "Photonics"
+    ],
+    "doi": "10.48550/arxiv.2312.06841",
+    "url": "https://doi.org/10.48550/arXiv.2312.06841",
+    "venue": "arXiv.org",
+    "year": 2023,
+    "source": "ai",
+    "scores": {
+      "Photonics": 0.9185841608047485,
+      "Machine Learning": 0.9836404919624329,
+      "Quantum Information": 0.03446894913911819,
+      "Photonic QIP": 0.05425368994474411,
+      "Quantum Light–Matter Interaction": 0.05361201986670494,
+      "Quantum Computing": 0.014250613749027252,
+      "Other": 0.006994912866503,
+      "Quantum Communication": 0.003898040857166052,
+      "Quantum Nonlinear Optics": 0.001324665267020464,
+      "Quantum Simulation": 0.0005236832657828927,
+      "Ultrafast Quantum Photonics": 0.00021339375234674662
     }
   },
   "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": {
