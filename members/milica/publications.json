@@ -4,7 +4,7 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1771825120,
+  "updated_at": 1772428659,
   "publications": [
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
@@ -25,12 +25,12 @@
       "paperId": "95f7a3fbf1cbf2e62f2b552c7cbbfd7202715be3",
       "title": "Photon triplets from integrated microrings: A path towards deterministic non-Gaussianity on a chip",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/95f7a3fbf1cbf2e62f2b552c7cbbfd7202715be3",
+      "venue": "Physical Review A",
+      "doi": "10.1103/d675-s2pv",
+      "url": "https://doi.org/10.1103/d675-s2pv",
       "authors": [
         "Samuel E. Fontaine",
-        "J. E. Sipe",
+        "J. Sipe",
         "Marco Liscidini",
         "Milena Banic"
       ],
@@ -66,7 +66,7 @@
         "Samuel E. Fontaine",
         "Colin Vendromin",
         "M. Liscidini",
-        "J. E. Sipe",
+        "J. Sipe",
         "Milena Banic"
       ],
       "oa_pdf": "",

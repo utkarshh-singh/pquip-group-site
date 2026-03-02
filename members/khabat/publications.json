@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1771825106,
+  "updated_at": 1772428648,
   "publications": [
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
@@ -16,7 +16,7 @@
         "A. Keni",
         "Kinjol Barua",
         "Khabat Heshami",
-        "Alisa Javadi",
+        "A. Javadi",
         "H. Alaeian"
       ],
       "oa_pdf": "https://doi.org/10.1364/ome.549582",
@@ -47,10 +47,10 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/2ed78961f71c11966e7078fd8219e0878e27140b",
       "authors": [
-        "Arezoo Afshar",
+        "A. Afshar",
         "Andrew H. Proppe",
         "Noah Lupu-Gladstein",
-        "Lilian Childress",
+        "L. Childress",
         "Aaron Z. Goldberg",
         "Khabat Heshami"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "paperId": "3767c60c93e422ae4ba64c37132c90d3e4b2fa3a",
-      "title": "Investigating the Performance of Adaptive Optics on Different Bases of Spatial Modes in Turbulent Channels",
+      "title": "Investigating the performance of adaptive optics on different bases of spatial modes in turbulent channels.",
       "year": 2025,
       "venue": "Optics Express",
       "doi": "10.1364/oe.582413",
@@ -211,7 +211,7 @@
         "A. Keni",
         "Kinjol Barua",
         "Khabat Heshami",
-        "Alisa Javadi",
+        "A. Javadi",
         "H. Alaeian"
       ],
       "oa_pdf": "",
@@ -297,7 +297,7 @@
       "url": "https://doi.org/10.1364/oe.550931",
       "authors": [
         "Kate L. Fenwick",
-        "Jonathan Baker",
+        "J. Baker",
         "Guillaume Thekkadath",
         "A. Goldberg",
         "Khabat Heshami",
