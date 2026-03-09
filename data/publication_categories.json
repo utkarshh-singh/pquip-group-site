@@ -265,6 +265,16 @@
   "S2:b281a346a3992727a7edf7efbc45be3bbb105b5c": [
     "Quantum Simulation"
   ],
+  "S2:674f29d517f047d2236495ad4ecf83c369802ca4": [
+    "Quantum Computing",
+    "Quantum Information"
+  ],
+  "S2:0512621804cda498febde4012ecf08623412a4fd": [
+    "Other"
+  ],
+  "S2:a351eb5c9791afbf42a8a340b4825cff9ba2725c": [
+    "Quantum Information"
+  ],
   "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": [
     "Photonics",
     "Quantum Information"
@@ -514,6 +524,9 @@
   "S2:c0b91248cb497c2421f8966e4cc682d62c16513d": [
     "Quantum Computing",
     "Photonics"
+  ],
+  "S2:d21eff4560082a5dbb903ece242a95c206d3f9d7": [
+    "Quantum Simulation"
   ],
   "S2:1c119fc58cedc83b6734c4880ad0d6c751b7e8bc": [
     "Other"

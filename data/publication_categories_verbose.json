@@ -1924,6 +1924,79 @@
       "Machine Learning": 9.049216168932617e-05
     }
   },
+  "S2:674f29d517f047d2236495ad4ecf83c369802ca4": {
+    "title": "Quantum sensing and imaging assisted by machine learning",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": "10.1117/12.3089914",
+    "url": "https://doi.org/10.1117/12.3089914",
+    "venue": "Quantum Sensing, Imaging, and Precision Metrology IV",
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Quantum Information": 0.840053014755249,
+      "Quantum Computing": 0.8558225035667419,
+      "Machine Learning": 0.10966607928276062,
+      "Photonics": -0.013400725722312934,
+      "Other": 0.00633162772282958,
+      "Quantum Light–Matter Interaction": 0.005029249936342239,
+      "Quantum Simulation": 0.00191645382437855,
+      "Quantum Communication": 0.0011967861792072654,
+      "Quantum Nonlinear Optics": 9.972944826586172e-05,
+      "Photonic QIP": 7.235445809783414e-05,
+      "Ultrafast Quantum Photonics": 4.6948265662649646e-05
+    }
+  },
+  "S2:0512621804cda498febde4012ecf08623412a4fd": {
+    "title": "Measuring the impossible by ignorance of events",
+    "categories": [
+      "Other"
+    ],
+    "doi": "10.1117/12.3088727",
+    "url": "https://doi.org/10.1117/12.3088727",
+    "venue": "Complex Light and Optical Forces XX",
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Photonics": 0.0050933289527893,
+      "Quantum Information": -0.027902286201715476,
+      "Other": 0.015590464696288109,
+      "Quantum Computing": 0.0017319598700851202,
+      "Quantum Light–Matter Interaction": 0.0014292524429038167,
+      "Quantum Nonlinear Optics": 0.0014069611206650734,
+      "Quantum Simulation": 0.0012128266971558332,
+      "Photonic QIP": 0.000560545246116817,
+      "Quantum Communication": 0.00011927967716474086,
+      "Ultrafast Quantum Photonics": 8.762406650930643e-05,
+      "Machine Learning": 5.792752926936373e-05
+    }
+  },
+  "S2:a351eb5c9791afbf42a8a340b4825cff9ba2725c": {
+    "title": "Measuring impossible parameters with indefinite causal order",
+    "categories": [
+      "Quantum Information"
+    ],
+    "doi": "10.1117/12.3089913",
+    "url": "https://doi.org/10.1117/12.3089913",
+    "venue": "Quantum Sensing, Imaging, and Precision Metrology IV",
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Quantum Information": 0.5021989274024963,
+      "Quantum Computing": 0.10001252591609955,
+      "Quantum Simulation": 0.029103435575962067,
+      "Other": 0.010238122195005417,
+      "Quantum Communication": 0.00856056623160839,
+      "Photonics": -0.06471726594492794,
+      "Quantum Nonlinear Optics": 0.0010050716809928417,
+      "Quantum Light–Matter Interaction": 0.0008816897170618176,
+      "Photonic QIP": 0.00016916637832764536,
+      "Machine Learning": 5.535326636163518e-05,
+      "Ultrafast Quantum Photonics": 4.496974725043401e-05
+    }
+  },
   "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": {
     "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
     "categories": [
@@ -3558,6 +3631,30 @@
       "Other": 0.0010159993544220924,
       "Machine Learning": 0.0003923659969586879,
       "Ultrafast Quantum Photonics": 0.00018390432524029166
+    }
+  },
+  "S2:d21eff4560082a5dbb903ece242a95c206d3f9d7": {
+    "title": "Matrix Product States and Quantum Phase Transitions",
+    "categories": [
+      "Quantum Simulation"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/d21eff4560082a5dbb903ece242a95c206d3f9d7",
+    "venue": null,
+    "year": 2009,
+    "source": "ai",
+    "scores": {
+      "Quantum Simulation": 0.1450740098953247,
+      "Quantum Information": 0.062417321205139153,
+      "Quantum Computing": 0.018697356805205345,
+      "Photonics": -0.06351878603920341,
+      "Quantum Light–Matter Interaction": 0.00264554051682353,
+      "Other": 0.0011990094790235162,
+      "Quantum Nonlinear Optics": 0.000395015231333673,
+      "Quantum Communication": 9.81316770776175e-05,
+      "Ultrafast Quantum Photonics": 5.5846139730419964e-05,
+      "Photonic QIP": 4.991295645595528e-05,
+      "Machine Learning": 3.6903697036905214e-05
     }
   },
   "S2:1c119fc58cedc83b6734c4880ad0d6c751b7e8bc": {
