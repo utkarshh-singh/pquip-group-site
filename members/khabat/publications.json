@@ -3,8 +3,56 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1772428648,
+  "updated_at": 1773033724,
   "publications": [
+    {
+      "paperId": "674f29d517f047d2236495ad4ecf83c369802ca4",
+      "title": "Quantum sensing and imaging assisted by machine learning",
+      "year": 2026,
+      "venue": "Quantum Sensing, Imaging, and Precision Metrology IV",
+      "doi": "10.1117/12.3089914",
+      "url": "https://doi.org/10.1117/12.3089914",
+      "authors": [
+        "K. Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "0512621804cda498febde4012ecf08623412a4fd",
+      "title": "Measuring the impossible by ignorance of events",
+      "year": 2026,
+      "venue": "Complex Light and Optical Forces XX",
+      "doi": "10.1117/12.3088727",
+      "url": "https://doi.org/10.1117/12.3088727",
+      "authors": [
+        "Melvee George",
+        "William Gunn",
+        "Jaden McKinlay",
+        "Aaron Z. Goldberg",
+        "K. Heshami",
+        "M. Rambach",
+        "L. Sánchez-Soto",
+        "A. G. White"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "a351eb5c9791afbf42a8a340b4825cff9ba2725c",
+      "title": "Measuring impossible parameters with indefinite causal order",
+      "year": 2026,
+      "venue": "Quantum Sensing, Imaging, and Precision Metrology IV",
+      "doi": "10.1117/12.3089913",
+      "url": "https://doi.org/10.1117/12.3089913",
+      "authors": [
+        "Aaron Z. Goldberg",
+        "K. Heshami",
+        "L. Sánchez-Soto"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
     {
       "paperId": "bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7",
       "title": "Single-Photon Generation: Materials, Techniques, and the Rydberg Exciton Frontier",
@@ -15,7 +63,7 @@
       "authors": [
         "A. Keni",
         "Kinjol Barua",
-        "Khabat Heshami",
+        "K. Heshami",
         "A. Javadi",
         "H. Alaeian"
       ],
@@ -34,7 +82,7 @@
         "Mohammad Ahmadpoor",
         "Oleksandr Dzhenzherov",
         "Augusto Gerolin",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2512.17809"
@@ -52,7 +100,7 @@
         "Noah Lupu-Gladstein",
         "L. Childress",
         "Aaron Z. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2510.11720"
@@ -69,7 +117,7 @@
         "Lukas Scarfe",
         "Francesco Di Colandrea",
         "A. D’Errico",
-        "Khabat Heshami",
+        "K. Heshami",
         "Ebrahim Karimi"
       ],
       "oa_pdf": "",
@@ -91,7 +139,7 @@
         "P. Bustard",
         "Frédéric Bouchard",
         "Duncan England",
-        "Khabat Heshami",
+        "K. Heshami",
         "Jeff S. Lundeen",
         "Benjamin J. Sussman"
       ],
@@ -110,7 +158,7 @@
         "Rojan Abolhassani",
         "F. Bouchard",
         "Aaron Z. Goldberg",
-        "Khabat Heshami",
+        "K. Heshami",
         "Francesco Di Colandrea",
         "Ebrahim Karimi"
       ],
@@ -130,7 +178,7 @@
         "J. E. Bourassa",
         "C. González-Arciniegas",
         "Rafael N. Alexander",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2504.10606"
@@ -145,7 +193,7 @@
       "authors": [
         "A. Hertz",
         "Noah Lupu-Gladstein",
-        "Khabat Heshami",
+        "K. Heshami",
         "Aaron Z. Goldberg"
       ],
       "oa_pdf": "",
@@ -161,7 +209,7 @@
       "authors": [
         "Valerio Crescimanna",
         "Shang Yu",
-        "Khabat Heshami",
+        "K. Heshami",
         "Raj B. Patel"
       ],
       "oa_pdf": "",
@@ -178,7 +226,7 @@
         "Utkarsh Singh",
         "J. Laprade",
         "Aaron Z. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2507.03689"
@@ -194,7 +242,7 @@
         "F. Kimiaee Asadi",
         "Janish Kumar",
         "Jia-Wei Ji",
-        "Khabat Heshami",
+        "K. Heshami",
         "Christoph Simon"
       ],
       "oa_pdf": "",
@@ -210,7 +258,7 @@
       "authors": [
         "A. Keni",
         "Kinjol Barua",
-        "Khabat Heshami",
+        "K. Heshami",
         "A. Javadi",
         "H. Alaeian"
       ],
@@ -227,7 +275,7 @@
       "authors": [
         "A. Hertz",
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2402.04404",
       "arxivId": "2402.04404"
@@ -245,7 +293,7 @@
         "K. Bonsma-Fisher",
         "Duncan England",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "Benjamin J. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1103/physrevlett.133.090601",
@@ -263,7 +311,7 @@
         "Lukas Scarfe",
         "F. Bouchard",
         "Mario Krenn",
-        "Khabat Heshami",
+        "K. Heshami",
         "Francesco Di Colandrea",
         "Ebrahim Karimi"
       ],
@@ -282,7 +330,7 @@
         "Frédéric Bouchard",
         "Duncan England",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "Benjamin J. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1364/optica.510312",
@@ -300,7 +348,7 @@
         "J. Baker",
         "Guillaume Thekkadath",
         "A. Goldberg",
-        "Khabat Heshami",
+        "K. Heshami",
         "P. Bustard",
         "Duncan England",
         "Frédéric Bouchard",
@@ -320,7 +368,7 @@
         "Jaden McKinlay",
         "M. Rambach",
         "A. Goldberg",
-        "Khabat Heshami",
+        "K. Heshami",
         "Luis Sánchcz-Soto",
         "A. G. White"
       ],
@@ -338,7 +386,7 @@
         "Youssef Kora",
         "Hadi Zadeh-Haghighi",
         "Terrence C. Stewart",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "",
@@ -354,7 +402,7 @@
       "authors": [
         "Noah Lupu-Gladstein",
         "A. Hertz",
-        "Khabat Heshami",
+        "K. Heshami",
         "Aaron Z. Goldberg"
       ],
       "oa_pdf": "",
@@ -370,7 +418,7 @@
       "authors": [
         "Utkarsh Singh",
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
       "arxivId": "2402.00653"
@@ -384,7 +432,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.108.062606",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2308.05699",
       "arxivId": "2308.05699"
@@ -399,7 +447,7 @@
       "authors": [
         "Valerio Crescimanna",
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2311.03432",
       "arxivId": "2311.03432"
@@ -415,7 +463,7 @@
         "Valerio Crescimanna",
         "Jacob M. Taylor",
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2302.07893",
       "arxivId": "2302.07893"
@@ -433,7 +481,7 @@
         "Xiaoqin Gao",
         "F. Bouchard",
         "Anne Broadbent",
-        "Khabat Heshami",
+        "K. Heshami",
         "E. Karimi"
       ],
       "oa_pdf": "",
@@ -449,7 +497,7 @@
       "authors": [
         "Jia-Wei Ji",
         "F. Asadi",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "",
@@ -465,7 +513,7 @@
       "authors": [
         "Jasper Kranias",
         "Guillaume Thekkadath",
-        "Khabat Heshami",
+        "K. Heshami",
         "A. Goldberg"
       ],
       "oa_pdf": "https://doi.org/10.22331/q-2025-02-04-1619",
@@ -481,7 +529,7 @@
       "authors": [
         "F. Bouchard",
         "K. Bonsma-Fisher",
-        "Khabat Heshami",
+        "K. Heshami",
         "P. Bustard",
         "D. England",
         "B. Sussman"
@@ -499,7 +547,7 @@
       "authors": [
         "A. Goldberg",
         "G. Thekkadath",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "http://arxiv.org/pdf/2302.01343",
       "arxivId": "2302.01343"
@@ -518,7 +566,7 @@
         "A. Goldberg",
         "F. Bouchard",
         "E. Karimi",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2023-12-14-1207/pdf/",
       "arxivId": "2302.07888"
@@ -535,7 +583,7 @@
         "Yingwen Zhang",
         "A. D’Errico",
         "Alicia Sit",
-        "Khabat Heshami",
+        "K. Heshami",
         "E. Karimi"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2304.14280",
@@ -553,7 +601,7 @@
         "F. Hufnagel",
         "M. Ferrer-Garcia",
         "A. D’Errico",
-        "Khabat Heshami",
+        "K. Heshami",
         "Ebrahim Karimi"
       ],
       "oa_pdf": "https://doi.org/10.1038/s42005-025-01986-6",
@@ -568,7 +616,7 @@
       "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami",
+        "K. Heshami",
         "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevResearch.5.033198",
@@ -583,7 +631,7 @@
       "url": "https://doi.org/10.1109/PN56061.2022.9908348",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -598,7 +646,7 @@
       "authors": [
         "Jia-Wei Ji",
         "F. Asadi",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "",
@@ -613,7 +661,7 @@
       "url": "https://doi.org/10.1088/1361-6501/acaf12",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1361-6501/acaf12/pdf",
       "arxivId": "2208.12831"
@@ -627,7 +675,7 @@
       "url": "https://doi.org/10.1088/1367-2630/aca21c",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/aca21c/pdf",
       "arxivId": "2208.00011"
@@ -644,7 +692,7 @@
         "Yingwen Zhang",
         "A. D’Errico",
         "F. Hufnagel",
-        "Khabat Heshami",
+        "K. Heshami",
         "E. Karimi"
       ],
       "oa_pdf": "https://doi.org/10.1364/oe.458776",
@@ -660,7 +708,7 @@
       "authors": [
         "A. Goldberg",
         "Aephraim M. Steinberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2023-03-28-963/pdf/",
       "arxivId": "2210.12167"
@@ -676,7 +724,7 @@
         "Xiaoqin Gao",
         "Yingwen Zhang",
         "A. D’Errico",
-        "Khabat Heshami",
+        "K. Heshami",
         "E. Karimi"
       ],
       "oa_pdf": "",
@@ -695,7 +743,7 @@
         "V. Walther",
         "M. Spanner",
         "C. Simon",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2107.02273"
@@ -711,7 +759,7 @@
         "F. Bouchard",
         "D. England",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "B. Sussman"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PRXQuantum.3.010332",
@@ -726,7 +774,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.104.032425",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2106.03862",
       "arxivId": "2106.03862"
@@ -742,7 +790,7 @@
         "Xiaoqin Gao",
         "Yingwen Zhang",
         "A. D’Errico",
-        "Khabat Heshami",
+        "K. Heshami",
         "E. Karimi"
       ],
       "oa_pdf": "https://doi.org/10.1364/oe.456433",
@@ -757,7 +805,7 @@
       "url": "https://doi.org/10.1088/2399-6528/acb414",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/2399-6528/acb414/pdf",
       "arxivId": "2108.08853"
@@ -771,7 +819,7 @@
       "url": "https://www.semanticscholar.org/paper/f6f66a698b3d498980623be7be772a8e247f5aed",
       "authors": [
         "A. Goldberg",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -789,7 +837,7 @@
         "P. Bustard",
         "Kate L. Fenwick",
         "E. Karimi",
-        "Khabat Heshami",
+        "K. Heshami",
         "B. Sussman"
       ],
       "oa_pdf": "http://arxiv.org/pdf/2102.05098",
@@ -808,7 +856,7 @@
         "F. Bouchard",
         "Yingwen Zhang",
         "D. England",
-        "Khabat Heshami",
+        "K. Heshami",
         "B. Sussman",
         "E. Karimi"
       ],
@@ -828,7 +876,7 @@
         "F. Bouchard",
         "Yingwen Zhang",
         "D. England",
-        "Khabat Heshami",
+        "K. Heshami",
         "B. Sussman",
         "E. Karimi"
       ],
@@ -849,7 +897,7 @@
         "Benjamin D. Smith",
         "Logan W. Cooke",
         "L. LeBlanc",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -862,7 +910,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/acde845fbbe418a264d548a04aaab3d60d870ef2",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "Adam Green",
         "Yang Han",
         "Arnaud Rispe",
@@ -887,7 +935,7 @@
         "Alicia Sit",
         "F. Hufnagel",
         "R. Fickler",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Boyd",
         "E. Karimi"
       ],
@@ -907,7 +955,7 @@
         "Kent Bonsma-Fisher",
         "D. England",
         "M. Spanner",
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "1912.05675"
@@ -924,7 +972,7 @@
         "Alicia Sit",
         "Florence Grenapin",
         "F. Bouchard",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. England",
         "Yingwen Zhang",
         "B. Sussman",
@@ -948,7 +996,7 @@
         "F. Hufnagel",
         "Aazad Abbas",
         "Yingwen Zhang",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Fickler",
         "C. Marquardt",
         "G. Leuchs",
@@ -967,7 +1015,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.98.043842",
       "authors": [
         "S. Goswami",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "http://arxiv.org/pdf/1807.04732",
@@ -983,7 +1031,7 @@
       "authors": [
         "F. Bouchard",
         "Alicia Sit",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Fickler",
         "E. Karimi"
       ],
@@ -1003,7 +1051,7 @@
         "Dominik Koutn'y",
         "Aazad Abbas",
         "Alicia Sit",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Fickler",
         "E. Karimi"
       ],
@@ -1023,7 +1071,7 @@
         "F. Hufnagel",
         "Aazad Abbas",
         "Yingwen Zhang",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Fickler",
         "C. Marquardt",
         "G. Leuchs",
@@ -1045,7 +1093,7 @@
         "F. Bouchard",
         "Alicia Sit",
         "F. Hufnagel",
-        "Khabat Heshami",
+        "K. Heshami",
         "R. Boyd",
         "E. Karimi"
       ],
@@ -1061,7 +1109,7 @@
       "url": "https://www.semanticscholar.org/paper/b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad",
       "authors": [
         "F. Bouchard",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. England",
         "R. Fickler",
         "R. Boyd",
@@ -1081,7 +1129,7 @@
       "url": "https://doi.org/10.22331/q-2018-12-04-111",
       "authors": [
         "F. Bouchard",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. England",
         "R. Fickler",
         "R. Boyd",
@@ -1102,7 +1150,7 @@
       "authors": [
         "C. Kupchak",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "J. Erskine",
         "M. Spanner",
         "D. England",
@@ -1123,7 +1171,7 @@
         "D. England",
         "J. Maclean",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "K. Resch",
         "B. Sussman"
       ],
@@ -1139,7 +1187,7 @@
       "url": "https://doi.org/10.1088/1361-6455/aa8d7c",
       "authors": [
         "M. Khazali",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1702.01213",
@@ -1155,7 +1203,7 @@
       "authors": [
         "P. Bustard",
         "D. England",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Kupchak",
         "B. Sussman"
       ],
@@ -1181,7 +1229,7 @@
         "F. Marsili",
         "M. Shaw",
         "S. Nam",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. Oblak",
         "W. Tittel",
         "C. Simon"
@@ -1200,7 +1248,7 @@
         "E. Saglamyurek",
         "Taras Hrushevskyi",
         "Anindya Rastogi",
-        "Khabat Heshami",
+        "K. Heshami",
         "L. LeBlanc"
       ],
       "oa_pdf": "",
@@ -1325,7 +1373,7 @@
         "N. Harshman",
         "M. Hasan",
         "Peter Hawkins",
-        "Khabat Heshami",
+        "K. Heshami",
         "A. Hoffmann",
         "Cheng-Chih Hsu",
         "Hao Hu",
@@ -1384,7 +1432,7 @@
       "authors": [
         "P. Bustard",
         "D. England",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Kupchak",
         "B. Sussman"
       ],
@@ -1400,7 +1448,7 @@
       "url": "https://doi.org/10.1038/ncomms13454",
       "authors": [
         "N. Sinclair",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Deshmukh",
         "D. Oblak",
         "C. Simon",
@@ -1421,7 +1469,7 @@
         "K. Fisher",
         "J. Maclean",
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "K. Resch",
         "B. Sussman"
       ],
@@ -1441,7 +1489,7 @@
         "R. Fickler",
         "J'er'emie Gagnon-Bischoff",
         "H. Larocque",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. Elser",
         "Christian Peuntinger",
         "K. Gunthner",
@@ -1463,7 +1511,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.93.043810",
       "authors": [
         "P. Bustard",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. England",
         "M. Spanner",
         "B. Sussman"
@@ -1479,7 +1527,7 @@
       "doi": "10.1080/09500340.2016.1148212",
       "url": "https://doi.org/10.1080/09500340.2016.1148212",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "D. England",
         "P. Humphreys",
         "P. Bustard",
@@ -1499,7 +1547,7 @@
       "url": "https://www.semanticscholar.org/paper/2567b091f010fc23279bbe00250402291346c6f6",
       "authors": [
         "M. Khazali",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "",
@@ -1514,7 +1562,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.94.032332",
       "authors": [
         "S. Wein",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Fuchs",
         "H. Krovi",
         "Z. Dutton",
@@ -1533,7 +1581,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.91.030301",
       "authors": [
         "M. Khazali",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "http://arxiv.org/pdf/1407.7510",
@@ -1550,7 +1598,7 @@
         "E. Saglamyurek",
         "N. Sinclair",
         "J. Slater",
-        "Khabat Heshami",
+        "K. Heshami",
         "D. Oblak",
         "W. Tittel"
       ],
@@ -1565,7 +1613,7 @@
       "doi": "10.5072/PRISM/28474",
       "url": "https://doi.org/10.5072/PRISM/28474",
       "authors": [
-        "Khabat Heshami"
+        "K. Heshami"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -1578,7 +1626,7 @@
       "doi": "10.1103/PhysRevA.89.040301",
       "url": "https://doi.org/10.1103/PhysRevA.89.040301",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Santori",
         "B. Khanaliloo",
         "C. Healey",
@@ -1598,7 +1646,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.86.013833",
       "authors": [
         "James Clark",
-        "Khabat Heshami",
+        "K. Heshami",
         "C. Simon"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1205.5258",
@@ -1612,7 +1660,7 @@
       "doi": "10.1364/ICQI.2011.QTUA2",
       "url": "https://doi.org/10.1364/ICQI.2011.QTUA2",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "N. Sangouard",
         "J. Minář",
         "H. Riedmatten",
@@ -1631,7 +1679,7 @@
       "authors": [
         "Adam Green",
         "Yang Han",
-        "Khabat Heshami",
+        "K. Heshami",
         "Arnaud Rispe",
         "E. Saglamyurek",
         "N. Sinclair",
@@ -1649,7 +1697,7 @@
       "doi": "10.1103/PhysRevA.86.013813",
       "url": "https://doi.org/10.1103/PhysRevA.86.013813",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "Adam Green",
         "Yang Han",
         "Arnaud Rispe",
@@ -1671,7 +1719,7 @@
       "authors": [
         "Yang Han",
         "B. He",
-        "Khabat Heshami",
+        "K. Heshami",
         "Cheng-zu Li",
         "C. Simon"
       ],
@@ -1686,7 +1734,7 @@
       "doi": "10.1103/PhysRevA.83.032315",
       "url": "https://doi.org/10.1103/PhysRevA.83.032315",
       "authors": [
-        "Khabat Heshami",
+        "K. Heshami",
         "N. Sangouard",
         "J. Minář",
         "H. Riedmatten",
@@ -1694,6 +1742,20 @@
       ],
       "oa_pdf": "https://access.archive-ouverte.unige.ch/access/metadata/02cc8ec3-eef9-40ab-9fd5-354fc59b1456/download",
       "arxivId": "1012.0544"
+    },
+    {
+      "paperId": "d21eff4560082a5dbb903ece242a95c206d3f9d7",
+      "title": "Matrix Product States and Quantum Phase Transitions",
+      "year": 2009,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/d21eff4560082a5dbb903ece242a95c206d3f9d7",
+      "authors": [
+        "K. Heshami",
+        "S. Raeisi"
+      ],
+      "oa_pdf": "",
+      "arxivId": "0909.2928"
     },
     {
       "paperId": "1c119fc58cedc83b6734c4880ad0d6c751b7e8bc",
@@ -1705,7 +1767,7 @@
       "authors": [
         "K. Saaidi",
         "Ebrahim Karimi",
-        "Khabat Heshami",
+        "K. Heshami",
         "P. Seifpanahi"
       ],
       "oa_pdf": "",
