@@ -4097,6 +4097,30 @@
       "Photonics": -0.0699776834029035
     }
   },
+  "S2:b09f7d2c7ac660d4bdd5d316ef76842c24657761": {
+    "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
+    "categories": [
+      "Machine Learning"
+    ],
+    "doi": "10.1109/iciss67859.2026.11453643",
+    "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
+    "venue": "International Conferences on Information Science and System",
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Machine Learning": 0.11996962875127792,
+      "Other": 0.0026035825721919537,
+      "Quantum Information": -0.06950011022156105,
+      "Quantum Computing": 0.0004334609257057309,
+      "Photonics": -0.06991590530407849,
+      "Quantum Light–Matter Interaction": 7.472798461094499e-05,
+      "Quantum Nonlinear Optics": 5.4126889153849334e-05,
+      "Quantum Communication": 4.957128476235084e-05,
+      "Ultrafast Quantum Photonics": 4.4324464397504926e-05,
+      "Quantum Simulation": 2.7711954317055643e-05,
+      "Photonic QIP": 2.7013806175091304e-05
+    }
+  },
   "S2:e57c311c8f1e9c6c5b59da96250a3ff6672a3df9": {
     "title": "Lightweight Transformers for Zero-Shot and Fine-Tuned Text-to-SQL Generation Using Spider",
     "categories": [
