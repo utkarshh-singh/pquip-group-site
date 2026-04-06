@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1774850699,
+  "updated_at": 1775455517,
   "items": [
     {
       "type": "publication",
@@ -29,6 +29,16 @@
       "year": 2026,
       "url": "https://doi.org/10.1117/12.3089913",
       "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
+      "year": 2026,
+      "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
+      "image": "https://figures.semanticscholar.org/b09f7d2c7ac660d4bdd5d316ef76842c24657761/500px/3-Figure1-1.png",
       "tags": [
         "Publication"
       ]

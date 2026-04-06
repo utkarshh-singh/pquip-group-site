@@ -3,8 +3,25 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1774850577,
+  "updated_at": 1775455399,
   "publications": [
+    {
+      "paperId": "b09f7d2c7ac660d4bdd5d316ef76842c24657761",
+      "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
+      "year": 2026,
+      "venue": "International Conferences on Information Science and System",
+      "doi": "10.1109/ICISS67859.2026.11453643",
+      "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
+      "authors": [
+        "H. K. Susheelamma",
+        "R. Salai",
+        "Utkarsh Singh",
+        "Udaybhaskar Konagalla",
+        "H. T. Shabareesh"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
     {
       "paperId": "e57c311c8f1e9c6c5b59da96250a3ff6672a3df9",
       "title": "Lightweight Transformers for Zero-Shot and Fine-Tuned Text-to-SQL Generation Using Spider",
