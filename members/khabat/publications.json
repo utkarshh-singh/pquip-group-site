@@ -3,8 +3,24 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1775455388,
+  "updated_at": 1776061321,
   "publications": [
+    {
+      "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
+      "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
+      "year": 2026,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/577c05499c45f337a5e4a42b5098bbababafe412",
+      "authors": [
+        "Utkarsh Singh",
+        "Aaron Z. Goldberg",
+        "Christoph Simon",
+        "K. Heshami"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2604.03469"
+    },
     {
       "paperId": "674f29d517f047d2236495ad4ecf83c369802ca4",
       "title": "Quantum sensing and imaging assisted by machine learning",
@@ -1271,7 +1287,7 @@
         "M. Alexanian",
         "K. Alici",
         "T. Allsop",
-        "Ramon Alvarez-Estrada",
+        "R. Álvarez-Estrada",
         "T. Amemiya",
         "C. Ancuti",
         "Benjamin O. Anderson",
