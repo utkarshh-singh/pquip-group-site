@@ -1924,6 +1924,31 @@
       "Machine Learning": 9.049216168932617e-05
     }
   },
+  "S2:577c05499c45f337a5e4a42b5098bbababafe412": {
+    "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
+    "categories": [
+      "Quantum Computing",
+      "Quantum Information"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/577c05499c45f337a5e4a42b5098bbababafe412",
+    "venue": null,
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Quantum Computing": 0.9833109378814697,
+      "Quantum Information": 0.9125676679611205,
+      "Machine Learning": 0.8259750008583069,
+      "Photonics": 0.7052105593681335,
+      "Quantum Communication": 0.01789403147995472,
+      "Quantum Simulation": 0.010495899245142937,
+      "Quantum Light–Matter Interaction": 0.0016270860796794295,
+      "Quantum Nonlinear Optics": 0.001299024559557438,
+      "Other": 0.001280080759897828,
+      "Photonic QIP": 0.00015708192950114608,
+      "Ultrafast Quantum Photonics": 7.245781307574362e-05
+    }
+  },
   "S2:674f29d517f047d2236495ad4ecf83c369802ca4": {
     "title": "Quantum sensing and imaging assisted by machine learning",
     "categories": [
