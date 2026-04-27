@@ -4122,6 +4122,30 @@
       "Photonics": -0.0699776834029035
     }
   },
+  "S2:ee5be586c7a08e235e340da35675b27c7bb54e60": {
+    "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+    "categories": [
+      "Machine Learning"
+    ],
+    "doi": null,
+    "url": "https://www.semanticscholar.org/paper/ee5be586c7a08e235e340da35675b27c7bb54e60",
+    "venue": null,
+    "year": 2026,
+    "source": "ai",
+    "scores": {
+      "Machine Learning": 0.009104514494538307,
+      "Other": 0.001724062254652381,
+      "Quantum Communication": 0.00023159415286500007,
+      "Quantum Light–Matter Interaction": 0.00021055329125374556,
+      "Photonic QIP": 0.00012844089360442013,
+      "Quantum Information": -0.06987594818230719,
+      "Quantum Computing": 8.338901534443721e-05,
+      "Photonics": -0.06992801243206487,
+      "Ultrafast Quantum Photonics": 7.178053783718497e-05,
+      "Quantum Nonlinear Optics": 6.945875065866858e-05,
+      "Quantum Simulation": 4.8412221076432616e-05
+    }
+  },
   "S2:b09f7d2c7ac660d4bdd5d316ef76842c24657761": {
     "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
     "categories": [
