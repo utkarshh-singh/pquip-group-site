@@ -3,8 +3,33 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1776666156,
+  "updated_at": 1777271710,
   "publications": [
+    {
+      "paperId": "ee5be586c7a08e235e340da35675b27c7bb54e60",
+      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+      "year": 2026,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/ee5be586c7a08e235e340da35675b27c7bb54e60",
+      "authors": [
+        "Kaushal Bhogale",
+        "Manas Dhir",
+        "Amritansh Walecha",
+        "Manmeet Kaur",
+        "Vansh Chhabra",
+        "Aaditya Pareek",
+        "Hanuman Sidh",
+        "Sagar Jain",
+        "Bhaskar Singh",
+        "Utkarsh Singh",
+        "Tahir Javed",
+        "Shobhit Banga",
+        "Mitesh M. Khapra"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2604.19151"
+    },
     {
       "paperId": "b09f7d2c7ac660d4bdd5d316ef76842c24657761",
       "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",

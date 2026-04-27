@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1776666272,
+  "updated_at": 1777271828,
   "items": [
     {
       "type": "publication",
@@ -39,6 +39,16 @@
       "year": 2026,
       "url": "https://doi.org/10.1117/12.3089913",
       "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/ee5be586c7a08e235e340da35675b27c7bb54e60",
+      "image": "https://figures.semanticscholar.org/ee5be586c7a08e235e340da35675b27c7bb54e60/500px/1-Figure1-1.png",
       "tags": [
         "Publication"
       ]
