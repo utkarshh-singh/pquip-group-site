@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1780306285,
+  "updated_at": 1780909147,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -105,11 +105,11 @@
     },
     {
       "paperId": "2ed78961f71c11966e7078fd8219e0878e27140b",
-      "title": "Magnetometry with Broadband Microwave Fields in Nitrogen-Vacancy Centers in Diamond",
+      "title": "Magnetometry with broadband microwave fields in nitrogen-vacancy centers in diamond",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/2ed78961f71c11966e7078fd8219e0878e27140b",
+      "venue": "Physical Review A",
+      "doi": "10.1103/dzyt-xj8m",
+      "url": "https://doi.org/10.1103/dzyt-xj8m",
       "authors": [
         "A. Afshar",
         "Andrew H. Proppe",
