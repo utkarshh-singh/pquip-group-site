@@ -3,15 +3,15 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1781519314,
+  "updated_at": 1782121878,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
       "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
       "year": 2026,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/577c05499c45f337a5e4a42b5098bbababafe412",
+      "venue": "arXiv.org",
+      "doi": "10.48550/arXiv.2604.03469",
+      "url": "https://doi.org/10.48550/arXiv.2604.03469",
       "authors": [
         "Utkarsh Singh",
         "Aaron Z. Goldberg",
