@@ -1930,23 +1930,23 @@
       "Quantum Computing",
       "Quantum Information"
     ],
-    "doi": null,
-    "url": "https://www.semanticscholar.org/paper/577c05499c45f337a5e4a42b5098bbababafe412",
-    "venue": null,
+    "doi": "10.48550/arxiv.2604.03469",
+    "url": "https://doi.org/10.48550/arXiv.2604.03469",
+    "venue": "arXiv.org",
     "year": 2026,
     "source": "ai",
     "scores": {
-      "Quantum Computing": 0.9833109378814697,
-      "Quantum Information": 0.9125676679611205,
-      "Machine Learning": 0.8259750008583069,
-      "Photonics": 0.7052105593681335,
-      "Quantum Communication": 0.01789403147995472,
-      "Quantum Simulation": 0.010495899245142937,
-      "Quantum Light–Matter Interaction": 0.0016270860796794295,
-      "Quantum Nonlinear Optics": 0.001299024559557438,
-      "Other": 0.001280080759897828,
-      "Photonic QIP": 0.00015708192950114608,
-      "Ultrafast Quantum Photonics": 7.245781307574362e-05
+      "Quantum Computing": 0.9989388585090637,
+      "Quantum Information": 0.9213041591644286,
+      "Photonics": 0.8453131246566772,
+      "Quantum Communication": 0.0055994256399571896,
+      "Quantum Simulation": 0.0037990803830325603,
+      "Other": 0.002618539845570922,
+      "Quantum Light–Matter Interaction": 0.0014521098928526044,
+      "Machine Learning": 0.0009803067659959197,
+      "Quantum Nonlinear Optics": 0.0008404710097238421,
+      "Photonic QIP": 7.938141789054498e-05,
+      "Ultrafast Quantum Photonics": 7.347879727603868e-05
     }
   },
   "S2:674f29d517f047d2236495ad4ecf83c369802ca4": {
@@ -4127,23 +4127,23 @@
     "categories": [
       "Machine Learning"
     ],
-    "doi": null,
-    "url": "https://www.semanticscholar.org/paper/ee5be586c7a08e235e340da35675b27c7bb54e60",
-    "venue": null,
+    "doi": "10.48550/arxiv.2604.19151",
+    "url": "https://doi.org/10.48550/arXiv.2604.19151",
+    "venue": "arXiv.org",
     "year": 2026,
     "source": "ai",
     "scores": {
-      "Machine Learning": 0.009104514494538307,
-      "Other": 0.001724062254652381,
-      "Quantum Communication": 0.00023159415286500007,
-      "Quantum Light–Matter Interaction": 0.00021055329125374556,
-      "Photonic QIP": 0.00012844089360442013,
-      "Quantum Information": -0.06987594818230719,
-      "Quantum Computing": 8.338901534443721e-05,
-      "Photonics": -0.06992801243206487,
-      "Ultrafast Quantum Photonics": 7.178053783718497e-05,
-      "Quantum Nonlinear Optics": 6.945875065866858e-05,
-      "Quantum Simulation": 4.8412221076432616e-05
+      "Machine Learning": 0.10760731250047684,
+      "Quantum Information": -0.04913251444697381,
+      "Quantum Communication": 0.009485917165875435,
+      "Other": 0.003802401712164283,
+      "Photonics": -0.06858363147359342,
+      "Quantum Light–Matter Interaction": 0.0012305882992222905,
+      "Quantum Computing": 0.0011260139290243387,
+      "Quantum Simulation": 0.00018279437790624797,
+      "Photonic QIP": 0.00011775603343266994,
+      "Ultrafast Quantum Photonics": 0.00011510337935760617,
+      "Quantum Nonlinear Optics": 9.584808140061796e-05
     }
   },
   "S2:b09f7d2c7ac660d4bdd5d316ef76842c24657761": {
