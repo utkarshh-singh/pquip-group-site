@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1782122017,
+  "updated_at": 1782723907,
   "items": [
     {
       "type": "publication",
@@ -9,6 +9,16 @@
       "year": 2026,
       "url": "https://doi.org/10.48550/arXiv.2604.19151",
       "image": "https://figures.semanticscholar.org/ee5be586c7a08e235e340da35675b27c7bb54e60/500px/1-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/f08be1645d24906265d8cb805b58b03ab4fa9dbf",
+      "image": "https://figures.semanticscholar.org/f08be1645d24906265d8cb805b58b03ab4fa9dbf/500px/1-Figure1-1.png",
       "tags": [
         "Publication"
       ]

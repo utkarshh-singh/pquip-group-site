@@ -3,7 +3,7 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1782121889,
+  "updated_at": 1782723779,
   "publications": [
     {
       "paperId": "ee5be586c7a08e235e340da35675b27c7bb54e60",
@@ -13,7 +13,7 @@
       "doi": "10.48550/arXiv.2604.19151",
       "url": "https://doi.org/10.48550/arXiv.2604.19151",
       "authors": [
-        "Kaushal Bhogale",
+        "K. Bhogale",
         "Manas Dhir",
         "Amritansh Walecha",
         "Manmeet Kaur",
@@ -29,6 +29,23 @@
       ],
       "oa_pdf": "",
       "arxivId": "2604.19151"
+    },
+    {
+      "paperId": "f08be1645d24906265d8cb805b58b03ab4fa9dbf",
+      "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
+      "year": 2026,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/f08be1645d24906265d8cb805b58b03ab4fa9dbf",
+      "authors": [
+        "Sathvik Napa",
+        "Utkarsh Singh",
+        "Cheng Xue",
+        "Miriam Wanner",
+        "W. Walden"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2606.22085"
     },
     {
       "paperId": "b09f7d2c7ac660d4bdd5d316ef76842c24657761",
