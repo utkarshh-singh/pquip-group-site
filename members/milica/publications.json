@@ -4,7 +4,7 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1782723778,
+  "updated_at": 1783326413,
   "publications": [
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
@@ -18,7 +18,7 @@
         "Milena Banic",
         "Nicolás Quesada"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1088/2058-9565/ae0759",
       "arxivId": "2506.15810"
     },
     {
@@ -34,7 +34,7 @@
         "Marco Liscidini",
         "Milena Banic"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2510.07658",
       "arxivId": "2510.07658"
     },
     {
@@ -84,7 +84,7 @@
         "J. Sipe",
         "M. Liscidini"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1103/physrevresearch.7.013060",
       "arxivId": "2409.04250"
     },
     {
@@ -273,7 +273,7 @@
         "Milena Banic",
         "Antonina Pereira"
       ],
-      "oa_pdf": "https://eprints.chi.ac.uk//id/eprint/5126/1/Associations%20between%20Performance-based%20and%20Self-reported%20PM.pdf",
+      "oa_pdf": "http://gala.gre.ac.uk/id/eprint/27652/",
       "arxivId": null
     },
     {

@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1782723766,
+  "updated_at": 1783326408,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -136,7 +136,7 @@
         "K. Heshami",
         "Ebrahim Karimi"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1364/oe.582413",
       "arxivId": "2508.21015"
     },
     {
@@ -178,7 +178,7 @@
         "Francesco Di Colandrea",
         "Ebrahim Karimi"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://www.nature.com/articles/s42005-025-02376-8.pdf",
       "arxivId": "2504.03893"
     },
     {
@@ -228,7 +228,7 @@
         "K. Heshami",
         "Raj B. Patel"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1103/jhkz-84dz",
       "arxivId": "2502.14967"
     },
     {
@@ -331,7 +331,7 @@
         "Francesco Di Colandrea",
         "Ebrahim Karimi"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1364/oe.546606",
       "arxivId": "2406.14768"
     },
     {
@@ -370,7 +370,7 @@
         "Frédéric Bouchard",
         "Benjamin J. Sussman"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1364/oe.550931",
       "arxivId": "2409.11483"
     },
     {
@@ -1034,7 +1034,7 @@
         "K. Heshami",
         "C. Simon"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/1807.04732",
+      "oa_pdf": "https://arxiv.org/pdf/1807.04732",
       "arxivId": "1807.04732"
     },
     {
@@ -1172,7 +1172,7 @@
         "D. England",
         "B. Sussman"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/1708.07145",
+      "oa_pdf": "https://arxiv.org/pdf/1708.07145",
       "arxivId": "1708.07145"
     },
     {
@@ -1191,7 +1191,7 @@
         "K. Resch",
         "B. Sussman"
       ],
-      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/fulltext/?id=a7783d7a-5b35-421d-8f24-e30c41eeacbb",
+      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevA.96.012324",
       "arxivId": "1706.05978"
     },
     {
@@ -1267,7 +1267,7 @@
         "K. Heshami",
         "L. LeBlanc"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/1710.08902",
       "arxivId": "1710.08902"
     },
     {
@@ -1532,7 +1532,7 @@
         "M. Spanner",
         "B. Sussman"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/1508.01729",
+      "oa_pdf": "https://arxiv.org/pdf/1508.01729",
       "arxivId": "1508.01729"
     },
     {
@@ -1585,7 +1585,7 @@
         "W. Tittel",
         "C. Simon"
       ],
-      "oa_pdf": "https://link.aps.org/accepted/10.1103/PhysRevA.94.032332",
+      "oa_pdf": "https://arxiv.org/pdf/1509.00088",
       "arxivId": "1509.00088"
     },
     {
@@ -1600,7 +1600,7 @@
         "K. Heshami",
         "C. Simon"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/1407.7510",
+      "oa_pdf": "https://arxiv.org/pdf/1407.7510",
       "arxivId": "1407.7510"
     },
     {
@@ -1756,7 +1756,7 @@
         "H. Riedmatten",
         "C. Simon"
       ],
-      "oa_pdf": "https://access.archive-ouverte.unige.ch/access/metadata/02cc8ec3-eef9-40ab-9fd5-354fc59b1456/download",
+      "oa_pdf": "https://arxiv.org/pdf/1012.0544",
       "arxivId": "1012.0544"
     },
     {

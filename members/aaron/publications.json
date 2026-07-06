@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1782723772,
+  "updated_at": 1783326411,
   "publications": [
     {
       "paperId": "252960fab5b8c5cc22d84a883e16243639d2e71f",
@@ -38,7 +38,7 @@
         "Frédéric Bouchard",
         "Benjamin J. Sussman"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1364/oe.550931",
       "arxivId": "2409.11483"
     },
     {
@@ -291,7 +291,7 @@
         "'Angel S. Sanz",
         "L. S'anchez-Soto"
       ],
-      "oa_pdf": "https://docta.ucm.es/bitstreams/523f0991-b313-4e11-94e1-e0af7d1ef626/download",
+      "oa_pdf": "https://arxiv.org/pdf/2108.05976",
       "arxivId": "2108.05976"
     },
     {
@@ -320,7 +320,7 @@
       "authors": [
         "A. Goldberg"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/2112.08376",
+      "oa_pdf": "https://arxiv.org/pdf/2112.08376",
       "arxivId": "2112.08376"
     },
     {
@@ -367,7 +367,7 @@
         "G. Agarwal",
         "Luis L. S'anchez-Soto"
       ],
-      "oa_pdf": "https://doi.org/10.1364/ol.443053",
+      "oa_pdf": "https://arxiv.org/pdf/2109.04474",
       "arxivId": "2109.04474"
     },
     {
@@ -460,7 +460,7 @@
         "Aephraim M. Steinberg",
         "N. Spagnolo"
       ],
-      "oa_pdf": "https://iris.uniroma1.it/bitstream/11573/1478767/1/Goldberg_Multiphase%20estimation_2020.pdf",
+      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevA.102.022230",
       "arxivId": "2006.13230"
     },
     {
@@ -477,7 +477,7 @@
         "G. Leuchs",
         "L. S'anchez-Soto"
       ],
-      "oa_pdf": "https://avs.scitation.org/doi/pdf/10.1116/5.0025819",
+      "oa_pdf": "https://doi.org/10.1116/5.0025819",
       "arxivId": "2010.04732"
     },
     {
