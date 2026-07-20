@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1783927737,
+  "updated_at": 1784530467,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -58,8 +58,8 @@
       "title": "Entanglement, loss, and quantumness: When balanced beam splitters are best",
       "year": 2024,
       "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b",
+      "doi": "10.1103/lhxk-v564",
+      "url": "https://doi.org/10.1103/lhxk-v564",
       "authors": [
         "Noah Lupu-Gladstein",
         "A. Hertz",

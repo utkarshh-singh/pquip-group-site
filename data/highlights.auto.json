@@ -1,38 +1,8 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1783927856,
+  "updated_at": 1784530604,
   "items": [
-    {
-      "type": "publication",
-      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
-      "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2604.19151",
-      "image": "https://figures.semanticscholar.org/ee5be586c7a08e235e340da35675b27c7bb54e60/500px/1-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
-      "year": 2026,
-      "url": "https://www.semanticscholar.org/paper/f08be1645d24906265d8cb805b58b03ab4fa9dbf",
-      "image": "https://figures.semanticscholar.org/f08be1645d24906265d8cb805b58b03ab4fa9dbf/500px/1-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
-      "year": 2026,
-      "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
-      "image": "https://figures.semanticscholar.org/b09f7d2c7ac660d4bdd5d316ef76842c24657761/500px/3-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
     {
       "type": "publication",
       "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
@@ -69,6 +39,56 @@
       "year": 2026,
       "url": "https://doi.org/10.1117/12.3089913",
       "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Summoning Non-Gaussianity with Squeezed Vacuum",
+      "year": 2026,
+      "url": "https://doi.org/10.1364/cleo_fs.2026.ftu2c.4",
+      "image": "https://opg.optica.org/images/optica_general_thumbnail.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Quantum-Enhanced Frequency Conversion in Microrings: Which State is Best?",
+      "year": 2026,
+      "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
+      "image": "https://opg.optica.org/images/optica_general_thumbnail.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
+      "year": 2026,
+      "url": "https://doi.org/10.48550/arXiv.2604.19151",
+      "image": "https://figures.semanticscholar.org/ee5be586c7a08e235e340da35675b27c7bb54e60/500px/1-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/f08be1645d24906265d8cb805b58b03ab4fa9dbf",
+      "image": "https://figures.semanticscholar.org/f08be1645d24906265d8cb805b58b03ab4fa9dbf/500px/1-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
+      "year": 2026,
+      "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
+      "image": "https://figures.semanticscholar.org/b09f7d2c7ac660d4bdd5d316ef76842c24657761/500px/3-Figure1-1.png",
       "tags": [
         "Publication"
       ]

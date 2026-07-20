@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1783927735,
+  "updated_at": 1784530463,
   "publications": [
     {
       "paperId": "252960fab5b8c5cc22d84a883e16243639d2e71f",
@@ -71,7 +71,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
+      "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s42484-024-00222-8.pdf",
       "arxivId": "2402.00653"
     },
     {
@@ -153,7 +153,7 @@
         "K. Heshami",
         "A. Goldberg"
       ],
-      "oa_pdf": "https://doi.org/10.22331/q-2025-02-04-1619",
+      "oa_pdf": "https://quantum-journal.org/papers/q-2025-02-04-1619/pdf/",
       "arxivId": "2311.14172"
     },
     {

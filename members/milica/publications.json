@@ -4,8 +4,41 @@
     "2355424096",
     "119617483"
   ],
-  "updated_at": 1783927739,
+  "updated_at": 1784530470,
   "publications": [
+    {
+      "paperId": "4fcd1a3db474b3e9b9c629d29aa8722a6bfb3d3b",
+      "title": "Summoning Non-Gaussianity with Squeezed Vacuum",
+      "year": 2026,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2026.ftu2c.4",
+      "url": "https://doi.org/10.1364/cleo_fs.2026.ftu2c.4",
+      "authors": [
+        "Colin Vendromin",
+        "S. Fontaine",
+        "Milena Banic",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "af54e3cab0331f97a0515b333eacbb202d73b4c1",
+      "title": "Quantum-Enhanced Frequency Conversion in Microrings: Which State is Best?",
+      "year": 2026,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "doi": "10.1364/cleo_fs.2026.fm3g.5",
+      "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
+      "authors": [
+        "S. Fontaine",
+        "Colin Vendromin",
+        "M. Liscidini",
+        "Milena Banic",
+        "J. Sipe"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
     {
       "paperId": "639cf4cefa09659ebcec16ce5fec1ce963a15a4c",
       "title": "Strategies for generating separable photon triplets in waveguides and ring resonators",
@@ -29,9 +62,9 @@
       "doi": "10.1103/d675-s2pv",
       "url": "https://doi.org/10.1103/d675-s2pv",
       "authors": [
-        "Samuel E. Fontaine",
+        "S. Fontaine",
         "J. Sipe",
-        "Marco Liscidini",
+        "M. Liscidini",
         "Milena Banic"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2510.07658",
@@ -63,7 +96,7 @@
       "doi": "10.1364/cleo_fs.2025.ff143_4",
       "url": "https://doi.org/10.1364/cleo_fs.2025.ff143_4",
       "authors": [
-        "Samuel E. Fontaine",
+        "S. Fontaine",
         "Colin Vendromin",
         "M. Liscidini",
         "J. Sipe",

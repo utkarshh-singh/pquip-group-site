@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1783927731,
+  "updated_at": 1784530457,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -118,7 +118,7 @@
         "Aaron Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2510.11720",
       "arxivId": "2510.11720"
     },
     {
@@ -413,8 +413,8 @@
       "title": "Entanglement, loss, and quantumness: When balanced beam splitters are best",
       "year": 2024,
       "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/e74a3fdecd2c5b30fb916b57fb72d7721b3c1f9b",
+      "doi": "10.1103/lhxk-v564",
+      "url": "https://doi.org/10.1103/lhxk-v564",
       "authors": [
         "Noah Lupu-Gladstein",
         "A. Hertz",
@@ -436,7 +436,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://doi.org/10.1007/s42484-024-00222-8",
+      "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s42484-024-00222-8.pdf",
       "arxivId": "2402.00653"
     },
     {
@@ -532,7 +532,7 @@
         "K. Heshami",
         "A. Goldberg"
       ],
-      "oa_pdf": "https://doi.org/10.22331/q-2025-02-04-1619",
+      "oa_pdf": "https://quantum-journal.org/papers/q-2025-02-04-1619/pdf/",
       "arxivId": "2311.14172"
     },
     {
@@ -620,7 +620,7 @@
         "K. Heshami",
         "Ebrahim Karimi"
       ],
-      "oa_pdf": "https://doi.org/10.1038/s42005-025-01986-6",
+      "oa_pdf": "https://www.nature.com/articles/s42005-025-01986-6.pdf",
       "arxivId": "2311.13041"
     },
     {
@@ -1294,7 +1294,7 @@
         "A. Ankiewicz",
         "Ç. Arpali",
         "T. J. Arruda",
-        "Yalçın Ata",
+        "Yalçin Ata",
         "Dane Austin",
         "L. Avaldi",
         "A. Bahabad",
