@@ -3,8 +3,45 @@
   "author_ids": [
     "31269320"
   ],
-  "updated_at": 1784530473,
+  "updated_at": 1785137978,
   "publications": [
+    {
+      "paperId": "0a3db07ae12cef477f66bda89467302b819861cd",
+      "title": "A Heterogeneous SoC for Bluetooth LE in 28nm",
+      "year": 2023,
+      "venue": "IEEE Hot Chips Symposium",
+      "doi": "10.1109/HCS59251.2023.10254696",
+      "url": "https://doi.org/10.1109/HCS59251.2023.10254696",
+      "authors": [
+        "Felicia B. Guo",
+        "Nayiri Krzysztofowicz",
+        "Alex Moreno",
+        "Jeffrey Ni",
+        "Daniel Lovell",
+        "Yufeng Chi",
+        "Kareem Ahmad",
+        "S. Afshar",
+        "J. Alexander",
+        "Dylan Brater",
+        "Cheng Cao",
+        "Daniel Fan",
+        "Ryan Lund",
+        "John Paddock",
+        "Griffin Prechter",
+        "Troy Sheldon",
+        "Shreesha Sreedhara",
+        "Anson Tsai",
+        "Eric Wu",
+        "Kangdi Yu",
+        "Daniel Fritchman",
+        "Aviral Pandey",
+        "A. Niknejad",
+        "K. Pister",
+        "B. Nikolić"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
     {
       "paperId": "99e8fb3c5e37245c3b69a67a558ce6d2d47b5b8e",
       "title": "Performance Enhancement and Restoration of Micromechanical Resonators Via UV-Ozone Treatment",
