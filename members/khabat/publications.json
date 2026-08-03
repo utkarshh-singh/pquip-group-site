@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1785137962,
+  "updated_at": 1785742518,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -203,16 +203,16 @@
       "paperId": "70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
       "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
       "year": 2025,
-      "venue": "",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "venue": "Quantum Studies: Mathematics and Foundations",
+      "doi": "10.1007/s40509-026-00402-0",
+      "url": "https://doi.org/10.1007/s40509-026-00402-0",
       "authors": [
         "A. Hertz",
         "Noah Lupu-Gladstein",
         "K. Heshami",
         "Aaron Z. Goldberg"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://doi.org/10.1007/s40509-026-00402-0",
       "arxivId": "2501.02047"
     },
     {
@@ -290,7 +290,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.110.012408",
       "authors": [
         "A. Hertz",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2402.04404",
@@ -363,7 +363,7 @@
         "Kate L. Fenwick",
         "J. Baker",
         "Guillaume Thekkadath",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami",
         "P. Bustard",
         "Duncan England",
@@ -383,7 +383,7 @@
       "authors": [
         "Jaden McKinlay",
         "M. Rambach",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami",
         "Luis Sánchcz-Soto",
         "A. G. White"
@@ -433,7 +433,7 @@
       "url": "https://doi.org/10.1007/s42484-024-00222-8",
       "authors": [
         "Utkarsh Singh",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s42484-024-00222-8.pdf",
@@ -447,10 +447,10 @@
       "doi": "10.1103/PhysRevA.108.062606",
       "url": "https://doi.org/10.1103/PhysRevA.108.062606",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://arxiv.org/pdf/2308.05699",
+      "oa_pdf": "",
       "arxivId": "2308.05699"
     },
     {
@@ -462,10 +462,10 @@
       "url": "https://doi.org/10.1103/PhysRevA.109.023717",
       "authors": [
         "Valerio Crescimanna",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
+      "oa_pdf": "",
       "arxivId": "2311.03432"
     },
     {
@@ -478,7 +478,7 @@
       "authors": [
         "Valerio Crescimanna",
         "Jacob M. Taylor",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2302.07893",
@@ -530,7 +530,7 @@
         "Jasper Kranias",
         "Guillaume Thekkadath",
         "K. Heshami",
-        "A. Goldberg"
+        "A. Z. Goldberg"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2025-02-04-1619/pdf/",
       "arxivId": "2311.14172"
@@ -550,7 +550,7 @@
         "D. England",
         "B. Sussman"
       ],
-      "oa_pdf": "https://arxiv.org/pdf/2302.03045",
+      "oa_pdf": "",
       "arxivId": "2302.03045"
     },
     {
@@ -561,11 +561,11 @@
       "doi": "10.1103/PhysRevA.107.042610",
       "url": "https://doi.org/10.1103/PhysRevA.107.042610",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "G. Thekkadath",
         "K. Heshami"
       ],
-      "oa_pdf": "http://arxiv.org/pdf/2302.01343",
+      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/ft/?id=4e8ccd4a-0b6c-4f1f-8d70-369f20f3a34b",
       "arxivId": "2302.01343"
     },
     {
@@ -579,7 +579,7 @@
         "Mikka Stasiuk",
         "F. Hufnagel",
         "Xiaoqin Gao",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "F. Bouchard",
         "E. Karimi",
         "K. Heshami"
@@ -631,7 +631,7 @@
       "doi": "10.1103/PhysRevResearch.5.033198",
       "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami",
         "L. Sánchez-Soto"
       ],
@@ -646,7 +646,7 @@
       "doi": "10.1109/PN56061.2022.9908348",
       "url": "https://doi.org/10.1109/PN56061.2022.9908348",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -676,7 +676,7 @@
       "doi": "10.1088/1361-6501/acaf12",
       "url": "https://doi.org/10.1088/1361-6501/acaf12",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1361-6501/acaf12/pdf",
@@ -690,7 +690,7 @@
       "doi": "10.1088/1367-2630/aca21c",
       "url": "https://doi.org/10.1088/1367-2630/aca21c",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/aca21c/pdf",
@@ -722,7 +722,7 @@
       "doi": "10.22331/q-2023-03-28-963",
       "url": "https://doi.org/10.22331/q-2023-03-28-963",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "Aephraim M. Steinberg",
         "K. Heshami"
       ],
@@ -789,7 +789,7 @@
       "doi": "10.1103/PhysRevA.104.032425",
       "url": "https://doi.org/10.1103/PhysRevA.104.032425",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2106.03862",
@@ -820,7 +820,7 @@
       "doi": "10.1088/2399-6528/acb414",
       "url": "https://doi.org/10.1088/2399-6528/acb414",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/2399-6528/acb414/pdf",
@@ -834,7 +834,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/f6f66a698b3d498980623be7be772a8e247f5aed",
       "authors": [
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -1223,7 +1223,7 @@
         "C. Kupchak",
         "B. Sussman"
       ],
-      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/fulltext/?id=5c58da97-8d2e-46da-8691-a84781ad9848",
+      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevA.95.053816",
       "arxivId": null
     },
     {
@@ -1328,7 +1328,7 @@
         "K. Busch",
         "R. Butté",
         "H. Cable",
-        "Y. Cai",
+        "Yangjian Cai",
         "C. Canavesi",
         "Jie Cao",
         "J. Capmany",

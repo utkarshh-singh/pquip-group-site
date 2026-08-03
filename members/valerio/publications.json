@@ -3,7 +3,7 @@
   "author_ids": [
     "2206148195"
   ],
-  "updated_at": 1785137977,
+  "updated_at": 1785742519,
   "publications": [
     {
       "paperId": "5ba81020cb60f312f23dfcd0ee0f44baf5e21229",
@@ -70,10 +70,10 @@
       "url": "https://doi.org/10.1103/PhysRevA.109.023717",
       "authors": [
         "Valerio Crescimanna",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
+      "oa_pdf": "",
       "arxivId": "2311.03432"
     },
     {
@@ -86,7 +86,7 @@
       "authors": [
         "Valerio Crescimanna",
         "Jacob M. Taylor",
-        "A. Goldberg",
+        "A. Z. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2302.07893",
