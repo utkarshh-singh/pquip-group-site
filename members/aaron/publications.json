@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1786942254,
+  "updated_at": 1787547175,
   "publications": [
     {
       "paperId": "7442ed920387b9e3b4e07b2c750c358e886d2c11",
@@ -398,7 +398,7 @@
         "A. Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://iopscience.iop.org/article/10.1088/2399-6528/acb414/pdf",
+      "oa_pdf": "https://doi.org/10.1088/2399-6528/acb414",
       "arxivId": "2108.08853"
     },
     {
@@ -535,7 +535,7 @@
       "authors": [
         "A. Z. Goldberg"
       ],
-      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevResearch.2.023038",
+      "oa_pdf": "https://doi.org/10.1103/physrevresearch.2.023038",
       "arxivId": "1912.01614"
     },
     {

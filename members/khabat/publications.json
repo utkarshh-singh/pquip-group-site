@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1786942248,
+  "updated_at": 1787547169,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -620,7 +620,7 @@
         "K. Heshami",
         "Ebrahim Karimi"
       ],
-      "oa_pdf": "https://www.nature.com/articles/s42005-025-01986-6.pdf",
+      "oa_pdf": "https://doi.org/10.1038/s42005-025-01986-6",
       "arxivId": "2311.13041"
     },
     {
@@ -823,7 +823,7 @@
         "A. Z. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "https://iopscience.iop.org/article/10.1088/2399-6528/acb414/pdf",
+      "oa_pdf": "https://doi.org/10.1088/2399-6528/acb414",
       "arxivId": "2108.08853"
     },
     {
