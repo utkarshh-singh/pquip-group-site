@@ -660,6 +660,31 @@
       "Machine Learning": 8.276158769149333e-05
     }
   },
+  "S2:a3b4a18cd6bc09c0718a0a6cd3604c62fd301d59": {
+    "title": "Rotation sensing at the ultimate limit",
+    "categories": [
+      "Photonics",
+      "Quantum Information"
+    ],
+    "doi": "10.1088/2515-7647/abeb54",
+    "url": "https://doi.org/10.1088/2515-7647/abeb54",
+    "venue": "Journal of Physics: Photonics",
+    "year": 2020,
+    "source": "ai",
+    "scores": {
+      "Photonics": 0.9199888038635253,
+      "Quantum Information": 0.7524753141403198,
+      "Quantum Communication": 0.30926114320755005,
+      "Quantum Computing": 0.07111900299787521,
+      "Quantum Light–Matter Interaction": 0.019867083057761192,
+      "Photonic QIP": 0.01443308126181364,
+      "Quantum Simulation": 0.00884170550853014,
+      "Quantum Nonlinear Optics": 0.0038998613599687815,
+      "Other": 0.002163547556847334,
+      "Ultrafast Quantum Photonics": 0.0007527175475843251,
+      "Machine Learning": 8.844255353324115e-05
+    }
+  },
   "S2:a91f93faf3f2d2f5c5c0e892b7f0af363d4c2f50": {
     "title": "Quantum-Enhanced Rotation Sensing",
     "categories": [
