@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1788173091,
+  "updated_at": 1788772383,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -47,7 +47,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.110.012408",
       "authors": [
         "A. Hertz",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2402.04404",
@@ -153,7 +153,7 @@
       "authors": [
         "A. Hertz",
         "N. Cerf",
-        "S. Bievre"
+        "Stephan de Bièvre"
       ],
       "oa_pdf": "",
       "arxivId": null

@@ -1,8 +1,28 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1788173222,
+  "updated_at": 1788772508,
   "items": [
+    {
+      "type": "publication",
+      "title": "Summoning Non-Gaussianity with Squeezed Vacuum",
+      "year": 2026,
+      "url": "https://doi.org/10.1364/cleo_fs.2026.ftu2c.4",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Quantum-Enhanced Frequency Conversion in Microrings: Which State is Best?",
+      "year": 2026,
+      "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
     {
       "type": "publication",
       "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
@@ -45,36 +65,6 @@
     },
     {
       "type": "publication",
-      "title": "Summoning Non-Gaussianity with Squeezed Vacuum",
-      "year": 2026,
-      "url": "https://doi.org/10.1364/cleo_fs.2026.ftu2c.4",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Quantum-Enhanced Frequency Conversion in Microrings: Which State is Best?",
-      "year": 2026,
-      "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Spin-coherent quantum designs",
-      "year": 2026,
-      "url": "https://www.semanticscholar.org/paper/7442ed920387b9e3b4e07b2c750c358e886d2c11",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
       "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
       "year": 2026,
       "url": "https://doi.org/10.48550/arXiv.2604.19151",
@@ -99,6 +89,16 @@
       "year": 2026,
       "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
       "image": "https://figures.semanticscholar.org/b09f7d2c7ac660d4bdd5d316ef76842c24657761/500px/3-Figure1-1.png",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Spin-coherent quantum designs",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/7442ed920387b9e3b4e07b2c750c358e886d2c11",
+      "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
       ]

@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1788173086,
+  "updated_at": 1788772379,
   "publications": [
     {
       "paperId": "7442ed920387b9e3b4e07b2c750c358e886d2c11",
@@ -14,9 +14,9 @@
       "url": "https://www.semanticscholar.org/paper/7442ed920387b9e3b4e07b2c750c358e886d2c11",
       "authors": [
         "Marcin Rudzinski",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "A. B. Klimov",
-        "Luis L. Sánchez-Soto",
+        "L. Sánchez-Soto",
         "Karol Życzkowski"
       ],
       "oa_pdf": "",
@@ -31,7 +31,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.110.012408",
       "authors": [
         "A. Hertz",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2402.04404",
@@ -48,7 +48,7 @@
         "Kate L. Fenwick",
         "J. Baker",
         "Guillaume Thekkadath",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami",
         "P. Bustard",
         "Duncan England",
@@ -68,9 +68,9 @@
       "authors": [
         "Jaden McKinlay",
         "M. Rambach",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami",
-        "Luis Sánchcz-Soto",
+        "L. Sánchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -85,7 +85,7 @@
       "url": "https://doi.org/10.1007/s42484-024-00222-8",
       "authors": [
         "Utkarsh Singh",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s42484-024-00222-8.pdf",
@@ -99,7 +99,7 @@
       "doi": "10.1103/PhysRevA.108.062606",
       "url": "https://doi.org/10.1103/PhysRevA.108.062606",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -114,14 +114,14 @@
       "url": "https://doi.org/10.1103/PhysRevApplied.20.024052",
       "authors": [
         "M. Eriksson",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "M. Hiekkamäki",
         "F. Bouchard",
         "J. Řeháček",
         "Z. Hradil",
         "G. Leuchs",
         "R. Fickler",
-        "L. Sánchez‐Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevApplied.20.024052",
       "arxivId": "2301.10265"
@@ -135,7 +135,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.109.023717",
       "authors": [
         "Valerio Crescimanna",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -151,7 +151,7 @@
       "authors": [
         "Valerio Crescimanna",
         "Jacob M. Taylor",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2302.07893",
@@ -168,7 +168,7 @@
         "Jasper Kranias",
         "Guillaume Thekkadath",
         "K. Heshami",
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2025-02-04-1619/pdf/",
       "arxivId": "2311.14172"
@@ -181,7 +181,7 @@
       "doi": "10.1103/PhysRevA.107.042610",
       "url": "https://doi.org/10.1103/PhysRevA.107.042610",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "G. Thekkadath",
         "K. Heshami"
       ],
@@ -199,7 +199,7 @@
         "Mikka Stasiuk",
         "F. Hufnagel",
         "Xiaoqin Gao",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "F. Bouchard",
         "E. Karimi",
         "K. Heshami"
@@ -215,7 +215,7 @@
       "doi": "10.1103/PhysRevResearch.5.033198",
       "url": "https://doi.org/10.1103/PhysRevResearch.5.033198",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami",
         "L. Sánchez-Soto"
       ],
@@ -231,8 +231,8 @@
       "url": "https://doi.org/10.1364/OL.485451",
       "authors": [
         "I. Gianani",
-        "L. Sánchez‐Soto",
-        "A. Z. Goldberg",
+        "L. Sánchez-Soto",
+        "A. Goldberg",
         "M. Barbieri"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2301.08123",
@@ -246,7 +246,7 @@
       "doi": "10.1109/PN56061.2022.9908348",
       "url": "https://doi.org/10.1109/PN56061.2022.9908348",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -260,7 +260,7 @@
       "doi": "10.1088/1361-6501/acaf12",
       "url": "https://doi.org/10.1088/1361-6501/acaf12",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1361-6501/acaf12/pdf",
@@ -274,7 +274,7 @@
       "doi": "10.1088/1367-2630/aca21c",
       "url": "https://doi.org/10.1088/1367-2630/aca21c",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/aca21c/pdf",
@@ -288,7 +288,7 @@
       "doi": "10.22331/q-2023-03-28-963",
       "url": "https://doi.org/10.22331/q-2023-03-28-963",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Aephraim M. Steinberg",
         "K. Heshami"
       ],
@@ -303,10 +303,10 @@
       "doi": "10.1142/S0219749921400049",
       "url": "https://doi.org/10.1142/S0219749921400049",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "J. Romero",
-        "'Angel S. Sanz",
-        "Luis L. Sánchez-Soto"
+        "Á. S. Sanz",
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2108.05976",
       "arxivId": "2108.05976"
@@ -319,10 +319,10 @@
       "doi": "10.1103/PhysRevA.105.022433",
       "url": "https://doi.org/10.1103/PhysRevA.105.022433",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "M. Grassl",
         "G. Leuchs",
-        "Luis L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevA.105.022433",
       "arxivId": "2110.11361"
@@ -335,7 +335,7 @@
       "doi": "10.1016/bs.po.2022.01.001",
       "url": "https://doi.org/10.1016/bs.po.2022.01.001",
       "authors": [
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2112.08376",
       "arxivId": "2112.08376"
@@ -348,8 +348,8 @@
       "doi": "10.1103/PhysRevLett.127.110501",
       "url": "https://doi.org/10.1103/PhysRevLett.127.110501",
       "authors": [
-        "A. Z. Goldberg",
-        "Luis L. Sánchez-Soto",
+        "A. Goldberg",
+        "L. Sánchez-Soto",
         "H. Ferretti"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevLett.127.110501",
@@ -363,7 +363,7 @@
       "doi": "10.1103/PhysRevA.104.032425",
       "url": "https://doi.org/10.1103/PhysRevA.104.032425",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2106.03862",
@@ -377,12 +377,12 @@
       "doi": "10.1364/OL.443053",
       "url": "https://doi.org/10.1364/OL.443053",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "A. Klimov",
-        "Hubert deGuise",
+        "Hubet de Guise",
         "G. Leuchs",
         "G. Agarwal",
-        "Luis L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2109.04474",
       "arxivId": "2109.04474"
@@ -395,7 +395,7 @@
       "doi": "10.1088/2399-6528/acb414",
       "url": "https://doi.org/10.1088/2399-6528/acb414",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "https://doi.org/10.1088/2399-6528/acb414",
@@ -409,7 +409,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/f6f66a698b3d498980623be7be772a8e247f5aed",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "K. Heshami"
       ],
       "oa_pdf": "",
@@ -423,11 +423,27 @@
       "doi": "10.1103/PRXQUANTUM.1.020306",
       "url": "https://doi.org/10.1103/PRXQUANTUM.1.020306",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Aephraim M. Steinberg"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PRXQuantum.1.020306",
       "arxivId": "2008.07540"
+    },
+    {
+      "paperId": "a3b4a18cd6bc09c0718a0a6cd3604c62fd301d59",
+      "title": "Rotation sensing at the ultimate limit",
+      "year": 2020,
+      "venue": "Journal of Physics: Photonics",
+      "doi": "10.1088/2515-7647/abeb54",
+      "url": "https://doi.org/10.1088/2515-7647/abeb54",
+      "authors": [
+        "A. Goldberg",
+        "A. B. Klimov",
+        "G. Leuchs",
+        "L. Sánchez-Soto"
+      ],
+      "oa_pdf": "https://iopscience.iop.org/article/10.1088/2515-7647/abeb54/pdf",
+      "arxivId": "2012.00590"
     },
     {
       "paperId": "a91f93faf3f2d2f5c5c0e892b7f0af363d4c2f50",
@@ -437,7 +453,7 @@
       "doi": "10.1364/quantum.2020.qth7a.2",
       "url": "https://doi.org/10.1364/quantum.2020.qth7a.2",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "",
@@ -451,13 +467,13 @@
       "doi": "10.1364/aop.404175",
       "url": "https://doi.org/10.1364/aop.404175",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "P. de la Hoz",
         "G. Björk",
         "A. Klimov",
         "M. Grassl",
         "G. Leuchs",
-        "L. Sánchez‐Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2011.03979",
       "arxivId": "2011.03979"
@@ -470,7 +486,7 @@
       "doi": "10.1103/physreva.102.022230",
       "url": "https://doi.org/10.1103/physreva.102.022230",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "I. Gianani",
         "M. Barbieri",
         "F. Sciarrino",
@@ -488,11 +504,11 @@
       "doi": "10.1116/5.0025819",
       "url": "https://doi.org/10.1116/5.0025819",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "A. Klimov",
         "M. Grassl",
         "G. Leuchs",
-        "Luis L. Sánchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://doi.org/10.1116/5.0025819",
       "arxivId": "2010.04732"
@@ -505,7 +521,7 @@
       "doi": "10.1109/PN50013.2020.9167029",
       "url": "https://doi.org/10.1109/PN50013.2020.9167029",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Aephraim M. Steinberg"
       ],
       "oa_pdf": "",
@@ -519,7 +535,7 @@
       "doi": "10.1364/QIM.2019.T5A.30",
       "url": "https://doi.org/10.1364/QIM.2019.T5A.30",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "",
@@ -533,7 +549,7 @@
       "doi": "10.1103/PhysRevResearch.2.023038",
       "url": "https://doi.org/10.1103/PhysRevResearch.2.023038",
       "authors": [
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "https://doi.org/10.1103/physrevresearch.2.023038",
       "arxivId": "1912.01614"
@@ -548,7 +564,7 @@
       "authors": [
         "Jesse C. Cresswell",
         "I. Tzitrin",
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -562,7 +578,7 @@
       "url": "https://doi.org/10.1088/1751-8121/ab6fc9",
       "authors": [
         "I. Tzitrin",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Jesse C. Cresswell"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1751-8121/ab6fc9/pdf",
@@ -576,7 +592,7 @@
       "doi": "10.1103/PhysRevA.100.042332",
       "url": "https://doi.org/10.1103/PhysRevA.100.042332",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1909.01354",
@@ -590,7 +606,7 @@
       "doi": "10.1364/cqo.2019.w6a.15",
       "url": "https://doi.org/10.1364/cqo.2019.w6a.15",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Jesse C. Cresswell",
         "I. Tzitrin"
       ],
@@ -606,7 +622,7 @@
       "url": "https://www.semanticscholar.org/paper/86dacb281173c42578878b80c918126eeba9f43d",
       "authors": [
         "Hudson Pimenta",
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Josiah Sinclair",
         "Kent Bonsma-Fisher"
       ],
@@ -621,7 +637,7 @@
       "doi": "10.1103/PhysRevA.98.032113",
       "url": "https://doi.org/10.1103/PhysRevA.98.032113",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1806.02355",
@@ -637,7 +653,7 @@
       "authors": [
         "Jesse C. Cresswell",
         "I. Tzitrin",
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1809.07772",
       "arxivId": "1809.07772"
@@ -650,7 +666,7 @@
       "doi": "10.1364/CLEO_QELS.2018.FTU4A.3",
       "url": "https://doi.org/10.1364/CLEO_QELS.2018.FTU4A.3",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "",
@@ -664,7 +680,7 @@
       "doi": "10.1103/PhysRevA.96.053859",
       "url": "https://doi.org/10.1103/PhysRevA.96.053859",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1710.06869",
@@ -678,7 +694,7 @@
       "doi": "10.1088/1751-8121/aad7c6",
       "url": "https://doi.org/10.1088/1751-8121/aad7c6",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "D. James"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1751-8121/aad7c6/pdf",
@@ -692,7 +708,7 @@
       "doi": "10.1103/PhysRevA.100.063628",
       "url": "https://doi.org/10.1103/PhysRevA.100.063628",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "Asma Al-Qasimi",
         "Duncan O'Dell"
       ],
@@ -707,7 +723,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/945b845b327caa9f6d616f76c6ce9d9e8c403cfd",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "E. Jacquet",
         "J. Owen"
       ],
@@ -722,7 +738,7 @@
       "doi": "10.1093/MNRAS/STV1610",
       "url": "https://doi.org/10.1093/MNRAS/STV1610",
       "authors": [
-        "A. Z. Goldberg",
+        "A. Goldberg",
         "J. Owen",
         "E. Jacquet"
       ],
@@ -737,7 +753,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/31a6b9f5b4129970c1cd4671830dabadcd8385ac",
       "authors": [
-        "A. Z. Goldberg"
+        "A. Goldberg"
       ],
       "oa_pdf": "",
       "arxivId": null
