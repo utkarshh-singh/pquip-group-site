@@ -1,7 +1,7 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1788772508,
+  "updated_at": 1789379108,
   "items": [
     {
       "type": "publication",
@@ -19,76 +19,6 @@
       "year": 2026,
       "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
       "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
-      "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2604.03469",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Quantum sensing and imaging assisted by machine learning",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3089914",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Measuring the impossible by ignorance of events",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3088727",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Measuring impossible parameters with indefinite causal order",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3089913",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
-      "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2604.19151",
-      "image": "https://figures.semanticscholar.org/ee5be586c7a08e235e340da35675b27c7bb54e60/500px/1-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
-      "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2606.22085",
-      "image": "https://figures.semanticscholar.org/f08be1645d24906265d8cb805b58b03ab4fa9dbf/500px/1-Figure1-1.png",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Automatic Publication Summarization using a BERT-based Natural Language Processing Model",
-      "year": 2026,
-      "url": "https://doi.org/10.1109/ICISS67859.2026.11453643",
-      "image": "https://figures.semanticscholar.org/b09f7d2c7ac660d4bdd5d316ef76842c24657761/500px/3-Figure1-1.png",
       "tags": [
         "Publication"
       ]

@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1788772379,
+  "updated_at": 1789379085,
   "publications": [
     {
       "paperId": "7442ed920387b9e3b4e07b2c750c358e886d2c11",
@@ -104,27 +104,6 @@
       ],
       "oa_pdf": "",
       "arxivId": "2308.05699"
-    },
-    {
-      "paperId": "fc93fec0a8f569d68ae68b4d474f98fef9de8be4",
-      "title": "Sensing Rotations with Multiplane Light Conversion",
-      "year": 2023,
-      "venue": "Physical Review Applied",
-      "doi": "10.1103/PhysRevApplied.20.024052",
-      "url": "https://doi.org/10.1103/PhysRevApplied.20.024052",
-      "authors": [
-        "M. Eriksson",
-        "A. Goldberg",
-        "M. Hiekkamäki",
-        "F. Bouchard",
-        "J. Řeháček",
-        "Z. Hradil",
-        "G. Leuchs",
-        "R. Fickler",
-        "L. Sánchez-Soto"
-      ],
-      "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevApplied.20.024052",
-      "arxivId": "2301.10265"
     },
     {
       "paperId": "c0f86c3adc93b8aadcd025b746034761da9f0c0e",
@@ -239,6 +218,22 @@
       "arxivId": "2301.08123"
     },
     {
+      "paperId": "cf6a1c5e46cd58c8a637fb5e513e484bb84e00f0",
+      "title": "Covariant operator bases for continuous variables",
+      "year": 2023,
+      "venue": "Quantum",
+      "doi": "10.22331/q-2024-05-29-1363",
+      "url": "https://doi.org/10.22331/q-2024-05-29-1363",
+      "authors": [
+        "A. Goldberg",
+        "A. B. Klimov",
+        "Gerd Leuchs",
+        "Luis L. Sánchez-Soto"
+      ],
+      "oa_pdf": "https://doi.org/10.22331/q-2024-05-29-1363",
+      "arxivId": "2309.10042"
+    },
+    {
       "paperId": "228195f3dc47e014df4088ac6387880be88529f5",
       "title": "Purification at the ultimate limit using quantum superpositions of causal order",
       "year": 2022,
@@ -249,7 +244,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/accepted/?id=02ef4fa1-bdb5-4c72-bdec-73743104bb65",
       "arxivId": null
     },
     {
@@ -454,7 +449,7 @@
       "url": "https://doi.org/10.1364/quantum.2020.qth7a.2",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -468,7 +463,7 @@
       "url": "https://doi.org/10.1364/aop.404175",
       "authors": [
         "A. Goldberg",
-        "P. de la Hoz",
+        "Pablo de la Hoz",
         "G. Björk",
         "A. Klimov",
         "M. Grassl",
@@ -536,7 +531,7 @@
       "url": "https://doi.org/10.1364/QIM.2019.T5A.30",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -593,7 +588,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.100.042332",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1909.01354",
       "arxivId": "1909.01354"
@@ -638,7 +633,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.98.032113",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1806.02355",
       "arxivId": "1806.02355"
@@ -667,7 +662,7 @@
       "url": "https://doi.org/10.1364/CLEO_QELS.2018.FTU4A.3",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -681,7 +676,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.96.053859",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1710.06869",
       "arxivId": "1710.06869"
@@ -695,7 +690,7 @@
       "url": "https://doi.org/10.1088/1751-8121/aad7c6",
       "authors": [
         "A. Goldberg",
-        "D. James"
+        "D. F. James"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1751-8121/aad7c6/pdf",
       "arxivId": "1712.05425"
@@ -710,7 +705,8 @@
       "authors": [
         "A. Goldberg",
         "Asma Al-Qasimi",
-        "Duncan O'Dell"
+        "J. Mumford",
+        "D. O'Dell"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1609.05602",
       "arxivId": "1609.05602"

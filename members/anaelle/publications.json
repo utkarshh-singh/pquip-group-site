@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1788772383,
+  "updated_at": 1789379089,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -23,7 +23,7 @@
       "arxivId": "2512.17809"
     },
     {
-      "paperId": "70b9076e7e72c3326ca4a8d7bbf74d9e2e390064",
+      "paperId": "3d66b805e3f8e2cd27345d98cefb00c338234cce",
       "title": "Equalities and inequalities from entanglement, loss, and beam splitters",
       "year": 2025,
       "venue": "Quantum Studies: Mathematics and Foundations",
@@ -79,7 +79,7 @@
       "authors": [
         "N. Cerf",
         "A. Hertz",
-        "Z. Van Herstraeten"
+        "Zacharie Van Herstraeten"
       ],
       "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s40509-024-00325-8.pdf",
       "arxivId": "2310.19296"
@@ -93,7 +93,7 @@
       "url": "https://www.semanticscholar.org/paper/1e0c12a460b1389e4836e8d1932aee9af82d7010",
       "authors": [
         "A. Hertz",
-        "S. Bievre"
+        "S. De Bièvre"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -111,6 +111,21 @@
       ],
       "oa_pdf": "http://arxiv.org/pdf/2204.06358",
       "arxivId": "2204.06358"
+    },
+    {
+      "paperId": "9a92913e803e3777673bf9395c96b136c4186b78",
+      "title": "Using Graph Theory to Derive Inequalities for the Bell Numbers",
+      "year": 2021,
+      "venue": "arXiv.org",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/9a92913e803e3777673bf9395c96b136c4186b78",
+      "authors": [
+        "Alain Hertz",
+        "A. Hertz",
+        "Hadrien M'elot"
+      ],
+      "oa_pdf": "",
+      "arxivId": "2104.00552"
     },
     {
       "paperId": "5ab41d3892402e25eb4f41a195cbb276565c5ba9",
@@ -153,7 +168,7 @@
       "authors": [
         "A. Hertz",
         "N. Cerf",
-        "Stephan de Bièvre"
+        "S. De Bièvre"
       ],
       "oa_pdf": "",
       "arxivId": null
