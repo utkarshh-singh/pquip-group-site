@@ -21,9 +21,6 @@
     "Quantum Information",
     "Quantum Communication"
   ],
-  "S2:fc93fec0a8f569d68ae68b4d474f98fef9de8be4": [
-    "Photonics"
-  ],
   "S2:c0f86c3adc93b8aadcd025b746034761da9f0c0e": [
     "Photonic QIP",
     "Quantum Light–Matter Interaction"
@@ -47,6 +44,9 @@
   ],
   "S2:e45232fe7b80cdef5491fdf00b68fdca73ebef61": [
     "Photonics"
+  ],
+  "S2:cf6a1c5e46cd58c8a637fb5e513e484bb84e00f0": [
+    "Quantum Computing"
   ],
   "S2:228195f3dc47e014df4088ac6387880be88529f5": [
     "Photonics",
@@ -171,7 +171,7 @@
   "S2:66bb404e76ffdf93703357725440ffa6ef1c9564": [
     "Quantum Information"
   ],
-  "S2:70b9076e7e72c3326ca4a8d7bbf74d9e2e390064": [
+  "S2:3d66b805e3f8e2cd27345d98cefb00c338234cce": [
     "Photonics",
     "Quantum Information"
   ],
@@ -188,6 +188,9 @@
   "S2:6e5a22b2bd9f6d6edf053f5e12307b8248bf3768": [
     "Quantum Light–Matter Interaction",
     "Photonics"
+  ],
+  "S2:9a92913e803e3777673bf9395c96b136c4186b78": [
+    "Other"
   ],
   "S2:5ab41d3892402e25eb4f41a195cbb276565c5ba9": [
     "Quantum Information"
@@ -275,276 +278,6 @@
   "S2:b281a346a3992727a7edf7efbc45be3bbb105b5c": [
     "Quantum Simulation"
   ],
-  "S2:577c05499c45f337a5e4a42b5098bbababafe412": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:674f29d517f047d2236495ad4ecf83c369802ca4": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:0512621804cda498febde4012ecf08623412a4fd": [
-    "Other"
-  ],
-  "S2:a351eb5c9791afbf42a8a340b4825cff9ba2725c": [
-    "Quantum Information"
-  ],
-  "S2:bbe1708e96877d5ba0ea2dcacf81d9455e4d96f7": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:2ed78961f71c11966e7078fd8219e0878e27140b": [
-    "Photonics"
-  ],
-  "S2:3767c60c93e422ae4ba64c37132c90d3e4b2fa3a": [
-    "Photonics"
-  ],
-  "S2:90960bbd5128c51ce9efcbb3c715ccd26f272ca2": [
-    "Quantum Computing",
-    "Photonics"
-  ],
-  "S2:00449496834477f23047f996e64ec897235c9392": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": [
-    "Quantum Simulation"
-  ],
-  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": [
-    "Quantum Information"
-  ],
-  "S2:cd6397ab56ef76cf6c96480f1ead2829c698d128": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:c65e0b763d12ea43ea749f49dbfbc73782e00171": [
-    "Quantum Information"
-  ],
-  "S2:f655fa3db7c9e222b952453a3575d282f988f4e2": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:c304372dafccc7c2484ff027f474c1271cef3bcd": [
-    "Photonic QIP",
-    "Quantum Computing"
-  ],
-  "S2:10a2b7af8968f61a9a8c8dae1bf1bf62f528cc4a": [
-    "Quantum Communication",
-    "Quantum Computing"
-  ],
-  "S2:612de1bdc3991717a6431e78c522357f65d653cd": [
-    "Ultrafast Quantum Photonics",
-    "Photonic QIP"
-  ],
-  "S2:070ebe2703358512e24b87d4a3fde0ca14b6655e": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:61386abda2829d0434e192479bac6a62c98e921e": [
-    "Quantum Computing",
-    "Photonic QIP"
-  ],
-  "S2:7049c5f04505874004bc9ae28514f2c5fc63dcf8": [
-    "Quantum Information"
-  ],
-  "S2:0d7c422e8c6a22c5f608666534052086aa1581bf": [
-    "Quantum Information",
-    "Ultrafast Quantum Photonics"
-  ],
-  "S2:c7eac9d5c99cb67cc9e2aa39d499d4f96d584841": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:52b69cfc496854e8b9b6d977aa11c47c33c77816": [
-    "Quantum Communication",
-    "Quantum Light–Matter Interaction"
-  ],
-  "S2:ddd3fe18d202fa55ad33a30a3e1ae1e99aa5ed3e": [
-    "Quantum Computing",
-    "Photonics"
-  ],
-  "S2:3223e0dec5be43c45d722fc833612e50a5826130": [
-    "Quantum Light–Matter Interaction",
-    "Quantum Simulation"
-  ],
-  "S2:771a64fa183d1a7f02994ac440144dc66f7780f6": [
-    "Quantum Information"
-  ],
-  "S2:bfabf30dcf8805985ea5a4140f910327743fab77": [
-    "Quantum Simulation",
-    "Photonics"
-  ],
-  "S2:151e402a80cf2d3a69880b03a44ab91b77140224": [
-    "Quantum Communication",
-    "Quantum Computing"
-  ],
-  "S2:2d111d7f85c72706d970de867116bec6540bc000": [
-    "Photonics"
-  ],
-  "S2:fdc41bbdf9c0dd9621c3fd822db37f43d017e558": [
-    "Quantum Communication",
-    "Quantum Computing"
-  ],
-  "S2:a963aae5c58357299633f90b3c619ca3f0cfe569": [
-    "Quantum Communication",
-    "Photonics"
-  ],
-  "S2:93fc69d9840a3292c4aba25773e37b0d5378defe": [
-    "Photonic QIP",
-    "Quantum Light–Matter Interaction"
-  ],
-  "S2:69215d6306b15c84d85512e24f631e8746a09514": [
-    "Quantum Information",
-    "Photonics"
-  ],
-  "S2:acde845fbbe418a264d548a04aaab3d60d870ef2": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:4b265db8da4b7bd136d27f0eaf5d716312e77a62": [
-    "Quantum Computing",
-    "Photonic QIP"
-  ],
-  "S2:d478bfcdd0a8868da4b17a23bec5c3b780baf8f9": [
-    "Quantum Simulation"
-  ],
-  "S2:1a19b50b2244f7246af30528c9718c9ee9f243e4": [
-    "Quantum Communication",
-    "Photonics"
-  ],
-  "S2:14d5168972f44e5cc5d6369b3b15d231243e059e": [
-    "Quantum Computing",
-    "Quantum Simulation"
-  ],
-  "S2:2cc9dcb98de67d6351a64d8e5bee8de360ade65e": [
-    "Photonic QIP",
-    "Quantum Light–Matter Interaction"
-  ],
-  "S2:8f97a520af6bef2c71b26366a466807d1b8ea11a": [
-    "Photonic QIP",
-    "Photonics"
-  ],
-  "S2:fb9058561c24fb85998bd2de8924e8b64eb9cda1": [
-    "Quantum Communication",
-    "Quantum Simulation"
-  ],
-  "S2:ee26c444fc2b73051f01e7b77d69c2f3b16efd05": [
-    "Quantum Computing",
-    "Photonic QIP"
-  ],
-  "S2:2626bf075a876e33f5f4edf063be10e909367648": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:b77ec4e975b9c6c0f281d2d05a9fad5026d0f9ad": [
-    "Photonics",
-    "Photonic QIP"
-  ],
-  "S2:22746591e7935acc8236a2220827187f9568e592": [
-    "Photonics",
-    "Photonic QIP"
-  ],
-  "S2:79b9f3947826206fdad2173e2b44d75b68a7ce70": [
-    "Ultrafast Quantum Photonics",
-    "Photonics"
-  ],
-  "S2:b0716f11947d2255a340ecf21a8dde4c4c8f80ed": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:0fd84f85a0c442b405b95eb3e33fdc7369526b6a": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:a54ba50840917239765d8a3b7c67868030fc7550": [
-    "Quantum Computing",
-    "Photonics"
-  ],
-  "S2:9bad869896047f37cab031407d65f9193f905157": [
-    "Quantum Communication"
-  ],
-  "S2:5a321882638a071d125743e0ebba131cdeab660d": [
-    "Quantum Light–Matter Interaction",
-    "Photonics"
-  ],
-  "S2:6935b263fed1f58fe41c7aab68401bc3f0589ea8": [
-    "Photonic QIP"
-  ],
-  "S2:bbf2dce29fdd42aee2e5502baa88b98a54b08586": [
-    "Photonics",
-    "Quantum Information"
-  ],
-  "S2:cfb6fada2309ae3c75ba5416f059d47c742b306c": [
-    "Photonic QIP",
-    "Quantum Computing"
-  ],
-  "S2:60a5a5aa21339fab2d9fce899af0a0ac21d886a3": [
-    "Quantum Information"
-  ],
-  "S2:b2a17ad9e887322839240885f7cf5f15d089fed2": [
-    "Quantum Computing",
-    "Quantum Communication"
-  ],
-  "S2:0848767e0ed427002b8aefa2c740ec40a509f54b": [
-    "Photonics"
-  ],
-  "S2:90fd89764dc76e971a1e5dee59c2aa1a2d2c4b54": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:2567b091f010fc23279bbe00250402291346c6f6": [
-    "Photonics",
-    "Photonic QIP"
-  ],
-  "S2:fa4e82b9e104777b3a8ea9e7f936cb94eba10c46": [
-    "Photonics"
-  ],
-  "S2:2e9d85d177452256e3832e56858faf3f2fb4d33a": [
-    "Quantum Computing",
-    "Photonics"
-  ],
-  "S2:79a4ac89f902300daeb7352970ecaed0b37968d1": [
-    "Quantum Computing",
-    "Quantum Light–Matter Interaction"
-  ],
-  "S2:cdf03fbb53dc2b82e9bc6552a5967c9fb71cc4fc": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:75c8a2cbf0dbceeb63e066856bd28742706068a4": [
-    "Photonics",
-    "Quantum Light–Matter Interaction"
-  ],
-  "S2:9802dfb8171f31f0634585565f150ddacfb02aef": [
-    "Quantum Simulation",
-    "Photonic QIP"
-  ],
-  "S2:6bab8aa38852a811ea7ad5acfcb35ab4785715fd": [
-    "Quantum Computing",
-    "Quantum Simulation"
-  ],
-  "S2:edaef27a06db8259f676cee0147a06ade876ff1a": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:362caa41376eaf885fc960d3e5d914c5462e5543": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:738c3ede0a6600c8a74e5e5a4e06ca68d699d64c": [
-    "Quantum Computing",
-    "Quantum Simulation"
-  ],
-  "S2:c0b91248cb497c2421f8966e4cc682d62c16513d": [
-    "Quantum Computing",
-    "Photonics"
-  ],
-  "S2:d21eff4560082a5dbb903ece242a95c206d3f9d7": [
-    "Quantum Simulation"
-  ],
-  "S2:1c119fc58cedc83b6734c4880ad0d6c751b7e8bc": [
-    "Other"
-  ],
   "S2:4fcd1a3db474b3e9b9c629d29aa8722a6bfb3d3b": [
     "Quantum Light–Matter Interaction",
     "Photonics"
@@ -560,6 +293,9 @@
   "S2:95f7a3fbf1cbf2e62f2b552c7cbbfd7202715be3": [
     "Photonic QIP",
     "Quantum Nonlinear Optics"
+  ],
+  "S2:5ba81020cb60f312f23dfcd0ee0f44baf5e21229": [
+    "Quantum Simulation"
   ],
   "S2:9d0f6a759678ea73d2e07f0174052d44327cc29d": [
     "Photonics"
@@ -612,26 +348,8 @@
   "S2:032da917e2d4353653ceadd7db5650058c776ef0": [
     "Machine Learning"
   ],
-  "S2:ee5be586c7a08e235e340da35675b27c7bb54e60": [
-    "Machine Learning"
-  ],
-  "S2:f08be1645d24906265d8cb805b58b03ab4fa9dbf": [
+  "S2:dffd3f104fbbf6c1f1b538922eea2687ff347cba": [
     "Quantum Information"
-  ],
-  "S2:b09f7d2c7ac660d4bdd5d316ef76842c24657761": [
-    "Machine Learning"
-  ],
-  "S2:e57c311c8f1e9c6c5b59da96250a3ff6672a3df9": [
-    "Quantum Computing",
-    "Quantum Information"
-  ],
-  "S2:4e2b4ae61c52b8acbf105161d6b39210185bf597": [
-    "Photonic QIP",
-    "Photonics"
-  ],
-  "S2:680b3abc84b588292aebadf5d8aa021501ff89a2": [
-    "Machine Learning",
-    "Photonics"
   ],
   "S2:af2af1779fe6b4e72c7f62555e8f0046b4b930f1": [
     "Photonics",
