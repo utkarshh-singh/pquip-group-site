@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1789984160,
+  "updated_at": 1790592353,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -48,7 +48,7 @@
         "Aaron Z. Goldberg",
         "K. Heshami",
         "M. Rambach",
-        "L. Sánchez-Soto",
+        "L. S'anchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -64,7 +64,7 @@
       "authors": [
         "Aaron Z. Goldberg",
         "K. Heshami",
-        "L. Sánchez-Soto"
+        "L. S'anchez-Soto"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -386,7 +386,7 @@
         "M. Rambach",
         "A. Goldberg",
         "K. Heshami",
-        "L. Sánchez-Soto",
+        "L. S'anchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -634,7 +634,7 @@
       "authors": [
         "A. Goldberg",
         "K. Heshami",
-        "L. Sánchez-Soto"
+        "L. S'anchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevResearch.5.033198",
       "arxivId": "2309.07220"
@@ -1131,7 +1131,7 @@
         "R. Fickler",
         "R. Boyd",
         "B. Englert",
-        "L. Sánchez-Soto",
+        "L. S'anchez-Soto",
         "E. Karimi"
       ],
       "oa_pdf": "",
@@ -1151,7 +1151,7 @@
         "R. Fickler",
         "R. Boyd",
         "B. Englert",
-        "L. Sánchez-Soto",
+        "L. S'anchez-Soto",
         "E. Karimi"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2018-12-04-111/pdf/",
@@ -1247,7 +1247,7 @@
         "M. Shaw",
         "S. Nam",
         "K. Heshami",
-        "Daniel Oblak",
+        "D. Oblak",
         "W. Tittel",
         "C. Simon"
       ],
@@ -1329,7 +1329,7 @@
         "K. Busch",
         "R. Butté",
         "H. Cable",
-        "Yangjian Cai",
+        "Yang-Jian Cai",
         "C. Canavesi",
         "Jie Cao",
         "J. Capmany",
@@ -1401,7 +1401,7 @@
         "Mingyang Chen",
         "N. Chen",
         "Nan-Kuang Chen",
-        "Xuzong Chen",
+        "Xu-Zong Chen",
         "Wen Chen",
         "Kenny Cheng",
         "P. Cheremkhin",
@@ -1467,7 +1467,7 @@
         "N. Sinclair",
         "K. Heshami",
         "Chetan Deshmukh",
-        "Daniel Oblak",
+        "D. Oblak",
         "C. Simon",
         "W. Tittel"
       ],
@@ -1616,7 +1616,7 @@
         "N. Sinclair",
         "J. A. Slater",
         "K. Heshami",
-        "Daniel Oblak",
+        "D. Oblak",
         "W. Tittel"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/16/6/065019/pdf",
