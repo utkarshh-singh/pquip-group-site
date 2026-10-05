@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1790592357,
+  "updated_at": 1791199240,
   "publications": [
     {
       "paperId": "7442ed920387b9e3b4e07b2c750c358e886d2c11",
@@ -53,7 +53,7 @@
         "P. Bustard",
         "Duncan England",
         "Frédéric Bouchard",
-        "Benjamin J. Sussman"
+        "B. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1364/oe.550931",
       "arxivId": "2409.11483"
@@ -102,7 +102,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2308.05699",
       "arxivId": "2308.05699"
     },
     {
@@ -117,7 +117,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
       "arxivId": "2311.03432"
     },
     {
@@ -164,7 +164,7 @@
         "G. Thekkadath",
         "K. Heshami"
       ],
-      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/ft/?id=4e8ccd4a-0b6c-4f1f-8d70-369f20f3a34b",
+      "oa_pdf": "https://arxiv.org/pdf/2302.01343",
       "arxivId": "2302.01343"
     },
     {
@@ -177,7 +177,7 @@
       "authors": [
         "Mikka Stasiuk",
         "F. Hufnagel",
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "A. Goldberg",
         "F. Bouchard",
         "E. Karimi",
@@ -230,7 +230,7 @@
         "Gerd Leuchs",
         "L. S'anchez-Soto"
       ],
-      "oa_pdf": "https://doi.org/10.22331/q-2024-05-29-1363",
+      "oa_pdf": "https://quantum-journal.org/papers/q-2024-05-29-1363/pdf/",
       "arxivId": "2309.10042"
     },
     {
@@ -647,8 +647,8 @@
       "url": "https://doi.org/10.1103/PhysRevA.99.012322",
       "authors": [
         "Jesse C. Cresswell",
-        "I. Tzitrin",
-        "A. Goldberg"
+        "A. Goldberg",
+        "I. Tzitrin"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1809.07772",
       "arxivId": "1809.07772"

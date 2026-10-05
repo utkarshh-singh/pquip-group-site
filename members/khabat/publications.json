@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1790592353,
+  "updated_at": 1791199233,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -157,7 +157,7 @@
         "Duncan England",
         "K. Heshami",
         "Jeff S. Lundeen",
-        "Benjamin J. Sussman"
+        "B. Sussman"
       ],
       "oa_pdf": "",
       "arxivId": "2506.13488"
@@ -310,7 +310,7 @@
         "Duncan England",
         "P. Bustard",
         "K. Heshami",
-        "Benjamin J. Sussman"
+        "B. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1103/physrevlett.133.090601",
       "arxivId": "2404.17657"
@@ -348,7 +348,7 @@
         "Duncan England",
         "P. Bustard",
         "K. Heshami",
-        "Benjamin J. Sussman"
+        "B. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1364/optica.510312",
       "arxivId": "2404.02238"
@@ -369,7 +369,7 @@
         "P. Bustard",
         "Duncan England",
         "Frédéric Bouchard",
-        "Benjamin J. Sussman"
+        "B. Sussman"
       ],
       "oa_pdf": "https://doi.org/10.1364/oe.550931",
       "arxivId": "2409.11483"
@@ -422,7 +422,7 @@
         "K. Heshami",
         "Aaron Z. Goldberg"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2411.03423",
       "arxivId": "2411.03423"
     },
     {
@@ -451,7 +451,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2308.05699",
       "arxivId": "2308.05699"
     },
     {
@@ -466,7 +466,7 @@
         "A. Goldberg",
         "K. Heshami"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2311.03432",
       "arxivId": "2311.03432"
     },
     {
@@ -551,7 +551,7 @@
         "D. England",
         "B. Sussman"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2302.03045",
       "arxivId": "2302.03045"
     },
     {
@@ -566,7 +566,7 @@
         "G. Thekkadath",
         "K. Heshami"
       ],
-      "oa_pdf": "https://nrc-publications.canada.ca/eng/view/ft/?id=4e8ccd4a-0b6c-4f1f-8d70-369f20f3a34b",
+      "oa_pdf": "https://arxiv.org/pdf/2302.01343",
       "arxivId": "2302.01343"
     },
     {
@@ -579,7 +579,7 @@
       "authors": [
         "Mikka Stasiuk",
         "F. Hufnagel",
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "A. Goldberg",
         "F. Bouchard",
         "E. Karimi",
@@ -596,7 +596,7 @@
       "doi": "10.1103/PhysRevLett.132.063802",
       "url": "https://doi.org/10.1103/PhysRevLett.132.063802",
       "authors": [
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "Ying-Wen Zhang",
         "A. D’Errico",
         "Alicia Sit",
@@ -705,7 +705,7 @@
       "doi": "10.1364/OE.458776",
       "url": "https://doi.org/10.1364/OE.458776",
       "authors": [
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "Ying-Wen Zhang",
         "A. D’Errico",
         "F. Hufnagel",
@@ -738,7 +738,7 @@
       "doi": null,
       "url": "https://www.semanticscholar.org/paper/771a64fa183d1a7f02994ac440144dc66f7780f6",
       "authors": [
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "Ying-Wen Zhang",
         "A. D’Errico",
         "K. Heshami",
@@ -804,7 +804,7 @@
       "doi": "10.1364/OE.456433",
       "url": "https://doi.org/10.1364/OE.456433",
       "authors": [
-        "Xiaoqin Gao",
+        "Xiao-Qin Gao",
         "Ying-Wen Zhang",
         "A. D’Errico",
         "K. Heshami",

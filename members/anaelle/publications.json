@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1790592359,
+  "updated_at": 1791199245,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -66,7 +66,7 @@
         "K. Heshami",
         "Aaron Z. Goldberg"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "https://arxiv.org/pdf/2411.03423",
       "arxivId": "2411.03423"
     },
     {
@@ -256,7 +256,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.97.012111",
       "authors": [
         "A. Hertz",
-        "Luc Vanbever",
+        "Luc R. Vanbever",
         "N. Cerf"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1711.04566",
@@ -349,7 +349,7 @@
       "authors": [
         "A. Hertz",
         "A. Bergstrom",
-        "C. LaShan Simpson",
+        "C. Simpson",
         "Paul Dravet"
       ],
       "oa_pdf": "",
