@@ -1,14 +1,14 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1792403169,
+  "updated_at": 1793008754,
   "items": [
     {
       "type": "publication",
       "title": "Summoning Non-Gaussianity with Squeezed Vacuum",
       "year": 2026,
       "url": "https://doi.org/10.1364/cleo_fs.2026.ftu2c.4",
-      "image": "assets/img/pubs/paper-generic.jpg",
+      "image": "https://opg.optica.org/images/optica_general_thumbnail.jpg",
       "tags": [
         "Publication"
       ]
@@ -18,6 +18,56 @@
       "title": "Quantum-Enhanced Frequency Conversion in Microrings: Which State is Best?",
       "year": 2026,
       "url": "https://doi.org/10.1364/cleo_fs.2026.fm3g.5",
+      "image": "https://opg.optica.org/images/optica_general_thumbnail.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Tradeoff between Wigner negativity and decoherence time for cubic Gaussian states",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/976d6b074938c2141d9f62f0b9655bacc3888820",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
+      "year": 2026,
+      "url": "https://doi.org/10.48550/arXiv.2604.03469",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Quantum sensing and imaging assisted by machine learning",
+      "year": 2026,
+      "url": "https://doi.org/10.1117/12.3089914",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Measuring the impossible by ignorance of events",
+      "year": 2026,
+      "url": "https://doi.org/10.1117/12.3088727",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
+    {
+      "type": "publication",
+      "title": "Measuring impossible parameters with indefinite causal order",
+      "year": 2026,
+      "url": "https://doi.org/10.1117/12.3089913",
       "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
