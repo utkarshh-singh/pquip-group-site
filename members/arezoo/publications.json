@@ -3,7 +3,7 @@
   "author_ids": [
     "31269320"
   ],
-  "updated_at": 1793008699,
+  "updated_at": 1793621495,
   "publications": [
     {
       "paperId": "0a3db07ae12cef477f66bda89467302b819861cd",
@@ -54,6 +54,29 @@
         "S. Afshar",
         "A. Ozgurluk",
         "C. Nguyen"
+      ],
+      "oa_pdf": "",
+      "arxivId": null
+    },
+    {
+      "paperId": "34182537464742917c75eb92e9ad8685b70ae5ee",
+      "title": "PDF hosted at the Radboud Repository of the Radboud University",
+      "year": 2021,
+      "venue": "",
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/34182537464742917c75eb92e9ad8685b70ae5ee",
+      "authors": [
+        "C. Collignon",
+        "S. Badoux",
+        "S. Afshar",
+        "B. Michon",
+        "F. Laliberté",
+        "O. Cyr-Choiniere",
+        "J.-S. Zhou",
+        "S. Licciardello",
+        "S. Wiedmann",
+        "N. Doiron-Leyraud",
+        "L. Taillefer"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -112,7 +135,7 @@
         "S. Badoux",
         "S. Afshar",
         "B. Michon",
-        "F. Lalibert'e",
+        "F. Laliberté",
         "O. Cyr-Choiniere",
         "J.-S. Zhou",
         "S. Licciardello",
