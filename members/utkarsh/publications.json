@@ -3,13 +3,13 @@
   "author_ids": [
     "2282138806"
   ],
-  "updated_at": 1793621494,
+  "updated_at": 1794228185,
   "publications": [
     {
       "paperId": "ee5be586c7a08e235e340da35675b27c7bb54e60",
       "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
       "year": 2026,
-      "venue": "arXiv.org",
+      "venue": "Interspeech",
       "doi": "10.48550/arXiv.2604.19151",
       "url": "https://doi.org/10.48550/arXiv.2604.19151",
       "authors": [
@@ -35,7 +35,7 @@
       "paperId": "f08be1645d24906265d8cb805b58b03ab4fa9dbf",
       "title": "Can Reasoning Models Detect Changes to their Chains of Thought?",
       "year": 2026,
-      "venue": "arXiv.org",
+      "venue": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
       "doi": "10.48550/arXiv.2606.22085",
       "url": "https://doi.org/10.48550/arXiv.2606.22085",
       "authors": [

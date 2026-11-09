@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1793621491,
+  "updated_at": 1794228182,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -35,7 +35,7 @@
         "K. Heshami",
         "Aaron Z. Goldberg"
       ],
-      "oa_pdf": "https://doi.org/10.1007/s40509-026-00402-0",
+      "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s40509-026-00402-0.pdf",
       "arxivId": "2501.02047"
     },
     {
@@ -117,14 +117,14 @@
       "title": "Using Graph Theory to Derive Inequalities for the Bell Numbers",
       "year": 2021,
       "venue": "arXiv.org",
-      "doi": null,
-      "url": "https://www.semanticscholar.org/paper/9a92913e803e3777673bf9395c96b136c4186b78",
+      "doi": "10.48550/arXiv.2104.00552",
+      "url": "https://doi.org/10.48550/arXiv.2104.00552",
       "authors": [
         "Alain Hertz",
         "A. Hertz",
         "Hadrien M'elot"
       ],
-      "oa_pdf": "",
+      "oa_pdf": "http://arxiv.org/pdf/2104.00552",
       "arxivId": "2104.00552"
     },
     {
