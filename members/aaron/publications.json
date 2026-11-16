@@ -3,7 +3,7 @@
   "author_ids": [
     "51178031"
   ],
-  "updated_at": 1794228180,
+  "updated_at": 1794832519,
   "publications": [
     {
       "paperId": "7442ed920387b9e3b4e07b2c750c358e886d2c11",
@@ -16,7 +16,7 @@
         "Marcin Rudziński",
         "A. Goldberg",
         "A. B. Klimov",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "Karol Życzkowski"
       ],
       "oa_pdf": "",
@@ -70,7 +70,7 @@
         "M. Rambach",
         "A. Goldberg",
         "K. Heshami",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -196,7 +196,7 @@
       "authors": [
         "A. Goldberg",
         "K. Heshami",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevResearch.5.033198",
       "arxivId": "2309.07220"
@@ -210,7 +210,7 @@
       "url": "https://doi.org/10.1364/OL.485451",
       "authors": [
         "I. Gianani",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "A. Goldberg",
         "M. Barbieri"
       ],
@@ -228,7 +228,7 @@
         "A. Goldberg",
         "A. B. Klimov",
         "Gerd Leuchs",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2024-05-29-1363/pdf/",
       "arxivId": "2309.10042"
@@ -301,7 +301,7 @@
         "A. Goldberg",
         "J. Romero",
         "Á. S. Sanz",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2108.05976",
       "arxivId": "2108.05976"
@@ -317,7 +317,7 @@
         "A. Goldberg",
         "M. Grassl",
         "G. Leuchs",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevA.105.022433",
       "arxivId": "2110.11361"
@@ -344,7 +344,7 @@
       "url": "https://doi.org/10.1103/PhysRevLett.127.110501",
       "authors": [
         "A. Goldberg",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "H. Ferretti"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevLett.127.110501",
@@ -377,7 +377,7 @@
         "Hubet de Guise",
         "G. Leuchs",
         "G. Agarwal",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2109.04474",
       "arxivId": "2109.04474"
@@ -435,7 +435,7 @@
         "A. Goldberg",
         "A. B. Klimov",
         "G. Leuchs",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/2515-7647/abeb54/pdf",
       "arxivId": "2012.00590"
@@ -468,7 +468,7 @@
         "A. Klimov",
         "M. Grassl",
         "G. Leuchs",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2011.03979",
       "arxivId": "2011.03979"
@@ -503,7 +503,7 @@
         "A. Klimov",
         "M. Grassl",
         "G. Leuchs",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "https://doi.org/10.1116/5.0025819",
       "arxivId": "2010.04732"
@@ -647,8 +647,8 @@
       "url": "https://doi.org/10.1103/PhysRevA.99.012322",
       "authors": [
         "Jesse C. Cresswell",
-        "A. Goldberg",
-        "I. Tzitrin"
+        "I. Tzitrin",
+        "A. Goldberg"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1809.07772",
       "arxivId": "1809.07772"

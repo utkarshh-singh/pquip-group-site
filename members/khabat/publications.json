@@ -3,7 +3,7 @@
   "author_ids": [
     "143710026"
   ],
-  "updated_at": 1794228176,
+  "updated_at": 1794832513,
   "publications": [
     {
       "paperId": "577c05499c45f337a5e4a42b5098bbababafe412",
@@ -48,7 +48,7 @@
         "Aaron Z. Goldberg",
         "K. Heshami",
         "M. Rambach",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -64,7 +64,7 @@
       "authors": [
         "Aaron Z. Goldberg",
         "K. Heshami",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "",
       "arxivId": null
@@ -386,7 +386,7 @@
         "M. Rambach",
         "A. Goldberg",
         "K. Heshami",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "A. G. White"
       ],
       "oa_pdf": "",
@@ -634,7 +634,7 @@
       "authors": [
         "A. Goldberg",
         "K. Heshami",
-        "L. S'anchez-Soto"
+        "L. Sánchez-Soto"
       ],
       "oa_pdf": "http://link.aps.org/pdf/10.1103/PhysRevResearch.5.033198",
       "arxivId": "2309.07220"
@@ -908,7 +908,7 @@
       "doi": "10.1364/cleo_qels.2020.fth3d.1",
       "url": "https://doi.org/10.1364/cleo_qels.2020.fth3d.1",
       "authors": [
-        "E. Saglamyurek",
+        "Erhan Saglamyurek",
         "Anindya Rastogi",
         "Taras Hrushevskyi",
         "Benjamin D. Smith",
@@ -1131,7 +1131,7 @@
         "R. Fickler",
         "R. Boyd",
         "B. Englert",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "E. Karimi"
       ],
       "oa_pdf": "",
@@ -1151,7 +1151,7 @@
         "R. Fickler",
         "R. Boyd",
         "B. Englert",
-        "L. S'anchez-Soto",
+        "L. Sánchez-Soto",
         "E. Karimi"
       ],
       "oa_pdf": "https://quantum-journal.org/papers/q-2018-12-04-111/pdf/",
@@ -1262,7 +1262,7 @@
       "doi": "10.1038/s41566-018-0279-0",
       "url": "https://doi.org/10.1038/s41566-018-0279-0",
       "authors": [
-        "E. Saglamyurek",
+        "Erhan Saglamyurek",
         "Taras Hrushevskyi",
         "Anindya Rastogi",
         "K. Heshami",
@@ -1408,7 +1408,7 @@
         "Jessica Y. Cheung",
         "N. Chi",
         "B. Chichkov",
-        "R. R. Choudhury",
+        "R. Choudhury",
         "J. Christian",
         "Yun Chung",
         "M. Ciappina",
@@ -1612,7 +1612,7 @@
       "doi": "10.1088/1367-2630/16/6/065019",
       "url": "https://doi.org/10.1088/1367-2630/16/6/065019",
       "authors": [
-        "E. Saglamyurek",
+        "Erhan Saglamyurek",
         "N. Sinclair",
         "J. A. Slater",
         "K. Heshami",
@@ -1698,7 +1698,7 @@
         "Yang Han",
         "K. Heshami",
         "Arnaud Rispe",
-        "E. Saglamyurek",
+        "Erhan Saglamyurek",
         "N. Sinclair",
         "W. Tittel",
         "C. Simon"
@@ -1718,7 +1718,7 @@
         "Adam Green",
         "Yang Han",
         "Arnaud Rispe",
-        "E. Saglamyurek",
+        "Erhan Saglamyurek",
         "N. Sinclair",
         "W. Tittel",
         "C. Simon"
