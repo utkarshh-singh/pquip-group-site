@@ -3,7 +3,7 @@
   "author_ids": [
     "33965579"
   ],
-  "updated_at": 1794832524,
+  "updated_at": 1795443477,
   "publications": [
     {
       "paperId": "66bb404e76ffdf93703357725440ffa6ef1c9564",
@@ -15,9 +15,9 @@
       "authors": [
         "A. Hertz",
         "M. Ahmadpoor",
-        "Oleksandr Dzhenzherov",
+        "O. Dzhenzherov",
         "Augusto Gerolin",
-        "K. Heshami"
+        "Khabat Heshami"
       ],
       "oa_pdf": "",
       "arxivId": "2512.17809"
@@ -32,7 +32,7 @@
       "authors": [
         "A. Hertz",
         "Noah Lupu-Gladstein",
-        "K. Heshami",
+        "Khabat Heshami",
         "Aaron Z. Goldberg"
       ],
       "oa_pdf": "https://link.springer.com/content/pdf/10.1007/s40509-026-00402-0.pdf",
@@ -48,7 +48,7 @@
       "authors": [
         "A. Hertz",
         "A. Goldberg",
-        "K. Heshami"
+        "Khabat Heshami"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2402.04404",
       "arxivId": "2402.04404"
@@ -63,7 +63,7 @@
       "authors": [
         "Noah Lupu-Gladstein",
         "A. Hertz",
-        "K. Heshami",
+        "Khabat Heshami",
         "Aaron Z. Goldberg"
       ],
       "oa_pdf": "https://arxiv.org/pdf/2411.03423",
@@ -122,7 +122,7 @@
       "authors": [
         "Alain Hertz",
         "A. Hertz",
-        "Hadrien M'elot"
+        "Hadrien Mélot"
       ],
       "oa_pdf": "http://arxiv.org/pdf/2104.00552",
       "arxivId": "2104.00552"
@@ -227,7 +227,7 @@
       "url": "https://doi.org/10.1103/physreva.100.052112",
       "authors": [
         "A. Hertz",
-        "Ognyan Oreshkov",
+        "O. Oreshkov",
         "N. Cerf"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1907.09183",
@@ -242,7 +242,7 @@
       "url": "https://doi.org/10.1103/PhysRevA.100.052112",
       "authors": [
         "A. Hertz",
-        "Ognyan Oreshkov",
+        "O. Oreshkov",
         "N. Cerf"
       ],
       "oa_pdf": "https://arxiv.org/pdf/1907.09183",
@@ -363,7 +363,7 @@
       "url": "https://www.semanticscholar.org/paper/71da34f7d49c58c2156ab7d421f68f1d86ffbb1a",
       "authors": [
         "A. Hertz",
-        "A. Bergstrom",
+        "A. Bergström",
         "C. Simpson",
         "Paul Dravet"
       ],
@@ -380,7 +380,7 @@
       "authors": [
         "M. Angelova",
         "A. Hertz",
-        "Véronique Hussin"
+        "V. Hussin"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1751-8113/46/12/129501/pdf",
       "arxivId": null
@@ -412,7 +412,7 @@
         "A. Hertz",
         "V. Hussin"
       ],
-      "oa_pdf": "https://figshare.com/articles/conference_contribution/Trajectories_of_generalized_quantum_states_for_systems_with_finite_discrete_spectrum_and_classical_analogs/20857228",
+      "oa_pdf": "",
       "arxivId": null
     },
     {
@@ -425,7 +425,7 @@
       "authors": [
         "M. Angelova",
         "A. Hertz",
-        "Véronique Hussin"
+        "V. Hussin"
       ],
       "oa_pdf": "https://iopscience.iop.org/article/10.1088/1751-8113/45/24/244007/pdf",
       "arxivId": "1111.1974"

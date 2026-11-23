@@ -1,8 +1,18 @@
 {
   "source": "auto_from_publications_og_or_s2fig",
   "year": 2026,
-  "updated_at": 1794832593,
+  "updated_at": 1795443484,
   "items": [
+    {
+      "type": "publication",
+      "title": "Tradeoff between Wigner negativity and decoherence time for cubic Gaussian states",
+      "year": 2026,
+      "url": "https://www.semanticscholar.org/paper/976d6b074938c2141d9f62f0b9655bacc3888820",
+      "image": "assets/img/pubs/paper-generic.jpg",
+      "tags": [
+        "Publication"
+      ]
+    },
     {
       "type": "publication",
       "title": "Voice of India: A Large-Scale Benchmark for Real-World Speech Recognition in India",
@@ -35,40 +45,10 @@
     },
     {
       "type": "publication",
-      "title": "Recurrent Quantum Feature Maps for Reservoir Computing",
+      "title": "Towards Bell violations with Gottesman-Kitaev-Preskill states",
       "year": 2026,
-      "url": "https://doi.org/10.48550/arXiv.2604.03469",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Quantum sensing and imaging assisted by machine learning",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3089914",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Measuring the impossible by ignorance of events",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3088727",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Measuring impossible parameters with indefinite causal order",
-      "year": 2026,
-      "url": "https://doi.org/10.1117/12.3089913",
-      "image": "assets/img/pubs/paper-generic.jpg",
+      "url": "https://doi.org/10.1364/quantum.2026.qw3a.1",
+      "image": "https://opg.optica.org/images/optica_general_thumbnail.jpg",
       "tags": [
         "Publication"
       ]
@@ -98,16 +78,6 @@
       "title": "Spin-coherent quantum designs",
       "year": 2026,
       "url": "https://www.semanticscholar.org/paper/7442ed920387b9e3b4e07b2c750c358e886d2c11",
-      "image": "assets/img/pubs/paper-generic.jpg",
-      "tags": [
-        "Publication"
-      ]
-    },
-    {
-      "type": "publication",
-      "title": "Tradeoff between Wigner negativity and decoherence time for cubic Gaussian states",
-      "year": 2026,
-      "url": "https://www.semanticscholar.org/paper/976d6b074938c2141d9f62f0b9655bacc3888820",
       "image": "assets/img/pubs/paper-generic.jpg",
       "tags": [
         "Publication"
